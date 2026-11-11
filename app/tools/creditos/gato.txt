@@ -1,0 +1,12 @@
+www/img/noto/gato_corpo.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f408.svg, Apache 2.0
+www/img/noto/autocarro.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f68c.svg, Apache 2.0
+www/img/noto/taxi.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f695.svg, Apache 2.0
+www/img/noto/carrinha.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f699.svg, Apache 2.0
+www/img/noto/poeira.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f4a8.svg, Apache 2.0
+www/img/noto/gotas.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f4a6.svg, Apache 2.0
+www/snd/gato-salto.ogg, https://kenney.nl/assets/interface-sounds (Audio/pluck_002.ogg), CC0 1.0
+www/snd/gato-bump.ogg, https://kenney.nl/assets/impact-sounds (Audio/impactSoft_medium_002.ogg), CC0 1.0
+www/img/noto/trator.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f69c.svg, Apache 2.0
+www/img/noto/bicicleta.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f6b2.svg, Apache 2.0
+www/img/noto/tartaruga.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f422.svg, Apache 2.0
+www/snd/gato-serie.ogg, https://kenney.nl/assets/interface-sounds (Audio/pluck_002.ogg, com o tom subido com o ffmpeg), CC0 1.0

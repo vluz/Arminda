@@ -1,0 +1,52 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "No aquário, tocas na água e dás comida aos peixinhos."
+  ],
+  [
+   "ola",
+   "Olha os peixinhos! Toca na água para lhes dares comida."
+  ],
+  [
+   "comem",
+   "Estão a comer. Que contentes!"
+  ],
+  [
+   "gostam",
+   "Os peixinhos gostam de ti."
+  ],
+  [
+   "bolha",
+   "Olha, uma bolha! Toca nela."
+  ],
+  [
+   "olha_cavalo",
+   "Olha quem vem aí!"
+  ],
+  [
+   "cavalo",
+   "Um cavalo-marinho! Que lindo!"
+  ],
+  [
+   "caranguejo",
+   "O caranguejo também quer brincar."
+  ],
+  [
+   "calma",
+   "Que calma que está aqui."
+  ],
+  [
+   "fome",
+   "Os peixinhos têm fome. Toca na água."
+  ],
+  [
+   "presente",
+   "Tenho um presente para ti."
+  ],
+  [
+   "continua",
+   "Fica o tempo que quiseres."
+  ]
+ ]
+}

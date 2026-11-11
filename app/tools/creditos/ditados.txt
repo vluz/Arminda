@@ -1,0 +1,9 @@
+www/img/noto/fogo.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f525.svg, Apache-2.0
+www/img/noto/lenha.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1fab5.svg, Apache-2.0
+www/img/noto/mar.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f30a.svg, Apache-2.0
+www/img/noto/moeda.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1fa99.svg, Apache-2.0
+www/img/noto/pe.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f9b6.svg, Apache-2.0
+www/img/noto/talheres.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f37d.svg, Apache-2.0
+www/img/noto/tempestade.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u26c8.svg, Apache-2.0
+www/img/noto/vinho.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f377.svg, Apache-2.0
+Texto dos ditados (não é um ficheiro): provérbios tradicionais portugueses, cada um conferido com https://pt.wikiquote.org/wiki/Prov%C3%A9rbios_portugueses (consultado a 2026-10-18), cuja fonte principal é "Provérbios Letra a Letra", CERCIFAF, 2002. Os provérbios são ditos populares tradicionais.

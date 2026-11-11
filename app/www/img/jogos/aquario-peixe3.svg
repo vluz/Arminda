@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Tall yellow fish with blue stripes, facing right -->
+  <path d="M40 64 L12 44 Q18 64 12 84 Z" fill="#0A6FD6" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M50 46 Q60 6 92 30 Z" fill="#FFD21F" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M50 82 Q60 122 92 98 Z" fill="#FFD21F" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M38 64 Q60 24 108 56 Q116 64 108 72 Q60 104 38 64 Z" fill="#FFD21F" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M58 44 Q52 64 58 86" fill="none" stroke="#0A6FD6" stroke-width="6" stroke-linecap="round"/>
+  <path d="M76 40 Q70 64 76 90" fill="none" stroke="#0A6FD6" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="96" cy="58" r="6" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="3"/>
+  <circle cx="97" cy="58" r="3" fill="#1A1A1A"/>
+</svg>

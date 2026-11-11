@@ -1,0 +1,2 @@
+www/snd/feira-moeda.ogg, https://kenney.nl/assets/casino-audio (Audio/chips-collide-2.ogg), CC0 1.0
+www/snd/feira-nota.ogg, https://kenney.nl/assets/casino-audio (Audio/card-slide-1.ogg), CC0 1.0

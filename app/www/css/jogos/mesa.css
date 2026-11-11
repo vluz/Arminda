@@ -1,0 +1,278 @@
+/* Pôr a mesa: uma mesa com os lugares, e um tabuleiro do aparador com o que pôr nela.*/
+.pm-cena {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  gap: 2vmin;
+  padding-top: 3.4vmin;
+}
+.pm-cena.paisagem { grid-template-columns: minmax(0, 1fr) auto; }
+.pm-cena.retrato { grid-template-rows: minmax(0, 1fr) auto; }
+.pm-cena .lida-barra { right: 22vmin; top: 0.2vmin; }
+
+.pm-pontos {
+  position: absolute;
+  top: -1vmin;
+  right: 1vmin;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  gap: 1vmin;
+  background: var(--branco);
+  border: 3px solid var(--linha);
+  border-radius: 999px;
+  padding: 0.2vmin 2vmin 0.2vmin 0.6vmin;
+  font-family: var(--digitos);
+  font-weight: 900;
+  font-size: 4vmin;
+}
+.pm-pontos img { width: 5vmin; height: 5vmin; }
+.pm-pontos.salta { animation: salta 0.5s ease; }
+
+/* A toalha: aos quadradinhos azuis; amarela ao pequeno-almoço; vermelha com borda dourada no Natal.*/
+.pm-mesa {
+  position: relative;
+  min-height: 0;
+  min-width: 0;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr);
+  gap: 2vmin;
+  padding: 2vmin;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  overflow: hidden;
+  background-color: #ffffff;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(10, 111, 214, 0.16) 0 5vmin, transparent 5vmin 10vmin),
+    repeating-linear-gradient(90deg, rgba(10, 111, 214, 0.16) 0 5vmin, transparent 5vmin 10vmin);
+}
+.pm-mesa.pequeno {
+  background-image:
+    repeating-linear-gradient(0deg, rgba(255, 183, 3, 0.25) 0 5vmin, transparent 5vmin 10vmin),
+    repeating-linear-gradient(90deg, rgba(255, 183, 3, 0.25) 0 5vmin, transparent 5vmin 10vmin);
+}
+.pm-mesa.consoada {
+  background: #b3202c;
+  box-shadow: inset 0 0 0 1.4vmin #f2c14e;
+}
+.pm-mesa.com-faixa { grid-template-rows: minmax(0, 26%) minmax(0, 1fr); }
+
+.pm-lugares {
+  display: grid;
+  gap: 2vmin;
+  min-height: 0;
+  grid-template-columns: repeat(var(--cols, 1), minmax(0, 1fr));
+  grid-template-rows: repeat(var(--filas, 1), minmax(0, 1fr));
+}
+.pm-lugar {
+  position: relative;
+  min-height: 0;
+  min-width: 0;
+  background: rgba(255, 255, 255, 0.82);
+  border: 3px solid rgba(17, 17, 17, 0.35);
+  border-radius: 3vmin;
+  /* Um lugar mantém a forma de um lugar posto; uma casa muito larga centra um lugar mais estreito.*/
+  height: 100%;
+  aspect-ratio: 1.7 / 1;
+  max-width: 100%;
+  justify-self: center;
+}
+.pm-mesa.consoada .pm-lugar { background: rgba(255, 248, 230, 0.92); }
+.pm-lugar.lida-pista, .pm-centro.lida-pista { background: #fff3c4; }
+
+.pm-posto, .pm-contorno {
+  position: absolute;
+  left: calc(var(--x) * 1%);
+  top: calc(var(--y) * 1%);
+  width: calc(var(--w) * 1%);
+  height: calc(var(--h) * 1%);
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+  pointer-events: none;
+}
+.pm-posto { filter: drop-shadow(0 0.5vmin 0 rgba(0, 0, 0, 0.25)); }
+.pm-posto.a-caminho { opacity: 0; }
+.pm-posto.chega { animation: pm-chega 0.4s ease; }
+.pm-contorno { filter: brightness(0); opacity: 0.16; }
+.pm-contorno.pm-espreita { opacity: 0.35; animation: pisca 0.7s ease 3; }
+.pm-centro .pm-contorno, .pm-centro .pm-posto { position: static; transform: none; width: auto; height: 86%; max-width: 40%; }
+.pm-condutor {
+  position: absolute;
+  left: 1.5vmin;
+  top: 1.5vmin;
+  width: 9vmin;
+  height: 9vmin;
+  background: var(--branco);
+  border: 3px solid var(--linha);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.pm-condutor img { width: 78%; height: 78%; }
+
+/* O meio da mesa (Natal) e a faixa com a ordem dita.*/
+.pm-centro, .pm-faixa {
+  position: relative;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4vmin;
+  border-radius: 3vmin;
+}
+.pm-centro { background: rgba(255, 255, 255, 0.6); border: 3px dashed rgba(17, 17, 17, 0.5); }
+.pm-centro-nome { position: absolute; left: 2vmin; top: 1vmin; font-size: 3vmin; opacity: 0.7; }
+.pm-faixa { justify-content: flex-start; gap: 2vmin; }
+.pm-recado {
+  flex: 1;
+  margin: 0;
+  height: 100%;
+  padding: 0.6vmin 2vmin 0.6vmin 7vmin;
+  background: #fffdf0;
+  border: var(--borda) solid var(--linha);
+  border-radius: 2vmin;
+  font-size: min(4vmin, 28px);
+  line-height: 1.15;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pm-recado li::marker { font-family: var(--digitos); font-weight: 900; }
+.pm-recado.chega { animation: aparece 0.35s ease; }
+.pm-ouvir { flex: none; }
+
+/* Toalha que tapa a mesa nos níveis de memória.*/
+.pm-pano {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  background-color: #fff6e0;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(230, 57, 70, 0.25) 0 5vmin, transparent 5vmin 10vmin),
+    repeating-linear-gradient(90deg, rgba(230, 57, 70, 0.25) 0 5vmin, transparent 5vmin 10vmin);
+  animation: pm-pano 0.8s ease both;
+}
+.pm-pano.sai { animation: pm-pano-sai 0.7s ease both; }
+
+.pm-mesa.pronta .pm-lugar .pm-posto { animation: pm-brilha 0.6s ease 2; }
+.pm-mesa.pronta .pm-centro .pm-posto { animation: salta 0.6s ease 2; }
+@keyframes pm-brilha { 0%, 100% { transform: translate(-50%, -50%) scale(1); filter: brightness(1); } 50% { transform: translate(-50%, -50%) scale(1.12); filter: brightness(1.2); } }
+
+/* Tabuleiro do aparador*/
+.pm-gaveta {
+  position: relative;
+  min-height: 0;
+  display: grid;
+  gap: 1.4vmin;
+  place-content: center;
+  padding: 1.4vmin;
+  background: repeating-linear-gradient(90deg, #c98a45 0 3vmin, #bb7c3a 3vmin 6vmin);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+}
+.pm-coisa {
+  width: var(--lado);
+  height: var(--lado);
+  padding: 0.6vmin;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4vmin;
+  font: inherit;
+  color: var(--texto);
+  transition: transform 0.15s ease, opacity 0.3s ease;
+}
+.pm-coisa img { width: 64%; height: 64%; object-fit: contain; pointer-events: none; }
+.pm-coisa span { font-size: calc(var(--lado) * 0.12); line-height: 1; font-weight: 800; white-space: nowrap; pointer-events: none; }
+.pm-coisa.escolhida { background: #ffe8a3; transform: translateY(-1.5vmin) scale(1.05); outline: 1vmin solid var(--amarelo); box-shadow: 0 2.4vmin 0 rgba(0, 0, 0, 0.3); }
+.pm-coisa.gasta { opacity: 0.35; }
+
+/* Bónus da joaninha*/
+.pm-joaninha {
+  position: absolute;
+  z-index: 5;
+  width: 113px;
+  height: 113px;
+  margin: -56px 0 0 -56px;
+  padding: 0;
+  border: none;
+  background: none;
+  transition: left 10s linear, top 10s linear;
+}
+.pm-joaninha img { width: 70%; height: 70%; animation: baloica 0.6s ease-in-out infinite; }
+.pm-joaninha.apanhada { transition: transform 0.6s ease, opacity 0.6s ease; transform: scale(1.8); opacity: 0; }
+
+/* As coisas deslizam quando o gato as põe certas, e esbatem-se quando são tiradas.*/
+.pm-lugar .pm-posto { transition: left 0.6s ease, top 0.6s ease, opacity 0.5s ease; }
+.pm-posto.sai { opacity: 0; }
+
+/* O recado dito dobra-se nos níveis de ordem.*/
+.pm-recado { position: relative; }
+.pm-recado.dois { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto; grid-auto-flow: column; align-content: center; column-gap: 7vmin; }
+.pm-recado.escondido li { visibility: hidden; }
+.pm-recado.escondido::after {
+  content: "?";
+  position: absolute;
+  inset: 0.6vmin;
+  display: grid;
+  place-items: center;
+  background: var(--amarelo);
+  border: 3px solid var(--linha);
+  border-radius: 1.5vmin;
+  font-size: 7vmin;
+  font-weight: 800;
+}
+
+/* O que está mal: um anel por erro, cheio a verde quando é encontrado.*/
+.pm-marcas {
+  position: absolute;
+  right: 2vmin;
+  bottom: 1.4vmin;
+  z-index: 3;
+  display: flex;
+  gap: 1.4vmin;
+  padding: 0.8vmin 1.4vmin;
+  background: var(--branco);
+  border: 3px solid var(--linha);
+  border-radius: 999px;
+  pointer-events: none;
+}
+.pm-marcas i {
+  width: 7vmin;
+  height: 7vmin;
+  border-radius: 50%;
+  border: 3px solid var(--linha);
+  background: var(--amarelo);
+  display: grid;
+  place-items: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.6vmin;
+  line-height: 1;
+}
+.pm-marcas i.achada { background: var(--verde); color: var(--branco); }
+.pm-marcas i.chega { animation: salta 0.5s ease; }
+
+/* Contar: um grande ponto de interrogação até a pessoa responder, depois os lugares com os seus pratos.*/
+.pm-pergunta {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 30vmin;
+  font-weight: 900;
+  color: rgba(17, 17, 17, 0.18);
+  pointer-events: none;
+}
+.pm-mesa .pm-ouvir-conta { position: absolute; left: 2vmin; bottom: 2vmin; z-index: 3; }
+.pm-numero b { font-family: var(--digitos); font-size: calc(var(--lado) * 0.55); line-height: 1; pointer-events: none; }
+
+@keyframes pm-chega { 0% { transform: translate(-50%, -50%) scale(1.25); } 60% { transform: translate(-50%, -50%) scale(0.95); } 100% { transform: translate(-50%, -50%) scale(1); } }
+.pm-centro .pm-posto.chega { animation: aparece 0.4s ease; }
+@keyframes pm-pano { from { transform: translateY(-105%); } to { transform: translateY(0); } }
+@keyframes pm-pano-sai { from { transform: translateY(0); } to { transform: translateY(105%); } }

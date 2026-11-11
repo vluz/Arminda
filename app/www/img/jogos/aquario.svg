@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Fish bowl with an orange fish -->
+  <path d="M34 14 L94 14 L90 26 Q120 44 116 78 Q112 112 64 116 Q16 112 12 78 Q8 44 38 26 Z"
+        fill="#E8F7FF" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M16 58 Q40 50 64 58 Q88 66 112 58 Q118 70 114 84 Q108 110 64 112 Q20 110 14 84 Q11 70 16 58 Z"
+        fill="#3FA9F5"/>
+  <path d="M16 100 Q40 92 64 100 Q88 106 108 98 Q98 110 64 112 Q30 110 16 100 Z" fill="#FFD27A"/>
+  <path d="M30 104 Q24 90 32 78 M38 104 Q44 90 36 80" fill="none" stroke="#2B9348" stroke-width="5" stroke-linecap="round"/>
+  <path d="M34 14 L94 14 L90 26 Q120 44 116 78 Q112 112 64 116 Q16 112 12 78 Q8 44 38 26 Z"
+        fill="none" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M58 80 L42 66 Q40 80 42 94 Z" fill="#FF7A00" stroke="#111111" stroke-width="3.5" stroke-linejoin="round"/>
+  <ellipse cx="76" cy="80" rx="22" ry="14" fill="#FF8A1E" stroke="#111111" stroke-width="3.5"/>
+  <path d="M70 67 Q66 80 70 93" fill="none" stroke="#FFFFFF" stroke-width="5"/>
+  <circle cx="88" cy="76" r="4.5" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+  <circle cx="89" cy="76" r="2.2" fill="#111111"/>
+  <circle cx="100" cy="54" r="5" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  <circle cx="92" cy="40" r="3.5" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  <path d="M28 40 Q32 32 40 30" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+</svg>

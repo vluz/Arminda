@@ -1,0 +1,23 @@
+{
+  "name": "jogos-da-mae",
+  "version": "0.7.0",
+  "private": true,
+  "description": "Jogos simples e recordações para um familiar mais velho",
+  "license": "CC0-1.0",
+  "scripts": {
+    "recursos": "python tools/preparar_recursos.py",
+    "falas": "python tools/falas.py",
+    "voz": "python tools/gerar_voz.py",
+    "build-web": "python tools/preparar_build.py",
+    "sync": "python tools/preparar_build.py && cap sync android",
+    "apk": "python tools/preparar_build.py && cap sync android && cd android && .\\gradlew.bat assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.5.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.3"
+  }
+}

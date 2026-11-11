@@ -1,0 +1,200 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Nas Cores, eu digo uma cor e tu tocas nela."
+  ],
+  [
+   "instrucao",
+   "Ouve a cor e toca nela."
+  ],
+  [
+   "vamos",
+   "Vamos às cores! Ouve bem."
+  ],
+  [
+   "tons",
+   "Agora há cores parecidas. Olha com atenção!"
+  ],
+  [
+   "objetos",
+   "Agora digo uma cor e tu tocas na coisa dessa cor."
+  ],
+  [
+   "modo_palavra_intro",
+   "Agora as palavras estão pintadas. Lê bem a palavra!"
+  ],
+  [
+   "modo_tinta_intro",
+   "Agora olha só para a cor da tinta, não para a palavra."
+  ],
+  [
+   "alterna_intro",
+   "Às vezes peço a palavra, às vezes a cor da tinta. Atenção!"
+  ],
+  [
+   "muda_palavra",
+   "Atenção! Agora lê a palavra."
+  ],
+  [
+   "muda_tinta",
+   "Atenção! Agora olha para a tinta."
+  ],
+  [
+   "isca_tinta",
+   "Essa é a palavra. Olha para a cor da tinta!"
+  ],
+  [
+   "isca_palavra",
+   "Essa é a cor da tinta. Lê a palavra!"
+  ],
+  [
+   "pista",
+   "Olha, está aqui a brilhar."
+  ],
+  [
+   "melhor",
+   "Fizeste melhor do que da última vez!"
+  ],
+  [
+   "fim",
+   "Acabaste! Que bem que conheces as cores!"
+  ],
+  [
+   "c_vermelho",
+   "Onde está o vermelho?"
+  ],
+  [
+   "c_azul",
+   "Onde está o azul?"
+  ],
+  [
+   "c_amarelo",
+   "Onde está o amarelo?"
+  ],
+  [
+   "c_verde",
+   "Onde está o verde?"
+  ],
+  [
+   "c_roxo",
+   "Onde está o roxo?"
+  ],
+  [
+   "c_laranja",
+   "Onde está o laranja?"
+  ],
+  [
+   "c_cor_de_rosa",
+   "Onde está o cor-de-rosa?"
+  ],
+  [
+   "c_castanho",
+   "Onde está o castanho?"
+  ],
+  [
+   "c_branco",
+   "Onde está o branco?"
+  ],
+  [
+   "c_preto",
+   "Onde está o preto?"
+  ],
+  [
+   "c_azul_claro",
+   "Onde está o azul-claro?"
+  ],
+  [
+   "c_verde_claro",
+   "Onde está o verde-claro?"
+  ],
+  [
+   "c_cinzento",
+   "Onde está o cinzento?"
+  ],
+  [
+   "o_amarelo",
+   "O que é amarelo?"
+  ],
+  [
+   "o_vermelho",
+   "O que é vermelho?"
+  ],
+  [
+   "o_verde",
+   "O que é verde?"
+  ],
+  [
+   "o_laranja",
+   "O que é cor de laranja?"
+  ],
+  [
+   "o_azul",
+   "O que é azul?"
+  ],
+  [
+   "o_roxo",
+   "O que é roxo?"
+  ],
+  [
+   "o_cor_de_rosa",
+   "O que é cor-de-rosa?"
+  ],
+  [
+   "o_castanho",
+   "O que é castanho?"
+  ],
+  [
+   "o_branco",
+   "O que é branco?"
+  ],
+  [
+   "p_vermelho",
+   "Toca na palavra VERMELHO."
+  ],
+  [
+   "p_azul",
+   "Toca na palavra AZUL."
+  ],
+  [
+   "p_verde",
+   "Toca na palavra VERDE."
+  ],
+  [
+   "p_roxo",
+   "Toca na palavra ROXO."
+  ],
+  [
+   "p_laranja",
+   "Toca na palavra LARANJA."
+  ],
+  [
+   "p_preto",
+   "Toca na palavra PRETO."
+  ],
+  [
+   "t_vermelho",
+   "Toca na palavra escrita a vermelho."
+  ],
+  [
+   "t_azul",
+   "Toca na palavra escrita a azul."
+  ],
+  [
+   "t_verde",
+   "Toca na palavra escrita a verde."
+  ],
+  [
+   "t_roxo",
+   "Toca na palavra escrita a roxo."
+  ],
+  [
+   "t_laranja",
+   "Toca na palavra escrita a cor de laranja."
+  ],
+  [
+   "t_preto",
+   "Toca na palavra escrita a preto."
+  ]
+ ]
+}

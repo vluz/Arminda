@@ -1,0 +1,80 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Nos Saltos, ajudas o coelho a correr, a saltar pedras e a baixar-se debaixo dos ramos."
+  ],
+  [
+   "instrucao",
+   "O coelho vai correr! Toca em Salta para ele saltar as pedras e os troncos."
+  ],
+  [
+   "instrucao_baixa",
+   "Quando vier um ramo, toca em Baixa para ele se baixar."
+  ],
+  [
+   "passaro",
+   "Os pássaros também passam baixinho. Baixa-te!"
+  ],
+  [
+   "moedas",
+   "Salta para apanhar as moedas!"
+  ],
+  [
+   "pares",
+   "Às vezes vêm duas coisas seguidas. Atenção!"
+  ],
+  [
+   "partida",
+   "Preparada? Vamos lá!"
+  ],
+  [
+   "ui1",
+   "Ui! Não faz mal, continua!"
+  ],
+  [
+   "ui2",
+   "Eh lá! O coelho já se levantou."
+  ],
+  [
+   "ui3",
+   "Tropeçou, mas segue em frente!"
+  ],
+  [
+   "dica_salta",
+   "Nas pedras e nos troncos, toca em Salta um bocadinho antes."
+  ],
+  [
+   "dica_baixa",
+   "Nos ramos e nos pássaros, toca em Baixa."
+  ],
+  [
+   "seguidos",
+   "Cinco seguidos! Que bom!"
+  ],
+  [
+   "moeda1",
+   "Uma moeda! Que sorte!"
+  ],
+  [
+   "moeda2",
+   "Mais moedas! Estamos ricos!"
+  ],
+  [
+   "metade",
+   "Já vamos a meio caminho!"
+  ],
+  [
+   "quase",
+   "Já se vê a bandeira!"
+  ],
+  [
+   "fim",
+   "Chegámos à meta! Que corrida!"
+  ],
+  [
+   "recorde",
+   "Fizeste ainda melhor do que da última vez!"
+  ]
+ ]
+}

@@ -1,0 +1,48 @@
+/* Cores: manchas de cor e nomes de cores. Os estilos partilhados dos botões estão em escolhas.css.*/
+.cores-grelha { position: absolute; inset: 0 0 2.4vmin; }
+
+/* Manchas de tinta (Kenney Splat Pack, CC0) recortadas com uma máscara: o quadrado inteiro continua a ser o alvo do toque.*/
+.esc-op.amostra {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+}
+.esc-op.amostra:active { box-shadow: none; transform: scale(0.94); }
+.esc-op.amostra i {
+  position: absolute;
+  inset: 4%;
+  pointer-events: none;
+  -webkit-mask: var(--mascara) center / contain no-repeat;
+  mask: var(--mascara) center / contain no-repeat;
+}
+.esc-op.amostra .splat-borda {
+  inset: 0;
+  background: var(--linha);
+  transform: translate(0.5vmin, 0.8vmin);   /* contorno e uma pequena sombra por baixo*/
+}
+.esc-op.amostra .splat-cor { inset: 5%; }
+.esc-op.amostra.certa {
+  background: transparent;
+  outline: none;
+  animation: salta 0.6s ease;
+}
+.esc-op.amostra.certa .splat-borda { background: var(--verde); }
+.esc-op.amostra.pista { animation: pisca 0.9s ease 4; }
+
+/* O estouro de uma resposta certa.*/
+.cores-salpico {
+  position: fixed;
+  z-index: 30;
+  pointer-events: none;
+  -webkit-mask: var(--mascara) center / contain no-repeat;
+  mask: var(--mascara) center / contain no-repeat;
+  animation: cores-salpico 0.85s cubic-bezier(.2, .9, .3, 1) forwards;
+}
+@keyframes cores-salpico {
+  0% { transform: rotate(var(--rodar)) scale(0.2); opacity: 0.95; }
+  55% { transform: rotate(var(--rodar)) scale(1.05); opacity: 0.9; }
+  100% { transform: rotate(var(--rodar)) scale(1.25); opacity: 0; }
+}
+
+.esc-op.stroop { font-weight: 900; letter-spacing: 0.02em; background: #fbfbf7; }

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 256">
+  <!-- Seaweed, rooted at the bottom -->
+  <path d="M52 256 Q30 220 50 186 Q70 152 46 118 Q24 84 44 50 Q54 30 48 8 Q72 34 62 60 Q50 92 70 120 Q92 152 70 190 Q56 216 72 256 Z"
+        fill="#2B9348" stroke="#123D1E" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M84 256 Q70 230 86 200 Q104 170 90 140 Q82 120 92 96 Q110 120 104 146 Q98 172 108 200 Q118 230 104 256 Z"
+        fill="#55C26B" stroke="#123D1E" stroke-width="5" stroke-linejoin="round"/>
+</svg>

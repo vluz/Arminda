@@ -1,0 +1,232 @@
+/* Partilhado pelas Fotografias, pela Música e por A minha casa*/
+
+.media-palco {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: stretch;
+  gap: 2vmin;
+}
+.media-palco .seta {
+  flex: none;
+  width: max(15vmin, 113px);
+  font-size: 10vmin;
+  padding: 0;
+}
+.media-centro {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vmin;
+}
+.media-moldura {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  background: #111;
+  overflow: hidden;
+}
+.media-moldura img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  animation: aparece 0.5s ease;
+}
+.media-legenda {
+  flex: none;
+  text-align: center;
+  font-size: var(--t-grande);
+  line-height: 1.1;
+  min-height: 1.1em;
+}
+/* Fotografias em ecrã inteiro: a fotografia de borda a borda sobre preto, a legenda numa faixa em baixo.*/
+.media-centro.cheio { position: fixed; inset: 0; z-index: 100; gap: 0; background: #000; }
+.media-centro.cheio .media-moldura { border: 0; border-radius: 0; background: #000; }
+.media-centro.cheio .media-legenda { background: #000; color: #fff; padding: 1vmin 2vmin; }
+.media-centro.cheio .media-legenda:empty { display: none; }
+.media-vazio {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-size: var(--t-grande);
+}
+.media-vazio img { width: 30vmin; display: block; margin: 0 auto 3vmin; }
+
+/* Música */
+.musica {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2vmin;
+}
+.musica .lista {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2vmin;
+  align-content: start;
+  padding: 0.5vmin;
+}
+@media (max-aspect-ratio: 1/1) {
+  .musica .lista { grid-template-columns: 1fr; }
+}
+/* Botões fixos e generosos: o WebView 105 do tablet de referência não faz crescer um botão com o
+   seu texto, por isso o título é cortado a duas linhas e o artista a uma, e os dois ficam sempre lá dentro.*/
+.musica .lista { grid-auto-rows: max(22vmin, 130px); }
+.musica .cancao .titulo {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.musica .cancao small { display: block; max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.musica .cancao {
+  height: 100%;
+  overflow: hidden;
+  justify-content: center;
+  min-height: max(16vmin, 113px);
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--t-medio);
+  line-height: 1.1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.musica .cancao small { font-size: 0.7em; font-weight: 700; opacity: 0.85; }
+.musica .cancao.atual { background: var(--verde); color: var(--branco); }
+.musica .comandos { flex: none; display: flex; justify-content: center; gap: 4vmin; }
+.musica .comandos .botao { min-width: max(20vmin, 113px); height: max(15vmin, 113px); font-size: 9vmin; }
+
+/* A minha casa */
+.casa-vista {
+  flex: 1;
+  min-height: 0;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  overflow: hidden;
+  position: relative;
+  background: #111;
+}
+.casa-vista .pnlm-container { background: #111; }
+.casa-salas {
+  flex: none;
+  display: flex;
+  gap: 2vmin;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* A lista dos sítios: botões grandes, cada um com uma fatia da sua fotografia e o nome numa faixa.*/
+.casa-lista {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(max(30vmin, 190px), 1fr));
+  grid-auto-rows: max(28vmin, 150px);
+  gap: 2vmin;
+  overflow-y: auto;
+  align-content: start;
+  padding: 0.5vmin;
+}
+.casa-tile {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  background-size: auto 100%;
+  background-position: center;
+  align-items: flex-end;
+}
+.casa-tile span {
+  width: 100%;
+  padding: 1vmin 1.5vmin;
+  background: rgba(255, 255, 255, 0.92);
+  border-top: var(--borda) solid var(--linha);
+  font-size: var(--t-medio);
+  text-align: center;
+}
+.casa-tile-voltar { font-size: var(--t-medio); }
+
+/* Ecrã inteiro: a fotografia de borda a borda, e por cima dela só o que é preciso.*/
+.casa-ecra { position: fixed; inset: 0; z-index: 100; background: #000; }
+.casa-pano { position: absolute; inset: 0; }
+.casa-pano.pnlm-container, .casa-pano .pnlm-container { background: #000 !important; }
+.casa-pano .pnlm-ui { background-image: none; }
+.casa-pano .pnlm-load-box { font-family: "Atkinson", system-ui, sans-serif; font-size: 5vmin; width: auto; padding: 2vmin 4vmin; height: auto; }
+.casa-nome:empty { display: none; }
+.casa-nome {
+  position: absolute;
+  top: 2vmin;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 60%;
+  padding: 0.8vmin 3vmin;
+  border-radius: 3vmin;
+  background: rgba(255, 255, 255, 0.85);
+  border: 0.5vmin solid var(--linha);
+  font-size: var(--t-medio);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  pointer-events: none;
+  z-index: 3;
+}
+.casa-voltar {
+  position: absolute;
+  top: 2vmin;
+  left: 2vmin;
+  width: max(17vmin, 113px);
+  height: max(17vmin, 113px);
+  border-radius: 50%;
+  border: var(--borda) solid var(--linha);
+  background: var(--amarelo);
+  box-shadow: var(--sombra);
+  font: inherit;
+  font-size: 10vmin;
+  font-weight: 800;
+  line-height: 1;
+  padding: 0;
+  z-index: 3;
+}
+.casa-rodar {
+  position: absolute;
+  top: 50%;
+  width: max(15vmin, 113px);
+  height: max(15vmin, 113px);
+  margin-top: calc(max(15vmin, 113px) / -2);
+  border-radius: 50%;
+  border: 0.6vmin solid rgba(17, 17, 17, 0.6);
+  background: rgba(255, 255, 255, 0.45);
+  color: #111;
+  font-size: 7vmin;
+  padding: 0;
+  z-index: 3;
+}
+.casa-rodar.esq { left: 2vmin; }
+.casa-rodar.dir { right: 2vmin; }
+
+/* Setas dentro da imagem que levam ao sítio seguinte: pequenas e transparentes, primeiro a fotografia.*/
+.pnlm-hotspot-base.casa-ir {
+  width: 60px;
+  height: 60px;
+  margin: -30px 0 0 -30px;
+  border-radius: 50%;
+  background: rgba(255, 183, 3, 0.8);
+  border: 4px solid rgba(17, 17, 17, 0.8);
+}
+.pnlm-hotspot-base.casa-ir::after {
+  content: "";
+  position: absolute;
+  inset: 15px;
+  background: var(--linha);
+  clip-path: polygon(20% 10%, 80% 50%, 20% 90%);
+}

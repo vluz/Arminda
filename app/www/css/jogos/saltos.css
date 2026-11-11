@@ -1,0 +1,176 @@
+/* Saltos: o cenário da corrida e os dois botões grandes.*/
+.sl-raiz {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sl-raiz.em-pe { flex-direction: column; }
+
+.sl-cena {
+  position: relative;
+  flex: none;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  background: linear-gradient(#8ed1fc, #d8f1ff 80%);
+  touch-action: none;
+}
+.sl-nuvem { position: absolute; left: 0; height: auto; opacity: 0.9; will-change: transform; pointer-events: none; }
+.sl-montes {
+  position: absolute;
+  left: 0;
+  background: radial-gradient(ellipse 150px 100% at 150px 100%, #9bd77a 98%, transparent 100%) 0 0 / 300px 100% repeat-x;
+  will-change: transform;
+  pointer-events: none;
+}
+.sl-chao {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-top: var(--borda) solid var(--linha);
+  background:
+    linear-gradient(90deg, #6b4423 0 12%, transparent 12%) 0 35% / 50px 18% repeat-x,
+    linear-gradient(#7ccf4f 0 22%, #b07a45 22%);
+  will-change: transform;
+  pointer-events: none;
+}
+.sl-mundo { position: absolute; inset: 0; pointer-events: none; }
+.sl-obj { position: absolute; left: 0; will-change: transform; }
+.sl-img { width: 100%; height: 100%; display: block; }
+.sl-passaro .sl-img { animation: sl-asas 0.35s ease-in-out infinite alternate; }
+@keyframes sl-asas { from { transform: translateY(-6%) rotate(-4deg); } to { transform: translateY(6%) rotate(4deg); } }
+.sl-ramo::before {
+  /* o ramo da árvore até ao cimo do cenário*/
+  content: "";
+  position: absolute;
+  left: 46%;
+  width: 8%;
+  bottom: 80%;
+  height: 100vh;
+  background: #8a5a3c;
+  border: max(2px, 0.4vmin) solid var(--linha);
+  border-bottom: none;
+}
+.sl-obj.caiu .sl-img { animation: sl-caiu 0.6s ease-out forwards; }
+@keyframes sl-caiu { to { transform: translate(40%, -30%) rotate(50deg); opacity: 0.35; } }
+.sl-moeda .sl-img { animation: sl-moeda 0.9s ease-in-out infinite alternate; }
+@keyframes sl-moeda { from { transform: scaleX(1); } to { transform: scaleX(0.55); } }
+.sl-moeda.apanhada .sl-img { animation: sl-apanha 0.45s ease-out forwards; }
+@keyframes sl-apanha { to { transform: translateY(-140%) scale(1.5); opacity: 0; } }
+.sl-meta {
+  background: conic-gradient(#111 25%, #fff 0 50%, #111 0 75%, #fff 0) 0 0 / 3vmin 3vmin;
+  box-shadow: 0 0 0 max(3px, 0.4vmin) var(--linha);
+}
+.sl-bandeira-meta { position: absolute; left: 50%; top: 4%; }
+
+/* O coelho: a imagem olha para a esquerda, por isso é virada para correr para a direita.*/
+.sl-coelho { position: absolute; z-index: 2; will-change: transform; pointer-events: none; }
+.sl-pose { width: 100%; height: 100%; transform-origin: 50% 100%; transition: transform 0.08s; }
+.sl-pose.baixo { transform: scale(1.15, 0.47); }
+.sl-corre {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transform: scaleX(-1);
+  animation: sl-corre 0.28s ease-in-out infinite alternate;
+}
+.sl-pose.parado .sl-corre, .sl-pose.baixo .sl-corre { animation: none; }
+.sl-pose.tropeca .sl-corre { animation: sl-tropeca 0.8s ease; filter: saturate(0.6); }
+.sl-pose.festa { animation: salta 0.6s ease 3; }
+@keyframes sl-corre {
+  from { transform: scaleX(-1) translateY(0) rotate(4deg); }
+  to { transform: scaleX(-1) translateY(-6%) rotate(-4deg); }
+}
+@keyframes sl-tropeca {
+  0% { transform: scaleX(-1) rotate(0); }
+  25% { transform: scaleX(-1) rotate(-25deg) translateX(8%); }
+  50% { transform: scaleX(-1) rotate(-10deg); }
+  75% { transform: scaleX(-1) rotate(-18deg); }
+  100% { transform: scaleX(-1) rotate(0); }
+}
+
+/* Barra de progresso até à bandeira, contador de moedas, série*/
+.sl-progresso {
+  position: absolute;
+  left: 3%;
+  right: 3%;
+  top: 2.5%;
+  height: max(34px, 7vmin);
+  pointer-events: none;
+}
+.sl-progresso i, .sl-progresso b {
+  position: absolute;
+  left: 0;
+  right: 6%;
+  top: 50%;
+  height: max(8px, 1.4vmin);
+  margin-top: max(-4px, -0.7vmin);
+  border-radius: 99px;
+}
+.sl-progresso i { background: rgba(255, 255, 255, 0.85); box-shadow: 0 0 0 max(2px, 0.35vmin) var(--linha); }
+.sl-progresso b { background: var(--verde); transform-origin: left center; transform: scaleX(0); }
+.sl-marca { position: absolute; left: 0; top: 0; height: 100%; width: auto; aspect-ratio: 1; transform-origin: center; will-change: transform; }
+.sl-progresso .sl-bandeira { position: absolute; right: 0; top: -10%; height: 120%; width: auto; }
+.sl-moedas {
+  position: absolute;
+  right: 3%;
+  top: calc(2.5% + max(40px, 8.5vmin));
+  display: flex;
+  align-items: center;
+  gap: 1vmin;
+  background: rgba(255, 255, 255, 0.9);
+  border: var(--borda) solid var(--linha);
+  border-radius: 99px;
+  padding: 0.5vmin 2vmin 0.5vmin 0.8vmin;
+  font-family: var(--digitos);
+  font-weight: 900;
+  font-size: var(--t-medio);
+  pointer-events: none;
+}
+.sl-moedas img { width: 7vmin; height: 7vmin; }
+.sl-moedas.recebe { animation: salta 0.4s ease; }
+.sl-seq {
+  position: absolute;
+  left: 3%;
+  top: calc(2.5% + max(40px, 8.5vmin));
+  font-family: var(--digitos);
+  font-weight: 900;
+  font-size: var(--t-grande);
+  color: var(--laranja);
+  -webkit-text-stroke: max(1.5px, 0.3vmin) var(--linha);
+  visibility: hidden;
+  pointer-events: none;
+}
+.sl-seq.ve { visibility: visible; }
+.sl-seq.pop { animation: salta 0.4s ease; }
+
+/* Botões*/
+.sl-botoes { display: flex; flex: none; }
+.sl-botoes.deitado { flex-direction: column; }
+.sl-botao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vmin;
+  padding: 1vmin;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+  font: inherit;
+  font-size: var(--t-medio);
+  font-weight: 800;
+  color: var(--texto);
+  touch-action: none;
+}
+.sl-botao svg { width: auto; height: 45%; max-width: 70%; }
+.sl-botao.salta { background: var(--verde); }
+.sl-botao.baixa { background: var(--azul); color: var(--branco); }
+.sl-botao.baixa span { -webkit-text-stroke: max(1px, 0.2vmin) var(--linha); }
+.sl-botao.baixa svg { transform: rotate(180deg); }
+.sl-botao:active { transform: translateY(0.8vmin); box-shadow: 0 0.4vmin 0 rgba(0, 0, 0, 0.35); }
+.sl-botao.carrega { animation: salta 0.3s ease; }
+.sl-botoes.convida .sl-botao { animation: pisca 0.8s ease 3; }

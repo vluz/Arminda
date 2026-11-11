@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <path d="M14 34 L14 116 M114 34 L114 116" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+  <path d="M6 14 L122 14 L122 36 L6 36 Z" fill="#ffffff" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M6 14 L25 14 L25 36 L6 36 Z M44 14 L64 14 L64 36 L44 36 Z M83 14 L103 14 L103 36 L83 36 Z" fill="#e63946"/>
+  <path d="M6 14 L122 14 L122 36 L6 36 Z" fill="none" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M6 36 Q15 46 25 36 Q35 46 44 36 Q54 46 64 36 Q74 46 83 36 Q93 46 103 36 Q113 46 122 36" fill="#e63946" stroke="#111" stroke-width="4"/>
+  <rect x="8" y="80" width="112" height="22" rx="4" fill="#a86b32" stroke="#111" stroke-width="5"/>
+  <circle cx="34" cy="68" r="13" fill="#e63946" stroke="#111" stroke-width="4"/>
+  <circle cx="54" cy="70" r="11" fill="#fb8500" stroke="#111" stroke-width="4"/>
+  <circle cx="44" cy="58" r="11" fill="#ffb703" stroke="#111" stroke-width="4"/>
+  <circle cx="92" cy="104" r="20" fill="#ffd34d" stroke="#111" stroke-width="5"/>
+  <circle cx="92" cy="104" r="12" fill="#d9d9d9" stroke="#111" stroke-width="3"/>
+  <text x="92" y="111" font-family="Arial, sans-serif" font-weight="900" font-size="19" text-anchor="middle" fill="#111">1</text>
+  <rect x="70" y="50" width="38" height="24" rx="4" fill="#ffffff" stroke="#111" stroke-width="4"/>
+  <text x="89" y="68" font-family="Arial, sans-serif" font-weight="900" font-size="17" text-anchor="middle" fill="#111">€</text>
+</svg>

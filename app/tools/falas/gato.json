@@ -1,0 +1,120 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "No Gato aventureiro, ajudas o gato a atravessar a estrada e o ribeiro até casa."
+  ],
+  [
+   "instrucao",
+   "Ajuda o gato a chegar a casa. Toca nas setas para ele saltar."
+  ],
+  [
+   "estrada",
+   "Cuidado com os carros! Espera que passem e depois salta."
+  ],
+  [
+   "ribeiro",
+   "No ribeiro, salta para cima dos troncos. O gato não gosta de banhos!"
+  ],
+  [
+   "afunda",
+   "Atenção, há troncos que se afundam um bocadinho!"
+  ],
+  [
+   "miau1",
+   "Miau! Esse carro fez-me cócegas!"
+  ],
+  [
+   "miau2",
+   "Miau! Vou tentar outra vez."
+  ],
+  [
+   "miau3",
+   "Miau! Ui, que susto. Volto ao passeio."
+  ],
+  [
+   "agua1",
+   "Miau! Que banho! Brrr!"
+  ],
+  [
+   "agua2",
+   "Splash! Fiquei todo molhado!"
+  ],
+  [
+   "agua3",
+   "Miau! Água fria! Vamos outra vez."
+  ],
+  [
+   "dica_carro",
+   "Espera que o carro passe. Depois salta!"
+  ],
+  [
+   "dica_agua",
+   "Salta quando o tronco estiver mesmo à tua frente."
+  ],
+  [
+   "casa1",
+   "Cheguei a casa! Obrigado!"
+  ],
+  [
+   "casa2",
+   "Que bom, a minha caminha!"
+  ],
+  [
+   "casa3",
+   "Em casa! Agora uma sesta."
+  ],
+  [
+   "outra",
+   "Vamos lá outra vez!"
+  ],
+  [
+   "fim",
+   "Que aventura! O gato está em casa, quentinho."
+  ],
+  [
+   "caminho",
+   "Olha, agora o caminho é diferente!"
+  ],
+  [
+   "tartarugas",
+   "As tartarugas também ajudam, mas às vezes mergulham!"
+  ],
+  [
+   "trator",
+   "Vem aí um trator! É devagarinho, mas é comprido."
+  ],
+  [
+   "bicicleta",
+   "As bicicletas são rápidas! Olha bem antes de saltar."
+  ],
+  [
+   "peixe",
+   "Se vires um peixinho pelo caminho, apanha-o!"
+  ],
+  [
+   "peixe1",
+   "Um peixinho! Que petisco!"
+  ],
+  [
+   "peixe2",
+   "Peixe fresco! Obrigado!"
+  ],
+  [
+   "peixe3",
+   "Mais um peixinho para o jantar!"
+  ],
+  [
+   "limpo1",
+   "Em casa sem um único susto! Que bem!"
+  ],
+  [
+   "limpo2",
+   "Outra vez sem sustos! Estás em grande forma!"
+  ],
+  [
+   "melhor",
+   "Hoje o gato tropeçou menos do que da última vez!"
+  ]
+ ]
+}

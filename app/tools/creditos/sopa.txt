@@ -1,0 +1,20 @@
+www/img/noto/avo.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f475.svg, Apache-2.0
+www/img/noto/avo_homem.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f474.svg, Apache-2.0
+www/img/noto/barco.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u26f5.svg, Apache-2.0
+www/img/noto/bebe.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f476.svg, Apache-2.0
+www/img/noto/bolo.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f382.svg, Apache-2.0
+www/img/noto/cama.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f6cf.svg, Apache-2.0
+www/img/noto/carro.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f697.svg, Apache-2.0
+www/img/noto/leao.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f981.svg, Apache-2.0
+www/img/noto/livro.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f4d6.svg, Apache-2.0
+www/img/noto/lua.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f319.svg, Apache-2.0
+www/img/noto/pato.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f986.svg, Apache-2.0
+www/img/noto/porco.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f416.svg, Apache-2.0
+www/img/noto/sapo.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f438.svg, Apache-2.0
+www/img/noto/sofa.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f6cb.svg, Apache-2.0
+www/img/noto/urso.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f43b.svg, Apache-2.0
+www/img/noto/vela.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f56f.svg, Apache-2.0
+www/snd/sopa-serie1.ogg, https://kenney.nl/assets/interface-sounds (Audio/glass_002.ogg, com o tom subido, para uma série a subir), CC0 1.0
+www/snd/sopa-serie2.ogg, https://kenney.nl/assets/interface-sounds (Audio/glass_002.ogg, com o tom subido, para uma série a subir), CC0 1.0
+www/snd/sopa-serie3.ogg, https://kenney.nl/assets/interface-sounds (Audio/glass_002.ogg, com o tom subido, para uma série a subir), CC0 1.0
+www/snd/sopa-serie4.ogg, https://kenney.nl/assets/interface-sounds (Audio/glass_002.ogg, com o tom subido, para uma série a subir), CC0 1.0

@@ -1,0 +1,52 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "No Quem é quem, vês uma fotografia da família e escolhes o nome certo."
+  ],
+  [
+   "instrucao",
+   "Olha bem para a fotografia. Quem é? Toca no nome certo."
+  ],
+  [
+   "vamos",
+   "Vamos ver quem é quem!"
+  ],
+  [
+   "quem_e",
+   "Quem é?"
+  ],
+  [
+   "le",
+   "Agora lês tu os nomes. Toca no certo."
+  ],
+  [
+   "quase",
+   "Quase! Olha bem."
+  ],
+  [
+   "pista",
+   "Olha para o nome que está a brilhar."
+  ],
+  [
+   "pista_foto",
+   "Olha para a fotografia que está a brilhar."
+  ],
+  [
+   "reverso",
+   "Agora eu digo um nome e tu tocas na fotografia certa."
+  ],
+  [
+   "melhor",
+   "Acertaste mais do que da última vez!"
+  ],
+  [
+   "fim",
+   "Conheces a família toda! Que memória!"
+  ],
+  [
+   "vazio",
+   "Ainda não há fotografias para este jogo."
+  ]
+ ]
+}

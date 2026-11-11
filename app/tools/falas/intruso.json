@@ -1,0 +1,388 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "No Intruso, há uma coisa que não pertence ao grupo. Descobre qual é!"
+  ],
+  [
+   "instrucao",
+   "Olha bem. Toca no que não pertence ao grupo."
+  ],
+  [
+   "vamos",
+   "Vamos descobrir os intrusos!"
+  ],
+  [
+   "palavras_intro",
+   "Agora são palavras. Lê bem e descobre o intruso."
+  ],
+  [
+   "duas_intro",
+   "Agora é mais difícil: o intruso parece igual aos outros. Pensa bem!"
+  ],
+  [
+   "qual",
+   "Qual é o intruso?"
+  ],
+  [
+   "qual2",
+   "Qual destes não pertence?"
+  ],
+  [
+   "qual3",
+   "Descobre o intruso!"
+  ],
+  [
+   "pista",
+   "Olha para o que está a piscar."
+  ],
+  [
+   "melhor",
+   "Fizeste melhor do que da última vez!"
+  ],
+  [
+   "fim",
+   "Apanhaste todos os intrusos! Muito bem!"
+  ],
+  [
+   "r_o_fruta",
+   "O carro não é fruta!"
+  ],
+  [
+   "r_o_animais",
+   "A cadeira não é um animal!"
+  ],
+  [
+   "r_o_flores",
+   "O autocarro não é uma flor!"
+  ],
+  [
+   "r_o_transportes",
+   "A banana não é um transporte!"
+  ],
+  [
+   "r_o_doces",
+   "O sapato não se come!"
+  ],
+  [
+   "r_o_calcado",
+   "O peixe não se calça!"
+  ],
+  [
+   "r_o_cabeca",
+   "A cenoura não se põe na cabeça!"
+  ],
+  [
+   "r_o_ceu",
+   "O telefone não está no céu!"
+  ],
+  [
+   "r_o_aves",
+   "O elefante não é uma ave!"
+  ],
+  [
+   "r_o_mar",
+   "O leão não vive no mar!"
+  ],
+  [
+   "r_o_coracoes",
+   "A maçã não é um coração!"
+  ],
+  [
+   "r_o_bebidas",
+   "O livro não se bebe!"
+  ],
+  [
+   "r_o_musica",
+   "O tomate não toca música!"
+  ],
+  [
+   "r_o_casa",
+   "A vaca não vive dentro de casa!"
+  ],
+  [
+   "r_o_legumes",
+   "A bicicleta não é um legume!"
+  ],
+  [
+   "r_o_roupa",
+   "O ovo não se veste!"
+  ],
+  [
+   "r_p_fruta",
+   "A cenoura não é fruta, é um legume!"
+  ],
+  [
+   "r_p_legumes",
+   "O morango não é um legume, é fruta!"
+  ],
+  [
+   "r_p_mar",
+   "O sapo vive no charco, não no mar!"
+  ],
+  [
+   "r_p_quinta",
+   "A girafa não vive na quinta, vive em África!"
+  ],
+  [
+   "r_p_selva",
+   "A vaca não é um bicho selvagem, vive na quinta!"
+  ],
+  [
+   "r_p_cozinha",
+   "A sanita não é da cozinha, é da casa de banho!"
+  ],
+  [
+   "r_p_banho",
+   "A frigideira é da cozinha, não é da casa de banho!"
+  ],
+  [
+   "r_p_roupa",
+   "Os óculos não são roupa!"
+  ],
+  [
+   "r_p_flores",
+   "A couve não é uma flor, é um legume!"
+  ],
+  [
+   "r_p_aves",
+   "O morcego voa, mas não é uma ave!"
+  ],
+  [
+   "r_p_insetos",
+   "O caracol não é um inseto!"
+  ],
+  [
+   "r_p_doces",
+   "O queijo não é um doce!"
+  ],
+  [
+   "r_p_musica",
+   "O telefone toca, mas não é um instrumento!"
+  ],
+  [
+   "r_p_terra",
+   "O barco não anda em terra, anda na água!"
+  ],
+  [
+   "r_p_calcado",
+   "As meias não são calçado!"
+  ],
+  [
+   "r_p_escola",
+   "A colher não é da escola, é da cozinha!"
+  ],
+  [
+   "r_p_cabeca",
+   "A luva não se põe na cabeça, põe-se na mão!"
+  ],
+  [
+   "r_q_voam",
+   "A tartaruga não voa!"
+  ],
+  [
+   "r_q_frio",
+   "O café é quente, não é frio!"
+  ],
+  [
+   "r_q_quente",
+   "O gelado é frio, não é quente!"
+  ],
+  [
+   "r_q_redondo",
+   "O livro não é redondo!"
+  ],
+  [
+   "r_q_rodas",
+   "O barco não tem rodas!"
+  ],
+  [
+   "r_q_luz",
+   "A nuvem não dá luz!"
+  ],
+  [
+   "r_q_picam",
+   "A borboleta não pica!"
+  ],
+  [
+   "r_q_abrem",
+   "A colher não se abre!"
+  ],
+  [
+   "r_q_cortam",
+   "A colher não corta!"
+  ],
+  [
+   "r_q_quatro_pernas",
+   "A galinha só tem duas pernas!"
+  ],
+  [
+   "r_q_amarelos",
+   "A maçã não é amarela!"
+  ],
+  [
+   "r_q_verdes",
+   "A cenoura não é verde, é cor de laranja!"
+  ],
+  [
+   "r_q_brancos",
+   "O chocolate não é branco!"
+  ],
+  [
+   "r_q_crescem",
+   "A pedra não cresce!"
+  ],
+  [
+   "r_q_penas",
+   "A borboleta voa, mas não tem penas!"
+  ],
+  [
+   "r_q_agua",
+   "O gato não vive na água!"
+  ],
+  [
+   "r_q_leite",
+   "A galinha não dá leite, dá ovos!"
+  ],
+  [
+   "r_q_doce",
+   "O sal não é doce, é salgado!"
+  ],
+  [
+   "r_w_meses",
+   "Domingo é um dia da semana, não é um mês!"
+  ],
+  [
+   "r_w_dias",
+   "Agosto é um mês, não é um dia da semana!"
+  ],
+  [
+   "r_w_rios",
+   "Lisboa é uma cidade, não é um rio!"
+  ],
+  [
+   "r_w_cidades",
+   "Madrid é uma cidade de Espanha!"
+  ],
+  [
+   "r_w_cores",
+   "Redondo não é uma cor!"
+  ],
+  [
+   "r_w_profissoes",
+   "A laranjeira é uma árvore, não é uma profissão!"
+  ],
+  [
+   "r_w_arvores",
+   "O sapateiro é uma profissão, não é uma árvore!"
+  ],
+  [
+   "r_w_familia",
+   "A vizinha não é da família!"
+  ],
+  [
+   "r_w_estacoes",
+   "A manhã não é uma estação do ano!"
+  ],
+  [
+   "r_w_tempo",
+   "A areia não cai do céu, está na praia!"
+  ],
+  [
+   "r_w_corpo",
+   "A gaveta não é uma parte do corpo!"
+  ],
+  [
+   "r_w_pratos",
+   "O hambúrguer não é um prato português!"
+  ],
+  [
+   "r_w_doces",
+   "O bacalhau não é um doce!"
+  ],
+  [
+   "r_w_cozinha",
+   "A almofada não é da cozinha!"
+  ],
+  [
+   "r_w_pares",
+   "O sete é ímpar, os outros são pares!"
+  ],
+  [
+   "r_w_tabuada",
+   "O dez não está na tabuada do três!"
+  ],
+  [
+   "r_w_moedas",
+   "Não há moedas de três cêntimos!"
+  ],
+  [
+   "r_w_notas",
+   "Não há notas de trinta euros!"
+  ],
+  [
+   "r_w_instrumentos",
+   "O martelo não toca música!"
+  ],
+  [
+   "r_d_frutas_vermelhas",
+   "A banana é fruta, mas não é vermelha!"
+  ],
+  [
+   "r_d_aves_voam",
+   "O pinguim é uma ave, mas não voa!"
+  ],
+  [
+   "r_d_peixes",
+   "O golfinho vive no mar, mas não é um peixe!"
+  ],
+  [
+   "r_d_terra",
+   "A couve é um legume, mas não cresce debaixo da terra!"
+  ],
+  [
+   "r_d_caroco",
+   "O morango é fruta, mas não tem caroço!"
+  ],
+  [
+   "r_d_quatro_patas",
+   "A galinha é da quinta, mas só tem duas patas!"
+  ],
+  [
+   "r_d_rodas",
+   "O barco é um transporte, mas não tem rodas!"
+  ],
+  [
+   "r_d_quentes",
+   "A limonada é uma bebida, mas bebe-se fresca!"
+  ],
+  [
+   "r_d_31",
+   "Abril é um mês, mas só tem trinta dias!"
+  ],
+  [
+   "r_d_mar",
+   "Évora é uma cidade, mas não tem mar!"
+  ],
+  [
+   "r_d_rios",
+   "O Sena é um rio, mas não passa em Portugal!"
+  ],
+  [
+   "r_d_arvores_fruto",
+   "O eucalipto é uma árvore, mas não dá fruta!"
+  ],
+  [
+   "r_d_doces_pt",
+   "O tiramisu é um doce, mas é italiano!"
+  ],
+  [
+   "r_d_cordas",
+   "O acordeão é um instrumento, mas não tem cordas!"
+  ],
+  [
+   "r_d_moedas",
+   "Cinco euros é dinheiro, mas é uma nota, não é uma moeda!"
+  ]
+ ]
+}

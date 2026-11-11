@@ -1,0 +1,122 @@
+/* Quatro em linha. Num ecrã largo a casinha, o gato, o balão e a pontuação ficam numa coluna à
+   esquerda, para o tabuleiro poder usar a altura toda.*/
+
+.q4-placar {
+  flex: 1 1 100%;
+  display: flex;
+  gap: 2vmin;
+  justify-content: center;
+}
+.q4-placar .lado-placar {
+  flex: 1;
+  max-width: 24vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vmin;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  padding: 1vmin 2vmin;
+}
+.q4-placar .lado-placar.tu { background: #ffe1e3; }
+.q4-placar .lado-placar.avo { background: #fff3c4; }
+.q4-placar img { width: 9vmin; height: 9vmin; display: block; }
+.q4-placar b { font-family: var(--digitos); font-size: var(--t-grande); font-weight: 800; }
+
+.q4-ecra .topo { flex-wrap: wrap; row-gap: 1.5vmin; }
+
+@media (min-aspect-ratio: 1/1) {
+  .ecra.q4-ecra { flex-direction: row; padding: 1vmin 1.5vmin; gap: 2vmin; }
+  .q4-ecra .topo {
+    flex: none;
+    width: clamp(250px, 28vw, 420px);
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    gap: 2vmin;
+    min-height: 0;
+  }
+  .q4-ecra .mascote { width: max(17vmin, 113px); height: max(17vmin, 113px); }
+  .q4-ecra .balao { flex: 1 1 100%; height: auto; min-height: 30vmin; font-size: 4.6vmin; }
+  .q4-ecra .balao::before {
+    left: calc(max(17vmin, 113px) + 2vmin + 6vmin);
+    top: -4.4vmin;
+    margin-top: 0;
+    border: 2vmin solid transparent;
+    border-bottom: 2.4vmin solid var(--linha);
+  }
+}
+
+.q4-mesa {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+.q4-tab {
+  display: flex;
+  background: var(--azul);
+  border-radius: 2vmin;
+  outline: var(--borda) solid var(--linha);
+  box-shadow: var(--sombra);
+  overflow: hidden;
+}
+.q4-coluna {
+  position: relative;
+  width: var(--larg);
+  height: calc(var(--alt) * var(--r));
+  border: none;
+  border-right: 2px solid rgba(0, 0, 0, 0.25);
+  background: transparent;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.q4-coluna:last-child { border-right: none; }
+.q4-buraco {
+  flex: none;
+  width: 100%;
+  height: var(--alt);
+  display: block;
+  background: radial-gradient(circle at 50% 50%, #e8f1ff 0 calc(var(--disco) / 2 - 1px), var(--linha) calc(var(--disco) / 2) calc(var(--disco) / 2 + 3px), transparent calc(var(--disco) / 2 + 4px));
+}
+.q4-tab.tua-vez .q4-coluna:active { background: rgba(255, 255, 255, 0.25); }
+.q4-coluna.toque { animation: toque 0.4s ease; }
+.q4-coluna.pista { animation: pisca-col 0.9s ease infinite; }
+
+.q4-disco {
+  position: absolute;
+  left: calc((var(--larg) - var(--disco)) / 2);
+  width: var(--disco);
+  height: var(--disco);
+  border-radius: 50%;
+  border: max(4px, 0.7vmin) solid var(--linha);
+  pointer-events: none;
+  z-index: 2;
+}
+.q4-disco.tu { background: radial-gradient(circle at 50% 50%, #ff6b76 0 38%, var(--vermelho) 40% 100%); }
+.q4-disco.avo { background: radial-gradient(circle at 50% 50%, #ffd45c 0 38%, var(--amarelo) 40% 100%); }
+.q4-disco.mini { position: static; display: block; width: 9vmin; height: 9vmin; }
+.q4-disco.aterra { animation: aterra 0.25s ease-out; }
+.q4-disco.linha { animation: brilha-disco 0.7s ease infinite; z-index: 3; }
+.q4-tab.acabou .q4-disco:not(.linha) { filter: saturate(0.6) brightness(0.9); }
+.q4-tab.esvazia .q4-disco {
+  transition: transform 0.6s cubic-bezier(.55, 0, 1, .45) !important;
+  transform: translateY(calc(var(--alt) * var(--r) + var(--disco))) !important;
+  animation: none;
+}
+
+@keyframes aterra {
+  0% { transform: translateY(0) scale(1.12, 0.86); }
+  60% { transform: translateY(-6%) scale(0.96, 1.04); }
+  100% { transform: translateY(0) scale(1); }
+}
+@keyframes brilha-disco {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
+  50% { transform: scale(1.1); box-shadow: 0 0 0 max(5px, 0.9vmin) var(--branco); }
+}
+@keyframes toque { 0% { background: rgba(255, 255, 255, 0.35); } 100% { background: transparent; } }
+@keyframes pisca-col { 0%, 100% { background: transparent; } 50% { background: rgba(255, 183, 3, 0.55); } }

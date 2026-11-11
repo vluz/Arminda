@@ -1,0 +1,118 @@
+/* Palavras */
+.palavras {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  gap: 3vmin;
+}
+.palavras.em-pe { flex-direction: column; }
+.pal-quadro {
+  flex: none;
+  display: flex;
+  gap: 2vmin;
+  padding: 2vmin;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+}
+.palavras.deitada .pal-quadro { width: 30%; }
+.palavras.deitada .pal-quadro.duas { flex-direction: column; }
+.palavras.em-pe .pal-quadro { height: 26%; }
+.pal-figura { flex: 1; min-width: 0; min-height: 0; position: relative; }
+.pal-figura img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation: aparece 0.5s ease; }
+.pal-quadro.feita { animation: salta 0.6s ease; background: #fff3c4; }
+
+.pal-lado { flex: 1; min-width: 0; min-height: 0; display: flex; flex-direction: column; gap: 3vmin; }
+.pal-casas {
+  flex: none;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.pal-casa {
+  width: var(--casa);
+  height: calc(var(--casa) * 1.1);
+  display: grid;
+  place-items: center;
+  background: var(--branco);
+  border: 3px dashed #777;
+  border-bottom: 1vmin solid var(--linha);
+  border-radius: 1.2vmin;
+  font-size: calc(var(--casa) * 0.66);
+  font-weight: 800;
+  line-height: 1;
+}
+.pal-casa.dada { background: #e9e2ff; border-style: solid; border-color: var(--linha); }
+.pal-casa.proxima { border: 4px solid var(--azul); border-bottom-width: 1vmin; background: #e3f1ff; animation: pal-chama 1.4s ease-in-out infinite; }
+.pal-casa.cheia { border-style: solid; border-color: var(--linha); background: #d8f5c8; animation: salta 0.4s ease; }
+.pal-casas.feita .pal-casa { background: var(--verde); color: var(--branco); }
+.pal-espaco { width: calc(var(--casa) * 0.5); }
+
+.pal-pecas {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  gap: 2.5vmin;
+  place-content: center;
+  overflow: hidden;
+  padding-bottom: 1.5vmin;
+}
+.pal-peca {
+  width: var(--lado);
+  height: var(--lado);
+  padding: 0;
+  border: var(--borda) solid var(--linha);
+  border-radius: 2vmin;
+  background: var(--amarelo);
+  box-shadow: var(--sombra);
+  font: inherit;
+  font-size: calc(var(--lado) * 0.58);
+  font-weight: 800;
+  line-height: 1;
+  color: var(--texto);
+}
+.pal-peca:active { transform: translateY(0.8vmin); box-shadow: 0 0.4vmin 0 rgba(0,0,0,.35); }
+.pal-peca.usada { visibility: hidden; }
+.pal-peca.errada { animation: pal-salta 0.5s ease; }
+.pal-peca.pista { animation: pisca 0.6s ease 5; background: var(--rosa); color: var(--branco); }
+
+@keyframes pal-salta {
+  0%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-2.5vmin); }
+  60% { transform: translateY(0); }
+  80% { transform: translateY(-1vmin); }
+}
+@keyframes pal-chama {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(10, 111, 214, 0); }
+  50% { box-shadow: 0 0 0 1vmin rgba(10, 111, 214, 0.35); }
+}
+
+/* Níveis 7 e acima: palavras como grupos de lugares, uma expressão em duas linhas, um botão de ouvir em vez de uma imagem*/
+.pal-grupo { display: flex; gap: 8px; }
+.pal-casas.duas-linhas { flex-wrap: wrap; row-gap: 1.5vmin; }
+.pal-quebra { flex-basis: 100%; height: 0; }
+.palavras.deitada.sem-figura .pal-quadro { width: 22%; }
+.palavras.em-pe.sem-figura .pal-quadro { height: 18%; }
+.pal-quadro.com-botao { padding: 1.5vmin; background: #e3f1ff; }
+.pal-ouvir {
+  flex: 1;
+  min-width: 113px;
+  min-height: 113px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  background: var(--azul);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+}
+.pal-ouvir img { width: min(70%, 160px); height: min(70%, 160px); object-fit: contain; }
+.pal-ouvir:active { transform: translateY(0.8vmin); }
+
+/* Sensação de jogo: barra de progresso, com a série escrita lá dentro*/
+.pal-progresso { flex: none; height: 36px; display: flex; align-items: center; grid-column: 1 / -1; flex-basis: 36px; }
+.pal-barra { position: relative; flex: 1; height: 32px; background: var(--branco); border: 3px solid var(--linha); border-radius: 999px; overflow: hidden; }
+.pal-enche { width: 0; height: 100%; background: var(--amarelo); transition: width 0.6s ease; }
+.pal-serie { position: absolute; inset: 0; display: grid; place-items: center; font-size: 19px; font-weight: 800; white-space: nowrap; color: var(--texto); }
+.pal-serie.viva { animation: salta 0.6s ease; }

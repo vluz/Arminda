@@ -1,0 +1,51 @@
+# Servidor da família com Docker Compose: o programa (mae) e o Caddy à frente, com HTTPS automático.
+# 1. Copie .env.exemplo para .env e preencha (ferramentas/segredos.py ajuda).
+# 2. Edite o Caddyfile: o seu domínio e a palavra-passe da família.
+# 3. Crie a pasta dos dados com o seu utilizador normal:  mkdir -p dados
+#    (se for o Docker a criá-la, fica do root e o programa não consegue escrever)
+# 4. docker compose up -d --build
+services:
+  mae:
+    build: .
+    container_name: jogos-mae
+    restart: always
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    # O número do seu utilizador Linux (veja com: id -u) e do seu grupo (id -g). Assim o programa
+    # escreve em ./dados e o seu utilizador pode copiar atualizações para ./dados/publico (passo 11).
+    user: "1000:1000"
+    environment:
+      MAE_TOKEN_SHA256: ${MAE_TOKEN_SHA256}
+      # Título do painel da família. Mude à vontade.
+      MAE_TITULO: "Jogos da Mãe"
+      # Opcional: o painel ignora registos anteriores a esta data (Lisboa). Normalmente não é preciso.
+      # MAE_INICIO: "2026-01-01"
+    volumes:
+      # ./dados: a base de dados (mae.db) e a pasta publico/ das atualizações.
+      - ./dados:/data
+    # Só o Caddy chega ao programa; nada é publicado diretamente na internet.
+    expose: ["8080"]
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+          cpus: "0.5"
+
+  caddy:
+    image: caddy:2
+    container_name: jogos-caddy
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on: [mae]
+
+volumes:
+  caddy-data:
+  caddy-config:

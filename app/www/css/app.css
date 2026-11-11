@@ -1,0 +1,705 @@
+@font-face {
+  font-family: "Atkinson";
+  src: url("../fonts/AtkinsonHyperlegibleNext-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Atkinson";
+  src: url("../fonts/AtkinsonHyperlegibleNext-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Atkinson";
+  src: url("../fonts/AtkinsonHyperlegibleNext-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+}
+
+:root {
+  --fundo: #fff6e0;
+  --texto: #111111;
+  --linha: #111111;
+  --vermelho: #e63946;
+  --amarelo: #ffb703;
+  --azul: #0a6fd6;
+  --azul-escuro: #0b3d91;
+  --verde: #2b9348;
+  --roxo: #7b2cbf;
+  --laranja: #fb8500;
+  --rosa: #ff4d8d;
+  --ceu: #8ed1fc;
+  --relva: #7ccf4f;
+  --branco: #ffffff;
+  --borda: max(4px, 0.7vmin);
+  --raio: 3vmin;
+  /* Uma borda firme de desenho animado e uma sombra suave por baixo: profundidade sem esbater os contornos.*/
+  --sombra: 0 1vmin 0 rgba(0, 0, 0, 0.30), 0 1.6vmin 2.6vmin rgba(0, 0, 0, 0.16);
+  --sombra-baixa: 0 0.3vmin 0 rgba(0, 0, 0, 0.30), 0 0.6vmin 1.2vmin rgba(0, 0, 0, 0.14);
+  --sombra-texto: 0 0.25vmin 0 rgba(0, 0, 0, 0.35);
+  --t-grande: 7vmin;
+  --t-medio: 5.2vmin;
+  /* Os algarismos usam o tipo de letra do sistema: o zero do Atkinson tem um traço, que pode parecer estranho.*/
+  --digitos: Roboto, "Segoe UI", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: var(--fundo);
+  color: var(--texto);
+  font-family: "Atkinson", system-ui, sans-serif;
+  font-weight: 700;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  -webkit-touch-callout: none;
+}
+/* Dedos a tremer: um dedo que escorrega um pouco num botão não pode transformar o toque num
+   deslizar da página, que o cancelaria. Só as listas que deslizam a sério mantêm o deslizar
+   vertical (o main.js também deixa em paz um toque cancelado nelas).*/
+button { touch-action: none; }
+.familia button, .musica .lista button, .casa-lista button { touch-action: pan-y; }
+
+/* Fundo: um padrão ténue de azulejo sobre o creme, e um tema suave por família de jogos
+   (o main.js define data-fundo). Tudo claro e com pouco contraste, para as peças se destacarem.*/
+#app {
+  position: fixed;
+  inset: 0;
+  background: url("../img/fundo/azulejo.svg") 0 0 / 15vmin 15vmin, var(--fundo);
+}
+#app[data-fundo="liso"] { background: var(--fundo); }
+/* Jogos de cartas: um pano verde-claro com uma trama ténue de losangos.*/
+#app[data-fundo="cartas"] {
+  background:
+    repeating-linear-gradient(45deg, rgba(43, 147, 72, 0.06) 0 2px, transparent 2px 4vmin),
+    repeating-linear-gradient(-45deg, rgba(43, 147, 72, 0.06) 0 2px, transparent 2px 4vmin),
+    #eef6e6;
+}
+/* Jogos de palavras: um caderno da escola, com linhas azuis ténues.*/
+#app[data-fundo="letras"] {
+  background: repeating-linear-gradient(transparent 0 5.6vmin, rgba(10, 111, 214, 0.10) 5.6vmin calc(5.6vmin + 2px)), #fffaf0;
+}
+/* Jogos de tabuleiro: um xadrez muito ténue.*/
+#app[data-fundo="tabuleiro"] {
+  background: conic-gradient(rgba(17, 17, 17, 0.035) 25%, transparent 0 50%, rgba(17, 17, 17, 0.035) 0 75%, transparent 0) 0 0 / 10vmin 10vmin, var(--fundo);
+}
+/* Cozinha e feira: uma toalha aos quadradinhos, clara.*/
+#app[data-fundo="cozinha"] {
+  background:
+    repeating-linear-gradient(90deg, rgba(230, 57, 70, 0.06) 0 3vmin, transparent 3vmin 6vmin),
+    repeating-linear-gradient(0deg, rgba(230, 57, 70, 0.06) 0 3vmin, transparent 3vmin 6vmin),
+    #fff8ef;
+}
+/* Ao ar livre: céu claro a desfazer-se no creme.*/
+#app[data-fundo="natureza"] { background: linear-gradient(#e3f3fd, var(--fundo) 70%); }
+
+.ecra {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 2vmin 3vmin 3vmin;
+  gap: 2vmin;
+  /* Só a opacidade: os jogos medem a sua disposição logo que o ecrã está no sítio.*/
+  animation: ecra-entra 0.2s ease-out;
+}
+@keyframes ecra-entra { from { opacity: 0; } to { opacity: 1; } }
+
+/* Ecrã apagado: todas as animações esperam (o main.js define html.oculto).*/
+.oculto *, .oculto *::before, .oculto *::after { animation-play-state: paused !important; }
+
+/* Barra de cima: botão da casinha e balão de fala do gato*/
+.topo {
+  display: flex;
+  align-items: center;
+  gap: 2.5vmin;
+  min-height: max(17vmin, 113px);
+}
+
+.botao-casa {
+  flex: none;
+  width: max(17vmin, 113px);
+  height: max(17vmin, 113px);
+  border-radius: 50%;
+  border: var(--borda) solid var(--linha);
+  background: var(--amarelo);
+  box-shadow: var(--sombra);
+  display: grid;
+  place-items: center;
+  padding: 0;
+}
+.botao-casa img { width: 70%; height: 70%; }
+.botao-casa:active { transform: translateY(0.6vmin) scale(0.96); box-shadow: var(--sombra-baixa); }
+
+.mascote { flex: none; width: 15vmin; height: 15vmin; filter: drop-shadow(0 0.6vmin 0.4vmin rgba(0, 0, 0, 0.18)); }
+.mascote.salta { animation: salta 0.6s ease; }
+
+.balao {
+  flex: 1;
+  /* Altura fixa, para uma frase comprida nunca empurrar o jogo para baixo depois de ele medir o seu espaço.*/
+  height: max(15vmin, 100px);
+  overflow: hidden;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  padding: 1.5vmin 3vmin;
+  font-size: var(--t-medio);
+  line-height: 1.15;
+  display: flex;
+  align-items: center;
+  position: relative;
+  box-shadow: var(--sombra-baixa);
+}
+.balao:not(.vazio) { animation: balao-entra 0.25s ease-out; }
+@keyframes balao-entra { from { opacity: 0.4; transform: scale(0.97); } to { opacity: 1; transform: none; } }
+.balao::before {
+  content: "";
+  position: absolute;
+  left: -3.2vmin;
+  top: 50%;
+  margin-top: -2vmin;
+  border: 2vmin solid transparent;
+  border-right: 2.4vmin solid var(--linha);
+}
+.balao.vazio { visibility: hidden; }
+@media (max-aspect-ratio: 1/1) {
+  .balao { font-size: 4.4vmin; height: max(19vmin, 113px); }
+}
+
+.corpo {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+}
+
+/* Botões grandes*/
+.botao {
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+  font: inherit;
+  font-size: var(--t-grande);
+  font-weight: 800;
+  color: var(--texto);
+  padding: 2vmin 4vmin;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vmin;
+  transition: transform 0.08s ease-out, box-shadow 0.08s ease-out;
+}
+/* Carregado: afunda um pouco e encolhe para 96 %, para cada toque parecer respondido.*/
+.botao:active, .botao-ouvir:active { transform: translateY(0.6vmin) scale(0.96); box-shadow: var(--sombra-baixa); }
+/* O texto branco num botão de cor leva uma borda escura fina por baixo: mais nítido, nunca mais apagado.*/
+.cor-vermelho, .cor-azul, .cor-verde, .cor-roxo, .cor-rosa { text-shadow: var(--sombra-texto); }
+.botao img { height: 1.4em; }
+
+/* Ecrã inicial*/
+.mosaico {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  gap: 3vmin;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+@media (min-aspect-ratio: 3/2) {
+  .mosaico { grid-template-columns: repeat(4, 1fr); grid-template-rows: 1fr; }
+}
+.mosaico .botao {
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  font-size: var(--t-grande);
+  padding: 2vmin;
+}
+.mosaico .botao .figura {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.mosaico .botao .figura { position: relative; }
+.mosaico .botao .figura img,
+.mosaico .botao .figura svg { position: absolute; inset: 4%; width: 92%; height: 92%; object-fit: contain; }
+.cor-vermelho { background: var(--vermelho); color: var(--branco); }
+.cor-amarelo { background: var(--amarelo); }
+.cor-azul { background: var(--azul); color: var(--branco); }
+.cor-verde { background: var(--verde); color: var(--branco); }
+.cor-roxo { background: var(--roxo); color: var(--branco); }
+.cor-rosa { background: var(--rosa); color: var(--branco); }
+.cor-branco { background: var(--branco); }
+.cor-laranja { background: var(--laranja); }
+.cor-ceu { background: var(--ceu); }
+
+/* Páginas do ecrã inicial: setas grandes de cada lado dos pontos das páginas*/
+.paginas {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4vmin;
+}
+/* Nunca com menos de 113 px de altura: a 1024x600, 13vmin seriam só 78 px (as setas das páginas
+   são o único caminho para a segunda e a terceira páginas).*/
+.paginas .botao { padding: 0 6vmin; height: max(13vmin, 113px); font-size: 8vmin; }
+.paginas .botao[disabled] { visibility: hidden; }
+.paginas .pontos { display: flex; gap: 2vmin; }
+.paginas .pontos span { width: 3vmin; height: 3vmin; border-radius: 50%; background: #ccc; border: 2px solid var(--linha); }
+.paginas .pontos span.ativo { background: var(--vermelho); transform: scale(1.3); }
+.paginas .pontos span { transition: transform 0.2s ease-out, background-color 0.2s; }
+.mosaico.oito { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: repeat(6, minmax(0, 1fr)); gap: 2vmin; }
+@media (min-aspect-ratio: 1/1) {
+  .mosaico.oito { grid-template-columns: repeat(6, minmax(0, 1fr)); grid-template-rows: repeat(2, minmax(0, 1fr)); }
+}
+.mosaico.oito .botao { font-size: 4.6vmin; line-height: 1.05; gap: 1vmin; padding: 1.5vmin 1vmin; }
+/* Uma palavra comprida sozinha (Fotografias) encolhe um pouco em vez de partir ao meio.*/
+.mosaico.oito .botao.longo { font-size: 3.8vmin; }
+
+/* Botões do ecrã inicial: uma luz suave ao longo da borda de cima, e espaço para o brilho passar.*/
+.mosaico .botao {
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 0.7vmin 0 rgba(255, 255, 255, 0.28), var(--sombra);
+}
+.mosaico .botao:active { box-shadow: inset 0 0.7vmin 0 rgba(255, 255, 255, 0.28), var(--sombra-baixa); }
+.mosaico .botao .figura img { filter: drop-shadow(0 0.5vmin 0 rgba(0, 0, 0, 0.18)); }
+
+/* Chegada: os botões aparecem um a seguir ao outro; uma mudança de página entra de lado.*/
+.mosaico.chega .botao { animation: tile-chega 0.35s ease-out backwards; animation-delay: calc(var(--i) * 35ms); }
+.mosaico.dir .botao { animation: tile-dir 0.25s ease-out backwards; animation-delay: calc(var(--i) * 15ms); }
+.mosaico.esq .botao { animation: tile-esq 0.25s ease-out backwards; animation-delay: calc(var(--i) * 15ms); }
+@keyframes tile-chega { from { opacity: 0; transform: scale(0.85); } to { opacity: 1; transform: none; } }
+@keyframes tile-dir { from { opacity: 0; transform: translateX(8vmin); } to { opacity: 1; transform: none; } }
+@keyframes tile-esq { from { opacity: 0; transform: translateX(-8vmin); } to { opacity: 1; transform: none; } }
+
+/* A cada dois minutos de sossego: a viragem em fila. Cada botão dá uma volta inteira, um a seguir ao outro.*/
+.mosaico .botao.vira { animation: tile-vira 0.5s ease-in-out both; animation-delay: var(--atraso, 0ms); }
+@keyframes tile-vira {
+  from { transform: perspective(90vmin) rotateY(0deg); }
+  50% { transform: perspective(90vmin) rotateY(180deg) scale(1.04); }
+  to { transform: perspective(90vmin) rotateY(360deg); }
+}
+/* De vez em quando um botão abana,*/
+.mosaico .botao.abana { animation: tile-abana 0.9s ease-in-out; }
+@keyframes tile-abana {
+  0%, 100% { transform: none; }
+  15% { transform: rotate(-4deg) scale(1.03); }
+  35% { transform: rotate(3.5deg) scale(1.03); }
+  55% { transform: rotate(-2.5deg); }
+  75% { transform: rotate(1.5deg); }
+}
+/* ou apanha a luz: uma faixa clara passa por ele.*/
+.mosaico .botao::after {
+  content: "";
+  position: absolute;
+  top: -10%;
+  bottom: -10%;
+  left: 0;
+  width: 45%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.55) 50%, transparent);
+  transform: translateX(-160%) skewX(-12deg);
+  opacity: 0;
+  pointer-events: none;
+}
+.mosaico .botao.brilha::after { animation: tile-brilho 1.1s ease-in-out; }
+@keyframes tile-brilho {
+  0% { opacity: 1; transform: translateX(-160%) skewX(-12deg); }
+  100% { opacity: 1; transform: translateX(330%) skewX(-12deg); }
+}
+/* A seta da página seguinte respira devagar enquanto há outra página para ver.*/
+.paginas .botao.respira { animation: respira 2.8s ease-in-out infinite; }
+.paginas .botao.respira:active { animation: none; }
+@keyframes respira { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.07); } }
+
+/* Ecrã da família (escondido): tabela simples de uso*/
+.familia { position: absolute; inset: 0; overflow: auto; background: var(--branco); border: var(--borda) solid var(--linha); border-radius: var(--raio); padding: 2vmin; font-size: 3.6vmin; font-weight: 400; }
+.familia table { border-collapse: collapse; width: 100%; }
+.familia th, .familia td { border-bottom: 1px solid #bbb; padding: 0.8vmin 1.5vmin; text-align: left; }
+.familia td.n { text-align: right; font-family: var(--digitos); }
+
+.botao-ouvir {
+  flex: none;
+  width: max(17vmin, 113px);
+  height: max(17vmin, 113px);
+  border-radius: 50%;
+  padding: 0;
+  background: var(--branco);
+}
+.botao-ouvir img { width: 65%; height: 65%; }
+
+/* Introdução*/
+.intro {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vmin;
+  text-align: center;
+}
+.intro img { width: 45vmin; height: 45vmin; object-fit: contain; animation: aparece 0.5s ease; }
+.intro .frase { font-size: var(--t-grande); max-width: 90%; line-height: 1.15; }
+.intro .pontos { display: flex; gap: 1.5vmin; }
+.intro .pontos span { width: 2.5vmin; height: 2.5vmin; border-radius: 50%; background: #ccc; border: 2px solid var(--linha); }
+.intro .pontos span.ativo { background: var(--vermelho); }
+
+/* Cartas (Pares)*/
+.mesa {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  gap: 2.5vmin;
+  place-content: center;
+}
+.carta {
+  perspective: 120vmin;
+  border: none;
+  padding: 0;
+  background: none;
+  width: var(--lado);
+  height: var(--lado);
+}
+.carta .dentro {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.45s ease;
+  transform-style: preserve-3d;
+}
+.carta.virada .dentro { transform: rotateY(180deg); }
+.carta .face, .carta .verso {
+  position: absolute;
+  inset: 0;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  box-shadow: var(--sombra);
+}
+.carta .verso {
+  background-color: var(--azul);
+  background-image:
+    radial-gradient(circle at 50% 50%, var(--branco) 0 18%, transparent 19%),
+    radial-gradient(circle at 0 0, var(--amarelo) 0 22%, transparent 23%),
+    radial-gradient(circle at 100% 0, var(--amarelo) 0 22%, transparent 23%),
+    radial-gradient(circle at 0 100%, var(--amarelo) 0 22%, transparent 23%),
+    radial-gradient(circle at 100% 100%, var(--amarelo) 0 22%, transparent 23%);
+}
+.carta .face {
+  background: var(--branco);
+  transform: rotateY(180deg);
+  display: grid;
+  place-items: center;
+}
+.carta .face img { width: 78%; height: 78%; object-fit: contain; }
+.carta.feita .face { background: #d8f5c8; border-color: var(--verde); }
+.carta.feita { animation: salta 0.6s ease; }
+.carta.pista .verso { animation: pisca 0.5s ease 3; }
+
+/* Jardim*/
+.jardim {
+  position: absolute;
+  inset: 0;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  overflow: hidden;
+  /* Céu em cima; em baixo, calçada portuguesa clara, para os caules e as folhas verdes se destacarem.
+     A pedido da família: o chão verde escondia os caules verdes.*/
+  background: linear-gradient(var(--ceu) 0 55%, var(--linha) 55% calc(55% + 0.6vmin), transparent calc(55% + 0.6vmin)), radial-gradient(circle at 50% 100%, transparent 42%, #c2b79f 44%, #c2b79f 51%, transparent 53%) 0 0 / 7vmin 3.5vmin, #f3ecdc;
+}
+.jardim .sol { position: absolute; top: 3%; right: 4%; width: 16vmin; animation: roda 30s linear infinite; }
+.jardim .nuvem { position: absolute; top: 8%; width: 18vmin; animation: nuvem 60s linear infinite; }
+.jardim .vasos {
+  position: absolute;
+  left: 3%;
+  right: 22%;
+  bottom: 6%;
+  height: 62%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.vaso-flor {
+  position: relative;
+  width: 17%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border: none;
+  background: none;
+  padding: 0;
+}
+.vaso-flor .planta {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.vaso-flor .planta img { width: 100%; transition: transform 0.6s cubic-bezier(.3,1.6,.5,1); transform-origin: 50% 100%; }
+.vaso-flor .vaso { width: 100%; }
+.vaso-flor.fase-0 .planta img { transform: scale(0.4); }
+.vaso-flor.fase-1 .planta img { transform: scale(0.75); }
+.vaso-flor.fase-2 .planta img { transform: scale(0.65); }
+.vaso-flor.fase-3 .planta img { transform: scale(1); animation: baloica 3s ease-in-out infinite; }
+.vaso-flor .gotas {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 60%;
+  transform: translateX(-50%);
+  opacity: 0;
+  pointer-events: none;
+}
+.vaso-flor.a-regar .gotas { animation: chuva 0.9s ease; }
+.jardim .regador {
+  position: absolute;
+  right: 3%;
+  bottom: 8%;
+  width: 20%;
+  touch-action: none;
+  border: none;
+  background: none;
+  padding: 0;
+  z-index: 5;
+}
+.jardim .regador img { width: 100%; filter: drop-shadow(0 1vmin 0 rgba(0,0,0,.3)); }
+.jardim .regador.ativo img { animation: pisca 0.6s ease infinite; }
+.jardim .regador.a-arrastar { transition: none; }
+.jardim .cesto { position: absolute; right: 22%; top: 6%; width: 15vmin; }
+.jardim .cesto img { width: 100%; }
+.jardim .cesto div {
+  position: absolute;
+  right: -3vmin;
+  bottom: -2vmin;
+  min-width: 9vmin;
+  height: 9vmin;
+  padding: 0 1.5vmin;
+  border-radius: 4.5vmin;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  display: grid;
+  place-items: center;
+  font-size: var(--t-medio);
+  font-weight: 800;
+  font-family: var(--digitos);
+}
+
+/* Ecrã ao alto: vasos em duas filas, mais relva.*/
+@media (max-aspect-ratio: 1/1) {
+  .jardim { background: linear-gradient(var(--ceu) 0 32%, var(--linha) 32% calc(32% + 0.6vmin), transparent calc(32% + 0.6vmin)), radial-gradient(circle at 50% 100%, transparent 42%, #c2b79f 44%, #c2b79f 51%, transparent 53%) 0 0 / 7vmin 3.5vmin, #f3ecdc; }
+  .jardim .vasos {
+    left: 3%;
+    right: 3%;
+    bottom: 20%;
+    height: 64%;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    row-gap: 3%;
+  }
+  .vaso-flor { width: 30%; height: 48%; }
+  .jardim .regador { width: 24%; bottom: 2%; right: 4%; }
+  .jardim .cesto { right: 30%; top: 4%; }
+}
+.jardim .bicho { position: absolute; width: 12vmin; z-index: 4; border: none; background: none; padding: 0; }
+.jardim .bicho img { width: 100%; }
+
+/* Loto */
+.loto {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  gap: 4vmin;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-aspect-ratio: 1/1) {
+  .loto { flex-direction: column; }
+}
+.bola {
+  flex: none;
+  width: 34vmin;
+  height: 34vmin;
+  border-radius: 50%;
+  border: var(--borda) solid var(--linha);
+  background: radial-gradient(circle at 35% 30%, #ffffff 0 12%, var(--vermelho) 13% 100%);
+  display: grid;
+  place-items: center;
+  box-shadow: var(--sombra);
+}
+.bola span {
+  width: 58%;
+  height: 58%;
+  border-radius: 50%;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  display: grid;
+  place-items: center;
+  font-size: 13vmin;
+  font-weight: 800;
+  font-family: var(--digitos);
+}
+.bola.nova { animation: rola 0.7s ease; }
+.cartao {
+  display: grid;
+  gap: 1.6vmin;
+  padding: 2vmin;
+  background: var(--amarelo);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+}
+.casa-num {
+  width: var(--lado);
+  height: var(--lado);
+  border: var(--borda) solid var(--linha);
+  border-radius: 2vmin;
+  background: var(--branco);
+  font: inherit;
+  font-family: var(--digitos);
+  font-size: calc(var(--lado) * 0.5);
+  font-weight: 800;
+  color: var(--texto);
+  display: grid;
+  place-items: center;
+  padding: 0;
+  position: relative;
+}
+.casa-num.marcada { background: var(--verde); color: var(--branco); }
+.casa-num.marcada::after {
+  content: "";
+  position: absolute;
+  inset: 12%;
+  border-radius: 50%;
+  border: 1vmin solid rgba(255,255,255,.85);
+}
+.casa-num.pista { animation: pisca 0.6s ease infinite; }
+.casa-num.linha { box-shadow: 0 0 0 1vmin var(--vermelho); }
+
+/* Azulejos */
+.painel {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  gap: 1vmin;
+  padding: 1.5vmin;
+  background: #f4efe3;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+}
+.painel .tile { width: var(--lado); height: var(--lado); border: 2px solid #8a8a8a; background: #ffffff; }
+.painel .tile svg { width: 100%; height: 100%; display: block; }
+.painel .tile.vazio { background: repeating-linear-gradient(45deg, #ebe5d6 0 1.5vmin, #f4efe3 1.5vmin 3vmin); }
+.painel .tile.novo { animation: aparece 0.8s ease; box-shadow: 0 0 0 1vmin var(--amarelo); }
+
+/* Camada do prémio*/
+.premio {
+  position: absolute;
+  inset: 0;
+  /* Um brilho quente por trás do azulejo novo, mais escuro para as bordas.*/
+  background: radial-gradient(circle at 50% 42%, rgba(255, 214, 102, 0.55), rgba(17, 17, 17, 0.55) 45%, rgba(17, 17, 17, 0.72));
+  animation: ecra-entra 0.25s ease-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vmin;
+  z-index: 20;
+}
+.premio .azulejo-grande {
+  width: 32vmin;
+  height: 32vmin;
+  border: var(--borda) solid var(--linha);
+  background: #fff;
+  animation: gira 1s cubic-bezier(.3,1.4,.5,1);
+  box-shadow: 0 0 0 1.2vmin var(--branco), 0 0 0 calc(1.2vmin + var(--borda)) var(--linha), 0 2vmin 4vmin rgba(0, 0, 0, 0.45);
+}
+.premio .azulejo-grande svg { width: 100%; height: 100%; display: block; }
+.premio .frase {
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  padding: 2vmin 4vmin;
+  font-size: var(--t-grande);
+  text-align: center;
+  box-shadow: var(--sombra);
+}
+.premio .estrelas { display: flex; gap: 2vmin; height: 12vmin; }
+.premio .estrelas img { width: 12vmin; height: 12vmin; animation: gira 0.6s cubic-bezier(.3,1.4,.5,1); }
+.premio .estrelas img.ganha { filter: drop-shadow(0 0.6vmin 0 rgba(0, 0, 0, 0.35)); }
+.premio .acoes .botao { animation: aparece 0.3s ease-out backwards; }
+.premio .acoes .botao + .botao { animation-delay: 0.1s; }
+.premio .estrelas img.apagada { filter: grayscale(1) opacity(.35); }
+.premio .acoes { display: flex; gap: 4vmin; }
+.premio .acoes .botao { min-height: 113px; }
+
+/* Confetes*/
+.confete { position: absolute; inset: 0; pointer-events: none; overflow: hidden; z-index: 30; }
+.confete i {
+  position: absolute;
+  top: -5vmin;
+  width: 2.4vmin;
+  height: 3.6vmin;
+  border-radius: 0.6vmin;
+  animation: cai linear forwards;
+}
+
+@keyframes salta { 0%,100% { transform: scale(1); } 40% { transform: scale(1.15); } }
+@keyframes pisca { 0%,100% { filter: brightness(1); transform: scale(1); } 50% { filter: brightness(1.35); transform: scale(1.07); } }
+@keyframes aparece { from { transform: scale(0.3); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+@keyframes gira { from { transform: rotate(-200deg) scale(0.1); } to { transform: rotate(0) scale(1); } }
+@keyframes rola { 0% { transform: translateX(-60vmin) rotate(-360deg); } 100% { transform: translateX(0) rotate(0); } }
+@keyframes cai { to { transform: translateY(115vh) rotate(720deg); } }
+@keyframes roda { to { transform: rotate(360deg); } }
+@keyframes nuvem { from { left: -20vmin; } to { left: 110%; } }
+@keyframes baloica { 0%,100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg); } }
+@keyframes chuva { 0% { opacity: 0; transform: translate(-50%, -20%); } 30% { opacity: 1; } 100% { opacity: 0; transform: translate(-50%, 60%); } }
+
+/* Bateria fraca: uma bateria vermelha no canto de baixo à esquerda de todos os ecrãs (bateria.js).*/
+.bateria-baixa {
+  display: none;
+  position: fixed;
+  left: 2vmin;
+  bottom: 2vmin;
+  width: 76px;
+  height: 40px;
+  border: 5px solid var(--linha);
+  border-radius: 8px;
+  background: #fff;
+  z-index: 50;
+  pointer-events: none;
+  box-shadow: var(--sombra);
+}
+.bateria-baixa.ver { display: block; }
+.bateria-baixa::after {
+  content: "";
+  position: absolute;
+  right: -13px;
+  top: 9px;
+  width: 8px;
+  height: 14px;
+  background: var(--linha);
+  border-radius: 0 4px 4px 0;
+}
+.bateria-baixa i {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  bottom: 3px;
+  width: calc((100% - 6px) * var(--carga, 0.1));
+  background: var(--vermelho);
+  border-radius: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

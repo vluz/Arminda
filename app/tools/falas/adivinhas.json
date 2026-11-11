@@ -1,0 +1,472 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Nas Adivinhas, eu digo uma adivinha e tu escolhes a resposta."
+  ],
+  [
+   "instrucao",
+   "Ouve a adivinha e toca na resposta certa."
+  ],
+  [
+   "vamos",
+   "Vamos às adivinhas!"
+  ],
+  [
+   "palavras_intro",
+   "Agora as respostas são palavras. Lê com calma."
+  ],
+  [
+   "ouve",
+   "Ouve a adivinha. Toca no cartão para ouvir outra vez."
+  ],
+  [
+   "outra",
+   "Outra adivinha!"
+  ],
+  [
+   "pista",
+   "Olha para a que está a piscar."
+  ],
+  [
+   "melhor",
+   "Acertaste mais do que da última vez!"
+  ],
+  [
+   "fim",
+   "Acertaste as adivinhas todas! Que cabeça!"
+  ],
+  [
+   "r_vaca",
+   "O que é, o que é? Dá leite, come erva e diz mu."
+  ],
+  [
+   "s_vaca",
+   "É a vaca!"
+  ],
+  [
+   "r_abelha",
+   "O que é, o que é? É pequenina, voa de flor em flor e faz o mel."
+  ],
+  [
+   "s_abelha",
+   "É a abelha!"
+  ],
+  [
+   "r_guarda_chuva",
+   "O que é, o que é? Abre-se quando chove e fecha-se quando faz sol."
+  ],
+  [
+   "s_guarda_chuva",
+   "É o guarda-chuva!"
+  ],
+  [
+   "r_banana",
+   "O que é, o que é? É amarela e comprida, descasca-se, e o macaco adora."
+  ],
+  [
+   "s_banana",
+   "É a banana!"
+  ],
+  [
+   "r_sol",
+   "O que é, o que é? Nasce de manhã, põe-se ao fim do dia e aquece toda a gente."
+  ],
+  [
+   "s_sol",
+   "É o sol!"
+  ],
+  [
+   "r_caracol",
+   "Qual é o bicho que anda devagarinho com a casa às costas?"
+  ],
+  [
+   "s_caracol",
+   "É o caracol!"
+  ],
+  [
+   "r_galo",
+   "O que é, o que é? Tem crista vermelha e canta de madrugada."
+  ],
+  [
+   "s_galo",
+   "É o galo!"
+  ],
+  [
+   "r_queijo",
+   "O que é, o que é? É feito de leite, às vezes tem buracos, e o rato adora."
+  ],
+  [
+   "s_queijo",
+   "É o queijo!"
+  ],
+  [
+   "r_chave",
+   "O que é, o que é? Tem dentes e não morde, e abre a porta de casa."
+  ],
+  [
+   "s_chave",
+   "É a chave!"
+  ],
+  [
+   "r_ovo",
+   "Qual é coisa, qual é ela? A galinha põe, é branco por fora e amarelo por dentro."
+  ],
+  [
+   "s_ovo",
+   "É o ovo!"
+  ],
+  [
+   "r_comboio",
+   "O que é, o que é? Anda nos carris, apita na estação e leva muita gente."
+  ],
+  [
+   "s_comboio",
+   "É o comboio!"
+  ],
+  [
+   "r_cogumelo",
+   "O que é, o que é? Tem chapéu e não tem cabeça, tem pé e não tem sapato."
+  ],
+  [
+   "s_cogumelo",
+   "É o cogumelo!"
+  ],
+  [
+   "r_vela",
+   "O que é, o que é? Nasce grande e morre pequenina, e dá luz enquanto vive."
+  ],
+  [
+   "s_vela",
+   "É a vela!"
+  ],
+  [
+   "r_livro",
+   "O que é, o que é? Tem folhas e não é árvore, tem lombada e não é bicho."
+  ],
+  [
+   "s_livro",
+   "É o livro!"
+  ],
+  [
+   "r_agulha",
+   "O que é, o que é? Tem um olho só e não vê nada."
+  ],
+  [
+   "s_agulha",
+   "É a agulha!"
+  ],
+  [
+   "r_cereja",
+   "O que é, o que é? Vermelhinha por fora, com um coração de pedra lá dentro."
+  ],
+  [
+   "s_cereja",
+   "É a cereja!"
+  ],
+  [
+   "r_relogio",
+   "O que é, o que é? Tem ponteiros e não aponta, trabalha dia e noite e nunca sai do lugar."
+  ],
+  [
+   "s_relogio",
+   "É o relógio!"
+  ],
+  [
+   "r_cadeira",
+   "O que é, o que é? Tem pernas e não anda, tem costas e não se deita."
+  ],
+  [
+   "s_cadeira",
+   "É a cadeira!"
+  ],
+  [
+   "r_polvo",
+   "Qual é o bicho do mar que tem oito braços e nenhuma mão?"
+  ],
+  [
+   "s_polvo",
+   "É o polvo!"
+  ],
+  [
+   "r_luva",
+   "O que é, o que é? Tem cinco dedos e não tem unhas."
+  ],
+  [
+   "s_luva",
+   "É a luva!"
+  ],
+  [
+   "r_escada",
+   "O que é, o que é? Sobe e desce e nunca sai do mesmo sítio."
+  ],
+  [
+   "s_escada",
+   "É a escada!"
+  ],
+  [
+   "r_folha_seca",
+   "O que é, o que é? Nasce verde na árvore e no outono cai castanha ao chão."
+  ],
+  [
+   "s_folha_seca",
+   "É a folha!"
+  ],
+  [
+   "r_lua",
+   "O que é, o que é? Aparece no céu à noite, umas vezes redonda, outras vezes fininha."
+  ],
+  [
+   "s_lua",
+   "É a lua!"
+  ],
+  [
+   "r_alho",
+   "Qual é coisa, qual é ela? Tem cabeça e tem dentes, não é bicho nem é gente."
+  ],
+  [
+   "s_alho",
+   "É o alho!"
+  ],
+  [
+   "r_ananas",
+   "O que é, o que é? Tem coroa e não é rei, tem escamas e não é peixe."
+  ],
+  [
+   "s_ananas",
+   "É o ananás!"
+  ],
+  [
+   "r_dente",
+   "O que é, o que é? Tem coroa e tem raiz, mas não é rei nem é árvore."
+  ],
+  [
+   "s_dente",
+   "É o dente!"
+  ],
+  [
+   "r_bule",
+   "O que é, o que é? Tem bico e não pica, tem asa e não voa."
+  ],
+  [
+   "s_bule",
+   "É o bule!"
+  ],
+  [
+   "r_pao",
+   "O que é, o que é? Quanto mais quente, mais fresco."
+  ],
+  [
+   "s_pao",
+   "É o pão!"
+  ],
+  [
+   "r_castanha",
+   "O que é, o que é? Mora dentro de um ouriço, veste-se de castanho e assa-se no São Martinho."
+  ],
+  [
+   "s_castanha",
+   "É a castanha!"
+  ],
+  [
+   "r_cebola",
+   "Qual é coisa, qual é ela, que faz chorar sem bater?"
+  ],
+  [
+   "s_cebola",
+   "É a cebola!"
+  ],
+  [
+   "r_pente",
+   "O que é, o que é? Tem dentes e não come, e passeia pela cabeça todas as manhãs."
+  ],
+  [
+   "s_pente",
+   "É o pente!"
+  ],
+  [
+   "r_garrafa",
+   "O que é, o que é? Tem pescoço e não tem cabeça, tem boca e não fala."
+  ],
+  [
+   "s_garrafa",
+   "É a garrafa!"
+  ],
+  [
+   "r_papagaio",
+   "O que é, o que é? Tem rabo e não é bicho, voa no céu e vai preso por um fio."
+  ],
+  [
+   "s_papagaio",
+   "É o papagaio de papel!"
+  ],
+  [
+   "r_aviao",
+   "O que é, o que é? Tem asas e não tem penas, voa mais alto que as aves e leva gente lá dentro."
+  ],
+  [
+   "s_aviao",
+   "É o avião!"
+  ],
+  [
+   "r_tesoura",
+   "O que é, o que é? Tem duas pernas e dois olhos, e corta tudo o que lhe dão."
+  ],
+  [
+   "s_tesoura",
+   "É a tesoura!"
+  ],
+  [
+   "r_sapato",
+   "O que é, o que é? Tem língua e não fala, tem salto e não salta."
+  ],
+  [
+   "s_sapato",
+   "É o sapato!"
+  ],
+  [
+   "r_buraco",
+   "O que é, o que é? Quanto mais se tira, maior fica."
+  ],
+  [
+   "s_buraco",
+   "É o buraco!"
+  ],
+  [
+   "r_silencio",
+   "O que é, o que é? Basta dizer o nome dele para o quebrar."
+  ],
+  [
+   "s_silencio",
+   "É o silêncio!"
+  ],
+  [
+   "r_rio",
+   "O que é, o que é? Tem leito e não dorme, tem boca e não come, e corre sem ter pés."
+  ],
+  [
+   "s_rio",
+   "É o rio!"
+  ],
+  [
+   "r_sombra",
+   "O que é, o que é? Entra na água e não se molha, anda sempre contigo e não faz barulho."
+  ],
+  [
+   "s_sombra",
+   "É a sombra!"
+  ],
+  [
+   "r_letra_u",
+   "O que é que está sempre no meio da rua?"
+  ],
+  [
+   "s_letra_u",
+   "É a letra U! Rua: R, U, A."
+  ],
+  [
+   "r_letra_v",
+   "O que é que está no meio do ovo?"
+  ],
+  [
+   "s_letra_v",
+   "É a letra V! Ovo: O, V, O."
+  ],
+  [
+   "r_baralho",
+   "O que é, o que é? Põe-se na mesa, parte-se, reparte-se, mas não se come."
+  ],
+  [
+   "s_baralho",
+   "É o baralho de cartas!"
+  ],
+  [
+   "r_selo",
+   "O que é, o que é? Sem sair do seu cantinho, dá a volta ao mundo."
+  ],
+  [
+   "s_selo",
+   "É o selo!"
+  ],
+  [
+   "r_toalha",
+   "O que é, o que é? Quanto mais seca, mais molhada fica."
+  ],
+  [
+   "s_toalha",
+   "É a toalha!"
+  ],
+  [
+   "r_amanha",
+   "O que é, o que é? Está sempre a chegar, mas nunca chega."
+  ],
+  [
+   "s_amanha",
+   "É o amanhã!"
+  ],
+  [
+   "r_luz",
+   "O que é, o que é? Enche a casa toda e não ocupa lugar nenhum."
+  ],
+  [
+   "s_luz",
+   "É a luz!"
+  ],
+  [
+   "r_idade",
+   "O que é, o que é? Sobe sempre e nunca desce."
+  ],
+  [
+   "s_idade",
+   "É a idade!"
+  ],
+  [
+   "r_nome",
+   "O que é, o que é? É teu, mas os outros usam-no muito mais do que tu."
+  ],
+  [
+   "s_nome",
+   "É o teu nome!"
+  ],
+  [
+   "r_partir",
+   "O que é que tem de se partir antes de se usar?"
+  ],
+  [
+   "s_partir",
+   "É o ovo!"
+  ],
+  [
+   "r_segredo",
+   "O que é, o que é? Se o contares a alguém, deixas de o ter."
+  ],
+  [
+   "s_segredo",
+   "É o segredo!"
+  ],
+  [
+   "r_pegadas",
+   "O que é, o que é? Quanto mais andas, mais deixas para trás."
+  ],
+  [
+   "s_pegadas",
+   "São as pegadas!"
+  ],
+  [
+   "r_vento",
+   "O que é, o que é? Ninguém o vê, mas abana as árvores e leva os chapéus."
+  ],
+  [
+   "s_vento",
+   "É o vento!"
+  ],
+  [
+   "r_eco",
+   "O que é, o que é? Responde sem ninguém lhe perguntar, e só repete o que ouve."
+  ],
+  [
+   "s_eco",
+   "É o eco!"
+  ]
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "linhas": [
+  [
+   "comecar",
+   "Vamos jogar ao loto!"
+  ],
+  [
+   "instrucao",
+   "Ouve o número e toca nele no teu cartão."
+  ],
+  [
+   "proximo",
+   "Próximo número!"
+  ],
+  [
+   "linha",
+   "Linha!"
+  ],
+  [
+   "cheio",
+   "Cartão cheio! Ganhaste o loto!"
+  ],
+  [
+   "nao_saiu",
+   "Esse número ainda não saiu."
+  ],
+  [
+   "dois",
+   "Hoje jogas com dois cartões. Olha para os dois!"
+  ],
+  [
+   "ouvido",
+   "Agora a bola não mostra o número. Ouve bem!"
+  ],
+  [
+   "melhor",
+   "Hoje foste mais rápida do que da última vez!"
+  ]
+ ]
+}

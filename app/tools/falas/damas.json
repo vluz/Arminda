@@ -1,0 +1,72 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Nas Damas, saltas por cima das peças do Joaquim para as comer."
+  ],
+  [
+   "comecar",
+   "Vamos jogar às damas! As tuas peças são as amarelas."
+  ],
+  [
+   "instrucao",
+   "Toca numa peça tua e depois na casa que brilha."
+  ],
+  [
+   "obrigatoria",
+   "Tens de comer! A peça que brilha pode comer."
+  ],
+  [
+   "outra_casa",
+   "Toca numa das casas que brilham."
+  ],
+  [
+   "nao_pode",
+   "Essa peça não pode andar. Escolhe outra."
+  ],
+  [
+   "continua",
+   "Podes comer mais! Toca na casa que brilha."
+  ],
+  [
+   "comeste",
+   "Comeste uma peça!"
+  ],
+  [
+   "comeste_varias",
+   "Comeste várias peças! Que jogada!"
+  ],
+  [
+   "dama",
+   "Chegaste ao fim! A tua peça é agora uma dama."
+  ],
+  [
+   "dama_anda",
+   "A dama anda para a frente e para trás."
+  ],
+  [
+   "vez_joaquim",
+   "Agora joga o Joaquim."
+  ],
+  [
+   "comeu",
+   "O Joaquim comeu uma peça tua."
+  ],
+  [
+   "dama_dele",
+   "O Joaquim fez uma dama."
+  ],
+  [
+   "ganhaste",
+   "Ganhaste às damas! Muito bem!"
+  ],
+  [
+   "ganhou",
+   "O Joaquim ganhou desta vez. Foi um bom jogo!"
+  ],
+  [
+   "empate",
+   "Que jogo tão renhido! Ficou empatado."
+  ]
+ ]
+}

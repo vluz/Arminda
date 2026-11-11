@@ -1,0 +1,123 @@
+/* Aquário */
+.aquario {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  background: linear-gradient(#7fd3ff 0%, #2f9be0 45%, #1572c4 100%);
+  touch-action: none;
+}
+.aquario .areia {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 18%;
+  background: #f6d68a;
+  border-top: var(--borda) solid #c99a3e;
+  border-radius: 50% 50% 0 0 / 30% 30% 0 0;
+}
+.aquario .alga {
+  position: absolute;
+  bottom: 6%;
+  height: 46%;
+  transform-origin: 50% 100%;
+  animation: aq-baloica 7s ease-in-out infinite;
+  pointer-events: none;
+}
+.aquario .alga.a1 { left: 3%; height: min(46%, 42vmin); }
+.aquario .alga.a2 { left: 32%; height: min(34%, 30vmin); animation-delay: -2s; }
+.aquario .alga.a3 { right: 5%; height: min(52%, 46vmin); animation-delay: -4s; }
+.aquario .coral { position: absolute; left: 15%; bottom: 3%; height: min(22%, 20vmin); pointer-events: none; }
+.aquario .concha { position: absolute; left: 44%; bottom: 3%; height: min(13%, 12vmin); pointer-events: none; }
+
+.aquario .caranguejo {
+  position: absolute;
+  left: 60%;
+  bottom: 1%;
+  width: max(18vmin, 113px);
+  height: max(18vmin, 113px);
+  border: none;
+  background: none;
+  padding: 0;
+  z-index: 3;
+  transition: transform 1.2s ease-in-out;
+}
+.aquario .caranguejo img { width: 100%; height: 100%; }
+.aquario .caranguejo.anda { transform: translateX(-14vmin); }
+
+.aquario .peixe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: calc(max(17vmin, 90px) * var(--t, 1));
+  height: calc(max(17vmin, 90px) * var(--t, 1));
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+  will-change: transform;
+  pointer-events: none;
+  z-index: 2;
+}
+.aquario .peixe .nada { width: 100%; height: 100%; animation: aq-boia 3.2s ease-in-out infinite; }
+.aquario .peixe img { width: 100%; height: 100%; transition: transform 0.5s ease; }
+/* As imagens desenhadas a olhar para a direita viram-se ao nadar para a esquerda; os peixes Noto, desenhados a olhar para a esquerda, fazem o contrário.*/
+.aquario .peixe.esq img { transform: scaleX(-1); }
+.aquario .peixe.nativo-esq img { transform: scaleX(-1); }
+.aquario .peixe.nativo-esq.esq img { transform: none; }
+.aquario .peixe.come .nada { animation: aq-come 0.5s ease 2; }
+
+.aquario .onda {
+  position: absolute;
+  width: 16vmin;
+  height: 16vmin;
+  margin: -8vmin 0 0 -8vmin;
+  border-radius: 50%;
+  border: 0.8vmin solid rgba(255, 255, 255, 0.9);
+  pointer-events: none;
+  animation: aq-onda 1.2s ease-out forwards;
+}
+.aquario .comida {
+  position: absolute;
+  width: 2.6vmin;
+  height: 2.6vmin;
+  margin: -1.3vmin 0 0 -1.3vmin;
+  border-radius: 50%;
+  background: #c8641e;
+  border: 0.4vmin solid #5a2a08;
+  transition: transform 5s linear, opacity 0.4s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+.aquario .comida.comido, .aquario .comida.some { opacity: 0; }
+
+.aquario .bolha {
+  position: absolute;
+  border: none;
+  background: none;
+  padding: 0;
+  z-index: 4;
+  transition: transform 14s linear;
+}
+.aquario .bolha img { width: 100%; height: 100%; }
+.aquario .bolha.estoura img { animation: aq-estoura 0.45s ease-out forwards; }
+
+.aquario .cavalo {
+  position: absolute;
+  border: none;
+  background: none;
+  padding: 0;
+  z-index: 4;
+  transition: transform 22s linear;
+}
+.aquario .cavalo .nada { width: 100%; height: 100%; animation: aq-boia 2.6s ease-in-out infinite; }
+.aquario .cavalo img { width: 100%; height: 100%; }
+.aquario .cavalo.esq img { transform: scaleX(-1); }
+.aquario .cavalo.gira .nada { animation: aq-gira 1s ease; }
+
+@keyframes aq-boia { 0%, 100% { transform: translateY(-1.2vmin); } 50% { transform: translateY(1.2vmin); } }
+@keyframes aq-baloica { 0%, 100% { transform: rotate(-4deg); } 50% { transform: rotate(4deg); } }
+@keyframes aq-onda { from { transform: scale(0.2); opacity: 1; } to { transform: scale(2.4); opacity: 0; } }
+@keyframes aq-come { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.15); } }
+@keyframes aq-estoura { 0% { transform: scale(1); opacity: 1; } 100% { transform: scale(1.6); opacity: 0; } }
+@keyframes aq-gira { from { transform: rotate(0); } to { transform: rotate(360deg); } }

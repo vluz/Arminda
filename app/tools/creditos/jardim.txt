@@ -1,0 +1,2 @@
+www/img/noto/caracol.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f40c.svg, Apache 2.0
+www/img/noto/erva.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f33f.svg, Apache 2.0

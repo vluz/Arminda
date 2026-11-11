@@ -1,0 +1,80 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Na Sueca, jogas com a Rosa contra o Manel e o Zé."
+  ],
+  [
+   "comecar",
+   "Vamos jogar à sueca! Tu e a Rosa contra o Manel e o Zé."
+  ],
+  [
+   "trunfo_copas",
+   "O trunfo é copas!"
+  ],
+  [
+   "trunfo_ouros",
+   "O trunfo é ouros!"
+  ],
+  [
+   "trunfo_espadas",
+   "O trunfo é espadas!"
+  ],
+  [
+   "trunfo_paus",
+   "O trunfo é paus!"
+  ],
+  [
+   "instrucao_pista",
+   "Toca numa carta para a jogares. A carta que brilha é boa ideia."
+  ],
+  [
+   "instrucao",
+   "Toca numa carta para a jogares."
+  ],
+  [
+   "assistir",
+   "Tens de jogar do mesmo naipe. As cartas escuras ficam para depois."
+  ],
+  [
+   "vaza_tua",
+   "Esta é tua!"
+  ],
+  [
+   "vaza_rosa",
+   "Esta é da Rosa. É nossa!"
+  ],
+  [
+   "vaza_manel",
+   "Esta é do Manel."
+  ],
+  [
+   "vaza_ze",
+   "Esta é do Zé."
+  ],
+  [
+   "ganhamos",
+   "Ganhámos! Tu e a Rosa são uma grande equipa!"
+  ],
+  [
+   "ganhamos_muito",
+   "Mais de noventa pontos! Que vitória bonita!"
+  ],
+  [
+   "bandeira",
+   "Todas as vazas! Que bandeira!"
+  ],
+  [
+   "empate",
+   "Empate! Sessenta pontos para cada lado."
+  ],
+  [
+   "perdemos",
+   "Desta vez ganharam eles. Jogaste muito bem!"
+  ],
+  [
+   "fim",
+   "A Rosa, o Manel e o Zé agradecem o jogo!"
+  ]
+ ]
+}

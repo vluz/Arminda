@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Paciência: a column of overlapping cards beside a face-down stack -->
+  <g stroke="#111111" stroke-width="5">
+    <rect x="10" y="14" width="44" height="62" rx="7" fill="#0a6fd6"/>
+    <circle cx="32" cy="45" r="8" fill="#ffffff" stroke-width="0"/>
+    <rect x="62" y="10" width="56" height="78" rx="8" fill="#ffffff"/>
+    <rect x="62" y="30" width="56" height="78" rx="8" fill="#ffffff"/>
+    <rect x="62" y="50" width="56" height="70" rx="8" fill="#ffffff"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-weight="900" font-size="17">
+    <text x="68" y="27" fill="#111111">R</text>
+    <path d="M90 15C86 21 80 23 81 27C82 30 86 30 88 28C88 30 87 31 85 32H95C93 31 92 30 92 28C94 30 98 30 99 27C100 23 94 21 90 15Z" fill="#111111"/>
+    <text x="68" y="47" fill="#d0021b">D</text>
+    <path d="M91 47C86 43 82 40 83 36C84 33 89 32 91 36C93 32 98 33 99 36C100 40 96 43 91 47Z" fill="#e63946"/>
+    <text x="68" y="67" fill="#111111">V</text>
+    <path d="M90 84L101 98L90 112L79 98Z" fill="#d0021b" stroke="#111111" stroke-width="2"/>
+  </g>
+</svg>

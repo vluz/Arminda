@@ -1,0 +1,73 @@
+/* Quem é quem: a fotografia ao lado (ou por cima) dos nomes; no contrário, fotografias à escolha.
+   Os estilos partilhados dos botões estão em escolhas.css.*/
+.quem-zona {
+  position: absolute;
+  inset: 0 0 2.4vmin;
+  display: flex;
+  gap: 3vmin;
+}
+.quem-zona.paisagem { flex-direction: row; }
+.quem-zona.retrato { flex-direction: column; }
+.quem-zona.paisagem .quem-foto { flex: 0 0 52%; }
+.quem-zona.retrato .quem-foto { flex: 0 0 50%; }
+.quem-zona.fotos { flex-direction: row; }
+
+.quem-foto {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  padding: 0;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  background: #111;
+  box-shadow: var(--sombra);
+  overflow: hidden;
+  animation: aparece 0.45s ease;
+}
+.quem-foto img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.quem-nomes {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  display: grid;
+  gap: 2.4vmin;
+  place-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.quem-nome { color: var(--texto); }
+.quem-nome span {
+  display: block;
+  width: 100%;
+  line-height: 1.1;
+  overflow-wrap: break-word;
+  pointer-events: none;
+}
+/* A pista: o certo brilha, além de piscar.*/
+.quem .esc-op.pista {
+  box-shadow: 0 0 0 1vmin var(--amarelo), 0 0 4vmin 2vmin var(--amarelo);
+}
+
+.quem-fotos { flex: 1; min-width: 0; min-height: 0; }
+.quem-opfoto { overflow: hidden; background: #111; }
+.quem .quem-opfoto img { width: 100%; height: 100%; object-fit: cover; }
+.quem-ouvir {
+  flex: none;
+  align-self: center;
+  width: max(15vmin, 113px);
+  height: max(15vmin, 113px);
+  border-radius: 50%;
+  border: var(--borda) solid var(--linha);
+  background: var(--amarelo);
+  box-shadow: var(--sombra);
+  padding: 2vmin;
+}
+.quem-ouvir img { width: 100%; height: 100%; pointer-events: none; }

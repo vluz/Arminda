@@ -1,0 +1,133 @@
+/* Sopa de letras */
+.sopa {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  gap: 24px;
+}
+.sopa.em-pe { flex-direction: column; }
+.sopa-lista {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+.sopa.em-pe .sopa-lista { flex-direction: row; flex-wrap: wrap; align-content: center; justify-content: center; }
+.sopa.em-pe .sopa-item { width: 31%; font-size: min(calc(var(--alt) * 0.42), 4.2vmin); }
+.sopa-item {
+  height: var(--alt);
+  display: flex;
+  align-items: center;
+  gap: 1.5vmin;
+  padding: 0 1.5vmin;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: 2vmin;
+  font-size: min(calc(var(--alt) * 0.42), 5.2vmin);
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  transition: background 0.3s ease;
+}
+.sopa-item img { height: 80%; aspect-ratio: 1; object-fit: contain; flex: none; }
+.sopa-item.feita { background: var(--cor); animation: salta 0.6s ease; }
+.sopa-item.feita span { text-decoration: line-through; text-decoration-thickness: 0.12em; }
+
+.sopa-zona { flex: 1; min-width: 0; min-height: 0; display: grid; place-items: center; }
+.sopa-grelha {
+  position: relative;
+  display: grid;
+  gap: 6px;
+  touch-action: none;
+}
+.sopa-letra {
+  width: var(--lado);
+  height: var(--lado);
+  display: grid;
+  place-items: center;
+  background: var(--branco);
+  border: 3px solid var(--linha);
+  border-radius: 1.6vmin;
+  font-size: calc(var(--lado) * 0.62);
+  font-weight: 800;
+  line-height: 1;
+  color: var(--texto);
+  transition: background 0.15s ease;
+}
+.sopa-letra.sel { background: #ffe066; box-shadow: 0 0 0 4px var(--laranja) inset; }
+.sopa-letra.pista { animation: sopa-pisca 0.7s ease 6; }
+.sopa-faixas { position: absolute; inset: 0; pointer-events: none; }
+.sopa-faixa {
+  position: absolute;
+  border-radius: 999px;
+  opacity: 0.5;
+  border: 3px solid var(--linha);
+  animation: sopa-faixa 0.4s ease;
+}
+@keyframes sopa-pisca {
+  0%, 100% { background: var(--branco); transform: scale(1); }
+  50% { background: var(--rosa); transform: scale(1.08); }
+}
+@keyframes sopa-faixa { from { opacity: 0; } to { opacity: 0.5; } }
+
+/* Níveis 7 e acima: casas mais pequenas, uma lista só de imagens, ou só o tema e quantas palavras são*/
+.sopa-grelha.miuda .sopa-letra { border-width: 2.5px; border-radius: 10px; }
+.sopa-lista.lista-figuras { display: grid; gap: 8px; align-content: center; justify-content: center; }
+.sopa.em-pe .sopa-lista.lista-figuras { display: grid; }
+.sopa-fig {
+  width: var(--fig);
+  height: var(--fig);
+  display: grid;
+  place-items: center;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: 2vmin;
+  transition: background 0.3s ease;
+}
+.sopa-fig img { width: 78%; height: 78%; object-fit: contain; }
+.sopa-fig.feita { background: var(--cor); animation: salta 0.6s ease; }
+.sopa-fig.feita img { opacity: 0.55; }
+.sopa-lista.lista-conta { justify-content: flex-start; }
+.sopa.em-pe .sopa-lista.lista-conta { flex-direction: row; align-items: center; }
+.sopa-tema {
+  display: flex;
+  align-items: center;
+  gap: 1.5vmin;
+  font-size: 30px;
+  font-weight: 800;
+}
+.sopa-tema img { width: 56px; height: 56px; object-fit: contain; }
+.sopa-conta {
+  font-family: var(--digitos);
+  font-size: 34px;
+  font-weight: 800;
+  padding: 2px 14px;
+  align-self: flex-start;
+  background: var(--amarelo);
+  border: var(--borda) solid var(--linha);
+  border-radius: 999px;
+}
+.sopa-vagas { flex: 1; min-height: 0; display: grid; grid-template-columns: 1fr; grid-auto-rows: 1fr; gap: 6px; }
+.sopa.em-pe .sopa-vagas { grid-template-columns: repeat(4, 1fr); height: 100%; }
+.sopa-vaga {
+  min-height: 0;
+  display: grid;
+  place-items: center;
+  background: var(--branco);
+  border: 3px dashed #777;
+  border-radius: 1.4vmin;
+  font-size: 20px;
+  font-weight: 800;
+  color: #888;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.sopa-vaga.feita { background: var(--branco); border: 3px solid var(--linha); box-shadow: inset 14px 0 0 var(--cor); color: var(--texto); font-size: 21px; animation: salta 0.6s ease; }
+
+/* Sensação de jogo: barra de progresso, com a série escrita lá dentro*/
+.sopa-progresso { flex: none; height: 36px; display: flex; align-items: center; grid-column: 1 / -1; flex-basis: 36px; }
+.sopa-barra { position: relative; flex: 1; height: 32px; background: var(--branco); border: 3px solid var(--linha); border-radius: 999px; overflow: hidden; }
+.sopa-enche { width: 0; height: 100%; background: var(--amarelo); transition: width 0.6s ease; }
+.sopa-serie { position: absolute; inset: 0; display: grid; place-items: center; font-size: 19px; font-weight: 800; white-space: nowrap; color: var(--texto); }
+.sopa-serie.viva { animation: salta 0.6s ease; }
+.sopa.em-pe .sopa-progresso { flex-basis: 100%; }

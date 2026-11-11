@@ -1,0 +1,96 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Nas Sardinhas, apanhas as sardinhas que saltam da água, como nos Santos Populares."
+  ],
+  [
+   "instrucao",
+   "Toca nas sardinhas quando saltarem da água."
+  ],
+  [
+   "instrucao_gato",
+   "Cuidado! O gato também quer sardinhas. No gato não se toca."
+  ],
+  [
+   "lateral",
+   "Agora as sardinhas nadam para o lado. Atenção!"
+  ],
+  [
+   "gato1",
+   "Miau! Eu não sou uma sardinha!"
+  ],
+  [
+   "gato2",
+   "Ai, que cócegas! Miau!"
+  ],
+  [
+   "gato3",
+   "Sou eu, o gato! As sardinhas são as outras."
+  ],
+  [
+   "fugiu",
+   "Essa fugiu. Vem aí outra!"
+  ],
+  [
+   "calma",
+   "Com calma. Toca quando a sardinha estiver no ar."
+  ],
+  [
+   "fim",
+   "Que bela pescaria! Vamos assar as sardinhas!"
+  ],
+  [
+   "varias",
+   "Agora saltam várias de cada vez, umas mais depressa do que outras."
+  ],
+  [
+   "vira",
+   "Cuidado, há sardinhas que mudam de direção no ar!"
+  ],
+  [
+   "ouro_aviso",
+   "Às vezes salta uma sardinha dourada. Essa é especial!"
+  ],
+  [
+   "ouro1",
+   "Uma sardinha dourada! Que sorte!"
+  ],
+  [
+   "ouro2",
+   "Dourada! Isto é que é pescar!"
+  ],
+  [
+   "so_grandes",
+   "Agora só as sardinhas grandes! As pequeninas deixa-as crescer."
+  ],
+  [
+   "so_prateadas",
+   "Agora só as sardinhas prateadas! Os outros peixes deixa-os nadar."
+  ],
+  [
+   "muda",
+   "Atenção, mudei a regra!"
+  ],
+  [
+   "pequena1",
+   "Essa é pequenina! Deixa-a crescer."
+  ],
+  [
+   "pequena2",
+   "Ainda é bebé! Deixa-a nadar mais um bocadinho."
+  ],
+  [
+   "outro1",
+   "Esse não é sardinha! Deixa-o nadar."
+  ],
+  [
+   "outro2",
+   "Ui, esse peixe é colorido! Esse não."
+  ],
+  [
+   "melhor",
+   "Apanhaste mais do que da última vez!"
+  ]
+ ]
+}

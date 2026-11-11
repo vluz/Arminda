@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace = "pt.mae.jogos"
+    compileSdk = rootProject.ext.compileSdkVersion
+    defaultConfig {
+        applicationId "pt.mae.jogos"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        // Os testes da atualização automática no emulador mudam isto com -PcodigoVersao=6 -PnomeVersao=0.6.0-teste;
+        // uma construção para o tablet nunca os passa.
+        versionCode((project.findProperty('codigoVersao') ?: '7') as int)
+        versionName(project.findProperty('nomeVersao') ?: "0.7.0")
+        // O testOnly está desligado desde a 0.4.0: o PackageInstaller recusa APK testOnly, e a app não se
+        // conseguiria atualizar. -PsomenteTeste=true só para o teste dessa regra no emulador.
+        // -PtesteLocal deixa passar HTTP simples para 10.0.2.2 (o servidor de teste local do PC, só no emulador).
+        manifestPlaceholders = [
+            somenteTeste: (project.findProperty('somenteTeste') ?: 'false'),
+            redeConfig: project.hasProperty('testeLocal') ? '@xml/rede_teste_local' : '@xml/rede'
+        ]
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        aaptOptions {
+             // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
+             // Default: https://android.googlesource.com/platform/frameworks/base/+/282e181b58cf72b6ca770dc7ca5f91f135444502/tools/aapt/AaptAssets.cpp#61
+            ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    flatDir{
+        dirs '../capacitor-cordova-android-plugins/src/main/libs', 'libs'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
+    implementation "androidx.coordinatorlayout:coordinatorlayout:$androidxCoordinatorLayoutVersion"
+    implementation "androidx.core:core-splashscreen:$coreSplashScreenVersion"
+    implementation project(':capacitor-android')
+    testImplementation "junit:junit:$junitVersion"
+    androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
+    implementation project(':capacitor-cordova-android-plugins')
+}
+
+apply from: 'capacitor.build.gradle'
+
+try {
+    def servicesJSON = file('google-services.json')
+    if (servicesJSON.text) {
+        apply plugin: 'com.google.gms.google-services'
+    }
+} catch(Exception e) {
+    logger.info("google-services.json not found, google-services plugin not applied. Push Notifications won't work")
+}

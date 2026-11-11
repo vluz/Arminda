@@ -1,0 +1,7 @@
+www/snd/sardinha-apanha.ogg, https://kenney.nl/assets/interface-sounds (Audio/drop_003.ogg), CC0 1.0
+www/snd/sardinha-gato.ogg, https://kenney.nl/assets/impact-sounds (Audio/impactSoft_medium_001.ogg), CC0 1.0
+www/img/noto/brilho.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u2728.svg, Apache 2.0
+www/snd/sardinha-serie1.ogg, https://kenney.nl/assets/interface-sounds (Audio/drop_003.ogg, com o tom subido com o ffmpeg), CC0 1.0
+www/snd/sardinha-serie2.ogg, https://kenney.nl/assets/interface-sounds (Audio/drop_003.ogg, com o tom subido com o ffmpeg), CC0 1.0
+www/snd/sardinha-serie3.ogg, https://kenney.nl/assets/interface-sounds (Audio/drop_003.ogg, com o tom subido com o ffmpeg), CC0 1.0
+www/snd/sardinha-serie4.ogg, https://kenney.nl/assets/interface-sounds (Audio/drop_003.ogg, com o tom subido com o ffmpeg), CC0 1.0

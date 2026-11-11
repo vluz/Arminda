@@ -1,0 +1,46 @@
+/* Jardim: etiquetas e pragas dos níveis 3 a 5 (os estilos de base estão em app.css).*/
+.vaso-flor .placa {
+  position: absolute;
+  left: -4%;
+  bottom: 30%;
+  width: 46%;
+  aspect-ratio: 1;
+  background: var(--branco);
+  border: 0.5vmin solid var(--linha);
+  border-radius: 1.2vmin;
+  display: grid;
+  place-items: center;
+  z-index: 1;
+  pointer-events: none;
+}
+.vaso-flor .placa::after {
+  content: "";
+  position: absolute;
+  left: 44%;
+  top: 100%;
+  width: 12%;
+  height: 40%;
+  background: #8b5a2b;
+  border: 0.3vmin solid var(--linha);
+  border-top: none;
+}
+.vaso-flor .placa img { width: 80%; height: 80%; object-fit: contain; }
+
+.vaso-flor .praga {
+  position: absolute;
+  left: 26%;
+  bottom: 0;
+  width: 66%;
+  z-index: 2;
+  pointer-events: none;
+  animation: aparece 0.5s ease;
+}
+.vaso-flor .praga img { width: 100%; filter: drop-shadow(0 0.6vmin 0 rgba(0, 0, 0, 0.3)); }
+.vaso-flor .praga.caracol img { animation: jd-rasteja 2.4s ease-in-out infinite; }
+.vaso-flor .praga.erva img { transform-origin: 50% 100%; animation: baloica 2.5s ease-in-out infinite; }
+.vaso-flor .praga.sai { transition: transform 0.6s ease, opacity 0.6s ease; transform: translate(60%, -60%) rotate(25deg); opacity: 0; }
+
+@keyframes jd-rasteja { 0%, 100% { transform: translateX(-4%); } 50% { transform: translateX(4%); } }
+
+/* A borboleta ou o pássaro são coisas em que se pode tocar: manter pelo menos o alvo de 113 px (o app.css desenha-os a 12vmin, 72 px num tablet de 1024x600).*/
+.jardim .bicho { width: max(12vmin, 113px); }

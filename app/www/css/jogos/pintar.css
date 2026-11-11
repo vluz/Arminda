@@ -1,0 +1,187 @@
+/* Azulejos: o azulejo (e o seu modelo) ao lado de uma paleta de potes de tinta grandes.*/
+.pz-cena {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  gap: 2vmin;
+  padding-top: 3.4vmin;
+}
+.pz-cena.paisagem { grid-template-columns: minmax(0, 1fr) auto; }
+.pz-cena.retrato { grid-template-rows: minmax(0, 1fr) auto; }
+.pz-cena .lida-barra { right: 22vmin; top: 0.2vmin; }
+
+.pz-pontos {
+  position: absolute;
+  top: -1vmin;
+  right: 1vmin;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  gap: 1vmin;
+  background: var(--branco);
+  border: 3px solid var(--linha);
+  border-radius: 999px;
+  padding: 0.2vmin 2vmin 0.2vmin 0.6vmin;
+  font-family: var(--digitos);
+  font-weight: 900;
+  font-size: 4vmin;
+}
+.pz-pontos img { width: 5vmin; height: 5vmin; }
+.pz-pontos.salta { animation: salta 0.5s ease; }
+
+/* A zona de trabalho*/
+.pz-obra {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vmin;
+}
+.pz-cena.retrato .pz-obra { flex-direction: column; }
+.pz-quadro {
+  width: var(--tam);
+  height: var(--tam);
+  flex: none;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: 1.2vmin;
+  box-shadow: var(--sombra);
+  overflow: hidden;
+  touch-action: none;
+}
+.pz-quadro svg { display: block; width: 100%; height: 100%; }
+.pz-quadro path[data-r] { transition: fill 0.3s ease; cursor: pointer; }
+.pz-quadro.apaga svg { transition: opacity 0.5s ease; opacity: 0.2; }
+.pz-modelo { position: relative; flex: none; }
+.pz-modelo .pz-quadro { width: calc(var(--tam) * 0.42); height: calc(var(--tam) * 0.42); }
+.pz-modelo::before {
+  content: "";
+  position: absolute;
+  left: -2.5vmin;
+  top: -2.5vmin;
+  width: 8vmin;
+  height: 8vmin;
+  background: var(--amarelo) url("../../img/noto/estrela.svg") center / 70% no-repeat;
+  border: 3px solid var(--linha);
+  border-radius: 50%;
+  z-index: 2;
+}
+
+/* Painel: 2 x 2, o azulejo de cima à esquerda é o modelo; os outros são espelhos dele.*/
+.pz-painel {
+  display: grid;
+  grid-template-columns: repeat(2, calc(var(--tam) / 2));
+  grid-template-rows: repeat(2, calc(var(--tam) / 2));
+  border: var(--borda) solid var(--linha);
+  border-radius: 1.2vmin;
+  box-shadow: var(--sombra);
+  overflow: hidden;
+}
+.pz-painel .pz-quadro { width: 100%; height: 100%; border: none; border-radius: 0; box-shadow: none; }
+.pz-painel .q1 { transform: scaleX(-1); }
+.pz-painel .q2 { transform: scaleY(-1); }
+.pz-painel .q3 { transform: scale(-1, -1); }
+.pz-painel .q0 { position: relative; outline: 0.8vmin solid var(--amarelo); outline-offset: -0.8vmin; }
+
+.pz-espreita {
+  position: absolute;
+  right: 1vmin;
+  top: 1vmin;
+  width: calc(var(--tam) * 0.42);
+  height: calc(var(--tam) * 0.42);
+  z-index: 5;
+  border: var(--borda) solid var(--linha);
+  border-radius: 1.2vmin;
+  background: var(--branco);
+  box-shadow: var(--sombra);
+  animation: aparece 0.3s ease;
+  pointer-events: none;
+}
+.pz-espreita svg { display: block; width: 100%; height: 100%; }
+
+.pz-obra.feito > .pz-quadro:not(.pz-feito), .pz-obra.feito > .pz-painel { animation: pz-brilho 0.7s ease 2; }
+
+/* Potes de tinta*/
+.pz-paleta {
+  position: relative;
+  min-height: 0;
+  display: grid;
+  gap: 12px;
+  place-content: center;
+  padding: 12px;
+  background: #f4ead2;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+}
+.pz-tinta {
+  width: var(--lado);
+  height: var(--lado);
+  padding: 0;
+  border: var(--borda) solid var(--linha);
+  border-radius: 50%;
+  background: var(--branco);
+  box-shadow: var(--sombra);
+  display: grid;
+  place-items: center;
+  transition: transform 0.15s ease;
+}
+.pz-gota { width: 78%; height: 78%; border-radius: 50%; background: var(--cor); border: 3px solid rgba(17, 17, 17, 0.5); }
+.pz-tinta.escolhida { transform: translateY(-1.2vmin) scale(1.06); outline: 1vmin solid var(--linha); outline-offset: 0.4vmin; box-shadow: 0 2.4vmin 0 rgba(0, 0, 0, 0.3); }
+
+.pz-pingo {
+  position: absolute;
+  z-index: 6;
+  width: 14vmin;
+  height: 14vmin;
+  margin: -7vmin 0 0 -7vmin;
+  border-radius: 50%;
+  border: 1.2vmin solid var(--cor);
+  pointer-events: none;
+  animation: pz-pingo 0.6s ease-out forwards;
+}
+
+.pz-pronto {
+  position: absolute;
+  z-index: 6;
+  left: 50%;
+  bottom: 1vmin;
+  transform: translateX(-50%);
+  min-width: 30vmin;
+  min-height: 113px;
+  animation: aparece 0.4s ease;
+}
+.pz-cena.paisagem .pz-pronto { left: auto; right: 1vmin; transform: none; bottom: 1vmin; }
+
+/* A parede de azulejos da pessoa*/
+.pz-parede {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: #e9dcc0;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  padding: 2vmin;
+}
+.pz-grade {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 0.8vmin;
+  max-width: 100%;
+}
+.pz-mini { width: var(--mini, 14vmin); aspect-ratio: 1; border: 2px solid #1b2a4a; background: var(--branco); box-shadow: 0 0.6vmin 0 rgba(0, 0, 0, 0.25); }
+.pz-mini svg { display: block; width: 100%; height: 100%; }
+.pz-mini.novo { animation: aparece 0.6s ease both; outline: 0.8vmin solid var(--amarelo); }
+
+.pz-enche { animation: pz-enche 0.35s ease; }
+.pz-errado { animation: pz-errado 0.6s ease; }
+.pz-pisca { animation: pz-errado 0.5s ease 4; }
+
+@keyframes pz-pingo { from { transform: scale(0.2); opacity: 1; } to { transform: scale(1.3); opacity: 0; } }
+@keyframes pz-enche { 0% { opacity: 0.4; } 100% { opacity: 1; } }
+@keyframes pz-errado { 0%, 100% { opacity: 1; } 25%, 75% { opacity: 0.25; } 50% { opacity: 1; } }
+@keyframes pz-brilho { 0%, 100% { filter: brightness(1); transform: scale(1); } 50% { filter: brightness(1.15); transform: scale(1.03); } }

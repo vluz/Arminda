@@ -1,0 +1,1104 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Na Feira, compras fruta e outras coisas boas e pagas com moedas."
+  ],
+  [
+   "instrucao",
+   "Toca nas moedas para pagar o preço certo."
+  ],
+  [
+   "instrucao_uma",
+   "Toca na moeda que paga o preço."
+  ],
+  [
+   "instrucao_troco",
+   "Paga com a nota. Depois escolhe o troco certo."
+  ],
+  [
+   "essa_muito",
+   "Essa é demais. Escolhe outra."
+  ],
+  [
+   "essa_pouco",
+   "Essa não chega. Escolhe outra."
+  ],
+  [
+   "demais",
+   "É demais! Toma as moedas e tenta outra vez."
+  ],
+  [
+   "obrigada",
+   "Obrigada, {freguesa|freguês}!"
+  ],
+  [
+   "qual_barato",
+   "Qual é o mais barato? Toca nele."
+  ],
+  [
+   "qual_barato2",
+   "E agora, qual é o mais barato?"
+  ],
+  [
+   "barato_certo",
+   "Esse é mais barato. Boa escolha!"
+  ],
+  [
+   "barato_nao",
+   "Esse é mais caro. Olha bem os preços."
+  ],
+  [
+   "qual_troco",
+   "Qual é o troco certo?"
+  ],
+  [
+   "troco_certo",
+   "Isso mesmo! O troco é"
+  ],
+  [
+   "troco_nao",
+   "Esse troco não está certo. Faz a conta com calma."
+  ],
+  [
+   "lista",
+   "Hoje trazes uma lista de compras."
+  ],
+  [
+   "lista_outra",
+   "Mais uma lista."
+  ],
+  [
+   "total",
+   "Ao todo, é"
+  ],
+  [
+   "soma_tu",
+   "Soma os dois preços e paga tudo junto."
+  ],
+  [
+   "fim",
+   "Que boas compras! O cesto está cheio."
+  ],
+  [
+   "i_macas",
+   "Maçãs."
+  ],
+  [
+   "i_laranjas",
+   "Laranjas."
+  ],
+  [
+   "i_pao",
+   "Pão."
+  ],
+  [
+   "i_couve",
+   "Couve."
+  ],
+  [
+   "i_ovos",
+   "Ovos."
+  ],
+  [
+   "i_queijo",
+   "Queijo."
+  ],
+  [
+   "i_tomates",
+   "Tomates."
+  ],
+  [
+   "i_peras",
+   "Peras."
+  ],
+  [
+   "i_uvas",
+   "Uvas."
+  ],
+  [
+   "i_cerejas",
+   "Cerejas."
+  ],
+  [
+   "i_melancia",
+   "Melancia."
+  ],
+  [
+   "i_bananas",
+   "Bananas."
+  ],
+  [
+   "i_morangos",
+   "Morangos."
+  ],
+  [
+   "i_batatas",
+   "Batatas."
+  ],
+  [
+   "i_cebolas",
+   "Cebolas."
+  ],
+  [
+   "i_mel",
+   "Mel."
+  ],
+  [
+   "i_flores",
+   "Flores."
+  ],
+  [
+   "i_limoes",
+   "Limões."
+  ],
+  [
+   "i_ananas",
+   "Ananás."
+  ],
+  [
+   "i_sardinhas",
+   "Sardinhas."
+  ],
+  [
+   "p_10",
+   "Dez cêntimos."
+  ],
+  [
+   "p_20",
+   "Vinte cêntimos."
+  ],
+  [
+   "p_30",
+   "Trinta cêntimos."
+  ],
+  [
+   "p_40",
+   "Quarenta cêntimos."
+  ],
+  [
+   "p_50",
+   "Cinquenta cêntimos."
+  ],
+  [
+   "p_60",
+   "Sessenta cêntimos."
+  ],
+  [
+   "p_70",
+   "Setenta cêntimos."
+  ],
+  [
+   "p_80",
+   "Oitenta cêntimos."
+  ],
+  [
+   "p_90",
+   "Noventa cêntimos."
+  ],
+  [
+   "p_100",
+   "Um euro."
+  ],
+  [
+   "p_110",
+   "Um euro e dez."
+  ],
+  [
+   "p_120",
+   "Um euro e vinte."
+  ],
+  [
+   "p_130",
+   "Um euro e trinta."
+  ],
+  [
+   "p_140",
+   "Um euro e quarenta."
+  ],
+  [
+   "p_150",
+   "Um euro e cinquenta."
+  ],
+  [
+   "p_160",
+   "Um euro e sessenta."
+  ],
+  [
+   "p_170",
+   "Um euro e setenta."
+  ],
+  [
+   "p_180",
+   "Um euro e oitenta."
+  ],
+  [
+   "p_190",
+   "Um euro e noventa."
+  ],
+  [
+   "p_200",
+   "Dois euros."
+  ],
+  [
+   "p_210",
+   "Dois euros e dez."
+  ],
+  [
+   "p_220",
+   "Dois euros e vinte."
+  ],
+  [
+   "p_230",
+   "Dois euros e trinta."
+  ],
+  [
+   "p_240",
+   "Dois euros e quarenta."
+  ],
+  [
+   "p_250",
+   "Dois euros e cinquenta."
+  ],
+  [
+   "p_260",
+   "Dois euros e sessenta."
+  ],
+  [
+   "p_270",
+   "Dois euros e setenta."
+  ],
+  [
+   "p_280",
+   "Dois euros e oitenta."
+  ],
+  [
+   "p_290",
+   "Dois euros e noventa."
+  ],
+  [
+   "p_300",
+   "Três euros."
+  ],
+  [
+   "p_310",
+   "Três euros e dez."
+  ],
+  [
+   "p_320",
+   "Três euros e vinte."
+  ],
+  [
+   "p_330",
+   "Três euros e trinta."
+  ],
+  [
+   "p_340",
+   "Três euros e quarenta."
+  ],
+  [
+   "p_350",
+   "Três euros e cinquenta."
+  ],
+  [
+   "p_360",
+   "Três euros e sessenta."
+  ],
+  [
+   "p_370",
+   "Três euros e setenta."
+  ],
+  [
+   "p_380",
+   "Três euros e oitenta."
+  ],
+  [
+   "p_390",
+   "Três euros e noventa."
+  ],
+  [
+   "p_400",
+   "Quatro euros."
+  ],
+  [
+   "p_410",
+   "Quatro euros e dez."
+  ],
+  [
+   "p_420",
+   "Quatro euros e vinte."
+  ],
+  [
+   "p_430",
+   "Quatro euros e trinta."
+  ],
+  [
+   "p_440",
+   "Quatro euros e quarenta."
+  ],
+  [
+   "p_450",
+   "Quatro euros e cinquenta."
+  ],
+  [
+   "p_460",
+   "Quatro euros e sessenta."
+  ],
+  [
+   "p_470",
+   "Quatro euros e setenta."
+  ],
+  [
+   "p_480",
+   "Quatro euros e oitenta."
+  ],
+  [
+   "p_490",
+   "Quatro euros e noventa."
+  ],
+  [
+   "p_500",
+   "Cinco euros."
+  ],
+  [
+   "p_510",
+   "Cinco euros e dez."
+  ],
+  [
+   "p_520",
+   "Cinco euros e vinte."
+  ],
+  [
+   "p_530",
+   "Cinco euros e trinta."
+  ],
+  [
+   "p_540",
+   "Cinco euros e quarenta."
+  ],
+  [
+   "p_550",
+   "Cinco euros e cinquenta."
+  ],
+  [
+   "p_560",
+   "Cinco euros e sessenta."
+  ],
+  [
+   "p_570",
+   "Cinco euros e setenta."
+  ],
+  [
+   "p_580",
+   "Cinco euros e oitenta."
+  ],
+  [
+   "p_590",
+   "Cinco euros e noventa."
+  ],
+  [
+   "p_600",
+   "Seis euros."
+  ],
+  [
+   "p_610",
+   "Seis euros e dez."
+  ],
+  [
+   "p_620",
+   "Seis euros e vinte."
+  ],
+  [
+   "p_630",
+   "Seis euros e trinta."
+  ],
+  [
+   "p_640",
+   "Seis euros e quarenta."
+  ],
+  [
+   "p_650",
+   "Seis euros e cinquenta."
+  ],
+  [
+   "p_660",
+   "Seis euros e sessenta."
+  ],
+  [
+   "p_670",
+   "Seis euros e setenta."
+  ],
+  [
+   "p_680",
+   "Seis euros e oitenta."
+  ],
+  [
+   "p_690",
+   "Seis euros e noventa."
+  ],
+  [
+   "p_700",
+   "Sete euros."
+  ],
+  [
+   "p_710",
+   "Sete euros e dez."
+  ],
+  [
+   "p_720",
+   "Sete euros e vinte."
+  ],
+  [
+   "p_730",
+   "Sete euros e trinta."
+  ],
+  [
+   "p_740",
+   "Sete euros e quarenta."
+  ],
+  [
+   "p_750",
+   "Sete euros e cinquenta."
+  ],
+  [
+   "p_760",
+   "Sete euros e sessenta."
+  ],
+  [
+   "p_770",
+   "Sete euros e setenta."
+  ],
+  [
+   "p_780",
+   "Sete euros e oitenta."
+  ],
+  [
+   "p_790",
+   "Sete euros e noventa."
+  ],
+  [
+   "p_800",
+   "Oito euros."
+  ],
+  [
+   "p_810",
+   "Oito euros e dez."
+  ],
+  [
+   "p_820",
+   "Oito euros e vinte."
+  ],
+  [
+   "p_830",
+   "Oito euros e trinta."
+  ],
+  [
+   "p_840",
+   "Oito euros e quarenta."
+  ],
+  [
+   "p_850",
+   "Oito euros e cinquenta."
+  ],
+  [
+   "p_860",
+   "Oito euros e sessenta."
+  ],
+  [
+   "p_870",
+   "Oito euros e setenta."
+  ],
+  [
+   "p_880",
+   "Oito euros e oitenta."
+  ],
+  [
+   "p_890",
+   "Oito euros e noventa."
+  ],
+  [
+   "p_900",
+   "Nove euros."
+  ],
+  [
+   "p_910",
+   "Nove euros e dez."
+  ],
+  [
+   "p_920",
+   "Nove euros e vinte."
+  ],
+  [
+   "p_930",
+   "Nove euros e trinta."
+  ],
+  [
+   "p_940",
+   "Nove euros e quarenta."
+  ],
+  [
+   "p_950",
+   "Nove euros e cinquenta."
+  ],
+  [
+   "p_960",
+   "Nove euros e sessenta."
+  ],
+  [
+   "p_970",
+   "Nove euros e setenta."
+  ],
+  [
+   "p_980",
+   "Nove euros e oitenta."
+  ],
+  [
+   "p_990",
+   "Nove euros e noventa."
+  ],
+  [
+   "p_1000",
+   "Dez euros."
+  ],
+  [
+   "p_1010",
+   "Dez euros e dez."
+  ],
+  [
+   "p_1020",
+   "Dez euros e vinte."
+  ],
+  [
+   "p_1030",
+   "Dez euros e trinta."
+  ],
+  [
+   "p_1040",
+   "Dez euros e quarenta."
+  ],
+  [
+   "p_1050",
+   "Dez euros e cinquenta."
+  ],
+  [
+   "p_1060",
+   "Dez euros e sessenta."
+  ],
+  [
+   "p_1070",
+   "Dez euros e setenta."
+  ],
+  [
+   "p_1080",
+   "Dez euros e oitenta."
+  ],
+  [
+   "p_1090",
+   "Dez euros e noventa."
+  ],
+  [
+   "p_1100",
+   "Onze euros."
+  ],
+  [
+   "p_1110",
+   "Onze euros e dez."
+  ],
+  [
+   "p_1120",
+   "Onze euros e vinte."
+  ],
+  [
+   "p_1130",
+   "Onze euros e trinta."
+  ],
+  [
+   "p_1140",
+   "Onze euros e quarenta."
+  ],
+  [
+   "p_1150",
+   "Onze euros e cinquenta."
+  ],
+  [
+   "p_1160",
+   "Onze euros e sessenta."
+  ],
+  [
+   "p_1170",
+   "Onze euros e setenta."
+  ],
+  [
+   "p_1180",
+   "Onze euros e oitenta."
+  ],
+  [
+   "p_1190",
+   "Onze euros e noventa."
+  ],
+  [
+   "p_1200",
+   "Doze euros."
+  ],
+  [
+   "p_1210",
+   "Doze euros e dez."
+  ],
+  [
+   "p_1220",
+   "Doze euros e vinte."
+  ],
+  [
+   "p_1230",
+   "Doze euros e trinta."
+  ],
+  [
+   "p_1240",
+   "Doze euros e quarenta."
+  ],
+  [
+   "p_1250",
+   "Doze euros e cinquenta."
+  ],
+  [
+   "p_1260",
+   "Doze euros e sessenta."
+  ],
+  [
+   "p_1270",
+   "Doze euros e setenta."
+  ],
+  [
+   "p_1280",
+   "Doze euros e oitenta."
+  ],
+  [
+   "p_1290",
+   "Doze euros e noventa."
+  ],
+  [
+   "p_1300",
+   "Treze euros."
+  ],
+  [
+   "p_1310",
+   "Treze euros e dez."
+  ],
+  [
+   "p_1320",
+   "Treze euros e vinte."
+  ],
+  [
+   "p_1330",
+   "Treze euros e trinta."
+  ],
+  [
+   "p_1340",
+   "Treze euros e quarenta."
+  ],
+  [
+   "p_1350",
+   "Treze euros e cinquenta."
+  ],
+  [
+   "p_1360",
+   "Treze euros e sessenta."
+  ],
+  [
+   "p_1370",
+   "Treze euros e setenta."
+  ],
+  [
+   "p_1380",
+   "Treze euros e oitenta."
+  ],
+  [
+   "p_1390",
+   "Treze euros e noventa."
+  ],
+  [
+   "p_1400",
+   "Catorze euros."
+  ],
+  [
+   "p_1410",
+   "Catorze euros e dez."
+  ],
+  [
+   "p_1420",
+   "Catorze euros e vinte."
+  ],
+  [
+   "p_1430",
+   "Catorze euros e trinta."
+  ],
+  [
+   "p_1440",
+   "Catorze euros e quarenta."
+  ],
+  [
+   "p_1450",
+   "Catorze euros e cinquenta."
+  ],
+  [
+   "p_1460",
+   "Catorze euros e sessenta."
+  ],
+  [
+   "p_1470",
+   "Catorze euros e setenta."
+  ],
+  [
+   "p_1480",
+   "Catorze euros e oitenta."
+  ],
+  [
+   "p_1490",
+   "Catorze euros e noventa."
+  ],
+  [
+   "p_1500",
+   "Quinze euros."
+  ],
+  [
+   "p_1510",
+   "Quinze euros e dez."
+  ],
+  [
+   "p_1520",
+   "Quinze euros e vinte."
+  ],
+  [
+   "p_1530",
+   "Quinze euros e trinta."
+  ],
+  [
+   "p_1540",
+   "Quinze euros e quarenta."
+  ],
+  [
+   "p_1550",
+   "Quinze euros e cinquenta."
+  ],
+  [
+   "p_1560",
+   "Quinze euros e sessenta."
+  ],
+  [
+   "p_1570",
+   "Quinze euros e setenta."
+  ],
+  [
+   "p_1580",
+   "Quinze euros e oitenta."
+  ],
+  [
+   "p_1590",
+   "Quinze euros e noventa."
+  ],
+  [
+   "p_1600",
+   "Dezasseis euros."
+  ],
+  [
+   "p_1610",
+   "Dezasseis euros e dez."
+  ],
+  [
+   "p_1620",
+   "Dezasseis euros e vinte."
+  ],
+  [
+   "p_1630",
+   "Dezasseis euros e trinta."
+  ],
+  [
+   "p_1640",
+   "Dezasseis euros e quarenta."
+  ],
+  [
+   "p_1650",
+   "Dezasseis euros e cinquenta."
+  ],
+  [
+   "p_1660",
+   "Dezasseis euros e sessenta."
+  ],
+  [
+   "p_1670",
+   "Dezasseis euros e setenta."
+  ],
+  [
+   "p_1680",
+   "Dezasseis euros e oitenta."
+  ],
+  [
+   "p_1690",
+   "Dezasseis euros e noventa."
+  ],
+  [
+   "p_1700",
+   "Dezassete euros."
+  ],
+  [
+   "p_1710",
+   "Dezassete euros e dez."
+  ],
+  [
+   "p_1720",
+   "Dezassete euros e vinte."
+  ],
+  [
+   "p_1730",
+   "Dezassete euros e trinta."
+  ],
+  [
+   "p_1740",
+   "Dezassete euros e quarenta."
+  ],
+  [
+   "p_1750",
+   "Dezassete euros e cinquenta."
+  ],
+  [
+   "p_1760",
+   "Dezassete euros e sessenta."
+  ],
+  [
+   "p_1770",
+   "Dezassete euros e setenta."
+  ],
+  [
+   "p_1780",
+   "Dezassete euros e oitenta."
+  ],
+  [
+   "p_1790",
+   "Dezassete euros e noventa."
+  ],
+  [
+   "p_1800",
+   "Dezoito euros."
+  ],
+  [
+   "p_1810",
+   "Dezoito euros e dez."
+  ],
+  [
+   "p_1820",
+   "Dezoito euros e vinte."
+  ],
+  [
+   "p_1830",
+   "Dezoito euros e trinta."
+  ],
+  [
+   "p_1840",
+   "Dezoito euros e quarenta."
+  ],
+  [
+   "p_1850",
+   "Dezoito euros e cinquenta."
+  ],
+  [
+   "p_1860",
+   "Dezoito euros e sessenta."
+  ],
+  [
+   "p_1870",
+   "Dezoito euros e setenta."
+  ],
+  [
+   "p_1880",
+   "Dezoito euros e oitenta."
+  ],
+  [
+   "p_1890",
+   "Dezoito euros e noventa."
+  ],
+  [
+   "p_1900",
+   "Dezanove euros."
+  ],
+  [
+   "p_1910",
+   "Dezanove euros e dez."
+  ],
+  [
+   "p_1920",
+   "Dezanove euros e vinte."
+  ],
+  [
+   "p_1930",
+   "Dezanove euros e trinta."
+  ],
+  [
+   "p_1940",
+   "Dezanove euros e quarenta."
+  ],
+  [
+   "p_1950",
+   "Dezanove euros e cinquenta."
+  ],
+  [
+   "p_1960",
+   "Dezanove euros e sessenta."
+  ],
+  [
+   "p_1970",
+   "Dezanove euros e setenta."
+  ],
+  [
+   "p_1980",
+   "Dezanove euros e oitenta."
+  ],
+  [
+   "p_1990",
+   "Dezanove euros e noventa."
+  ],
+  [
+   "p_2000",
+   "Vinte euros."
+  ],
+  [
+   "instrucao_menos",
+   "Paga com o menor número de moedas e notas."
+  ],
+  [
+   "menos_nao",
+   "Está certo, mas dá com menos moedas. Tenta outra vez."
+  ],
+  [
+   "instrucao_troco2",
+   "Paga com a nota. Depois conta bem o troco."
+  ],
+  [
+   "cada",
+   "Cada um custa"
+  ],
+  [
+   "oferta_3",
+   "Hoje é leve três, pague dois!"
+  ],
+  [
+   "levas_3",
+   "Levas três. Quanto pagas?"
+  ],
+  [
+   "custava",
+   "Custava"
+  ],
+  [
+   "oferta_metade",
+   "Hoje está a metade do preço! Quanto pagas?"
+  ],
+  [
+   "o_quilo",
+   "O quilo custa"
+  ],
+  [
+   "queres_meio",
+   "Queres meio quilo. Quanto pagas?"
+  ],
+  [
+   "queres_1meio",
+   "Queres um quilo e meio. Quanto pagas?"
+  ],
+  [
+   "queres_2",
+   "Queres dois quilos. Quanto pagas?"
+  ],
+  [
+   "quanto_tudo",
+   "Quanto é tudo junto?"
+  ],
+  [
+   "total_certo",
+   "Isso mesmo! Tudo junto é"
+  ],
+  [
+   "total_nao",
+   "Não é bem isso. Soma outra vez com calma."
+  ],
+  [
+   "agora_paga",
+   "Agora paga."
+  ],
+  [
+   "tens_5",
+   "Tens cinco euros."
+  ],
+  [
+   "tens_10",
+   "Tens dez euros."
+  ],
+  [
+   "tens_20",
+   "Tens vinte euros."
+  ],
+  [
+   "qual_cesto",
+   "Que cesto podes pagar? Os outros passam do teu dinheiro."
+  ],
+  [
+   "cesto_certo",
+   "Isso mesmo! Esse cesto custa"
+  ],
+  [
+   "sobram",
+   "E ainda sobram"
+  ],
+  [
+   "cesto_nao",
+   "Esse passa do teu dinheiro. Faz a conta com calma."
+  ],
+  [
+   "azul_meio",
+   "Na banca azul, meio quilo custa"
+  ],
+  [
+   "azul_1",
+   "Na banca azul, um quilo custa"
+  ],
+  [
+   "azul_1meio",
+   "Na banca azul, um quilo e meio custa"
+  ],
+  [
+   "azul_2",
+   "Na banca azul, dois quilos custam"
+  ],
+  [
+   "verde_meio",
+   "Na banca verde, meio quilo custa"
+  ],
+  [
+   "verde_1",
+   "Na banca verde, um quilo custa"
+  ],
+  [
+   "verde_1meio",
+   "Na banca verde, um quilo e meio custa"
+  ],
+  [
+   "verde_2",
+   "Na banca verde, dois quilos custam"
+  ],
+  [
+   "qual_banca",
+   "Onde fica mais barato o quilo? Toca nessa banca."
+  ],
+  [
+   "banca_certo",
+   "Isso mesmo! Ali o quilo fica a"
+  ],
+  [
+   "banca_nao",
+   "Essa sai mais cara. Pensa quanto custa um quilo."
+  ],
+  [
+   "melhor",
+   "Hoje acertaste mais do que da última vez!"
+  ]
+ ]
+}

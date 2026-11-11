@@ -1,0 +1,4 @@
+www/snd/diferencas-serie1.ogg, https://kenney.nl/assets/interface-sounds (Audio/confirmation_002.ogg, com o tom subido, para uma série a subir), CC0 1.0
+www/snd/diferencas-serie2.ogg, https://kenney.nl/assets/interface-sounds (Audio/confirmation_002.ogg, com o tom subido, para uma série a subir), CC0 1.0
+www/snd/diferencas-serie3.ogg, https://kenney.nl/assets/interface-sounds (Audio/confirmation_002.ogg, com o tom subido, para uma série a subir), CC0 1.0
+www/snd/diferencas-serie4.ogg, https://kenney.nl/assets/interface-sounds (Audio/confirmation_002.ogg, com o tom subido, para uma série a subir), CC0 1.0

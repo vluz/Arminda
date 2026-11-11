@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <path d="M26 30 L102 30 L108 118 Q108 122 104 122 L24 122 Q20 122 20 118 Z" fill="#ffffff" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M26 30 L34 12 L94 12 L102 30" fill="#e6eef7" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M40 12 L44 30 M56 12 L58 30 M72 12 L70 30 M88 12 L84 30" stroke="#111" stroke-width="2.5"/>
+  <rect x="24" y="44" width="80" height="26" fill="#0a6fd6" stroke="#111" stroke-width="4"/>
+  <text x="64" y="63" font-family="Arial, sans-serif" font-weight="900" font-size="15" fill="#fff" text-anchor="middle">AÇÚCAR</text>
+  <g fill="#fff" stroke="#111" stroke-width="3" stroke-linejoin="round">
+    <rect x="38" y="96" width="20" height="20" rx="2"/>
+    <rect x="62" y="96" width="20" height="20" rx="2"/>
+    <rect x="50" y="76" width="20" height="20" rx="2"/>
+  </g>
+</svg>

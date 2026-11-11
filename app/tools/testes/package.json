@@ -1,0 +1,9 @@
+{
+  "name": "testes-jogos",
+  "private": true,
+  "description": "Playwright para as jogadas automáticas e os testes rápidos. Nesta pasta: npm install, depois npx playwright install chromium",
+  "type": "module",
+  "dependencies": {
+    "playwright": "^1.64.1"
+  }
+}

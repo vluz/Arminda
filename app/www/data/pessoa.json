@@ -1,0 +1,16 @@
+{
+ "1": {
+  "tratamento": "mãe",
+  "genero": "f",
+  "rotulo": "da mãe",
+  "titulo": "Jogos da Mãe",
+  "saudacao": "Olá, mãe!"
+ },
+ "2": {
+  "tratamento": "pai",
+  "genero": "m",
+  "rotulo": "do pai",
+  "titulo": "Jogos do Pai",
+  "saudacao": "Olá, pai!"
+ }
+}

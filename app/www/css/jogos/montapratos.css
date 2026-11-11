@@ -1,0 +1,328 @@
+/* Monta-pratos: um prédio em corte, a cozinha em baixo, o poço do elevador e a sua cabine.*/
+.mp-cena {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: var(--raio);
+  background: linear-gradient(#8ed1fc, #cdeeff);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.mp-predio {
+  position: relative;
+  flex: none;
+  border: var(--borda) solid var(--linha);
+  border-bottom: none;
+  border-radius: var(--raio) var(--raio) 0 0;
+  overflow: hidden;
+  background: #fff;
+  touch-action: none;
+  box-sizing: border-box;
+}
+
+.mp-andar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-bottom: var(--borda) solid var(--linha);
+  box-sizing: border-box;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.mp-andar.acesa {
+  background: #fff27a !important;
+  box-shadow: inset 0 0 0 1.2vmin var(--amarelo);
+}
+
+.mp-sala {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 0 1vmin 0.6vmin;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+.mp-janela {
+  align-self: center;
+  width: 22%;
+  height: 52%;
+  border: max(3px, 0.5vmin) solid var(--linha);
+  border-radius: 0.8vmin;
+  background:
+    linear-gradient(var(--linha), var(--linha)) 50% 0 / max(3px, 0.5vmin) 100% no-repeat,
+    linear-gradient(var(--linha), var(--linha)) 0 50% / 100% max(3px, 0.5vmin) no-repeat,
+    #bfe6ff;
+}
+.mp-morador { height: 56%; width: auto; }
+.mp-mesa {
+  position: relative;
+  width: 34%;
+  height: calc(var(--prato) * 0.35);
+  min-height: 10px;
+  background: #b5651d;
+  border: max(3px, 0.5vmin) solid var(--linha);
+  border-radius: 0.6vmin;
+  margin-bottom: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.mp-mesa::after {
+  content: "";
+  position: absolute;
+  left: 12%;
+  right: 12%;
+  top: 100%;
+  height: 130%;
+  border-left: max(3px, 0.5vmin) solid var(--linha);
+  border-right: max(3px, 0.5vmin) solid var(--linha);
+}
+.mp-na-mesa {
+  flex: none;
+  width: var(--prato);
+  height: var(--prato);
+  object-fit: contain;
+  margin: 0 calc(var(--prato) * -0.15) calc(var(--prato) * 0.3);
+}
+
+.mp-porta {
+  position: absolute;
+  top: 4%;
+  bottom: 0;
+  border: max(4px, 0.7vmin) solid #6b3e1e;
+  border-bottom: none;
+  border-radius: 1vmin 1vmin 0 0;
+  box-sizing: border-box;
+  pointer-events: none;
+  z-index: 3;
+  transition: border-color 0.3s;
+}
+.mp-andar.acesa .mp-porta { border-color: var(--laranja); animation: mp-pulsa 0.9s ease-in-out infinite; }
+
+.mp-placa {
+  position: absolute;
+  right: 1.2vmin;
+  top: 50%;
+  transform: translateY(-50%);
+  min-width: 6vmin;
+  padding: 0.4vmin 1.2vmin;
+  font-family: var(--digitos);
+  font-weight: 800;
+  font-size: 5vmin;
+  text-align: center;
+  background: var(--branco);
+  border: max(3px, 0.5vmin) solid var(--linha);
+  border-radius: 1vmin;
+  pointer-events: none;
+}
+
+.mp-cozinha {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background:
+    linear-gradient(45deg, #0a6fd6 25%, transparent 25% 75%, #0a6fd6 75%) 0 0 / 5vmin 5vmin,
+    linear-gradient(45deg, #0a6fd6 25%, transparent 25% 75%, #0a6fd6 75%) 2.5vmin 2.5vmin / 5vmin 5vmin,
+    #e9f3ff;
+  pointer-events: none;
+}
+.mp-panela { position: absolute; left: 6%; bottom: 4%; width: auto; }
+.mp-cozinheiro { position: absolute; bottom: 2%; width: auto; transform-origin: 50% 100%; }
+.mp-cozinheiro.ri { animation: mp-ri 0.35s ease-in-out 5; }
+
+.mp-pedido {
+  overflow: hidden;
+  position: absolute;
+  left: 2%;
+  top: 7%;
+  display: flex;
+  align-items: center;
+  gap: 1vmin;
+  padding: 0 2vmin 0 1vmin;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+  box-sizing: border-box;
+}
+.mp-pedido img { height: 88%; width: auto; aspect-ratio: 1; }
+.mp-pedido b { font-size: var(--t-medio); white-space: nowrap; }
+.mp-pedido.novo { animation: salta 0.6s ease 2; }
+
+.mp-poco {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background:
+    linear-gradient(90deg, transparent 10%, #555 10% 14%, transparent 14% 86%, #555 86% 90%, transparent 90%),
+    #3d2b1f;
+  z-index: 2;
+  pointer-events: none;
+}
+.mp-roldana {
+  position: absolute;
+  left: 50%;
+  top: 0.4vmin;
+  width: 5vmin;
+  height: 5vmin;
+  margin-left: -2.5vmin;
+  border-radius: 50%;
+  background: #999;
+  border: max(3px, 0.5vmin) solid var(--linha);
+}
+.mp-cabine {
+  position: absolute;
+  left: 6px;
+  bottom: 0;
+  box-sizing: border-box;
+  border: var(--borda) solid var(--linha);
+  border-top-width: max(6px, 1vmin);
+  border-radius: 0.8vmin;
+  background: #c9c9c9;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  will-change: transform;
+}
+.mp-cabine::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  width: max(3px, 0.5vmin);
+  height: 300vmax;
+  margin-left: max(-1.5px, -0.25vmin);
+  background: #222;
+}
+.mp-prato {
+  width: 88%;
+  height: 88%;
+  object-fit: contain;
+  visibility: hidden;
+  transform-origin: 50% 100%;
+}
+.mp-prato.carrega { animation: mp-carrega 0.5s ease; }
+.mp-prato.chegou { animation: mp-chegou 0.5s ease; }
+.mp-prato.treme { animation: mp-treme 0.45s ease-in-out infinite; }
+.mp-prato.tomba { animation: mp-tomba 0.65s ease-in-out forwards; }
+.mp-prato.nao { animation: mp-nao 0.3s ease-in-out 3; }
+
+.mp-voa, .mp-queda {
+  position: absolute;
+  z-index: 6;
+  pointer-events: none;
+  object-fit: contain;
+}
+.mp-queda img { width: 100%; height: 100%; object-fit: contain; }
+
+.mp-splat {
+  position: absolute;
+  bottom: 2px;
+  z-index: 7;
+  pointer-events: none;
+  transform-origin: 50% 100%;
+  animation: mp-splat 1.9s ease-out forwards;
+}
+.mp-splat::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40%;
+  background: var(--cor);
+  border: max(3px, 0.5vmin) solid var(--linha);
+  border-radius: 50% 40% 45% 50% / 60% 70% 40% 50%;
+}
+.mp-esmagado {
+  position: absolute;
+  left: 25%;
+  bottom: 10%;
+  width: 50%;
+  height: 70%;
+  object-fit: contain;
+  transform: rotate(160deg) scaleY(0.6);
+}
+.mp-plof {
+  position: absolute;
+  left: 50%;
+  bottom: 85%;
+  transform: translateX(-50%) rotate(-8deg);
+  font-size: var(--t-medio);
+  font-weight: 900;
+  color: var(--vermelho);
+  background: var(--amarelo);
+  border: max(3px, 0.5vmin) solid var(--linha);
+  border-radius: 2vmin;
+  padding: 0 1.5vmin;
+  white-space: nowrap;
+}
+
+/* Níveis de topo: um andar por onde o elevador passa brilha de leve; o andar de um prato vazio brilha a azul.*/
+.mp-andar.passa { background-color: #fffbd6 !important; }
+.mp-andar.lavar {
+  background: #cfe8ff !important;
+  box-shadow: inset 0 0 0 1.2vmin var(--azul);
+}
+.mp-andar.lavar .mp-porta { border-color: var(--azul); }
+.mp-pedido.varios { gap: 0.6vmin; padding: 0 1vmin; }
+.mp-pedido.varios img { height: 84%; }
+
+/* Barra de progresso ao longo do cimo do prédio; a série que sobe a flutuar num andar.*/
+.mp-progresso {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: max(8px, 1.4vmin);
+  z-index: 8;
+  background: rgba(0, 0, 0, 0.15);
+  pointer-events: none;
+}
+.mp-progresso i {
+  position: absolute;
+  inset: 0;
+  background: var(--verde);
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition: transform 0.6s ease;
+}
+.mp-serie {
+  position: absolute;
+  z-index: 9;
+  padding: 0.3vmin 1.8vmin;
+  font-size: var(--t-medio);
+  font-weight: 800;
+  white-space: nowrap;
+  background: var(--amarelo);
+  border: max(3px, 0.5vmin) solid var(--linha);
+  border-radius: 4vmin;
+  pointer-events: none;
+  animation: mp-serie 1.3s ease-out forwards;
+}
+@keyframes mp-serie {
+  0% { transform: scale(0.4); opacity: 0; }
+  20% { transform: scale(1.15); opacity: 1; }
+  75% { transform: translateY(-20%); opacity: 1; }
+  100% { transform: translateY(-50%); opacity: 0; }
+}
+
+@keyframes mp-pulsa { 0%, 100% { opacity: 1; } 50% { opacity: 0.45; } }
+@keyframes mp-carrega { 0% { transform: scale(0.2); } 70% { transform: scale(1.15); } 100% { transform: scale(1); } }
+@keyframes mp-chegou { 0% { transform: translateY(0); } 40% { transform: translateY(-14%); } 100% { transform: translateY(0); } }
+@keyframes mp-treme { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-7deg); } 75% { transform: rotate(7deg); } }
+@keyframes mp-tomba { 0% { transform: rotate(0); } 30% { transform: rotate(-14deg); } 60% { transform: rotate(18deg); } 100% { transform: rotate(-10deg) translateY(-6%); } }
+@keyframes mp-nao { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-10%); } 75% { transform: translateX(10%); } }
+@keyframes mp-ri { 0%, 100% { transform: rotate(0) scale(1); } 25% { transform: rotate(-10deg) scale(1.08); } 75% { transform: rotate(10deg) scale(1.08); } }
+@keyframes mp-splat {
+  0% { transform: scale(0.3, 1.4); opacity: 1; }
+  15% { transform: scale(1.25, 0.7); }
+  30% { transform: scale(1, 1); }
+  80% { opacity: 1; }
+  100% { transform: scale(1, 1); opacity: 0; }
+}

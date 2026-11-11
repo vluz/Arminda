@@ -1,0 +1,84 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Nas Diferenças, procuras o que mudou entre duas imagens."
+  ],
+  [
+   "instrucao",
+   "Estas duas imagens são quase iguais. Toca no que está diferente."
+  ],
+  [
+   "ha_2",
+   "Há duas diferenças. Consegues encontrá-las?"
+  ],
+  [
+   "ha_3",
+   "Há três diferenças. Consegues encontrá-las?"
+  ],
+  [
+   "ha_4",
+   "Há quatro diferenças. Consegues encontrá-las?"
+  ],
+  [
+   "ha_5",
+   "Há cinco diferenças. Consegues encontrá-las?"
+  ],
+  [
+   "ha_6",
+   "Há seis diferenças. Consegues encontrá-las?"
+  ],
+  [
+   "achaste",
+   "Encontraste uma!"
+  ],
+  [
+   "falta_1",
+   "Só falta uma!"
+  ],
+  [
+   "nao_e",
+   "Aí está igual. Procura noutro sítio."
+  ],
+  [
+   "pista",
+   "Olha com atenção para o que está a brilhar."
+  ],
+  [
+   "todas",
+   "Encontraste todas as diferenças!"
+  ],
+  [
+   "outra_imagem",
+   "Agora outra imagem!"
+  ],
+  [
+   "ha_7",
+   "Há sete diferenças. Consegues encontrá-las?"
+  ],
+  [
+   "ha_8",
+   "Há oito diferenças. Esta é difícil!"
+  ],
+  [
+   "ha_9",
+   "Há nove diferenças. Esta é mesmo difícil!"
+  ],
+  [
+   "pormenores",
+   "Atenção aos pormenores: há coisas viradas para o outro lado ou mais pequenas."
+  ],
+  [
+   "serie_3",
+   "Três seguidas sem falhar!"
+  ],
+  [
+   "serie_5",
+   "Cinco seguidas! Que olho de lince!"
+  ],
+  [
+   "melhor",
+   "Hoje foste mais rápida do que da última vez!"
+  ]
+ ]
+}

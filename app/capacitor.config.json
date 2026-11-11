@@ -1,0 +1,10 @@
+{
+  "appId": "pt.mae.jogos",
+  "appName": "Jogos",
+  "webDir": "www-build",
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  }
+}

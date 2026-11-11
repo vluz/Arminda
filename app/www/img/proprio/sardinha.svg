@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="corpo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1F4E8C"/>
+      <stop offset="0.45" stop-color="#5AA0D8"/>
+      <stop offset="0.6" stop-color="#DCEBF5"/>
+      <stop offset="1" stop-color="#F7FBFF"/>
+    </linearGradient>
+  </defs>
+  <path d="M8 64 Q30 38 72 42 Q96 44 106 56 L124 40 Q118 64 124 88 L106 72 Q96 84 72 86 Q30 90 8 64 Z" fill="url(#corpo)" stroke="#0E2E57" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M34 50 Q30 64 34 78" fill="none" stroke="#0E2E57" stroke-width="2.5" stroke-linecap="round"/>
+  <g fill="#0E2E57">
+    <circle cx="48" cy="56" r="2.6"/>
+    <circle cx="58" cy="55" r="2.6"/>
+    <circle cx="68" cy="55" r="2.6"/>
+    <circle cx="78" cy="56" r="2.6"/>
+  </g>
+  <circle cx="22" cy="60" r="6" fill="#FFFFFF" stroke="#0E2E57" stroke-width="2"/>
+  <circle cx="21" cy="60" r="3" fill="#111111"/>
+  <path d="M10 66 Q14 68 18 67" fill="none" stroke="#0E2E57" stroke-width="2" stroke-linecap="round"/>
+  <path d="M60 44 L66 34 L76 44" fill="#3E7CC0" stroke="#0E2E57" stroke-width="2" stroke-linejoin="round"/>
+</svg>

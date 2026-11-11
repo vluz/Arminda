@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <circle cx="104" cy="22" r="14" fill="#ffc21a" stroke="#111" stroke-width="3"/>
+  <rect x="6" y="20" width="6" height="104" rx="2" fill="#a0662b" stroke="#111" stroke-width="3"/>
+  <rect x="116" y="20" width="6" height="104" rx="2" fill="#a0662b" stroke="#111" stroke-width="3"/>
+  <path d="M9 40 Q64 52 119 40" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+  <clipPath id="c1"><path d="M22 46 L30 43 Q36 50 42 43 L50 46 L66 58 L58 70 L52 64 L52 104 L20 104 L20 64 L14 70 L6 58 Z" transform="translate(4 0)"/></clipPath>
+  <g clip-path="url(#c1)">
+    <rect x="0" y="40" width="80" height="70" fill="#e63946"/>
+    <rect x="0" y="62" width="80" height="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <rect x="0" y="78" width="80" height="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <rect x="0" y="94" width="80" height="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  </g>
+  <path d="M22 46 L30 43 Q36 50 42 43 L50 46 L66 58 L58 70 L52 64 L52 104 L20 104 L20 64 L14 70 L6 58 Z" transform="translate(4 0)" fill="none" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M74 48 H88 V82 Q88 86 92 88 L100 93 Q106 98 101 104 Q97 107 91 104 L78 96 Q74 93 74 88 Z" fill="#1f6fe0" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M92 47 H106 V80 Q106 84 110 86 L116 90 Q121 95 117 100 Q113 103 108 100 L96 93 Q92 90 92 86 Z" fill="#1f6fe0" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
+  <circle cx="81" cy="60" r="3" fill="#fff" stroke="#111" stroke-width="1.2"/>
+  <circle cx="81" cy="74" r="3" fill="#fff" stroke="#111" stroke-width="1.2"/>
+  <circle cx="99" cy="59" r="3" fill="#fff" stroke="#111" stroke-width="1.2"/>
+  <circle cx="99" cy="73" r="3" fill="#fff" stroke="#111" stroke-width="1.2"/>
+  <rect x="33" y="38" width="5" height="13" rx="1.5" fill="#e0a96d" stroke="#111" stroke-width="2"/>
+  <rect x="78" y="42" width="5" height="12" rx="1.5" fill="#e0a96d" stroke="#111" stroke-width="2"/>
+  <rect x="96" y="41" width="5" height="12" rx="1.5" fill="#e0a96d" stroke="#111" stroke-width="2"/>
+</svg>

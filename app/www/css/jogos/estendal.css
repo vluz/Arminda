@@ -1,0 +1,220 @@
+/* Estendal: céu de sol com cordas de roupa, um cesto de verga com roupa.*/
+.est-cena {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  gap: 2vmin;
+  padding: 3.4vmin 1.5vmin 1.5vmin;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  background: linear-gradient(#8ed1fc 0%, #cdeeff 70%, #9fdc7a 70%, #7ccf4f 100%);
+  overflow: hidden;
+}
+.est-cena.paisagem { grid-template-columns: minmax(0, 1fr) 42%; }
+.est-cena.retrato { grid-template-rows: minmax(0, 1fr) 46%; }
+.est-cena .lida-barra { left: 2vmin; right: 22vmin; top: 1vmin; }
+
+.est-sol { position: absolute; top: 4vmin; left: 44%; width: 13vmin; height: 13vmin; opacity: 0.95; animation: roda 40s linear infinite; pointer-events: none; }
+.est-cena.retrato .est-sol { left: auto; right: 4vmin; top: 7vmin; }
+
+.est-pontos {
+  position: absolute;
+  top: 0.4vmin;
+  right: 1.5vmin;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  gap: 1vmin;
+  background: var(--branco);
+  border: 3px solid var(--linha);
+  border-radius: 999px;
+  padding: 0.2vmin 2vmin 0.2vmin 0.6vmin;
+  font-family: var(--digitos);
+  font-weight: 900;
+  font-size: 4vmin;
+}
+.est-pontos img { width: 5vmin; height: 5vmin; }
+.est-pontos.salta { animation: salta 0.5s ease; }
+
+/* Cordas*/
+.est-cordas { position: relative; display: grid; grid-template-rows: repeat(var(--n, 1), minmax(0, 1fr)); gap: 1.5vmin; min-height: 0; min-width: 0; }
+.est-corda { position: relative; min-height: 0; border-radius: 2vmin; }
+.est-poste {
+  position: absolute;
+  top: 4%;
+  bottom: 0;
+  width: 2.2vmin;
+  background: #a0662b;
+  border: 3px solid var(--linha);
+  border-radius: 1vmin;
+}
+.est-poste.esq { left: 0.6vmin; }
+.est-poste.dir { right: 0.6vmin; }
+.est-fio {
+  position: absolute;
+  left: 1.5vmin;
+  right: 1.5vmin;
+  top: 12%;
+  height: 1.1vmin;
+  min-height: 5px;
+  background: #ffffff;
+  border: 2px solid var(--linha);
+  border-radius: 999px;
+}
+.est-vagas {
+  position: absolute;
+  left: 4vmin;
+  right: 4vmin;
+  top: 12%;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(var(--vagas), minmax(0, 1fr));
+  gap: 0.8vmin;
+}
+.est-vaga { position: relative; min-width: 0; min-height: 0; display: flex; justify-content: center; align-items: flex-start; }
+/* Uma mola de madeira na corda para cada lugar.*/
+.est-vaga::before {
+  content: "";
+  position: absolute;
+  top: -1.6vmin;
+  left: 50%;
+  width: 2vmin;
+  height: 5vmin;
+  margin-left: -1vmin;
+  background: #e0a96d;
+  border: 2px solid var(--linha);
+  border-radius: 0.6vmin;
+  z-index: 2;
+  opacity: 0.45;
+}
+.est-vaga.cheia::before { opacity: 1; }
+.est-vaga.ordem:not(.cheia)::after {
+  content: "";
+  position: absolute;
+  top: 1vmin;
+  left: 8%;
+  right: 8%;
+  height: min(70%, 22vmin);
+  border: 0.6vmin dashed rgba(17, 17, 17, 0.45);
+  border-radius: 1.5vmin;
+  background: rgba(255, 255, 255, 0.35);
+}
+.est-vaga.falta:not(.cheia)::after { border-color: var(--laranja); background: rgba(255, 232, 163, 0.6); }
+.est-num {
+  position: absolute;
+  top: 3vmin;
+  z-index: 1;
+  width: 6vmin;
+  height: 6vmin;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--branco);
+  border: 3px solid var(--linha);
+  font-family: var(--digitos);
+  font-weight: 900;
+  font-size: 3.6vmin;
+}
+.est-vaga.cheia .est-num { display: none; }
+.est-roupa, .est-espreita {
+  width: 100%;
+  max-width: 26vmin;
+  height: min(100%, 26vmin);
+  object-fit: contain;
+  object-position: top;
+  transform-origin: 50% 0;
+}
+.est-espreita { position: absolute; top: 0; opacity: 0.45; animation: aparece 0.3s ease; }
+.est-vaga.chega > .est-roupa { animation: est-chega 0.45s ease; }
+.est-cordas.seca .est-roupa { animation: baloica 1.4s ease-in-out infinite; }
+.est-cordas.seca .est-vaga:nth-child(2n) .est-roupa { animation-delay: -0.7s; }
+.est-roupa.voa { transition: transform 1.2s ease-in, opacity 1.2s ease-in; transform: translate(70vw, -35vh) rotate(170deg); opacity: 0; }
+.est-cordas.vento .est-fio { animation: baloica 0.4s ease-in-out 3; }
+.est-corda.lida-pista { background: rgba(255, 232, 163, 0.75); }
+
+/* Cesto*/
+.est-cesto {
+  position: relative;
+  min-height: 0;
+  min-width: 0;
+  display: grid;
+  gap: 1.5vmin;
+  place-content: center;
+  background: repeating-linear-gradient(45deg, #d99a55 0 2.2vmin, #c98a45 2.2vmin 4.4vmin);
+  border: var(--borda) solid var(--linha);
+  border-radius: 4vmin;
+  box-shadow: inset 0 1.2vmin 0 rgba(0, 0, 0, 0.18);
+  transition: opacity 0.5s ease;
+}
+.est-cesto.vazio { opacity: 0.4; }
+.est-peca {
+  width: var(--lado);
+  height: var(--lado);
+  padding: 0.6vmin;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+  transform: rotate(var(--rot, 0deg));
+  display: grid;
+  place-items: center;
+  transition: transform 0.15s ease;
+}
+.est-peca img { width: 86%; height: 86%; object-fit: contain; pointer-events: none; }
+.est-peca.escolhida { background: #ffe8a3; transform: translateY(-1.5vmin) scale(1.06); outline: 1vmin solid var(--amarelo); box-shadow: 0 2.4vmin 0 rgba(0, 0, 0, 0.3); }
+.est-peca.usada { visibility: hidden; }
+
+/* Bónus do pássaro*/
+.est-passaro {
+  position: absolute;
+  z-index: 5;
+  width: 113px;
+  height: 113px;
+  padding: 0;
+  border: none;
+  background: none;
+  transform: translate(-50%, -80%);
+  animation: aparece 0.5s ease;
+}
+.est-passaro img { width: 78%; height: 78%; filter: drop-shadow(0 0.6vmin 0 rgba(0, 0, 0, 0.3)); }
+.est-passaro.apanhado { transition: transform 0.6s ease, opacity 0.6s ease; transform: translate(-50%, -80%) scale(1.8); opacity: 0; }
+.est-passaro.vai { transition: transform 0.9s ease-in, opacity 0.9s ease-in; transform: translate(40vw, -60vh); opacity: 0; }
+
+/* Níveis de pedidos: o recado com o que estender, por ordem.*/
+.est-recado {
+  position: absolute;
+  left: max(20vmin, 130px);
+  right: 2vmin;
+  bottom: 2vmin;
+  margin: 0;
+  padding: 1.2vmin 2vmin 1.2vmin 7vmin;
+  background: #fffdf0;
+  border: var(--borda) solid var(--linha);
+  border-radius: 2vmin;
+  box-shadow: var(--sombra);
+  font-size: min(4.2vmin, 30px);
+  line-height: 1.2;
+  z-index: 3;
+  transform: rotate(-1deg);
+}
+.est-recado li { font-family: inherit; }
+.est-recado.vizinha { background: #fff0f5; transform: rotate(1deg); }
+.est-recado li::marker { font-family: var(--digitos); font-weight: 900; }
+.est-recado.chega { animation: aparece 0.35s ease; }
+.est-recado.escondido li { visibility: hidden; }
+.est-recado.escondido::after {
+  content: "?";
+  position: absolute;
+  inset: 1vmin;
+  display: grid;
+  place-items: center;
+  background: var(--amarelo);
+  border: 3px solid var(--linha);
+  border-radius: 1.5vmin;
+  font-size: 7vmin;
+  font-weight: 800;
+}
+.est-cena .est-ouvir { position: absolute; z-index: 4; left: 3vmin; bottom: 3vmin; }
+.est-cena.retrato .est-ouvir { bottom: calc(46% + 3vmin); }
+
+@keyframes est-chega { 0% { transform: translateY(-4vmin) scale(1.1); } 60% { transform: translateY(1vmin) scale(0.97); } 100% { transform: none; } }

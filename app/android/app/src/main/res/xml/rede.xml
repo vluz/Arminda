@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Todas as construções para o tablet: só HTTPS (o mesmo que o Android faz por omissão para este alvo).-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>

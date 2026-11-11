@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Palavras: two big letter tiles under an apple, and a pencil. -->
+  <path d="M64 30 Q44 18 30 32 Q18 46 28 66 Q38 82 52 78 Q58 76 64 78 Q70 76 76 78 Q90 82 100 66 Q110 46 98 32 Q84 18 64 30 Z"
+        fill="#e63946" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M64 30 Q64 18 70 10" fill="none" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+  <path d="M68 18 Q80 6 94 12 Q84 24 68 18 Z" fill="#2b9348" stroke="#111111" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="42" cy="44" rx="6" ry="10" fill="#ff8a95" transform="rotate(25 42 44)"/>
+  <g stroke="#111111" stroke-width="4" stroke-linejoin="round">
+    <rect x="10" y="78" width="44" height="44" rx="7" fill="#ffb703"/>
+    <rect x="60" y="78" width="44" height="44" rx="7" fill="#ffb703"/>
+  </g>
+  <g font-family="Arial, Roboto, sans-serif" font-weight="900" font-size="36" fill="#111111" text-anchor="middle">
+    <text x="32" y="113">A</text>
+    <text x="82" y="113">B</text>
+  </g>
+  <g transform="rotate(-35 114 92)" stroke="#111111" stroke-width="3.5" stroke-linejoin="round">
+    <rect x="108" y="66" width="12" height="40" fill="#0a6fd6"/>
+    <path d="M108 106 L120 106 L114 120 Z" fill="#ffd8a8"/>
+    <rect x="108" y="60" width="12" height="7" fill="#ff4d8d"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+www/img/noto/aviao.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u2708.svg, Apache-2.0
+www/img/noto/cadeira.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1fa91.svg, Apache-2.0
+www/img/noto/castanha.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f330.svg, Apache-2.0
+www/img/noto/cavalo.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f40e.svg, Apache-2.0
+www/img/noto/chapeu.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f452.svg, Apache-2.0
+www/img/noto/coelho.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f407.svg, Apache-2.0
+www/img/noto/comboio.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f682.svg, Apache-2.0
+www/img/noto/elefante.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f418.svg, Apache-2.0
+www/img/noto/janela.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1fa9f.svg, Apache-2.0
+www/img/noto/ovelha.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f411.svg, Apache-2.0
+www/img/noto/rei.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f451.svg, Apache-2.0
+www/img/noto/relogio.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f570.svg, Apache-2.0
+www/img/noto/sapato.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f45e.svg, Apache-2.0
+www/img/noto/telefone.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u260e.svg, Apache-2.0
+www/snd/palavras-serie1.ogg, https://kenney.nl/assets/interface-sounds (Audio/glass_002.ogg, com o tom subido, para uma série a subir), CC0 1.0
+www/snd/palavras-serie2.ogg, https://kenney.nl/assets/interface-sounds (Audio/glass_002.ogg, com o tom subido, para uma série a subir), CC0 1.0
+www/snd/palavras-serie3.ogg, https://kenney.nl/assets/interface-sounds (Audio/glass_002.ogg, com o tom subido, para uma série a subir), CC0 1.0
+www/snd/palavras-serie4.ogg, https://kenney.nl/assets/interface-sounds (Audio/glass_002.ogg, com o tom subido, para uma série a subir), CC0 1.0

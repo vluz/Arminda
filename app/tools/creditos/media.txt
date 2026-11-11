@@ -1,0 +1,5 @@
+www/img/jogos/casa.svg, cópia de www/img/noto/casa.svg (https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f3e0.svg), Apache 2.0
+www/img/jogos/fotos.svg, cópia de www/img/noto/coracao.svg (https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u2764.svg), Apache 2.0
+www/img/jogos/passeios.svg, cópia de www/img/noto/sol.svg (https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u2600.svg), Apache 2.0
+www/img/jogos/musica.svg, desenhado para esta app, sem conteúdo de terceiros
+www/lib/pannellum/pannellum.js e pannellum.css, Pannellum 2.5.7, https://github.com/mpetroff/pannellum (pacote npm pannellum-2.5.7.tgz), MIT; texto da licença em www/lib/pannellum/COPYING.txt

@@ -1,0 +1,44 @@
+# Caddy à frente do servidor da família. Troque jogos.exemplo.pt pelo seu domínio (tem de apontar
+# para este servidor; o Caddy pede o certificado HTTPS sozinho) e a palavra-passe da família pelo
+# resultado de:  docker run --rm -it caddy:2 caddy hash-password   (ele pergunta a palavra-passe)
+jogos.exemplo.pt {
+	header Strict-Transport-Security "max-age=63072000; includeSubDomains"
+	header X-Content-Type-Options "nosniff"
+	header Referrer-Policy "no-referrer"
+	header X-Frame-Options "DENY"
+	header X-Robots-Tag "noindex, nofollow"
+	header Content-Security-Policy "default-src 'none'; style-src 'unsafe-inline'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'"
+	encode zstd gzip
+
+	# Estado do servidor: responde "ok", sem segredos, sem senha.
+	@health path /healthz
+	handle @health {
+		reverse_proxy mae:8080
+	}
+
+	# O tablet: envia "Authorization: Bearer <token>", que o programa confere.
+	@api path /api/*
+	handle @api {
+		request_body {
+			max_size 8MB
+		}
+		reverse_proxy mae:8080 {
+			header_up X-Real-IP {remote_host}
+			header_up X-Forwarded-Proto https
+		}
+	}
+
+	# O painel da família: pede utilizador e palavra-passe.
+	handle {
+		request_body {
+			max_size 64KB
+		}
+		basic_auth {
+			familia $2a$14$TROQUE-PELO-RESULTADO-DE-caddy-hash-password
+		}
+		reverse_proxy mae:8080 {
+			header_up X-Real-IP {remote_host}
+			header_up X-Forwarded-Proto https
+		}
+	}
+}

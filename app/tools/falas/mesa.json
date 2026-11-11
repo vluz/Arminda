@@ -1,0 +1,352 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Em Pôr a mesa, preparas a mesa para a família."
+  ],
+  [
+   "ola",
+   "Vamos pôr a mesa?"
+  ],
+  [
+   "como",
+   "Arrasta cada coisa para a mesa. Ou toca nela e depois na mesa."
+  ],
+  [
+   "contornos",
+   "Os desenhos na toalha mostram onde fica cada coisa."
+  ],
+  [
+   "olha_contornos",
+   "Olha onde fica cada coisa."
+  ],
+  [
+   "toca_coisa",
+   "Primeiro toca numa coisa da gaveta."
+  ],
+  [
+   "na_mesa",
+   "Leva-a até à mesa."
+  ],
+  [
+   "outra_mesa",
+   "Mais uma mesa para pôr!"
+  ],
+  [
+   "garfo_esq",
+   "O garfo fica à esquerda do prato."
+  ],
+  [
+   "faca_dir",
+   "A faca fica à direita do prato."
+  ],
+  [
+   "colher_dir",
+   "A colher fica à direita, ao lado da faca."
+  ],
+  [
+   "copo_dir",
+   "Os copos ficam à direita, por cima da faca."
+  ],
+  [
+   "prato_meio",
+   "O prato fica no meio do lugar."
+  ],
+  [
+   "guardanapo_esq",
+   "O guardanapo fica à esquerda."
+  ],
+  [
+   "chavena_dir",
+   "A chávena fica à direita."
+  ],
+  [
+   "pao_esq",
+   "O pão fica à esquerda, em cima."
+  ],
+  [
+   "centro_meio",
+   "Isso vai para o meio da mesa."
+  ],
+  [
+   "lugar_nao",
+   "Isso põe-se num lugar, ao pé do prato."
+  ],
+  [
+   "ja_tem",
+   "Esse lugar já tem isso."
+  ],
+  [
+   "nao_precisa",
+   "Hoje isso não é preciso."
+  ],
+  [
+   "pequeno_vinho",
+   "Ao pequeno-almoço não se bebe vinho!"
+  ],
+  [
+   "lugares_2",
+   "Hoje somos dois à mesa."
+  ],
+  [
+   "lugares_3",
+   "Hoje somos três à mesa."
+  ],
+  [
+   "lugares_4",
+   "Hoje somos quatro à mesa."
+  ],
+  [
+   "pequeno",
+   "É hora do pequeno-almoço! Chávena, prato, faca e pão."
+  ],
+  [
+   "jantar",
+   "É hora do jantar!"
+  ],
+  [
+   "consoada",
+   "É noite de Consoada! A mesa tem de ficar bonita."
+  ],
+  [
+   "consoada_meio",
+   "No meio da mesa vão o bacalhau e a vela."
+  ],
+  [
+   "sem_vinho",
+   "Quem tem o carrinho vai conduzir. Não bebe vinho!"
+  ],
+  [
+   "nao_bebe",
+   "Quem conduz não bebe vinho!"
+  ],
+  [
+   "ordem",
+   "Agora ouve bem e põe pela ordem que eu disser."
+  ],
+  [
+   "ordem_nao",
+   "Ainda não. Qual foi a que eu disse?"
+  ],
+  [
+   "memoria",
+   "Olha bem para esta mesa. Depois tapo-a com a toalha!"
+  ],
+  [
+   "memoria_agora",
+   "Agora põe a mesa igualzinha."
+  ],
+  [
+   "memoria_nao",
+   "Isso não estava na mesa. Lembra-te bem."
+  ],
+  [
+   "espreita",
+   "Espreita só um bocadinho."
+  ],
+  [
+   "joaninha",
+   "Uma joaninha! Dá sorte e pontos extra!"
+  ],
+  [
+   "pronto",
+   "A mesa está pronta!"
+  ],
+  [
+   "bom_apetite",
+   "Bom apetite!"
+  ],
+  [
+   "melhor",
+   "Fizeste mais pontos do que da última vez!"
+  ],
+  [
+   "fim",
+   "Que mesa tão bonita! Toda a família vai gostar."
+  ],
+  [
+   "primeiro_prato",
+   "Primeiro, o prato."
+  ],
+  [
+   "primeiro_garfo",
+   "Primeiro, o garfo."
+  ],
+  [
+   "primeiro_faca",
+   "Primeiro, a faca."
+  ],
+  [
+   "primeiro_colher",
+   "Primeiro, a colher."
+  ],
+  [
+   "primeiro_copo",
+   "Primeiro, o copo."
+  ],
+  [
+   "primeiro_guardanapo",
+   "Primeiro, o guardanapo."
+  ],
+  [
+   "depois_prato",
+   "Depois, o prato."
+  ],
+  [
+   "depois_garfo",
+   "Depois, o garfo."
+  ],
+  [
+   "depois_faca",
+   "Depois, a faca."
+  ],
+  [
+   "depois_colher",
+   "Depois, a colher."
+  ],
+  [
+   "depois_copo",
+   "Depois, o copo."
+  ],
+  [
+   "depois_guardanapo",
+   "Depois, o guardanapo."
+  ],
+  [
+   "ordem_lembra",
+   "Ouve bem a ordem. Depois escondo o recado!"
+  ],
+  [
+   "ordem_fora",
+   "Isso não estava no recado."
+  ],
+  [
+   "pequeno_so",
+   "É hora do pequeno-almoço!"
+  ],
+  [
+   "carro",
+   "O carrinho marca quem vai conduzir."
+  ],
+  [
+   "erros",
+   "Esta mesa foi posta à pressa. Há coisas mal!"
+  ],
+  [
+   "erros_n1",
+   "Há uma coisa mal. Descobre-a!"
+  ],
+  [
+   "erros_n2",
+   "Há duas coisas mal. Descobre-as!"
+  ],
+  [
+   "erros_n3",
+   "Há três coisas mal. Descobre-as!"
+  ],
+  [
+   "erros_como",
+   "Toca na gaveta no que está mal: o que falta, o que sobra ou o que está trocado."
+  ],
+  [
+   "erros_bem",
+   "Isso está bem. Olha outra vez."
+  ],
+  [
+   "erros_pista",
+   "Olha bem para este lugar."
+  ],
+  [
+   "fix_troca",
+   "O garfo e a faca estavam trocados!"
+  ],
+  [
+   "fix_falta",
+   "Bem visto! Faltava mesmo."
+  ],
+  [
+   "fix_chavena",
+   "Bem visto! Ao jantar não se põe a chávena."
+  ],
+  [
+   "contar",
+   "Vem gente jantar! Conta quantos lugares são precisos."
+  ],
+  [
+   "contar_mais",
+   "E agora, quantos lugares?"
+  ],
+  [
+   "contar_nao",
+   "Não é bem isso. Conta outra vez, com calma."
+  ],
+  [
+   "contar_tu",
+   "Quase! E tu? Também te sentas à mesa!"
+  ],
+  [
+   "c_a1",
+   "Vêm o avô, a tia e os dois netos."
+  ],
+  [
+   "c_a2",
+   "Vêm a tia e o tio. E tu também!"
+  ],
+  [
+   "c_a3",
+   "Vêm os três netos e os pais deles."
+  ],
+  [
+   "c_a4",
+   "Vêm o padre, a vizinha e o médico. E tu também!"
+  ],
+  [
+   "c_a5",
+   "Vêm as duas primas com os maridos."
+  ],
+  [
+   "c_a6",
+   "Vêm o tio, a tia e os três sobrinhos."
+  ],
+  [
+   "c_a7",
+   "Vêm os dois filhos e os quatro netos."
+  ],
+  [
+   "c_a8",
+   "Vem a vizinha com o marido. E tu também!"
+  ],
+  [
+   "c_b1",
+   "Vêm os dois filhos com as mulheres. E tu também!"
+  ],
+  [
+   "c_b2",
+   "Vem o casal do lado com os três netos, mas um neto está doente."
+  ],
+  [
+   "c_b3",
+   "Íamos ser seis à mesa, mas a tia está constipada e fica em casa."
+  ],
+  [
+   "c_b4",
+   "Vêm dois casais amigos e o padre."
+  ],
+  [
+   "c_b5",
+   "Vem a tia com os gémeos e o avô. E tu também!"
+  ],
+  [
+   "c_b6",
+   "Vem o tio com os dois filhos. A tia chega mais tarde, mas janta connosco."
+  ],
+  [
+   "c_b7",
+   "Vêm três casais, mas um dos maridos está a trabalhar."
+  ],
+  [
+   "c_b8",
+   "Vêm a irmã, o cunhado e os dois sobrinhos. E tu também!"
+  ]
+ ]
+}

@@ -1,0 +1,144 @@
+{
+ "linhas": [
+  [
+   "bem_vinda",
+   "{Bem-vinda|Bem-vindo} ao teu jardim!"
+  ],
+  [
+   "sede",
+   "As flores têm sede. Vamos regar?"
+  ],
+  [
+   "regador",
+   "Toca no regador."
+  ],
+  [
+   "bonita",
+   "Que bonita está esta flor!"
+  ],
+  [
+   "nasceu",
+   "Nasceu uma flor nova!"
+  ],
+  [
+   "apanhar",
+   "Vamos apanhar uma flor?"
+  ],
+  [
+   "passarinho",
+   "Olha, um passarinho!"
+  ],
+  [
+   "crescer",
+   "O jardim está a crescer!"
+  ],
+  [
+   "amanha",
+   "Amanhã há mais flores."
+  ],
+  [
+   "rosa",
+   "Rosa!"
+  ],
+  [
+   "malmequer",
+   "Malmequer!"
+  ],
+  [
+   "girassol",
+   "Girassol!"
+  ],
+  [
+   "tulipa",
+   "Túlipa!"
+  ],
+  [
+   "margarida",
+   "Margarida!"
+  ],
+  [
+   "cravo",
+   "Cravo!"
+  ],
+  [
+   "placas",
+   "Olha as plaquinhas: mostram a flor de cada vaso."
+  ],
+  [
+   "lembra",
+   "Hoje peço-te duas flores. Fixa bem as duas!"
+  ],
+  [
+   "rega_rosa",
+   "Rega a rosa!"
+  ],
+  [
+   "rega_malmequer",
+   "Rega o malmequer!"
+  ],
+  [
+   "rega_girassol",
+   "Rega o girassol!"
+  ],
+  [
+   "rega_tulipa",
+   "Rega a túlipa!"
+  ],
+  [
+   "rega_margarida",
+   "Rega a margarida!"
+  ],
+  [
+   "rega_cravo",
+   "Rega o cravo!"
+  ],
+  [
+   "depois_rosa",
+   "E depois, a rosa!"
+  ],
+  [
+   "depois_malmequer",
+   "E depois, o malmequer!"
+  ],
+  [
+   "depois_girassol",
+   "E depois, o girassol!"
+  ],
+  [
+   "depois_tulipa",
+   "E depois, a túlipa!"
+  ],
+  [
+   "depois_margarida",
+   "E depois, a margarida!"
+  ],
+  [
+   "depois_cravo",
+   "E depois, o cravo!"
+  ],
+  [
+   "essa_nao",
+   "Essa não é a flor que pedi."
+  ],
+  [
+   "e_agora",
+   "Boa! E agora, qual era a outra?"
+  ],
+  [
+   "caracol",
+   "Olha, um caracol no vaso! Toca nele para o tirar."
+  ],
+  [
+   "erva",
+   "Nasceu uma erva daninha. Toca nela para a arrancar."
+  ],
+  [
+   "primeiro",
+   "Primeiro limpa o vaso."
+  ],
+  [
+   "limpo",
+   "Vaso limpinho!"
+  ]
+ ]
+}

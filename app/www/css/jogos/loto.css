@@ -1,0 +1,39 @@
+/* Loto: disposição a mais para os níveis com dois cartões (os estilos de base estão em app.css).*/
+.loto.dois { gap: 4vmin; }
+.loto.dois .bola { width: 26vmin; height: 26vmin; }
+.loto.dois .bola span { width: 66%; height: 66%; font-size: 10.5vmin; }
+.loto .cartoes { display: flex; gap: 3vmin; align-items: center; }
+.loto .cartoes.empilhados { flex-direction: column; }
+.loto .cartoes .cartao:nth-child(2) { background: #ffd6e4; }
+/* Níveis "de ouvido": um altifalante na bola até a pessoa encontrar o número.*/
+.loto .bola.ouvir span img { width: 62%; height: 62%; object-fit: contain; }
+
+/* Barra de progresso e emblema de série*/
+.loto-barra {
+  position: absolute;
+  left: 3vmin;
+  right: 3vmin;
+  bottom: 0.6vmin;
+  height: 1.6vmin;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  pointer-events: none;
+}
+.loto-barra i { display: block; height: 100%; width: 0; background: var(--verde); border-radius: 999px; transition: width 0.6s ease; }
+.loto-selo {
+  position: absolute;
+  right: 4vmin;
+  bottom: 4vmin;
+  z-index: 20;
+  background: var(--amarelo);
+  border: var(--borda) solid var(--linha);
+  border-radius: 999px;
+  padding: 1vmin 2.5vmin;
+  font-weight: 900;
+  font-size: 4vmin;
+  opacity: 0;
+  pointer-events: none;
+}
+.loto-selo.mostra { animation: loto-selo 2s ease; }
+@keyframes loto-selo { 0% { opacity: 0; transform: scale(0.4); } 15% { opacity: 1; transform: scale(1.1); } 25% { transform: scale(1); } 80% { opacity: 1; } 100% { opacity: 0; } }

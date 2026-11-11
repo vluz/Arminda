@@ -1,0 +1,1 @@
+Ponha aqui o modelo de voz do Piper: um ficheiro .onnx e o seu .onnx.json (passo 5).

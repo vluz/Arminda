@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Ditados: a big speech bubble with quotation marks and an open book of old sayings. -->
+  <path d="M14 14 H114 Q122 14 122 22 V70 Q122 78 114 78 H58 L34 98 L38 78 H14 Q6 78 6 70 V22 Q6 14 14 14 Z"
+        fill="#ffffff" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+  <g fill="#e63946" stroke="#111111" stroke-width="3.5" stroke-linejoin="round">
+    <path d="M26 30 L40 30 L32 46 L40 62 L26 62 L18 46 Z"/>
+    <path d="M46 30 L60 30 L52 46 L60 62 L46 62 L38 46 Z"/>
+    <path d="M82 30 L68 30 L76 46 L68 62 L82 62 L90 46 Z"/>
+    <path d="M102 30 L88 30 L96 46 L88 62 L102 62 L110 46 Z"/>
+  </g>
+  <g stroke="#111111" stroke-width="4" stroke-linejoin="round">
+    <path d="M66 96 Q80 88 96 92 V122 Q80 118 66 124 Z" fill="#ffb703"/>
+    <path d="M66 96 Q52 88 36 92 V122 Q52 118 66 124 Z" fill="#ffd166"/>
+  </g>
+  <g stroke="#111111" stroke-width="2.5" stroke-linecap="round">
+    <path d="M44 102 L58 104 M44 110 L58 112"/>
+    <path d="M74 104 L88 102 M74 112 L88 110"/>
+  </g>
+</svg>

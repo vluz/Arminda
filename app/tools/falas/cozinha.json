@@ -1,0 +1,600 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Na Cozinha, fazes caldo verde, arroz doce e outros pratos de sempre."
+  ],
+  [
+   "instrucao",
+   "Toca nos ingredientes da receita. Eles saltam para a panela."
+  ],
+  [
+   "instrucao_ordem",
+   "Segue os números da receita, um de cada vez."
+  ],
+  [
+   "olha",
+   "Olha bem para a receita. Depois vou escondê-la."
+  ],
+  [
+   "lembra",
+   "Agora toca nos ingredientes de que te lembras."
+  ],
+  [
+   "lembra_ordem",
+   "Agora põe os ingredientes pela ordem certa."
+  ],
+  [
+   "espreita",
+   "Espreita a receita outra vez."
+  ],
+  [
+   "ainda_nao",
+   "Ainda não. Segue a ordem da receita."
+  ],
+  [
+   "nao_vai",
+   "Isso não vai nesta receita. Olha bem."
+  ],
+  [
+   "nao_vai2",
+   "Hum, isso não! Ficava esquisito."
+  ],
+  [
+   "nao_vai3",
+   "Esse fica para outro dia."
+  ],
+  [
+   "fim",
+   "Que {cozinheira|cozinheiro}! Está tudo pronto para a mesa."
+  ],
+  [
+   "fazer_caldo_verde",
+   "Vamos fazer caldo verde!"
+  ],
+  [
+   "fazer_sopa_legumes",
+   "Vamos fazer sopa de legumes!"
+  ],
+  [
+   "fazer_arroz_doce",
+   "Vamos fazer arroz doce!"
+  ],
+  [
+   "fazer_bacalhau_bras",
+   "Vamos fazer bacalhau à Brás!"
+  ],
+  [
+   "fazer_bolo_laranja",
+   "Vamos fazer um bolo de laranja!"
+  ],
+  [
+   "fazer_sardinhas",
+   "Vamos assar sardinhas!"
+  ],
+  [
+   "pronto_caldo_verde",
+   "O caldo verde está pronto! Que cheirinho!"
+  ],
+  [
+   "pronto_sopa_legumes",
+   "A sopa está pronta! Bem quentinha!"
+  ],
+  [
+   "pronto_arroz_doce",
+   "O arroz doce está pronto! Com canela por cima!"
+  ],
+  [
+   "pronto_bacalhau_bras",
+   "O bacalhau à Brás está pronto! Que delícia!"
+  ],
+  [
+   "pronto_bolo_laranja",
+   "O bolo de laranja saiu do forno! Que lindo!"
+  ],
+  [
+   "pronto_sardinhas",
+   "As sardinhas estão assadas! Cheira a Santo António!"
+  ],
+  [
+   "nome_caldo_verde",
+   "Caldo verde"
+  ],
+  [
+   "nome_sopa_legumes",
+   "Sopa de legumes"
+  ],
+  [
+   "nome_arroz_doce",
+   "Arroz doce"
+  ],
+  [
+   "nome_bacalhau_bras",
+   "Bacalhau à Brás"
+  ],
+  [
+   "nome_bolo_laranja",
+   "Bolo de laranja"
+  ],
+  [
+   "nome_sardinhas",
+   "Sardinhas assadas"
+  ],
+  [
+   "i_batata",
+   "Batatas."
+  ],
+  [
+   "i_cebola",
+   "Cebola."
+  ],
+  [
+   "i_alho",
+   "Alho."
+  ],
+  [
+   "i_couve",
+   "Couve."
+  ],
+  [
+   "i_chourico",
+   "Chouriço."
+  ],
+  [
+   "i_azeite",
+   "Azeite."
+  ],
+  [
+   "i_cenoura",
+   "Cenouras."
+  ],
+  [
+   "i_abobora",
+   "Abóbora."
+  ],
+  [
+   "i_arroz",
+   "Arroz."
+  ],
+  [
+   "i_leite",
+   "Leite."
+  ],
+  [
+   "i_acucar",
+   "Açúcar."
+  ],
+  [
+   "i_limao",
+   "Limão."
+  ],
+  [
+   "i_canela",
+   "Canela."
+  ],
+  [
+   "i_ovo",
+   "Ovos."
+  ],
+  [
+   "i_bacalhau",
+   "Bacalhau."
+  ],
+  [
+   "i_batata_palha",
+   "Batata palha."
+  ],
+  [
+   "i_azeitonas",
+   "Azeitonas."
+  ],
+  [
+   "i_salsa",
+   "Salsa."
+  ],
+  [
+   "i_farinha",
+   "Farinha."
+  ],
+  [
+   "i_laranja",
+   "Laranja."
+  ],
+  [
+   "i_sardinha",
+   "Sardinhas."
+  ],
+  [
+   "i_sal",
+   "Sal grosso."
+  ],
+  [
+   "i_pimento",
+   "Pimentos."
+  ],
+  [
+   "i_broa",
+   "Broa."
+  ],
+  [
+   "i_banana",
+   "Banana."
+  ],
+  [
+   "i_morango",
+   "Morangos."
+  ],
+  [
+   "i_tomate",
+   "Tomate."
+  ],
+  [
+   "i_maca",
+   "Maçã."
+  ],
+  [
+   "i_queijo",
+   "Queijo."
+  ],
+  [
+   "i_chocolate",
+   "Chocolate."
+  ],
+  [
+   "i_cogumelo",
+   "Cogumelos."
+  ],
+  [
+   "i_uvas",
+   "Uvas."
+  ],
+  [
+   "i_milho",
+   "Milho."
+  ],
+  [
+   "i_pera",
+   "Pera."
+  ],
+  [
+   "i_cereja",
+   "Cerejas."
+  ],
+  [
+   "i_ananas",
+   "Ananás."
+  ],
+  [
+   "i_mel",
+   "Mel."
+  ],
+  [
+   "i_melancia",
+   "Melancia."
+  ],
+  [
+   "i_pepino",
+   "Pepino."
+  ],
+  [
+   "fazer_rabanadas",
+   "Vamos fazer rabanadas!"
+  ],
+  [
+   "fazer_pasteis_bacalhau",
+   "Vamos fazer pastéis de bacalhau!"
+  ],
+  [
+   "fazer_leite_creme",
+   "Vamos fazer leite-creme!"
+  ],
+  [
+   "fazer_arroz_tomate",
+   "Vamos fazer arroz de tomate!"
+  ],
+  [
+   "fazer_pao_de_lo",
+   "Vamos fazer um pão de ló!"
+  ],
+  [
+   "fazer_polvo_lagareiro",
+   "Vamos fazer polvo à lagareiro!"
+  ],
+  [
+   "pronto_rabanadas",
+   "As rabanadas estão prontas! Cheira a Natal!"
+  ],
+  [
+   "pronto_pasteis_bacalhau",
+   "Os pastéis de bacalhau estão fritos! Bem douradinhos!"
+  ],
+  [
+   "pronto_leite_creme",
+   "O leite-creme está pronto! Com açúcar queimado por cima!"
+  ],
+  [
+   "pronto_arroz_tomate",
+   "O arroz de tomate está pronto! Bem malandrinho!"
+  ],
+  [
+   "pronto_pao_de_lo",
+   "O pão de ló saiu do forno! Que fofo!"
+  ],
+  [
+   "pronto_polvo_lagareiro",
+   "O polvo à lagareiro está pronto! Que regalo!"
+  ],
+  [
+   "nome_rabanadas",
+   "Rabanadas"
+  ],
+  [
+   "nome_pasteis_bacalhau",
+   "Pastéis de bacalhau"
+  ],
+  [
+   "nome_leite_creme",
+   "Leite-creme"
+  ],
+  [
+   "nome_arroz_tomate",
+   "Arroz de tomate"
+  ],
+  [
+   "nome_pao_de_lo",
+   "Pão de ló"
+  ],
+  [
+   "nome_polvo_lagareiro",
+   "Polvo à lagareiro"
+  ],
+  [
+   "i_pao",
+   "Pão."
+  ],
+  [
+   "i_polvo",
+   "Polvo."
+  ],
+  [
+   "instrucao_qtd",
+   "Conta bem: põe a quantidade certa de cada coisa."
+  ],
+  [
+   "ja_chega",
+   "Já chega desse. Conta bem as quantidades."
+  ],
+  [
+   "ouve",
+   "Ouve bem a receita. Só a digo uma vez."
+  ],
+  [
+   "dois",
+   "Hoje fazes dois pratos ao mesmo tempo!"
+  ],
+  [
+   "instrucao_dois",
+   "Toca num ingrediente e depois na panela certa."
+  ],
+  [
+   "escolhe_primeiro",
+   "Primeiro toca num ingrediente."
+  ],
+  [
+   "outro_prato",
+   "Isso é para o outro prato."
+  ],
+  [
+   "etapas_ouve",
+   "Ouve os passos da receita, por ordem."
+  ],
+  [
+   "etapas_lembra",
+   "Agora toca nos passos pela ordem certa. Há um que não é desta receita."
+  ],
+  [
+   "passo_nao",
+   "Esse passo não é desta receita."
+  ],
+  [
+   "passo_antes",
+   "Ainda não. O que vem antes?"
+  ],
+  [
+   "q_batata_4",
+   "Quatro batatas."
+  ],
+  [
+   "q_cebola_1",
+   "Uma cebola."
+  ],
+  [
+   "q_cebola_2",
+   "Duas cebolas."
+  ],
+  [
+   "q_alho_1",
+   "Um dente de alho."
+  ],
+  [
+   "q_alho_3",
+   "Três dentes de alho."
+  ],
+  [
+   "q_ovo_3",
+   "Três ovos."
+  ],
+  [
+   "q_ovo_4",
+   "Quatro ovos."
+  ],
+  [
+   "q_laranja_1",
+   "Uma laranja."
+  ],
+  [
+   "q_tomate_3",
+   "Três tomates."
+  ],
+  [
+   "e_cebola_alho",
+   "Alourar a cebola e o alho no azeite."
+  ],
+  [
+   "e_batatas_agua",
+   "Juntar as batatas e a água."
+  ],
+  [
+   "e_couve",
+   "Triturar e juntar a couve."
+  ],
+  [
+   "e_chourico",
+   "Servir com rodelas de chouriço."
+  ],
+  [
+   "e_azeite",
+   "Aquecer o azeite."
+  ],
+  [
+   "e_legumes",
+   "Cozer a batata, a cenoura e a abóbora."
+  ],
+  [
+   "e_leite_ferver",
+   "Ferver o leite com limão e canela."
+  ],
+  [
+   "e_arroz",
+   "Juntar o arroz."
+  ],
+  [
+   "e_acucar",
+   "Juntar o açúcar."
+  ],
+  [
+   "e_gemas_fora",
+   "Envolver as gemas fora do lume."
+  ],
+  [
+   "e_bacalhau_desfiado",
+   "Juntar o bacalhau desfiado."
+  ],
+  [
+   "e_batata_palha",
+   "Juntar a batata palha."
+  ],
+  [
+   "e_ovos_batidos",
+   "Envolver os ovos batidos."
+  ],
+  [
+   "e_azeitonas",
+   "Enfeitar com azeitonas e salsa."
+  ],
+  [
+   "e_gemas_acucar",
+   "Bater as gemas com o açúcar."
+  ],
+  [
+   "e_laranja",
+   "Juntar o sumo e a raspa da laranja."
+  ],
+  [
+   "e_farinha",
+   "Envolver a farinha."
+  ],
+  [
+   "e_forno",
+   "Levar ao forno."
+  ],
+  [
+   "e_sal_grosso",
+   "Temperar com sal grosso."
+  ],
+  [
+   "e_brasa",
+   "Assar na brasa."
+  ],
+  [
+   "e_broa",
+   "Servir em cima da broa."
+  ],
+  [
+   "e_leite_acucar",
+   "Ferver o leite com açúcar, limão e canela."
+  ],
+  [
+   "e_leite_pao",
+   "Passar o pão pelo leite."
+  ],
+  [
+   "e_ovo_batido",
+   "Passar pelo ovo batido."
+  ],
+  [
+   "e_fritar",
+   "Fritar até alourar."
+  ],
+  [
+   "e_canela",
+   "Polvilhar com canela."
+  ],
+  [
+   "e_pure",
+   "Cozer as batatas e fazer puré."
+  ],
+  [
+   "e_desfiar",
+   "Desfiar o bacalhau."
+  ],
+  [
+   "e_misturar_ovos",
+   "Juntar a cebola, os ovos e a salsa."
+  ],
+  [
+   "e_moldar",
+   "Moldar com duas colheres e fritar."
+  ],
+  [
+   "e_gemas_farinha",
+   "Bater as gemas com o açúcar e a farinha."
+  ],
+  [
+   "e_engrossar",
+   "Mexer ao lume até engrossar."
+  ],
+  [
+   "e_queimar",
+   "Queimar açúcar por cima."
+  ],
+  [
+   "e_tomate",
+   "Juntar o tomate."
+  ],
+  [
+   "e_arroz_agua",
+   "Juntar o arroz e a água."
+  ],
+  [
+   "e_ovos_acucar",
+   "Bater os ovos com o açúcar."
+  ],
+  [
+   "e_cozer_polvo",
+   "Cozer o polvo com a cebola."
+  ],
+  [
+   "e_assar_batatas",
+   "Assar as batatas com sal grosso."
+  ],
+  [
+   "e_regar",
+   "Regar com azeite e alho."
+  ],
+  [
+   "melhor",
+   "Hoje enganaste-te menos do que da última vez!"
+  ]
+ ]
+}

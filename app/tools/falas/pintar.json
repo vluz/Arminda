@@ -1,0 +1,140 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Nos Azulejos, pintas azulejos portugueses com as cores que quiseres."
+  ],
+  [
+   "ola",
+   "Vamos pintar azulejos?"
+  ],
+  [
+   "livre",
+   "Pinta este azulejo como quiseres."
+  ],
+  [
+   "como",
+   "Toca numa cor e depois toca no azulejo."
+  ],
+  [
+   "outro",
+   "Aqui vai outro azulejo para pintares."
+  ],
+  [
+   "pronto_quando",
+   "Está lindo! Quando acabares, toca em Pronto."
+  ],
+  [
+   "lindo",
+   "Que azulejo tão bonito!"
+  ],
+  [
+   "lindo2",
+   "Ficou uma maravilha!"
+  ],
+  [
+   "lindo3",
+   "Parece mesmo um azulejo antigo!"
+  ],
+  [
+   "copiar",
+   "Pinta o teu azulejo igual ao da estrela."
+  ],
+  [
+   "outro_copiar",
+   "Mais um para copiar."
+  ],
+  [
+   "copiar_nao",
+   "Essa cor não é igual. Olha o modelo."
+  ],
+  [
+   "olha_modelo",
+   "Olha bem o modelo."
+  ],
+  [
+   "igual",
+   "Igualzinho!"
+  ],
+  [
+   "painel",
+   "Um azulejo já está pintado. Pinta os outros três iguais!"
+  ],
+  [
+   "outro_painel",
+   "Mais um painel para acabar."
+  ],
+  [
+   "painel_nao",
+   "Olha o azulejo que já está pintado."
+  ],
+  [
+   "memoria",
+   "Olha bem para este azulejo. Depois pinta-o de memória!"
+  ],
+  [
+   "outro_memoria",
+   "Mais um. Fixa bem as cores!"
+  ],
+  [
+   "memoria_agora",
+   "Agora pinta-o igual."
+  ],
+  [
+   "memoria_nao",
+   "Essa cor não era. Lembra-te bem."
+  ],
+  [
+   "espreita",
+   "Espreita aqui num cantinho."
+  ],
+  [
+   "parede",
+   "Olha a tua parede de azulejos!"
+  ],
+  [
+   "melhor",
+   "Fizeste mais pontos do que da última vez!"
+  ],
+  [
+   "fim",
+   "Que lindos azulejos pintaste hoje!"
+  ],
+  [
+   "cor_azul",
+   "Azul."
+  ],
+  [
+   "cor_amarelo",
+   "Amarelo."
+  ],
+  [
+   "cor_branco",
+   "Branco."
+  ],
+  [
+   "cor_verde",
+   "Verde."
+  ],
+  [
+   "cor_vermelho",
+   "Vermelho."
+  ],
+  [
+   "cor_celeste",
+   "Azul-claro."
+  ],
+  [
+   "cor_laranja",
+   "Laranja."
+  ],
+  [
+   "cor_rosa",
+   "Cor-de-rosa."
+  ],
+  [
+   "cor_preto",
+   "Preto."
+  ]
+ ]
+}

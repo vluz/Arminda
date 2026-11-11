@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Cores: a painter's palette with six bright colours. -->
+  <path d="M64 8 C28 8 6 34 6 64 C6 96 32 120 62 120 C76 120 78 108 72 100 C66 92 70 84 82 84 L96 84 C112 84 122 74 122 58 C122 28 96 8 64 8 Z"
+        fill="#ffffff" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+  <g stroke="#111111" stroke-width="4">
+    <circle cx="30" cy="62" r="12" fill="#ffd60a"/>
+    <circle cx="42" cy="34" r="12" fill="#0a6fd6"/>
+    <circle cx="70" cy="24" r="12" fill="#2b9348"/>
+    <circle cx="98" cy="38" r="12" fill="#7b2cbf"/>
+    <circle cx="38" cy="92" r="12" fill="#ff7b00"/>
+    <circle cx="66" cy="56" r="12" fill="#ff7eb6"/>
+  </g>
+</svg>

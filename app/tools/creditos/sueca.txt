@@ -1,0 +1,1 @@
+www/img/noto/homem.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f468.svg, Apache 2.0 (Noto Emoji; Zé's face)

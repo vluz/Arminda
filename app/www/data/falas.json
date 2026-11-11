@@ -1,0 +1,8594 @@
+{
+ "geral": [
+  {
+   "id": "geral.bom_dia",
+   "texto": "Bom dia, mãe!"
+  },
+  {
+   "id": "geral.boa_tarde",
+   "texto": "Boa tarde, mãe!"
+  },
+  {
+   "id": "geral.boa_noite",
+   "texto": "Boa noite, mãe!"
+  },
+  {
+   "id": "geral.ola",
+   "texto": "Olá, mãe! Que bom ver-te!"
+  },
+  {
+   "id": "geral.vamos_jogar",
+   "texto": "Vamos jogar um bocadinho?"
+  },
+  {
+   "id": "geral.escolhe",
+   "texto": "Escolhe um jogo."
+  },
+  {
+   "id": "geral.muito_bem",
+   "texto": "Muito bem!"
+  },
+  {
+   "id": "geral.maravilha",
+   "texto": "Que maravilha!"
+  },
+  {
+   "id": "geral.bravo",
+   "texto": "Bravo!"
+  },
+  {
+   "id": "geral.isso_mesmo",
+   "texto": "Isso mesmo!"
+  },
+  {
+   "id": "geral.perfeito",
+   "texto": "Perfeito!"
+  },
+  {
+   "id": "geral.fantastico",
+   "texto": "Fantástico!"
+  },
+  {
+   "id": "geral.campea",
+   "texto": "És uma campeã!"
+  },
+  {
+   "id": "geral.grande_forma",
+   "texto": "Estás em grande forma!"
+  },
+  {
+   "id": "geral.rapidez",
+   "texto": "Que rapidez!"
+  },
+  {
+   "id": "geral.melhor_ontem",
+   "texto": "Melhor do que ontem!"
+  },
+  {
+   "id": "geral.quase",
+   "texto": "Quase!"
+  },
+  {
+   "id": "geral.tenta",
+   "texto": "Tenta outra vez."
+  },
+  {
+   "id": "geral.nao_faz_mal",
+   "texto": "Não faz mal."
+  },
+  {
+   "id": "geral.calma",
+   "texto": "Calma, há tempo."
+  },
+  {
+   "id": "geral.quase_la",
+   "texto": "Estás quase lá."
+  },
+  {
+   "id": "geral.dificil",
+   "texto": "Essa era difícil!"
+  },
+  {
+   "id": "geral.acabou",
+   "texto": "Acabou! Que bem jogaste!"
+  },
+  {
+   "id": "geral.azulejo_novo",
+   "texto": "Ganhaste um azulejo novo!"
+  },
+  {
+   "id": "geral.painel",
+   "texto": "Olha o teu painel de azulejos!"
+  },
+  {
+   "id": "geral.outra_vez",
+   "texto": "Queres jogar outra vez?"
+  },
+  {
+   "id": "geral.inicio",
+   "texto": "Vamos voltar ao início."
+  },
+  {
+   "id": "geral.ate_logo",
+   "texto": "Até logo, mãe!"
+  },
+  {
+   "id": "geral.descansa",
+   "texto": "Descansa bem."
+  },
+  {
+   "id": "geral.beijinho",
+   "texto": "Um beijinho grande!"
+  },
+  {
+   "id": "geral.gosto",
+   "texto": "Gosto muito de ti."
+  },
+  {
+   "id": "geral.subiu",
+   "texto": "Estás a jogar tão bem que a próxima vai ser mais difícil!"
+  },
+  {
+   "id": "geral.bateria",
+   "texto": "A bateria está a acabar. Pede a alguém para pôr o tablet a carregar."
+  },
+  {
+   "id": "geral.tres_estrelas",
+   "texto": "Três estrelas! Perfeito!"
+  },
+  {
+   "id": "geral.sequencia_vitorias",
+   "texto": "Mais uma vitória seguida! Ninguém te para!"
+  },
+  {
+   "id": "geral.marco_10",
+   "texto": "Já ganhaste dez vezes neste jogo!"
+  },
+  {
+   "id": "geral.marco_25",
+   "texto": "Já ganhaste vinte e cinco vezes neste jogo! És uma campeã!"
+  },
+  {
+   "id": "geral.marco_50",
+   "texto": "Cinquenta vitórias neste jogo! Que espetáculo!"
+  },
+  {
+   "id": "geral.marco_100",
+   "texto": "Cem vitórias neste jogo! Inacreditável!"
+  },
+  {
+   "id": "geral.bom_dia__2",
+   "texto": "Bom dia, pai!"
+  },
+  {
+   "id": "geral.boa_tarde__2",
+   "texto": "Boa tarde, pai!"
+  },
+  {
+   "id": "geral.boa_noite__2",
+   "texto": "Boa noite, pai!"
+  },
+  {
+   "id": "geral.ola__2",
+   "texto": "Olá, pai! Que bom ver-te!"
+  },
+  {
+   "id": "geral.campea__2",
+   "texto": "És um campeão!"
+  },
+  {
+   "id": "geral.ate_logo__2",
+   "texto": "Até logo, pai!"
+  },
+  {
+   "id": "geral.marco_25__2",
+   "texto": "Já ganhaste vinte e cinco vezes neste jogo! És um campeão!"
+  }
+ ],
+ "nora": [
+  {
+   "id": "nora.muito_bem",
+   "texto": "Muito bem!"
+  },
+  {
+   "id": "nora.bravo",
+   "texto": "Bravo!"
+  },
+  {
+   "id": "nora.maravilha",
+   "texto": "Que maravilha!"
+  },
+  {
+   "id": "nora.fantastico",
+   "texto": "Fantástico!"
+  },
+  {
+   "id": "nora.parabens",
+   "texto": "Parabéns!"
+  },
+  {
+   "id": "nora.quase",
+   "texto": "Quase!"
+  },
+  {
+   "id": "nora.beijinho",
+   "texto": "Um beijinho!"
+  },
+  {
+   "id": "nora.ate_logo",
+   "texto": "Até logo!"
+  }
+ ],
+ "intro": [
+  {
+   "id": "intro.ola",
+   "texto": "Olá, mãe! Este tablet é só para ti."
+  },
+  {
+   "id": "intro.jogos",
+   "texto": "Aqui tens jogos para te divertires."
+  },
+  {
+   "id": "intro.pares",
+   "texto": "Nas Pares, encontras as cartas iguais."
+  },
+  {
+   "id": "intro.jardim",
+   "texto": "No teu jardim, regas as flores e vês como crescem."
+  },
+  {
+   "id": "intro.loto",
+   "texto": "No Loto, ouves os números e marcas no teu cartão."
+  },
+  {
+   "id": "intro.azulejos",
+   "texto": "Sempre que jogas, ganhas um azulejo para o teu painel."
+  },
+  {
+   "id": "intro.casa",
+   "texto": "A casinha leva-te sempre ao início."
+  },
+  {
+   "id": "intro.repetir",
+   "texto": "Para ouvir isto outra vez, toca no botão de ouvir."
+  },
+  {
+   "id": "intro.fim",
+   "texto": "Diverte-te! Gostamos muito de ti."
+  },
+  {
+   "id": "intro.novidade",
+   "texto": "Há uma novidade para ti!"
+  },
+  {
+   "id": "intro.mais_jogos",
+   "texto": "Há muitos jogos novos! Toca na seta para ver mais."
+  },
+  {
+   "id": "intro.ola__2",
+   "texto": "Olá, pai! Este tablet é só para ti."
+  }
+ ],
+ "fotos": [
+  {
+   "id": "fotos.intro",
+   "texto": "Nas Fotografias, vês a tua família. Toca nas setas para ver mais."
+  },
+  {
+   "id": "fotos.ola",
+   "texto": "Olha quem está aqui!"
+  },
+  {
+   "id": "fotos.vazio",
+   "texto": "Ainda não há fotografias. Vêm aí em breve!"
+  },
+  {
+   "id": "fotos.setas",
+   "texto": "Toca nas setas para ver a próxima."
+  },
+  {
+   "id": "fotos.bonita",
+   "texto": "Que fotografia tão bonita!"
+  }
+ ],
+ "musica": [
+  {
+   "id": "musica.intro",
+   "texto": "Na Música, ouves as tuas canções preferidas."
+  },
+  {
+   "id": "musica.escolhe",
+   "texto": "Escolhe uma canção."
+  },
+  {
+   "id": "musica.vazio",
+   "texto": "Ainda não há música. Vem aí em breve!"
+  },
+  {
+   "id": "musica.bonita",
+   "texto": "Que canção tão bonita!"
+  }
+ ],
+ "casa": [
+  {
+   "id": "casa.intro",
+   "texto": "Em A minha casa, passeias pela tua casa."
+  },
+  {
+   "id": "casa.ola",
+   "texto": "Bem-vinda a casa!"
+  },
+  {
+   "id": "casa.vazio",
+   "texto": "Ainda não há fotografias da tua casa. Vêm aí em breve!"
+  },
+  {
+   "id": "casa.setas",
+   "texto": "Toca nas setas para olhar à volta."
+  },
+  {
+   "id": "casa.ir",
+   "texto": "Toca no nome para ires para lá."
+  },
+  {
+   "id": "casa.ola__2",
+   "texto": "Bem-vindo a casa!"
+  }
+ ],
+ "passeios": [
+  {
+   "id": "passeios.intro",
+   "texto": "Nos Passeios, visitas os sítios de que gostas."
+  },
+  {
+   "id": "passeios.escolhe",
+   "texto": "Onde queres passear hoje?"
+  },
+  {
+   "id": "passeios.vazio",
+   "texto": "Ainda não há passeios. Vêm aí em breve!"
+  }
+ ],
+ "pares": [
+  {
+   "id": "pares.instrucao",
+   "texto": "Toca em duas cartas iguais."
+  },
+  {
+   "id": "pares.par",
+   "texto": "Encontraste um par!"
+  },
+  {
+   "id": "pares.nao_iguais",
+   "texto": "Não são iguais. Tenta outra vez."
+  },
+  {
+   "id": "pares.todos",
+   "texto": "Encontraste todos os pares!"
+  },
+  {
+   "id": "pares.pastel_nata",
+   "texto": "Pastel de nata!"
+  },
+  {
+   "id": "pares.sardinha",
+   "texto": "Sardinha!"
+  },
+  {
+   "id": "pares.galo",
+   "texto": "Galo de Barcelos!"
+  },
+  {
+   "id": "pares.cafe",
+   "texto": "Cafezinho!"
+  },
+  {
+   "id": "pares.gato",
+   "texto": "Gato!"
+  },
+  {
+   "id": "pares.cao",
+   "texto": "Cão!"
+  },
+  {
+   "id": "pares.flor",
+   "texto": "Flor!"
+  },
+  {
+   "id": "pares.pao",
+   "texto": "Pão!"
+  },
+  {
+   "id": "pares.laranja",
+   "texto": "Laranja!"
+  },
+  {
+   "id": "pares.eletrico",
+   "texto": "Elétrico!"
+  },
+  {
+   "id": "pares.guitarra",
+   "texto": "Guitarra portuguesa!"
+  },
+  {
+   "id": "pares.coracao",
+   "texto": "Coração!"
+  },
+  {
+   "id": "pares.parecidas",
+   "texto": "Atenção, há cartas parecidas!"
+  },
+  {
+   "id": "pares.juntas",
+   "texto": "Agora junta as coisas que andam juntas."
+  },
+  {
+   "id": "pares.exemplo",
+   "texto": "A chave vai com a porta!"
+  },
+  {
+   "id": "pares.rosa",
+   "texto": "Rosa!"
+  },
+  {
+   "id": "pares.tulipa",
+   "texto": "Túlipa!"
+  },
+  {
+   "id": "pares.malmequer",
+   "texto": "Malmequer!"
+  },
+  {
+   "id": "pares.margarida",
+   "texto": "Margarida!"
+  },
+  {
+   "id": "pares.peixe",
+   "texto": "Peixe!"
+  },
+  {
+   "id": "pares.peixe_tropical",
+   "texto": "Peixinho às riscas!"
+  },
+  {
+   "id": "pares.croissant",
+   "texto": "Croissant!"
+  },
+  {
+   "id": "pares.baguete",
+   "texto": "Pão comprido!"
+  },
+  {
+   "id": "pares.limao",
+   "texto": "Limão!"
+  },
+  {
+   "id": "pares.maca",
+   "texto": "Maçã vermelha!"
+  },
+  {
+   "id": "pares.maca_verde",
+   "texto": "Maçã verde!"
+  },
+  {
+   "id": "pares.pera",
+   "texto": "Pera!"
+  },
+  {
+   "id": "pares.cha",
+   "texto": "Chá!"
+  },
+  {
+   "id": "pares.chave",
+   "texto": "Chave!"
+  },
+  {
+   "id": "pares.porta",
+   "texto": "Porta!"
+  },
+  {
+   "id": "pares.abelha",
+   "texto": "Abelha!"
+  },
+  {
+   "id": "pares.mel",
+   "texto": "Mel!"
+  },
+  {
+   "id": "pares.vaca",
+   "texto": "Vaca!"
+  },
+  {
+   "id": "pares.leite",
+   "texto": "Leite!"
+  },
+  {
+   "id": "pares.galinha",
+   "texto": "Galinha!"
+  },
+  {
+   "id": "pares.ovo",
+   "texto": "Ovo!"
+  },
+  {
+   "id": "pares.osso",
+   "texto": "Osso!"
+  },
+  {
+   "id": "pares.guarda_chuva",
+   "texto": "Guarda-chuva!"
+  },
+  {
+   "id": "pares.chuva",
+   "texto": "Chuva!"
+  },
+  {
+   "id": "pares.agulha",
+   "texto": "Agulha!"
+  },
+  {
+   "id": "pares.linha",
+   "texto": "Linha de coser!"
+  },
+  {
+   "id": "pares.dente",
+   "texto": "Dente!"
+  },
+  {
+   "id": "pares.escova",
+   "texto": "Escova de dentes!"
+  },
+  {
+   "id": "pares.manteiga",
+   "texto": "Manteiga!"
+  },
+  {
+   "id": "pares.banana",
+   "texto": "Banana!"
+  },
+  {
+   "id": "pares.cereja",
+   "texto": "Cerejas!"
+  },
+  {
+   "id": "pares.morango",
+   "texto": "Morango!"
+  },
+  {
+   "id": "pares.uvas",
+   "texto": "Uvas!"
+  },
+  {
+   "id": "pares.tomate",
+   "texto": "Tomate!"
+  },
+  {
+   "id": "pares.cenoura",
+   "texto": "Cenoura!"
+  },
+  {
+   "id": "pares.queijo",
+   "texto": "Queijo!"
+  },
+  {
+   "id": "pares.bolo",
+   "texto": "Bolo de anos!"
+  },
+  {
+   "id": "pares.pudim",
+   "texto": "Pudim!"
+  },
+  {
+   "id": "pares.sol",
+   "texto": "Sol!"
+  },
+  {
+   "id": "pares.lua",
+   "texto": "Lua!"
+  },
+  {
+   "id": "pares.estrela",
+   "texto": "Estrela!"
+  },
+  {
+   "id": "pares.borboleta",
+   "texto": "Borboleta!"
+  },
+  {
+   "id": "pares.joaninha",
+   "texto": "Joaninha!"
+  },
+  {
+   "id": "pares.caracol",
+   "texto": "Caracol!"
+  },
+  {
+   "id": "pares.coelho",
+   "texto": "Coelho!"
+  },
+  {
+   "id": "pares.ovelha",
+   "texto": "Ovelha!"
+  },
+  {
+   "id": "pares.pato",
+   "texto": "Pato!"
+  },
+  {
+   "id": "pares.passaro",
+   "texto": "Passarinho!"
+  },
+  {
+   "id": "pares.cavalo",
+   "texto": "Cavalo!"
+  },
+  {
+   "id": "pares.elefante",
+   "texto": "Elefante!"
+  },
+  {
+   "id": "pares.porco",
+   "texto": "Porco!"
+  },
+  {
+   "id": "pares.urso",
+   "texto": "Urso!"
+  },
+  {
+   "id": "pares.sapo",
+   "texto": "Sapo!"
+  },
+  {
+   "id": "pares.polvo",
+   "texto": "Polvo!"
+  },
+  {
+   "id": "pares.caranguejo",
+   "texto": "Caranguejo!"
+  },
+  {
+   "id": "pares.barco",
+   "texto": "Barco à vela!"
+  },
+  {
+   "id": "pares.aviao",
+   "texto": "Avião!"
+  },
+  {
+   "id": "pares.comboio",
+   "texto": "Comboio!"
+  },
+  {
+   "id": "pares.autocarro",
+   "texto": "Autocarro!"
+  },
+  {
+   "id": "pares.carro",
+   "texto": "Carro!"
+  },
+  {
+   "id": "pares.taxi",
+   "texto": "Táxi!"
+  },
+  {
+   "id": "pares.carrinha",
+   "texto": "Carrinha!"
+  },
+  {
+   "id": "pares.relogio",
+   "texto": "Relógio!"
+  },
+  {
+   "id": "pares.telefone",
+   "texto": "Telefone!"
+  },
+  {
+   "id": "pares.chapeu",
+   "texto": "Chapéu de senhora!"
+  },
+  {
+   "id": "pares.sapato",
+   "texto": "Sapato!"
+  },
+  {
+   "id": "pares.livro",
+   "texto": "Livro!"
+  },
+  {
+   "id": "pares.vela",
+   "texto": "Vela!"
+  },
+  {
+   "id": "pares.vinho",
+   "texto": "Copo de vinho!"
+  },
+  {
+   "id": "pares.mar",
+   "texto": "Onda do mar!"
+  },
+  {
+   "id": "pares.pe",
+   "texto": "Pé!"
+  },
+  {
+   "id": "pares.baiacu",
+   "texto": "Peixe-balão!"
+  },
+  {
+   "id": "pares.melancia",
+   "texto": "Melancia!"
+  },
+  {
+   "id": "pares.cogumelo",
+   "texto": "Cogumelo!"
+  },
+  {
+   "id": "pares.pintainho",
+   "texto": "Pintainho!"
+  },
+  {
+   "id": "pares.pintainho_frente",
+   "texto": "Pintainho de frente!"
+  },
+  {
+   "id": "pares.pintainho_ovo",
+   "texto": "Pintainho a sair do ovo!"
+  },
+  {
+   "id": "pares.coracao_azul",
+   "texto": "Coração azul!"
+  },
+  {
+   "id": "pares.coracao_verde",
+   "texto": "Coração verde!"
+  },
+  {
+   "id": "pares.coracao_amarelo",
+   "texto": "Coração amarelo!"
+  },
+  {
+   "id": "pares.coracao_roxo",
+   "texto": "Coração roxo!"
+  },
+  {
+   "id": "pares.caniche",
+   "texto": "Caniche!"
+  },
+  {
+   "id": "pares.hibisco",
+   "texto": "Hibisco!"
+  },
+  {
+   "id": "pares.flor_cerejeira",
+   "texto": "Flor de cerejeira!"
+  },
+  {
+   "id": "pares.queque",
+   "texto": "Queque!"
+  },
+  {
+   "id": "pares.fatia_bolo",
+   "texto": "Fatia de bolo!"
+  },
+  {
+   "id": "pares.bota",
+   "texto": "Bota!"
+  },
+  {
+   "id": "pares.sandalia",
+   "texto": "Sandália!"
+  },
+  {
+   "id": "pares.sapato_salto",
+   "texto": "Sapato de salto alto!"
+  },
+  {
+   "id": "pares.rato",
+   "texto": "Rato!"
+  },
+  {
+   "id": "pares.macaco",
+   "texto": "Macaco!"
+  },
+  {
+   "id": "pares.oculos",
+   "texto": "Óculos!"
+  },
+  {
+   "id": "pares.novelo",
+   "texto": "Novelo de lã!"
+  },
+  {
+   "id": "pares.ninho",
+   "texto": "Ninho!"
+  },
+  {
+   "id": "pares.cartola",
+   "texto": "Cartola!"
+  },
+  {
+   "id": "pares.bone",
+   "texto": "Boné!"
+  },
+  {
+   "id": "pares.muitas",
+   "texto": "Hoje há muitas cartas. Com calma, uma de cada vez."
+  },
+  {
+   "id": "pares.serie_3",
+   "texto": "Três pares seguidos!"
+  },
+  {
+   "id": "pares.serie_5",
+   "texto": "Cinco pares seguidos! Que memória!"
+  },
+  {
+   "id": "pares.melhor",
+   "texto": "Hoje enganaste-te menos do que da última vez!"
+  }
+ ],
+ "jardim": [
+  {
+   "id": "jardim.bem_vinda",
+   "texto": "Bem-vinda ao teu jardim!"
+  },
+  {
+   "id": "jardim.sede",
+   "texto": "As flores têm sede. Vamos regar?"
+  },
+  {
+   "id": "jardim.regador",
+   "texto": "Toca no regador."
+  },
+  {
+   "id": "jardim.bonita",
+   "texto": "Que bonita está esta flor!"
+  },
+  {
+   "id": "jardim.nasceu",
+   "texto": "Nasceu uma flor nova!"
+  },
+  {
+   "id": "jardim.apanhar",
+   "texto": "Vamos apanhar uma flor?"
+  },
+  {
+   "id": "jardim.passarinho",
+   "texto": "Olha, um passarinho!"
+  },
+  {
+   "id": "jardim.crescer",
+   "texto": "O jardim está a crescer!"
+  },
+  {
+   "id": "jardim.amanha",
+   "texto": "Amanhã há mais flores."
+  },
+  {
+   "id": "jardim.rosa",
+   "texto": "Rosa!"
+  },
+  {
+   "id": "jardim.malmequer",
+   "texto": "Malmequer!"
+  },
+  {
+   "id": "jardim.girassol",
+   "texto": "Girassol!"
+  },
+  {
+   "id": "jardim.tulipa",
+   "texto": "Túlipa!"
+  },
+  {
+   "id": "jardim.margarida",
+   "texto": "Margarida!"
+  },
+  {
+   "id": "jardim.cravo",
+   "texto": "Cravo!"
+  },
+  {
+   "id": "jardim.placas",
+   "texto": "Olha as plaquinhas: mostram a flor de cada vaso."
+  },
+  {
+   "id": "jardim.lembra",
+   "texto": "Hoje peço-te duas flores. Fixa bem as duas!"
+  },
+  {
+   "id": "jardim.rega_rosa",
+   "texto": "Rega a rosa!"
+  },
+  {
+   "id": "jardim.rega_malmequer",
+   "texto": "Rega o malmequer!"
+  },
+  {
+   "id": "jardim.rega_girassol",
+   "texto": "Rega o girassol!"
+  },
+  {
+   "id": "jardim.rega_tulipa",
+   "texto": "Rega a túlipa!"
+  },
+  {
+   "id": "jardim.rega_margarida",
+   "texto": "Rega a margarida!"
+  },
+  {
+   "id": "jardim.rega_cravo",
+   "texto": "Rega o cravo!"
+  },
+  {
+   "id": "jardim.depois_rosa",
+   "texto": "E depois, a rosa!"
+  },
+  {
+   "id": "jardim.depois_malmequer",
+   "texto": "E depois, o malmequer!"
+  },
+  {
+   "id": "jardim.depois_girassol",
+   "texto": "E depois, o girassol!"
+  },
+  {
+   "id": "jardim.depois_tulipa",
+   "texto": "E depois, a túlipa!"
+  },
+  {
+   "id": "jardim.depois_margarida",
+   "texto": "E depois, a margarida!"
+  },
+  {
+   "id": "jardim.depois_cravo",
+   "texto": "E depois, o cravo!"
+  },
+  {
+   "id": "jardim.essa_nao",
+   "texto": "Essa não é a flor que pedi."
+  },
+  {
+   "id": "jardim.e_agora",
+   "texto": "Boa! E agora, qual era a outra?"
+  },
+  {
+   "id": "jardim.caracol",
+   "texto": "Olha, um caracol no vaso! Toca nele para o tirar."
+  },
+  {
+   "id": "jardim.erva",
+   "texto": "Nasceu uma erva daninha. Toca nela para a arrancar."
+  },
+  {
+   "id": "jardim.primeiro",
+   "texto": "Primeiro limpa o vaso."
+  },
+  {
+   "id": "jardim.limpo",
+   "texto": "Vaso limpinho!"
+  },
+  {
+   "id": "jardim.bem_vinda__2",
+   "texto": "Bem-vindo ao teu jardim!"
+  }
+ ],
+ "loto": [
+  {
+   "id": "loto.comecar",
+   "texto": "Vamos jogar ao loto!"
+  },
+  {
+   "id": "loto.instrucao",
+   "texto": "Ouve o número e toca nele no teu cartão."
+  },
+  {
+   "id": "loto.proximo",
+   "texto": "Próximo número!"
+  },
+  {
+   "id": "loto.linha",
+   "texto": "Linha!"
+  },
+  {
+   "id": "loto.cheio",
+   "texto": "Cartão cheio! Ganhaste o loto!"
+  },
+  {
+   "id": "loto.nao_saiu",
+   "texto": "Esse número ainda não saiu."
+  },
+  {
+   "id": "loto.dois",
+   "texto": "Hoje jogas com dois cartões. Olha para os dois!"
+  },
+  {
+   "id": "loto.ouvido",
+   "texto": "Agora a bola não mostra o número. Ouve bem!"
+  },
+  {
+   "id": "loto.melhor",
+   "texto": "Hoje foste mais rápida do que da última vez!"
+  }
+ ],
+ "ditados": [
+  {
+   "id": "ditados.intro",
+   "texto": "Nos Ditados, ouves o começo de um ditado antigo e escolhes como acaba."
+  },
+  {
+   "id": "ditados.instrucao",
+   "texto": "Ouve o ditado e escolhe a palavra que falta."
+  },
+  {
+   "id": "ditados.instrucao_figura",
+   "texto": "Ouve o ditado e toca no desenho certo."
+  },
+  {
+   "id": "ditados.instrucao_meio",
+   "texto": "Agora falta uma palavra no meio. Qual é?"
+  },
+  {
+   "id": "ditados.instrucao_fim",
+   "texto": "Agora escolhe o fim do ditado."
+  },
+  {
+   "id": "ditados.ajuda",
+   "texto": "Vou ajudar-te. Tirei uma que não era."
+  },
+  {
+   "id": "ditados.todos",
+   "texto": "Que bem que sabes os ditados!"
+  },
+  {
+   "id": "ditados.d001_inicio",
+   "texto": "Água mole em pedra dura…"
+  },
+  {
+   "id": "ditados.d001_completo",
+   "texto": "Água mole em pedra dura, tanto bate até que fura."
+  },
+  {
+   "id": "ditados.d002_inicio",
+   "texto": "Grão a grão…"
+  },
+  {
+   "id": "ditados.d002_completo",
+   "texto": "Grão a grão enche a galinha o papo."
+  },
+  {
+   "id": "ditados.d003_inicio",
+   "texto": "Quem espera…"
+  },
+  {
+   "id": "ditados.d003_completo",
+   "texto": "Quem espera sempre alcança."
+  },
+  {
+   "id": "ditados.d004_inicio",
+   "texto": "Mais vale um pássaro na mão…"
+  },
+  {
+   "id": "ditados.d004_completo",
+   "texto": "Mais vale um pássaro na mão do que dois a voar."
+  },
+  {
+   "id": "ditados.d005_inicio",
+   "texto": "Quem não tem cão…"
+  },
+  {
+   "id": "ditados.d005_completo",
+   "texto": "Quem não tem cão caça com gato."
+  },
+  {
+   "id": "ditados.d006_inicio",
+   "texto": "Em casa de ferreiro…"
+  },
+  {
+   "id": "ditados.d006_completo",
+   "texto": "Em casa de ferreiro, espeto de pau."
+  },
+  {
+   "id": "ditados.d007_inicio",
+   "texto": "Filho de peixe…"
+  },
+  {
+   "id": "ditados.d007_completo",
+   "texto": "Filho de peixe sabe nadar."
+  },
+  {
+   "id": "ditados.d008_inicio",
+   "texto": "Cão que ladra…"
+  },
+  {
+   "id": "ditados.d008_completo",
+   "texto": "Cão que ladra não morde."
+  },
+  {
+   "id": "ditados.d009_inicio",
+   "texto": "Quem vê caras…"
+  },
+  {
+   "id": "ditados.d009_completo",
+   "texto": "Quem vê caras não vê corações."
+  },
+  {
+   "id": "ditados.d010_inicio",
+   "texto": "Devagar…"
+  },
+  {
+   "id": "ditados.d010_completo",
+   "texto": "Devagar se vai ao longe."
+  },
+  {
+   "id": "ditados.d011_inicio",
+   "texto": "Mais vale tarde…"
+  },
+  {
+   "id": "ditados.d011_completo",
+   "texto": "Mais vale tarde do que nunca."
+  },
+  {
+   "id": "ditados.d012_inicio",
+   "texto": "Diz-me com quem andas…"
+  },
+  {
+   "id": "ditados.d012_completo",
+   "texto": "Diz-me com quem andas, dir-te-ei quem és."
+  },
+  {
+   "id": "ditados.d013_inicio",
+   "texto": "De pequenino…"
+  },
+  {
+   "id": "ditados.d013_completo",
+   "texto": "De pequenino se torce o pepino."
+  },
+  {
+   "id": "ditados.d014_inicio",
+   "texto": "Quem conta um conto…"
+  },
+  {
+   "id": "ditados.d014_completo",
+   "texto": "Quem conta um conto acrescenta um ponto."
+  },
+  {
+   "id": "ditados.d015_inicio",
+   "texto": "Não há fumo…"
+  },
+  {
+   "id": "ditados.d015_completo",
+   "texto": "Não há fumo sem fogo."
+  },
+  {
+   "id": "ditados.d016_inicio",
+   "texto": "A cavalo dado…"
+  },
+  {
+   "id": "ditados.d016_completo",
+   "texto": "A cavalo dado, não se olha ao dente."
+  },
+  {
+   "id": "ditados.d017_inicio",
+   "texto": "Deus ajuda…"
+  },
+  {
+   "id": "ditados.d017_completo",
+   "texto": "Deus ajuda quem cedo madruga."
+  },
+  {
+   "id": "ditados.d018_inicio",
+   "texto": "Quem tudo quer…"
+  },
+  {
+   "id": "ditados.d018_completo",
+   "texto": "Quem tudo quer tudo perde."
+  },
+  {
+   "id": "ditados.d019_inicio",
+   "texto": "Uma andorinha só…"
+  },
+  {
+   "id": "ditados.d019_completo",
+   "texto": "Uma andorinha só não faz a primavera."
+  },
+  {
+   "id": "ditados.d020_inicio",
+   "texto": "Cada macaco…"
+  },
+  {
+   "id": "ditados.d020_completo",
+   "texto": "Cada macaco no seu galho."
+  },
+  {
+   "id": "ditados.d021_inicio",
+   "texto": "Quem semeia ventos…"
+  },
+  {
+   "id": "ditados.d021_completo",
+   "texto": "Quem semeia ventos colhe tempestades."
+  },
+  {
+   "id": "ditados.d022_inicio",
+   "texto": "Gato escaldado…"
+  },
+  {
+   "id": "ditados.d022_completo",
+   "texto": "Gato escaldado de água fria tem medo."
+  },
+  {
+   "id": "ditados.d023_inicio",
+   "texto": "Não deixes para amanhã…"
+  },
+  {
+   "id": "ditados.d023_completo",
+   "texto": "Não deixes para amanhã o que podes fazer hoje."
+  },
+  {
+   "id": "ditados.d024_inicio",
+   "texto": "Depressa e bem…"
+  },
+  {
+   "id": "ditados.d024_completo",
+   "texto": "Depressa e bem, há pouco quem."
+  },
+  {
+   "id": "ditados.d025_inicio",
+   "texto": "Casa roubada…"
+  },
+  {
+   "id": "ditados.d025_completo",
+   "texto": "Casa roubada, trancas à porta."
+  },
+  {
+   "id": "ditados.d026_inicio",
+   "texto": "Ladrão que rouba a ladrão…"
+  },
+  {
+   "id": "ditados.d026_completo",
+   "texto": "Ladrão que rouba a ladrão tem cem anos de perdão."
+  },
+  {
+   "id": "ditados.d027_inicio",
+   "texto": "O hábito…"
+  },
+  {
+   "id": "ditados.d027_completo",
+   "texto": "O hábito não faz o monge."
+  },
+  {
+   "id": "ditados.d028_inicio",
+   "texto": "Quem casa…"
+  },
+  {
+   "id": "ditados.d028_completo",
+   "texto": "Quem casa quer casa."
+  },
+  {
+   "id": "ditados.d029_inicio",
+   "texto": "Os olhos…"
+  },
+  {
+   "id": "ditados.d029_completo",
+   "texto": "Os olhos são o espelho da alma."
+  },
+  {
+   "id": "ditados.d030_inicio",
+   "texto": "Longe da vista…"
+  },
+  {
+   "id": "ditados.d030_completo",
+   "texto": "Longe da vista, longe do coração."
+  },
+  {
+   "id": "ditados.d031_inicio",
+   "texto": "Depois da tempestade…"
+  },
+  {
+   "id": "ditados.d031_completo",
+   "texto": "Depois da tempestade vem a bonança."
+  },
+  {
+   "id": "ditados.d032_inicio",
+   "texto": "Quem não arrisca…"
+  },
+  {
+   "id": "ditados.d032_completo",
+   "texto": "Quem não arrisca não petisca."
+  },
+  {
+   "id": "ditados.d033_inicio",
+   "texto": "Tantas vezes vai o cântaro à fonte…"
+  },
+  {
+   "id": "ditados.d033_completo",
+   "texto": "Tantas vezes vai o cântaro à fonte que lá deixa a asa."
+  },
+  {
+   "id": "ditados.d034_inicio",
+   "texto": "Quem anda à chuva…"
+  },
+  {
+   "id": "ditados.d034_completo",
+   "texto": "Quem anda à chuva molha-se."
+  },
+  {
+   "id": "ditados.d035_inicio",
+   "texto": "Em Abril…"
+  },
+  {
+   "id": "ditados.d035_completo",
+   "texto": "Em Abril, águas mil."
+  },
+  {
+   "id": "ditados.d036_inicio",
+   "texto": "No dia de São Martinho…"
+  },
+  {
+   "id": "ditados.d036_completo",
+   "texto": "No dia de São Martinho, vai à adega e prova o vinho."
+  },
+  {
+   "id": "ditados.d037_inicio",
+   "texto": "Mais vale só…"
+  },
+  {
+   "id": "ditados.d037_completo",
+   "texto": "Mais vale só do que mal acompanhado."
+  },
+  {
+   "id": "ditados.d038_inicio",
+   "texto": "O que os olhos não veem…"
+  },
+  {
+   "id": "ditados.d038_completo",
+   "texto": "O que os olhos não veem o coração não sente."
+  },
+  {
+   "id": "ditados.d039_inicio",
+   "texto": "Quem muito fala…"
+  },
+  {
+   "id": "ditados.d039_completo",
+   "texto": "Quem muito fala pouco acerta."
+  },
+  {
+   "id": "ditados.d040_inicio",
+   "texto": "Quem não deve…"
+  },
+  {
+   "id": "ditados.d040_completo",
+   "texto": "Quem não deve não teme."
+  },
+  {
+   "id": "ditados.d041_inicio",
+   "texto": "Roma e Pavia…"
+  },
+  {
+   "id": "ditados.d041_completo",
+   "texto": "Roma e Pavia não se fizeram num dia."
+  },
+  {
+   "id": "ditados.d042_inicio",
+   "texto": "Zangam-se as comadres…"
+  },
+  {
+   "id": "ditados.d042_completo",
+   "texto": "Zangam-se as comadres, descobrem-se as verdades."
+  },
+  {
+   "id": "ditados.d043_inicio",
+   "texto": "Quem cala…"
+  },
+  {
+   "id": "ditados.d043_completo",
+   "texto": "Quem cala consente."
+  },
+  {
+   "id": "ditados.d044_inicio",
+   "texto": "Tal pai…"
+  },
+  {
+   "id": "ditados.d044_completo",
+   "texto": "Tal pai, tal filho."
+  },
+  {
+   "id": "ditados.d045_inicio",
+   "texto": "Patrão fora…"
+  },
+  {
+   "id": "ditados.d045_completo",
+   "texto": "Patrão fora, dia santo na loja."
+  },
+  {
+   "id": "ditados.d046_inicio",
+   "texto": "Quem te avisa…"
+  },
+  {
+   "id": "ditados.d046_completo",
+   "texto": "Quem te avisa teu amigo é."
+  },
+  {
+   "id": "ditados.d047_inicio",
+   "texto": "Há males…"
+  },
+  {
+   "id": "ditados.d047_completo",
+   "texto": "Há males que vêm por bem."
+  },
+  {
+   "id": "ditados.d048_inicio",
+   "texto": "Nem tudo o que reluz…"
+  },
+  {
+   "id": "ditados.d048_completo",
+   "texto": "Nem tudo o que reluz é ouro."
+  },
+  {
+   "id": "ditados.d049_inicio",
+   "texto": "De noite…"
+  },
+  {
+   "id": "ditados.d049_completo",
+   "texto": "De noite todos os gatos são pardos."
+  },
+  {
+   "id": "ditados.d050_inicio",
+   "texto": "Águas passadas…"
+  },
+  {
+   "id": "ditados.d050_completo",
+   "texto": "Águas passadas não movem moinhos."
+  },
+  {
+   "id": "ditados.d051_inicio",
+   "texto": "Tristezas…"
+  },
+  {
+   "id": "ditados.d051_completo",
+   "texto": "Tristezas não pagam dívidas."
+  },
+  {
+   "id": "ditados.d052_inicio",
+   "texto": "Quem boa cama fizer…"
+  },
+  {
+   "id": "ditados.d052_completo",
+   "texto": "Quem boa cama fizer nela se deitará."
+  },
+  {
+   "id": "ditados.d053_inicio",
+   "texto": "Querer…"
+  },
+  {
+   "id": "ditados.d053_completo",
+   "texto": "Querer é poder."
+  },
+  {
+   "id": "ditados.d054_inicio",
+   "texto": "A união…"
+  },
+  {
+   "id": "ditados.d054_completo",
+   "texto": "A união faz a força."
+  },
+  {
+   "id": "ditados.d055_inicio",
+   "texto": "Amigos, amigos…"
+  },
+  {
+   "id": "ditados.d055_completo",
+   "texto": "Amigos, amigos, negócios à parte."
+  },
+  {
+   "id": "ditados.d056_inicio",
+   "texto": "Quem tem boca…"
+  },
+  {
+   "id": "ditados.d056_completo",
+   "texto": "Quem tem boca vai a Roma."
+  },
+  {
+   "id": "ditados.d057_inicio",
+   "texto": "Cesteiro que faz um cesto…"
+  },
+  {
+   "id": "ditados.d057_completo",
+   "texto": "Cesteiro que faz um cesto faz um cento."
+  },
+  {
+   "id": "ditados.d058_inicio",
+   "texto": "Com papas e bolos…"
+  },
+  {
+   "id": "ditados.d058_completo",
+   "texto": "Com papas e bolos se enganam os tolos."
+  },
+  {
+   "id": "ditados.d059_inicio",
+   "texto": "Quem sai aos seus…"
+  },
+  {
+   "id": "ditados.d059_completo",
+   "texto": "Quem sai aos seus não degenera."
+  },
+  {
+   "id": "ditados.d060_inicio",
+   "texto": "Vozes de burro…"
+  },
+  {
+   "id": "ditados.d060_completo",
+   "texto": "Vozes de burro não chegam ao céu."
+  },
+  {
+   "id": "ditados.d061_inicio",
+   "texto": "Cada cabeça…"
+  },
+  {
+   "id": "ditados.d061_completo",
+   "texto": "Cada cabeça, cada sentença."
+  },
+  {
+   "id": "ditados.d062_inicio",
+   "texto": "Quem desdenha…"
+  },
+  {
+   "id": "ditados.d062_completo",
+   "texto": "Quem desdenha quer comprar."
+  },
+  {
+   "id": "ditados.d063_inicio",
+   "texto": "Nem tanto ao mar…"
+  },
+  {
+   "id": "ditados.d063_completo",
+   "texto": "Nem tanto ao mar, nem tanto à terra."
+  },
+  {
+   "id": "ditados.d064_inicio",
+   "texto": "A noite…"
+  },
+  {
+   "id": "ditados.d064_completo",
+   "texto": "A noite é boa conselheira."
+  },
+  {
+   "id": "ditados.d065_inicio",
+   "texto": "Gaivotas em terra…"
+  },
+  {
+   "id": "ditados.d065_completo",
+   "texto": "Gaivotas em terra, tempestade no mar."
+  },
+  {
+   "id": "ditados.d066_inicio",
+   "texto": "Há mais marés…"
+  },
+  {
+   "id": "ditados.d066_completo",
+   "texto": "Há mais marés que marinheiros."
+  },
+  {
+   "id": "ditados.d067_inicio",
+   "texto": "Para bom entendedor…"
+  },
+  {
+   "id": "ditados.d067_completo",
+   "texto": "Para bom entendedor, meia palavra basta."
+  },
+  {
+   "id": "ditados.d068_inicio",
+   "texto": "Uma mão…"
+  },
+  {
+   "id": "ditados.d068_completo",
+   "texto": "Uma mão lava a outra."
+  },
+  {
+   "id": "ditados.d069_inicio",
+   "texto": "Não há bela…"
+  },
+  {
+   "id": "ditados.d069_completo",
+   "texto": "Não há bela sem senão."
+  },
+  {
+   "id": "ditados.d070_inicio",
+   "texto": "Saco vazio…"
+  },
+  {
+   "id": "ditados.d070_completo",
+   "texto": "Saco vazio não fica de pé."
+  },
+  {
+   "id": "ditados.d071_inicio",
+   "texto": "O saber…"
+  },
+  {
+   "id": "ditados.d071_completo",
+   "texto": "O saber não ocupa lugar."
+  },
+  {
+   "id": "ditados.d072_inicio",
+   "texto": "A ocasião…"
+  },
+  {
+   "id": "ditados.d072_completo",
+   "texto": "A ocasião faz o ladrão."
+  },
+  {
+   "id": "ditados.d073_inicio",
+   "texto": "Até ao lavar dos cestos…"
+  },
+  {
+   "id": "ditados.d073_completo",
+   "texto": "Até ao lavar dos cestos é vindima."
+  },
+  {
+   "id": "ditados.d074_inicio",
+   "texto": "Cada qual puxa a brasa…"
+  },
+  {
+   "id": "ditados.d074_completo",
+   "texto": "Cada qual puxa a brasa para a sua sardinha."
+  },
+  {
+   "id": "ditados.d075_inicio",
+   "texto": "Em tempo de guerra…"
+  },
+  {
+   "id": "ditados.d075_completo",
+   "texto": "Em tempo de guerra não se limpam armas."
+  },
+  {
+   "id": "ditados.d076_inicio",
+   "texto": "Pão, pão…"
+  },
+  {
+   "id": "ditados.d076_completo",
+   "texto": "Pão, pão, queijo, queijo."
+  },
+  {
+   "id": "ditados.d077_inicio",
+   "texto": "Quem tem telhados de vidro…"
+  },
+  {
+   "id": "ditados.d077_completo",
+   "texto": "Quem tem telhados de vidro não atira pedras ao vizinho."
+  },
+  {
+   "id": "ditados.d078_inicio",
+   "texto": "Quem parte e reparte e não fica com a melhor parte…"
+  },
+  {
+   "id": "ditados.d078_completo",
+   "texto": "Quem parte e reparte e não fica com a melhor parte, ou é tolo ou não tem arte."
+  },
+  {
+   "id": "ditados.d079_inicio",
+   "texto": "De Espanha…"
+  },
+  {
+   "id": "ditados.d079_completo",
+   "texto": "De Espanha, nem bom vento nem bom casamento."
+  },
+  {
+   "id": "ditados.d080_inicio",
+   "texto": "Comer e coçar…"
+  },
+  {
+   "id": "ditados.d080_completo",
+   "texto": "Comer e coçar está no começar."
+  },
+  {
+   "id": "ditados.d081_inicio",
+   "texto": "Não há rosas…"
+  },
+  {
+   "id": "ditados.d081_completo",
+   "texto": "Não há rosas sem espinhos."
+  },
+  {
+   "id": "ditados.d082_inicio",
+   "texto": "Cada qual…"
+  },
+  {
+   "id": "ditados.d082_completo",
+   "texto": "Cada qual com seu igual."
+  },
+  {
+   "id": "ditados.d083_inicio",
+   "texto": "Quem com porcos se mistura…"
+  },
+  {
+   "id": "ditados.d083_completo",
+   "texto": "Quem com porcos se mistura, farelos come."
+  },
+  {
+   "id": "ditados.d084_inicio",
+   "texto": "A beleza…"
+  },
+  {
+   "id": "ditados.d084_completo",
+   "texto": "A beleza não se põe à mesa."
+  },
+  {
+   "id": "ditados.d085_inicio",
+   "texto": "A árvore caída…"
+  },
+  {
+   "id": "ditados.d085_completo",
+   "texto": "A árvore caída, todos vão buscar lenha."
+  },
+  {
+   "id": "ditados.d086_inicio",
+   "texto": "Pelo São João…"
+  },
+  {
+   "id": "ditados.d086_completo",
+   "texto": "Pelo São João, a sardinha pinga no pão."
+  },
+  {
+   "id": "ditados.d087_inicio",
+   "texto": "Quem tem medo…"
+  },
+  {
+   "id": "ditados.d087_completo",
+   "texto": "Quem tem medo compra um cão."
+  },
+  {
+   "id": "ditados.d088_inicio",
+   "texto": "Para quem é…"
+  },
+  {
+   "id": "ditados.d088_completo",
+   "texto": "Para quem é, bacalhau basta."
+  },
+  {
+   "id": "ditados.d089_inicio",
+   "texto": "Onde há galo…"
+  },
+  {
+   "id": "ditados.d089_completo",
+   "texto": "Onde há galo, não canta galinha."
+  },
+  {
+   "id": "ditados.d090_inicio",
+   "texto": "A palavra é de prata…"
+  },
+  {
+   "id": "ditados.d090_completo",
+   "texto": "A palavra é de prata, o silêncio é de ouro."
+  },
+  {
+   "id": "ditados.d091_inicio",
+   "texto": "Quem não aparece…"
+  },
+  {
+   "id": "ditados.d091_completo",
+   "texto": "Quem não aparece esquece."
+  },
+  {
+   "id": "ditados.d092_inicio",
+   "texto": "Quem vai ao mar…"
+  },
+  {
+   "id": "ditados.d092_completo",
+   "texto": "Quem vai ao mar perde o lugar."
+  },
+  {
+   "id": "ditados.d093_inicio",
+   "texto": "Fruta proibida…"
+  },
+  {
+   "id": "ditados.d093_completo",
+   "texto": "Fruta proibida é a mais apetecida."
+  },
+  {
+   "id": "ditados.d094_inicio",
+   "texto": "Quem tem filhos…"
+  },
+  {
+   "id": "ditados.d094_completo",
+   "texto": "Quem tem filhos tem cadilhos."
+  },
+  {
+   "id": "ditados.d095_inicio",
+   "texto": "Candeia que vai à frente…"
+  },
+  {
+   "id": "ditados.d095_completo",
+   "texto": "Candeia que vai à frente alumia duas vezes."
+  },
+  {
+   "id": "ditados.d096_inicio",
+   "texto": "Mais vale cair em graça…"
+  },
+  {
+   "id": "ditados.d096_completo",
+   "texto": "Mais vale cair em graça do que ser engraçado."
+  },
+  {
+   "id": "ditados.d097_inicio",
+   "texto": "A galinha da vizinha…"
+  },
+  {
+   "id": "ditados.d097_completo",
+   "texto": "A galinha da vizinha é sempre melhor do que a minha."
+  },
+  {
+   "id": "ditados.d098_inicio",
+   "texto": "Mãos frias…"
+  },
+  {
+   "id": "ditados.d098_completo",
+   "texto": "Mãos frias, coração quente."
+  },
+  {
+   "id": "ditados.d099_inicio",
+   "texto": "Quem dá aos pobres…"
+  },
+  {
+   "id": "ditados.d099_completo",
+   "texto": "Quem dá aos pobres empresta a Deus."
+  },
+  {
+   "id": "ditados.d100_inicio",
+   "texto": "Março, marçagão…"
+  },
+  {
+   "id": "ditados.d100_completo",
+   "texto": "Março, marçagão, manhã de inverno, tarde de verão."
+  },
+  {
+   "id": "ditados.d101_inicio",
+   "texto": "Mais vale um mau acordo…"
+  },
+  {
+   "id": "ditados.d101_completo",
+   "texto": "Mais vale um mau acordo do que uma boa demanda."
+  },
+  {
+   "id": "ditados.d102_inicio",
+   "texto": "Cada terra com seu uso…"
+  },
+  {
+   "id": "ditados.d102_completo",
+   "texto": "Cada terra com seu uso, cada roca com seu fuso."
+  },
+  {
+   "id": "ditados.d103_inicio",
+   "texto": "Quem mais jura…"
+  },
+  {
+   "id": "ditados.d103_completo",
+   "texto": "Quem mais jura mais mente."
+  },
+  {
+   "id": "ditados.d104_inicio",
+   "texto": "Não se pode ter sol na eira…"
+  },
+  {
+   "id": "ditados.d104_completo",
+   "texto": "Não se pode ter sol na eira e chuva no nabal."
+  },
+  {
+   "id": "ditados.d105_inicio",
+   "texto": "Quem quer vai…"
+  },
+  {
+   "id": "ditados.d105_completo",
+   "texto": "Quem quer vai, quem não quer manda."
+  }
+ ],
+ "domino": [
+  {
+   "id": "domino.intro",
+   "texto": "No Dominó, juntas as peças pelos números iguais."
+  },
+  {
+   "id": "domino.comecar",
+   "texto": "Vamos jogar ao dominó!"
+  },
+  {
+   "id": "domino.instrucao",
+   "texto": "Toca numa peça com um número igual a uma das pontas."
+  },
+  {
+   "id": "domino.brilham",
+   "texto": "As peças que servem estão a brilhar."
+  },
+  {
+   "id": "domino.comecas",
+   "texto": "Começas tu. Toca numa peça."
+  },
+  {
+   "id": "domino.comeca_joaquim",
+   "texto": "Começa o Joaquim."
+  },
+  {
+   "id": "domino.comeca_rosa",
+   "texto": "Começa a Rosa."
+  },
+  {
+   "id": "domino.tua_vez",
+   "texto": "É a tua vez."
+  },
+  {
+   "id": "domino.duas_pontas",
+   "texto": "Serve nas duas pontas. Toca na ponta que quiseres."
+  },
+  {
+   "id": "domino.nao_serve",
+   "texto": "Essa não serve."
+  },
+  {
+   "id": "domino.procura",
+   "texto": "Procura o"
+  },
+  {
+   "id": "domino.ou",
+   "texto": "ou o"
+  },
+  {
+   "id": "domino.n0",
+   "texto": "branco"
+  },
+  {
+   "id": "domino.n1",
+   "texto": "um"
+  },
+  {
+   "id": "domino.n2",
+   "texto": "dois"
+  },
+  {
+   "id": "domino.n3",
+   "texto": "três"
+  },
+  {
+   "id": "domino.n4",
+   "texto": "quatro"
+  },
+  {
+   "id": "domino.n5",
+   "texto": "cinco"
+  },
+  {
+   "id": "domino.n6",
+   "texto": "seis"
+  },
+  {
+   "id": "domino.compra",
+   "texto": "Não tens peça que sirva. Vais buscar ao monte."
+  },
+  {
+   "id": "domino.passas",
+   "texto": "Não tens peça que sirva. Passas a vez."
+  },
+  {
+   "id": "domino.joaquim_compra",
+   "texto": "O Joaquim foi ao monte."
+  },
+  {
+   "id": "domino.rosa_compra",
+   "texto": "A Rosa foi ao monte."
+  },
+  {
+   "id": "domino.joaquim_passa",
+   "texto": "O Joaquim passa."
+  },
+  {
+   "id": "domino.rosa_passa",
+   "texto": "A Rosa passa."
+  },
+  {
+   "id": "domino.ultima",
+   "texto": "Só te falta uma peça!"
+  },
+  {
+   "id": "domino.ganhaste",
+   "texto": "Dominó! Acabaste as peças. Ganhaste!"
+  },
+  {
+   "id": "domino.ganhou_joaquim",
+   "texto": "O Joaquim ganhou desta vez. Jogaste muito bem!"
+  },
+  {
+   "id": "domino.ganhou_rosa",
+   "texto": "A Rosa ganhou desta vez. Jogaste muito bem!"
+  },
+  {
+   "id": "domino.fechado",
+   "texto": "O jogo fechou. Ganha quem tem menos pontos."
+  },
+  {
+   "id": "domino.fechado_tu",
+   "texto": "Tens menos pontos. Ganhaste!"
+  }
+ ],
+ "cozinha": [
+  {
+   "id": "cozinha.intro",
+   "texto": "Na Cozinha, fazes caldo verde, arroz doce e outros pratos de sempre."
+  },
+  {
+   "id": "cozinha.instrucao",
+   "texto": "Toca nos ingredientes da receita. Eles saltam para a panela."
+  },
+  {
+   "id": "cozinha.instrucao_ordem",
+   "texto": "Segue os números da receita, um de cada vez."
+  },
+  {
+   "id": "cozinha.olha",
+   "texto": "Olha bem para a receita. Depois vou escondê-la."
+  },
+  {
+   "id": "cozinha.lembra",
+   "texto": "Agora toca nos ingredientes de que te lembras."
+  },
+  {
+   "id": "cozinha.lembra_ordem",
+   "texto": "Agora põe os ingredientes pela ordem certa."
+  },
+  {
+   "id": "cozinha.espreita",
+   "texto": "Espreita a receita outra vez."
+  },
+  {
+   "id": "cozinha.ainda_nao",
+   "texto": "Ainda não. Segue a ordem da receita."
+  },
+  {
+   "id": "cozinha.nao_vai",
+   "texto": "Isso não vai nesta receita. Olha bem."
+  },
+  {
+   "id": "cozinha.nao_vai2",
+   "texto": "Hum, isso não! Ficava esquisito."
+  },
+  {
+   "id": "cozinha.nao_vai3",
+   "texto": "Esse fica para outro dia."
+  },
+  {
+   "id": "cozinha.fim",
+   "texto": "Que cozinheira! Está tudo pronto para a mesa."
+  },
+  {
+   "id": "cozinha.fazer_caldo_verde",
+   "texto": "Vamos fazer caldo verde!"
+  },
+  {
+   "id": "cozinha.fazer_sopa_legumes",
+   "texto": "Vamos fazer sopa de legumes!"
+  },
+  {
+   "id": "cozinha.fazer_arroz_doce",
+   "texto": "Vamos fazer arroz doce!"
+  },
+  {
+   "id": "cozinha.fazer_bacalhau_bras",
+   "texto": "Vamos fazer bacalhau à Brás!"
+  },
+  {
+   "id": "cozinha.fazer_bolo_laranja",
+   "texto": "Vamos fazer um bolo de laranja!"
+  },
+  {
+   "id": "cozinha.fazer_sardinhas",
+   "texto": "Vamos assar sardinhas!"
+  },
+  {
+   "id": "cozinha.pronto_caldo_verde",
+   "texto": "O caldo verde está pronto! Que cheirinho!"
+  },
+  {
+   "id": "cozinha.pronto_sopa_legumes",
+   "texto": "A sopa está pronta! Bem quentinha!"
+  },
+  {
+   "id": "cozinha.pronto_arroz_doce",
+   "texto": "O arroz doce está pronto! Com canela por cima!"
+  },
+  {
+   "id": "cozinha.pronto_bacalhau_bras",
+   "texto": "O bacalhau à Brás está pronto! Que delícia!"
+  },
+  {
+   "id": "cozinha.pronto_bolo_laranja",
+   "texto": "O bolo de laranja saiu do forno! Que lindo!"
+  },
+  {
+   "id": "cozinha.pronto_sardinhas",
+   "texto": "As sardinhas estão assadas! Cheira a Santo António!"
+  },
+  {
+   "id": "cozinha.nome_caldo_verde",
+   "texto": "Caldo verde"
+  },
+  {
+   "id": "cozinha.nome_sopa_legumes",
+   "texto": "Sopa de legumes"
+  },
+  {
+   "id": "cozinha.nome_arroz_doce",
+   "texto": "Arroz doce"
+  },
+  {
+   "id": "cozinha.nome_bacalhau_bras",
+   "texto": "Bacalhau à Brás"
+  },
+  {
+   "id": "cozinha.nome_bolo_laranja",
+   "texto": "Bolo de laranja"
+  },
+  {
+   "id": "cozinha.nome_sardinhas",
+   "texto": "Sardinhas assadas"
+  },
+  {
+   "id": "cozinha.i_batata",
+   "texto": "Batatas."
+  },
+  {
+   "id": "cozinha.i_cebola",
+   "texto": "Cebola."
+  },
+  {
+   "id": "cozinha.i_alho",
+   "texto": "Alho."
+  },
+  {
+   "id": "cozinha.i_couve",
+   "texto": "Couve."
+  },
+  {
+   "id": "cozinha.i_chourico",
+   "texto": "Chouriço."
+  },
+  {
+   "id": "cozinha.i_azeite",
+   "texto": "Azeite."
+  },
+  {
+   "id": "cozinha.i_cenoura",
+   "texto": "Cenouras."
+  },
+  {
+   "id": "cozinha.i_abobora",
+   "texto": "Abóbora."
+  },
+  {
+   "id": "cozinha.i_arroz",
+   "texto": "Arroz."
+  },
+  {
+   "id": "cozinha.i_leite",
+   "texto": "Leite."
+  },
+  {
+   "id": "cozinha.i_acucar",
+   "texto": "Açúcar."
+  },
+  {
+   "id": "cozinha.i_limao",
+   "texto": "Limão."
+  },
+  {
+   "id": "cozinha.i_canela",
+   "texto": "Canela."
+  },
+  {
+   "id": "cozinha.i_ovo",
+   "texto": "Ovos."
+  },
+  {
+   "id": "cozinha.i_bacalhau",
+   "texto": "Bacalhau."
+  },
+  {
+   "id": "cozinha.i_batata_palha",
+   "texto": "Batata palha."
+  },
+  {
+   "id": "cozinha.i_azeitonas",
+   "texto": "Azeitonas."
+  },
+  {
+   "id": "cozinha.i_salsa",
+   "texto": "Salsa."
+  },
+  {
+   "id": "cozinha.i_farinha",
+   "texto": "Farinha."
+  },
+  {
+   "id": "cozinha.i_laranja",
+   "texto": "Laranja."
+  },
+  {
+   "id": "cozinha.i_sardinha",
+   "texto": "Sardinhas."
+  },
+  {
+   "id": "cozinha.i_sal",
+   "texto": "Sal grosso."
+  },
+  {
+   "id": "cozinha.i_pimento",
+   "texto": "Pimentos."
+  },
+  {
+   "id": "cozinha.i_broa",
+   "texto": "Broa."
+  },
+  {
+   "id": "cozinha.i_banana",
+   "texto": "Banana."
+  },
+  {
+   "id": "cozinha.i_morango",
+   "texto": "Morangos."
+  },
+  {
+   "id": "cozinha.i_tomate",
+   "texto": "Tomate."
+  },
+  {
+   "id": "cozinha.i_maca",
+   "texto": "Maçã."
+  },
+  {
+   "id": "cozinha.i_queijo",
+   "texto": "Queijo."
+  },
+  {
+   "id": "cozinha.i_chocolate",
+   "texto": "Chocolate."
+  },
+  {
+   "id": "cozinha.i_cogumelo",
+   "texto": "Cogumelos."
+  },
+  {
+   "id": "cozinha.i_uvas",
+   "texto": "Uvas."
+  },
+  {
+   "id": "cozinha.i_milho",
+   "texto": "Milho."
+  },
+  {
+   "id": "cozinha.i_pera",
+   "texto": "Pera."
+  },
+  {
+   "id": "cozinha.i_cereja",
+   "texto": "Cerejas."
+  },
+  {
+   "id": "cozinha.i_ananas",
+   "texto": "Ananás."
+  },
+  {
+   "id": "cozinha.i_mel",
+   "texto": "Mel."
+  },
+  {
+   "id": "cozinha.i_melancia",
+   "texto": "Melancia."
+  },
+  {
+   "id": "cozinha.i_pepino",
+   "texto": "Pepino."
+  },
+  {
+   "id": "cozinha.fazer_rabanadas",
+   "texto": "Vamos fazer rabanadas!"
+  },
+  {
+   "id": "cozinha.fazer_pasteis_bacalhau",
+   "texto": "Vamos fazer pastéis de bacalhau!"
+  },
+  {
+   "id": "cozinha.fazer_leite_creme",
+   "texto": "Vamos fazer leite-creme!"
+  },
+  {
+   "id": "cozinha.fazer_arroz_tomate",
+   "texto": "Vamos fazer arroz de tomate!"
+  },
+  {
+   "id": "cozinha.fazer_pao_de_lo",
+   "texto": "Vamos fazer um pão de ló!"
+  },
+  {
+   "id": "cozinha.fazer_polvo_lagareiro",
+   "texto": "Vamos fazer polvo à lagareiro!"
+  },
+  {
+   "id": "cozinha.pronto_rabanadas",
+   "texto": "As rabanadas estão prontas! Cheira a Natal!"
+  },
+  {
+   "id": "cozinha.pronto_pasteis_bacalhau",
+   "texto": "Os pastéis de bacalhau estão fritos! Bem douradinhos!"
+  },
+  {
+   "id": "cozinha.pronto_leite_creme",
+   "texto": "O leite-creme está pronto! Com açúcar queimado por cima!"
+  },
+  {
+   "id": "cozinha.pronto_arroz_tomate",
+   "texto": "O arroz de tomate está pronto! Bem malandrinho!"
+  },
+  {
+   "id": "cozinha.pronto_pao_de_lo",
+   "texto": "O pão de ló saiu do forno! Que fofo!"
+  },
+  {
+   "id": "cozinha.pronto_polvo_lagareiro",
+   "texto": "O polvo à lagareiro está pronto! Que regalo!"
+  },
+  {
+   "id": "cozinha.nome_rabanadas",
+   "texto": "Rabanadas"
+  },
+  {
+   "id": "cozinha.nome_pasteis_bacalhau",
+   "texto": "Pastéis de bacalhau"
+  },
+  {
+   "id": "cozinha.nome_leite_creme",
+   "texto": "Leite-creme"
+  },
+  {
+   "id": "cozinha.nome_arroz_tomate",
+   "texto": "Arroz de tomate"
+  },
+  {
+   "id": "cozinha.nome_pao_de_lo",
+   "texto": "Pão de ló"
+  },
+  {
+   "id": "cozinha.nome_polvo_lagareiro",
+   "texto": "Polvo à lagareiro"
+  },
+  {
+   "id": "cozinha.i_pao",
+   "texto": "Pão."
+  },
+  {
+   "id": "cozinha.i_polvo",
+   "texto": "Polvo."
+  },
+  {
+   "id": "cozinha.instrucao_qtd",
+   "texto": "Conta bem: põe a quantidade certa de cada coisa."
+  },
+  {
+   "id": "cozinha.ja_chega",
+   "texto": "Já chega desse. Conta bem as quantidades."
+  },
+  {
+   "id": "cozinha.ouve",
+   "texto": "Ouve bem a receita. Só a digo uma vez."
+  },
+  {
+   "id": "cozinha.dois",
+   "texto": "Hoje fazes dois pratos ao mesmo tempo!"
+  },
+  {
+   "id": "cozinha.instrucao_dois",
+   "texto": "Toca num ingrediente e depois na panela certa."
+  },
+  {
+   "id": "cozinha.escolhe_primeiro",
+   "texto": "Primeiro toca num ingrediente."
+  },
+  {
+   "id": "cozinha.outro_prato",
+   "texto": "Isso é para o outro prato."
+  },
+  {
+   "id": "cozinha.etapas_ouve",
+   "texto": "Ouve os passos da receita, por ordem."
+  },
+  {
+   "id": "cozinha.etapas_lembra",
+   "texto": "Agora toca nos passos pela ordem certa. Há um que não é desta receita."
+  },
+  {
+   "id": "cozinha.passo_nao",
+   "texto": "Esse passo não é desta receita."
+  },
+  {
+   "id": "cozinha.passo_antes",
+   "texto": "Ainda não. O que vem antes?"
+  },
+  {
+   "id": "cozinha.q_batata_4",
+   "texto": "Quatro batatas."
+  },
+  {
+   "id": "cozinha.q_cebola_1",
+   "texto": "Uma cebola."
+  },
+  {
+   "id": "cozinha.q_cebola_2",
+   "texto": "Duas cebolas."
+  },
+  {
+   "id": "cozinha.q_alho_1",
+   "texto": "Um dente de alho."
+  },
+  {
+   "id": "cozinha.q_alho_3",
+   "texto": "Três dentes de alho."
+  },
+  {
+   "id": "cozinha.q_ovo_3",
+   "texto": "Três ovos."
+  },
+  {
+   "id": "cozinha.q_ovo_4",
+   "texto": "Quatro ovos."
+  },
+  {
+   "id": "cozinha.q_laranja_1",
+   "texto": "Uma laranja."
+  },
+  {
+   "id": "cozinha.q_tomate_3",
+   "texto": "Três tomates."
+  },
+  {
+   "id": "cozinha.e_cebola_alho",
+   "texto": "Alourar a cebola e o alho no azeite."
+  },
+  {
+   "id": "cozinha.e_batatas_agua",
+   "texto": "Juntar as batatas e a água."
+  },
+  {
+   "id": "cozinha.e_couve",
+   "texto": "Triturar e juntar a couve."
+  },
+  {
+   "id": "cozinha.e_chourico",
+   "texto": "Servir com rodelas de chouriço."
+  },
+  {
+   "id": "cozinha.e_azeite",
+   "texto": "Aquecer o azeite."
+  },
+  {
+   "id": "cozinha.e_legumes",
+   "texto": "Cozer a batata, a cenoura e a abóbora."
+  },
+  {
+   "id": "cozinha.e_leite_ferver",
+   "texto": "Ferver o leite com limão e canela."
+  },
+  {
+   "id": "cozinha.e_arroz",
+   "texto": "Juntar o arroz."
+  },
+  {
+   "id": "cozinha.e_acucar",
+   "texto": "Juntar o açúcar."
+  },
+  {
+   "id": "cozinha.e_gemas_fora",
+   "texto": "Envolver as gemas fora do lume."
+  },
+  {
+   "id": "cozinha.e_bacalhau_desfiado",
+   "texto": "Juntar o bacalhau desfiado."
+  },
+  {
+   "id": "cozinha.e_batata_palha",
+   "texto": "Juntar a batata palha."
+  },
+  {
+   "id": "cozinha.e_ovos_batidos",
+   "texto": "Envolver os ovos batidos."
+  },
+  {
+   "id": "cozinha.e_azeitonas",
+   "texto": "Enfeitar com azeitonas e salsa."
+  },
+  {
+   "id": "cozinha.e_gemas_acucar",
+   "texto": "Bater as gemas com o açúcar."
+  },
+  {
+   "id": "cozinha.e_laranja",
+   "texto": "Juntar o sumo e a raspa da laranja."
+  },
+  {
+   "id": "cozinha.e_farinha",
+   "texto": "Envolver a farinha."
+  },
+  {
+   "id": "cozinha.e_forno",
+   "texto": "Levar ao forno."
+  },
+  {
+   "id": "cozinha.e_sal_grosso",
+   "texto": "Temperar com sal grosso."
+  },
+  {
+   "id": "cozinha.e_brasa",
+   "texto": "Assar na brasa."
+  },
+  {
+   "id": "cozinha.e_broa",
+   "texto": "Servir em cima da broa."
+  },
+  {
+   "id": "cozinha.e_leite_acucar",
+   "texto": "Ferver o leite com açúcar, limão e canela."
+  },
+  {
+   "id": "cozinha.e_leite_pao",
+   "texto": "Passar o pão pelo leite."
+  },
+  {
+   "id": "cozinha.e_ovo_batido",
+   "texto": "Passar pelo ovo batido."
+  },
+  {
+   "id": "cozinha.e_fritar",
+   "texto": "Fritar até alourar."
+  },
+  {
+   "id": "cozinha.e_canela",
+   "texto": "Polvilhar com canela."
+  },
+  {
+   "id": "cozinha.e_pure",
+   "texto": "Cozer as batatas e fazer puré."
+  },
+  {
+   "id": "cozinha.e_desfiar",
+   "texto": "Desfiar o bacalhau."
+  },
+  {
+   "id": "cozinha.e_misturar_ovos",
+   "texto": "Juntar a cebola, os ovos e a salsa."
+  },
+  {
+   "id": "cozinha.e_moldar",
+   "texto": "Moldar com duas colheres e fritar."
+  },
+  {
+   "id": "cozinha.e_gemas_farinha",
+   "texto": "Bater as gemas com o açúcar e a farinha."
+  },
+  {
+   "id": "cozinha.e_engrossar",
+   "texto": "Mexer ao lume até engrossar."
+  },
+  {
+   "id": "cozinha.e_queimar",
+   "texto": "Queimar açúcar por cima."
+  },
+  {
+   "id": "cozinha.e_tomate",
+   "texto": "Juntar o tomate."
+  },
+  {
+   "id": "cozinha.e_arroz_agua",
+   "texto": "Juntar o arroz e a água."
+  },
+  {
+   "id": "cozinha.e_ovos_acucar",
+   "texto": "Bater os ovos com o açúcar."
+  },
+  {
+   "id": "cozinha.e_cozer_polvo",
+   "texto": "Cozer o polvo com a cebola."
+  },
+  {
+   "id": "cozinha.e_assar_batatas",
+   "texto": "Assar as batatas com sal grosso."
+  },
+  {
+   "id": "cozinha.e_regar",
+   "texto": "Regar com azeite e alho."
+  },
+  {
+   "id": "cozinha.melhor",
+   "texto": "Hoje enganaste-te menos do que da última vez!"
+  },
+  {
+   "id": "cozinha.fim__2",
+   "texto": "Que cozinheiro! Está tudo pronto para a mesa."
+  }
+ ],
+ "aquario": [
+  {
+   "id": "aquario.intro",
+   "texto": "No aquário, tocas na água e dás comida aos peixinhos."
+  },
+  {
+   "id": "aquario.ola",
+   "texto": "Olha os peixinhos! Toca na água para lhes dares comida."
+  },
+  {
+   "id": "aquario.comem",
+   "texto": "Estão a comer. Que contentes!"
+  },
+  {
+   "id": "aquario.gostam",
+   "texto": "Os peixinhos gostam de ti."
+  },
+  {
+   "id": "aquario.bolha",
+   "texto": "Olha, uma bolha! Toca nela."
+  },
+  {
+   "id": "aquario.olha_cavalo",
+   "texto": "Olha quem vem aí!"
+  },
+  {
+   "id": "aquario.cavalo",
+   "texto": "Um cavalo-marinho! Que lindo!"
+  },
+  {
+   "id": "aquario.caranguejo",
+   "texto": "O caranguejo também quer brincar."
+  },
+  {
+   "id": "aquario.calma",
+   "texto": "Que calma que está aqui."
+  },
+  {
+   "id": "aquario.fome",
+   "texto": "Os peixinhos têm fome. Toca na água."
+  },
+  {
+   "id": "aquario.presente",
+   "texto": "Tenho um presente para ti."
+  },
+  {
+   "id": "aquario.continua",
+   "texto": "Fica o tempo que quiseres."
+  }
+ ],
+ "sopa": [
+  {
+   "id": "sopa.intro",
+   "texto": "Na Sopa de letras, procuras palavras escondidas no meio das letras."
+  },
+  {
+   "id": "sopa.instrucao",
+   "texto": "Procura estas palavras. Toca na primeira letra e depois na última, ou passa o dedo por cima."
+  },
+  {
+   "id": "sopa.instrucao_vertical",
+   "texto": "Agora há palavras deitadas e palavras em pé, de cima para baixo."
+  },
+  {
+   "id": "sopa.instrucao_contrario",
+   "texto": "Atenção: algumas palavras estão de trás para a frente."
+  },
+  {
+   "id": "sopa.instrucao_diagonal",
+   "texto": "Agora há palavras em todos os sentidos, até na diagonal!"
+  },
+  {
+   "id": "sopa.pista",
+   "texto": "Olha, uma palavra começa aqui."
+  },
+  {
+   "id": "sopa.todas",
+   "texto": "Encontraste todas as palavras!"
+  },
+  {
+   "id": "sopa.pao",
+   "texto": "Pão!"
+  },
+  {
+   "id": "sopa.sol",
+   "texto": "Sol!"
+  },
+  {
+   "id": "sopa.mar",
+   "texto": "Mar!"
+  },
+  {
+   "id": "sopa.mel",
+   "texto": "Mel!"
+  },
+  {
+   "id": "sopa.ovo",
+   "texto": "Ovo!"
+  },
+  {
+   "id": "sopa.cao",
+   "texto": "Cão!"
+  },
+  {
+   "id": "sopa.lua",
+   "texto": "Lua!"
+  },
+  {
+   "id": "sopa.cha",
+   "texto": "Chá!"
+  },
+  {
+   "id": "sopa.avo",
+   "texto": "Avó!"
+  },
+  {
+   "id": "sopa.avo_homem",
+   "texto": "Avô!"
+  },
+  {
+   "id": "sopa.uvas",
+   "texto": "Uvas!"
+  },
+  {
+   "id": "sopa.bebe",
+   "texto": "Bebé!"
+  },
+  {
+   "id": "sopa.gato",
+   "texto": "Gato!"
+  },
+  {
+   "id": "sopa.casa",
+   "texto": "Casa!"
+  },
+  {
+   "id": "sopa.bolo",
+   "texto": "Bolo!"
+  },
+  {
+   "id": "sopa.flor",
+   "texto": "Flor!"
+  },
+  {
+   "id": "sopa.vaca",
+   "texto": "Vaca!"
+  },
+  {
+   "id": "sopa.pato",
+   "texto": "Pato!"
+  },
+  {
+   "id": "sopa.rosa",
+   "texto": "Rosa!"
+  },
+  {
+   "id": "sopa.sapo",
+   "texto": "Sapo!"
+  },
+  {
+   "id": "sopa.urso",
+   "texto": "Urso!"
+  },
+  {
+   "id": "sopa.leao",
+   "texto": "Leão!"
+  },
+  {
+   "id": "sopa.maca",
+   "texto": "Maçã!"
+  },
+  {
+   "id": "sopa.pera",
+   "texto": "Pera!"
+  },
+  {
+   "id": "sopa.galo",
+   "texto": "Galo!"
+  },
+  {
+   "id": "sopa.cama",
+   "texto": "Cama!"
+  },
+  {
+   "id": "sopa.sofa",
+   "texto": "Sofá!"
+  },
+  {
+   "id": "sopa.vela",
+   "texto": "Vela!"
+  },
+  {
+   "id": "sopa.peixe",
+   "texto": "Peixe!"
+  },
+  {
+   "id": "sopa.porco",
+   "texto": "Porco!"
+  },
+  {
+   "id": "sopa.nuvem",
+   "texto": "Nuvem!"
+  },
+  {
+   "id": "sopa.chave",
+   "texto": "Chave!"
+  },
+  {
+   "id": "sopa.livro",
+   "texto": "Livro!"
+  },
+  {
+   "id": "sopa.barco",
+   "texto": "Barco!"
+  },
+  {
+   "id": "sopa.carro",
+   "texto": "Carro!"
+  },
+  {
+   "id": "sopa.limao",
+   "texto": "Limão!"
+  },
+  {
+   "id": "sopa.leite",
+   "texto": "Leite!"
+  },
+  {
+   "id": "sopa.instrucao_cruzadas",
+   "texto": "Agora as palavras são maiores, e algumas cruzam-se e partilham letras."
+  },
+  {
+   "id": "sopa.instrucao_iscas",
+   "texto": "Cuidado: há palavras quase iguais que não estão na lista!"
+  },
+  {
+   "id": "sopa.tema_cozinha",
+   "texto": "Hoje o tema é a cozinha."
+  },
+  {
+   "id": "sopa.tema_fruta",
+   "texto": "Hoje o tema é a fruta."
+  },
+  {
+   "id": "sopa.tema_animais",
+   "texto": "Hoje o tema são os animais."
+  },
+  {
+   "id": "sopa.tema_casa",
+   "texto": "Hoje o tema são as coisas da casa."
+  },
+  {
+   "id": "sopa.tema_transportes",
+   "texto": "Hoje o tema são os transportes."
+  },
+  {
+   "id": "sopa.instrucao_figuras",
+   "texto": "Só tens os desenhos. Procura os nomes deles no meio das letras."
+  },
+  {
+   "id": "sopa.instrucao_conta",
+   "texto": "Desta vez não há lista. Descobre tu as palavras escondidas sobre este tema."
+  },
+  {
+   "id": "sopa.conta_dois",
+   "texto": "São duas palavras."
+  },
+  {
+   "id": "sopa.conta_tres",
+   "texto": "São três palavras."
+  },
+  {
+   "id": "sopa.conta_quatro",
+   "texto": "São quatro palavras."
+  },
+  {
+   "id": "sopa.conta_cinco",
+   "texto": "São cinco palavras."
+  },
+  {
+   "id": "sopa.conta_seis",
+   "texto": "São seis palavras."
+  },
+  {
+   "id": "sopa.conta_sete",
+   "texto": "São sete palavras."
+  },
+  {
+   "id": "sopa.conta_oito",
+   "texto": "São oito palavras."
+  },
+  {
+   "id": "sopa.conta_nove",
+   "texto": "São nove palavras."
+  },
+  {
+   "id": "sopa.queijo",
+   "texto": "Queijo!"
+  },
+  {
+   "id": "sopa.arroz",
+   "texto": "Arroz!"
+  },
+  {
+   "id": "sopa.batata",
+   "texto": "Batata!"
+  },
+  {
+   "id": "sopa.cebola",
+   "texto": "Cebola!"
+  },
+  {
+   "id": "sopa.alho",
+   "texto": "Alho!"
+  },
+  {
+   "id": "sopa.tomate",
+   "texto": "Tomate!"
+  },
+  {
+   "id": "sopa.sal",
+   "texto": "Sal!"
+  },
+  {
+   "id": "sopa.cafe",
+   "texto": "Café!"
+  },
+  {
+   "id": "sopa.manteiga",
+   "texto": "Manteiga!"
+  },
+  {
+   "id": "sopa.pudim",
+   "texto": "Pudim!"
+  },
+  {
+   "id": "sopa.couve",
+   "texto": "Couve!"
+  },
+  {
+   "id": "sopa.milho",
+   "texto": "Milho!"
+  },
+  {
+   "id": "sopa.pepino",
+   "texto": "Pepino!"
+  },
+  {
+   "id": "sopa.pimento",
+   "texto": "Pimento!"
+  },
+  {
+   "id": "sopa.cenoura",
+   "texto": "Cenoura!"
+  },
+  {
+   "id": "sopa.talheres",
+   "texto": "Talheres!"
+  },
+  {
+   "id": "sopa.banana",
+   "texto": "Banana!"
+  },
+  {
+   "id": "sopa.laranja",
+   "texto": "Laranja!"
+  },
+  {
+   "id": "sopa.cereja",
+   "texto": "Cereja!"
+  },
+  {
+   "id": "sopa.morango",
+   "texto": "Morango!"
+  },
+  {
+   "id": "sopa.melancia",
+   "texto": "Melancia!"
+  },
+  {
+   "id": "sopa.ananas",
+   "texto": "Ananás!"
+  },
+  {
+   "id": "sopa.cavalo",
+   "texto": "Cavalo!"
+  },
+  {
+   "id": "sopa.ovelha",
+   "texto": "Ovelha!"
+  },
+  {
+   "id": "sopa.coelho",
+   "texto": "Coelho!"
+  },
+  {
+   "id": "sopa.galinha",
+   "texto": "Galinha!"
+  },
+  {
+   "id": "sopa.abelha",
+   "texto": "Abelha!"
+  },
+  {
+   "id": "sopa.elefante",
+   "texto": "Elefante!"
+  },
+  {
+   "id": "sopa.caracol",
+   "texto": "Caracol!"
+  },
+  {
+   "id": "sopa.polvo",
+   "texto": "Polvo!"
+  },
+  {
+   "id": "sopa.joaninha",
+   "texto": "Joaninha!"
+  },
+  {
+   "id": "sopa.passaro",
+   "texto": "Pássaro!"
+  },
+  {
+   "id": "sopa.borboleta",
+   "texto": "Borboleta!"
+  },
+  {
+   "id": "sopa.cadeira",
+   "texto": "Cadeira!"
+  },
+  {
+   "id": "sopa.janela",
+   "texto": "Janela!"
+  },
+  {
+   "id": "sopa.porta",
+   "texto": "Porta!"
+  },
+  {
+   "id": "sopa.relogio",
+   "texto": "Relógio!"
+  },
+  {
+   "id": "sopa.telefone",
+   "texto": "Telefone!"
+  },
+  {
+   "id": "sopa.aviao",
+   "texto": "Avião!"
+  },
+  {
+   "id": "sopa.comboio",
+   "texto": "Comboio!"
+  },
+  {
+   "id": "sopa.autocarro",
+   "texto": "Autocarro!"
+  },
+  {
+   "id": "sopa.taxi",
+   "texto": "Táxi!"
+  },
+  {
+   "id": "sopa.carrinha",
+   "texto": "Carrinha!"
+  },
+  {
+   "id": "sopa.eletrico",
+   "texto": "Elétrico!"
+  },
+  {
+   "id": "sopa.serie_3",
+   "texto": "Três seguidas, sem enganos!"
+  },
+  {
+   "id": "sopa.serie_5",
+   "texto": "Cinco seguidas! Estás imparável!"
+  },
+  {
+   "id": "sopa.melhor",
+   "texto": "Foste melhor do que da última vez!"
+  }
+ ],
+ "palavras": [
+  {
+   "id": "palavras.intro",
+   "texto": "Nas Palavras, olhas para o desenho e escreves o nome com as letras."
+  },
+  {
+   "id": "palavras.instrucao_primeira",
+   "texto": "Que desenho é este? A primeira letra já lá está. Toca nas outras, por ordem."
+  },
+  {
+   "id": "palavras.instrucao",
+   "texto": "Que desenho é este? Toca nas letras, por ordem, para escrever o nome."
+  },
+  {
+   "id": "palavras.instrucao_duas",
+   "texto": "Agora são dois desenhos. Escreve os dois nomes, um a seguir ao outro."
+  },
+  {
+   "id": "palavras.ajuda",
+   "texto": "Vou ajudar-te. É a letra que pisca."
+  },
+  {
+   "id": "palavras.todas",
+   "texto": "Escreveste as palavras todas! Muito bem!"
+  },
+  {
+   "id": "palavras.pao",
+   "texto": "Pão!"
+  },
+  {
+   "id": "palavras.sol",
+   "texto": "Sol!"
+  },
+  {
+   "id": "palavras.mar",
+   "texto": "Mar!"
+  },
+  {
+   "id": "palavras.mel",
+   "texto": "Mel!"
+  },
+  {
+   "id": "palavras.ovo",
+   "texto": "Ovo!"
+  },
+  {
+   "id": "palavras.cao",
+   "texto": "Cão!"
+  },
+  {
+   "id": "palavras.lua",
+   "texto": "Lua!"
+  },
+  {
+   "id": "palavras.cha",
+   "texto": "Chá!"
+  },
+  {
+   "id": "palavras.avo",
+   "texto": "Avó!"
+  },
+  {
+   "id": "palavras.rei",
+   "texto": "Rei!"
+  },
+  {
+   "id": "palavras.gato",
+   "texto": "Gato!"
+  },
+  {
+   "id": "palavras.casa",
+   "texto": "Casa!"
+  },
+  {
+   "id": "palavras.bolo",
+   "texto": "Bolo!"
+  },
+  {
+   "id": "palavras.flor",
+   "texto": "Flor!"
+  },
+  {
+   "id": "palavras.vaca",
+   "texto": "Vaca!"
+  },
+  {
+   "id": "palavras.pato",
+   "texto": "Pato!"
+  },
+  {
+   "id": "palavras.rosa",
+   "texto": "Rosa!"
+  },
+  {
+   "id": "palavras.sapo",
+   "texto": "Sapo!"
+  },
+  {
+   "id": "palavras.urso",
+   "texto": "Urso!"
+  },
+  {
+   "id": "palavras.leao",
+   "texto": "Leão!"
+  },
+  {
+   "id": "palavras.maca",
+   "texto": "Maçã!"
+  },
+  {
+   "id": "palavras.pera",
+   "texto": "Pera!"
+  },
+  {
+   "id": "palavras.galo",
+   "texto": "Galo!"
+  },
+  {
+   "id": "palavras.cama",
+   "texto": "Cama!"
+  },
+  {
+   "id": "palavras.sofa",
+   "texto": "Sofá!"
+  },
+  {
+   "id": "palavras.vela",
+   "texto": "Vela!"
+  },
+  {
+   "id": "palavras.uvas",
+   "texto": "Uvas!"
+  },
+  {
+   "id": "palavras.bebe",
+   "texto": "Bebé!"
+  },
+  {
+   "id": "palavras.peixe",
+   "texto": "Peixe!"
+  },
+  {
+   "id": "palavras.porco",
+   "texto": "Porco!"
+  },
+  {
+   "id": "palavras.nuvem",
+   "texto": "Nuvem!"
+  },
+  {
+   "id": "palavras.chave",
+   "texto": "Chave!"
+  },
+  {
+   "id": "palavras.livro",
+   "texto": "Livro!"
+  },
+  {
+   "id": "palavras.barco",
+   "texto": "Barco!"
+  },
+  {
+   "id": "palavras.carro",
+   "texto": "Carro!"
+  },
+  {
+   "id": "palavras.limao",
+   "texto": "Limão!"
+  },
+  {
+   "id": "palavras.leite",
+   "texto": "Leite!"
+  },
+  {
+   "id": "palavras.aviao",
+   "texto": "Avião!"
+  },
+  {
+   "id": "palavras.cesto",
+   "texto": "Cesto!"
+  },
+  {
+   "id": "palavras.banana",
+   "texto": "Banana!"
+  },
+  {
+   "id": "palavras.ovelha",
+   "texto": "Ovelha!"
+  },
+  {
+   "id": "palavras.coelho",
+   "texto": "Coelho!"
+  },
+  {
+   "id": "palavras.tomate",
+   "texto": "Tomate!"
+  },
+  {
+   "id": "palavras.cavalo",
+   "texto": "Cavalo!"
+  },
+  {
+   "id": "palavras.sapato",
+   "texto": "Sapato!"
+  },
+  {
+   "id": "palavras.chapeu",
+   "texto": "Chapéu!"
+  },
+  {
+   "id": "palavras.cereja",
+   "texto": "Cereja!"
+  },
+  {
+   "id": "palavras.janela",
+   "texto": "Janela!"
+  },
+  {
+   "id": "palavras.abelha",
+   "texto": "Abelha!"
+  },
+  {
+   "id": "palavras.laranja",
+   "texto": "Laranja!"
+  },
+  {
+   "id": "palavras.galinha",
+   "texto": "Galinha!"
+  },
+  {
+   "id": "palavras.cenoura",
+   "texto": "Cenoura!"
+  },
+  {
+   "id": "palavras.morango",
+   "texto": "Morango!"
+  },
+  {
+   "id": "palavras.relogio",
+   "texto": "Relógio!"
+  },
+  {
+   "id": "palavras.comboio",
+   "texto": "Comboio!"
+  },
+  {
+   "id": "palavras.cadeira",
+   "texto": "Cadeira!"
+  },
+  {
+   "id": "palavras.coracao",
+   "texto": "Coração!"
+  },
+  {
+   "id": "palavras.passaro",
+   "texto": "Pássaro!"
+  },
+  {
+   "id": "palavras.estrela",
+   "texto": "Estrela!"
+  },
+  {
+   "id": "palavras.castanha",
+   "texto": "Castanha!"
+  },
+  {
+   "id": "palavras.elefante",
+   "texto": "Elefante!"
+  },
+  {
+   "id": "palavras.telefone",
+   "texto": "Telefone!"
+  },
+  {
+   "id": "palavras.sardinha",
+   "texto": "Sardinha!"
+  },
+  {
+   "id": "palavras.instrucao_longas",
+   "texto": "Agora as palavras são compridas. Toca nas letras, por ordem."
+  },
+  {
+   "id": "palavras.instrucao_parecidas",
+   "texto": "Cuidado: há letras a mais, muito parecidas com as certas."
+  },
+  {
+   "id": "palavras.instrucao_ditado",
+   "texto": "Agora não há desenho. Ouve a palavra e escreve-a. Para ouvir outra vez, toca no botão azul."
+  },
+  {
+   "id": "palavras.instrucao_expressao",
+   "texto": "Agora ouves duas ou três palavras juntas. Escreve-as todas, por ordem."
+  },
+  {
+   "id": "palavras.instrucao_falta",
+   "texto": "Faltam letras nestas palavras. Ouve a pista, descobre a palavra e completa-a."
+  },
+  {
+   "id": "palavras.instrucao_anagrama",
+   "texto": "As letras estão baralhadas. Ouve a pista e escreve a palavra por ordem."
+  },
+  {
+   "id": "palavras.ouve",
+   "texto": "Ouve bem e escreve."
+  },
+  {
+   "id": "palavras.cat_fruta",
+   "texto": "É uma fruta."
+  },
+  {
+   "id": "palavras.cat_animal",
+   "texto": "É um animal."
+  },
+  {
+   "id": "palavras.cat_comer",
+   "texto": "É uma coisa de comer."
+  },
+  {
+   "id": "palavras.cat_casa",
+   "texto": "É uma coisa que há em casa."
+  },
+  {
+   "id": "palavras.cat_transporte",
+   "texto": "É um meio de transporte."
+  },
+  {
+   "id": "palavras.cat_flor",
+   "texto": "É uma flor."
+  },
+  {
+   "id": "palavras.cat_ceu",
+   "texto": "Vê-se no céu."
+  },
+  {
+   "id": "palavras.cat_pessoa",
+   "texto": "É uma pessoa de um conto de fadas."
+  },
+  {
+   "id": "palavras.cat_vestir",
+   "texto": "É uma coisa de vestir ou de calçar."
+  },
+  {
+   "id": "palavras.cat_musica",
+   "texto": "É um instrumento de música."
+  },
+  {
+   "id": "palavras.borboleta",
+   "texto": "Borboleta!"
+  },
+  {
+   "id": "palavras.autocarro",
+   "texto": "Autocarro!"
+  },
+  {
+   "id": "palavras.melancia",
+   "texto": "Melancia!"
+  },
+  {
+   "id": "palavras.caranguejo",
+   "texto": "Caranguejo!"
+  },
+  {
+   "id": "palavras.joaninha",
+   "texto": "Joaninha!"
+  },
+  {
+   "id": "palavras.malmequer",
+   "texto": "Malmequer!"
+  },
+  {
+   "id": "palavras.girassol",
+   "texto": "Girassol!"
+  },
+  {
+   "id": "palavras.chocolate",
+   "texto": "Chocolate!"
+  },
+  {
+   "id": "palavras.manteiga",
+   "texto": "Manteiga!"
+  },
+  {
+   "id": "palavras.carrinha",
+   "texto": "Carrinha!"
+  },
+  {
+   "id": "palavras.cogumelo",
+   "texto": "Cogumelo!"
+  },
+  {
+   "id": "palavras.princesa",
+   "texto": "Princesa!"
+  },
+  {
+   "id": "palavras.principe",
+   "texto": "Príncipe!"
+  },
+  {
+   "id": "palavras.margarida",
+   "texto": "Margarida!"
+  },
+  {
+   "id": "palavras.guitarra",
+   "texto": "Guitarra!"
+  },
+  {
+   "id": "palavras.eletrico",
+   "texto": "Elétrico!"
+  },
+  {
+   "id": "palavras.tempestade",
+   "texto": "Tempestade!"
+  },
+  {
+   "id": "palavras.talheres",
+   "texto": "Talheres!"
+  },
+  {
+   "id": "palavras.queijo",
+   "texto": "Queijo!"
+  },
+  {
+   "id": "palavras.batata",
+   "texto": "Batata!"
+  },
+  {
+   "id": "palavras.cebola",
+   "texto": "Cebola!"
+  },
+  {
+   "id": "palavras.pepino",
+   "texto": "Pepino!"
+  },
+  {
+   "id": "palavras.tulipa",
+   "texto": "Tulipa!"
+  },
+  {
+   "id": "palavras.agulha",
+   "texto": "Agulha!"
+  },
+  {
+   "id": "palavras.ananas",
+   "texto": "Ananás!"
+  },
+  {
+   "id": "palavras.concha",
+   "texto": "Concha!"
+  },
+  {
+   "id": "palavras.caracol",
+   "texto": "Caracol!"
+  },
+  {
+   "id": "palavras.pimento",
+   "texto": "Pimento!"
+  },
+  {
+   "id": "palavras.baguete",
+   "texto": "Baguete!"
+  },
+  {
+   "id": "palavras.saudade",
+   "texto": "Saudade!"
+  },
+  {
+   "id": "palavras.domingo",
+   "texto": "Domingo!"
+  },
+  {
+   "id": "palavras.primavera",
+   "texto": "Primavera!"
+  },
+  {
+   "id": "palavras.alegria",
+   "texto": "Alegria!"
+  },
+  {
+   "id": "palavras.carinho",
+   "texto": "Carinho!"
+  },
+  {
+   "id": "palavras.abraco",
+   "texto": "Abraço!"
+  },
+  {
+   "id": "palavras.familia",
+   "texto": "Família!"
+  },
+  {
+   "id": "palavras.obrigada",
+   "texto": "Obrigada!"
+  },
+  {
+   "id": "palavras.jardim",
+   "texto": "Jardim!"
+  },
+  {
+   "id": "palavras.vizinha",
+   "texto": "Vizinha!"
+  },
+  {
+   "id": "palavras.aniversario",
+   "texto": "Aniversário!"
+  },
+  {
+   "id": "palavras.felicidade",
+   "texto": "Felicidade!"
+  },
+  {
+   "id": "palavras.amizade",
+   "texto": "Amizade!"
+  },
+  {
+   "id": "palavras.sorriso",
+   "texto": "Sorriso!"
+  },
+  {
+   "id": "palavras.parabens",
+   "texto": "Parabéns!"
+  },
+  {
+   "id": "palavras.almofada",
+   "texto": "Almofada!"
+  },
+  {
+   "id": "palavras.pao_de_lo",
+   "texto": "Pão de ló!"
+  },
+  {
+   "id": "palavras.bolo_laranja",
+   "texto": "Bolo de laranja!"
+  },
+  {
+   "id": "palavras.pastel_nata",
+   "texto": "Pastel de nata!"
+  },
+  {
+   "id": "palavras.batata_frita",
+   "texto": "Batata frita!"
+  },
+  {
+   "id": "palavras.cafe_leite",
+   "texto": "Café com leite!"
+  },
+  {
+   "id": "palavras.arroz_doce",
+   "texto": "Arroz doce!"
+  },
+  {
+   "id": "palavras.caldo_verde",
+   "texto": "Caldo verde!"
+  },
+  {
+   "id": "palavras.bom_dia",
+   "texto": "Bom dia!"
+  },
+  {
+   "id": "palavras.boa_noite",
+   "texto": "Boa noite!"
+  },
+  {
+   "id": "palavras.cha_limao",
+   "texto": "Chá de limão!"
+  },
+  {
+   "id": "palavras.sopa_legumes",
+   "texto": "Sopa de legumes!"
+  },
+  {
+   "id": "palavras.arroz_pato",
+   "texto": "Arroz de pato!"
+  },
+  {
+   "id": "palavras.ovos_moles",
+   "texto": "Ovos moles!"
+  },
+  {
+   "id": "palavras.feliz_natal",
+   "texto": "Feliz Natal!"
+  },
+  {
+   "id": "palavras.escova_dentes",
+   "texto": "Escova de dentes!"
+  },
+  {
+   "id": "palavras.serie_3",
+   "texto": "Três seguidas, sem enganos!"
+  },
+  {
+   "id": "palavras.serie_5",
+   "texto": "Cinco seguidas! Estás imparável!"
+  },
+  {
+   "id": "palavras.melhor",
+   "texto": "Foste melhor do que da última vez!"
+  }
+ ],
+ "sequencia": [
+  {
+   "id": "sequencia.intro",
+   "texto": "Na Sequência, as cores acendem-se e tu repetes pela mesma ordem."
+  },
+  {
+   "id": "sequencia.instrucao",
+   "texto": "Olha bem para as cores que se acendem. Depois toca nelas pela mesma ordem."
+  },
+  {
+   "id": "sequencia.contrario",
+   "texto": "Desta vez é ao contrário! Começa pela última cor e acaba na primeira."
+  },
+  {
+   "id": "sequencia.olha",
+   "texto": "Olha bem!"
+  },
+  {
+   "id": "sequencia.agora_tu",
+   "texto": "Agora tu!"
+  },
+  {
+   "id": "sequencia.agora_tu_contrario",
+   "texto": "Agora tu, ao contrário!"
+  },
+  {
+   "id": "sequencia.mais_uma",
+   "texto": "Boa! Agora mais uma."
+  },
+  {
+   "id": "sequencia.devagar",
+   "texto": "Quase! Vou mostrar outra vez, devagarinho."
+  },
+  {
+   "id": "sequencia.com_calma",
+   "texto": "Não faz mal. Olha outra vez, com calma."
+  },
+  {
+   "id": "sequencia.lembrar",
+   "texto": "Toca nas cores pela ordem. Eu mostro outra vez."
+  },
+  {
+   "id": "sequencia.topo",
+   "texto": "Fantástico! Chegaste ao fim!"
+  },
+  {
+   "id": "sequencia.fim_pouco",
+   "texto": "Gostei muito de jogar contigo!"
+  },
+  {
+   "id": "sequencia.fim_2",
+   "texto": "Lembraste-te de duas cores seguidas! Muito bem!"
+  },
+  {
+   "id": "sequencia.fim_3",
+   "texto": "Lembraste-te de três cores seguidas! Muito bem!"
+  },
+  {
+   "id": "sequencia.fim_4",
+   "texto": "Lembraste-te de quatro cores seguidas! Muito bem!"
+  },
+  {
+   "id": "sequencia.fim_5",
+   "texto": "Lembraste-te de cinco cores seguidas! Que memória!"
+  },
+  {
+   "id": "sequencia.fim_6",
+   "texto": "Lembraste-te de seis cores seguidas! Que memória!"
+  },
+  {
+   "id": "sequencia.fim_7",
+   "texto": "Lembraste-te de sete cores seguidas! Que memória!"
+  },
+  {
+   "id": "sequencia.fim_8",
+   "texto": "Lembraste-te de oito cores seguidas! És uma campeã!"
+  },
+  {
+   "id": "sequencia.fim_9",
+   "texto": "Lembraste-te de nove cores seguidas! És uma campeã!"
+  },
+  {
+   "id": "sequencia.fim_10",
+   "texto": "Lembraste-te de dez cores seguidas! És uma campeã!"
+  },
+  {
+   "id": "sequencia.fim_8__2",
+   "texto": "Lembraste-te de oito cores seguidas! És um campeão!"
+  },
+  {
+   "id": "sequencia.fim_9__2",
+   "texto": "Lembraste-te de nove cores seguidas! És um campeão!"
+  },
+  {
+   "id": "sequencia.fim_10__2",
+   "texto": "Lembraste-te de dez cores seguidas! És um campeão!"
+  }
+ ],
+ "diferencas": [
+  {
+   "id": "diferencas.intro",
+   "texto": "Nas Diferenças, procuras o que mudou entre duas imagens."
+  },
+  {
+   "id": "diferencas.instrucao",
+   "texto": "Estas duas imagens são quase iguais. Toca no que está diferente."
+  },
+  {
+   "id": "diferencas.ha_2",
+   "texto": "Há duas diferenças. Consegues encontrá-las?"
+  },
+  {
+   "id": "diferencas.ha_3",
+   "texto": "Há três diferenças. Consegues encontrá-las?"
+  },
+  {
+   "id": "diferencas.ha_4",
+   "texto": "Há quatro diferenças. Consegues encontrá-las?"
+  },
+  {
+   "id": "diferencas.ha_5",
+   "texto": "Há cinco diferenças. Consegues encontrá-las?"
+  },
+  {
+   "id": "diferencas.ha_6",
+   "texto": "Há seis diferenças. Consegues encontrá-las?"
+  },
+  {
+   "id": "diferencas.achaste",
+   "texto": "Encontraste uma!"
+  },
+  {
+   "id": "diferencas.falta_1",
+   "texto": "Só falta uma!"
+  },
+  {
+   "id": "diferencas.nao_e",
+   "texto": "Aí está igual. Procura noutro sítio."
+  },
+  {
+   "id": "diferencas.pista",
+   "texto": "Olha com atenção para o que está a brilhar."
+  },
+  {
+   "id": "diferencas.todas",
+   "texto": "Encontraste todas as diferenças!"
+  },
+  {
+   "id": "diferencas.outra_imagem",
+   "texto": "Agora outra imagem!"
+  },
+  {
+   "id": "diferencas.ha_7",
+   "texto": "Há sete diferenças. Consegues encontrá-las?"
+  },
+  {
+   "id": "diferencas.ha_8",
+   "texto": "Há oito diferenças. Esta é difícil!"
+  },
+  {
+   "id": "diferencas.ha_9",
+   "texto": "Há nove diferenças. Esta é mesmo difícil!"
+  },
+  {
+   "id": "diferencas.pormenores",
+   "texto": "Atenção aos pormenores: há coisas viradas para o outro lado ou mais pequenas."
+  },
+  {
+   "id": "diferencas.serie_3",
+   "texto": "Três seguidas sem falhar!"
+  },
+  {
+   "id": "diferencas.serie_5",
+   "texto": "Cinco seguidas! Que olho de lince!"
+  },
+  {
+   "id": "diferencas.melhor",
+   "texto": "Hoje foste mais rápida do que da última vez!"
+  }
+ ],
+ "puzzle": [
+  {
+   "id": "puzzle.intro",
+   "texto": "No puzzle, trocas as peças até a imagem ficar certa."
+  },
+  {
+   "id": "puzzle.instrucao",
+   "texto": "Toca em duas peças para as trocar."
+  },
+  {
+   "id": "puzzle.foto",
+   "texto": "Olha, uma fotografia da família!"
+  },
+  {
+   "id": "puzzle.certa",
+   "texto": "Esta já está no sítio certo!"
+  },
+  {
+   "id": "puzzle.falta_pouco",
+   "texto": "Já falta pouco!"
+  },
+  {
+   "id": "puzzle.pista",
+   "texto": "Experimenta trocar estas duas."
+  },
+  {
+   "id": "puzzle.olha",
+   "texto": "Olha bem para a imagem pequenina."
+  },
+  {
+   "id": "puzzle.feito",
+   "texto": "A imagem está completa!"
+  },
+  {
+   "id": "puzzle.foto_bonita",
+   "texto": "Que fotografia tão bonita!"
+  },
+  {
+   "id": "puzzle.eletrico",
+   "texto": "O elétrico de Lisboa!"
+  },
+  {
+   "id": "puzzle.jardim",
+   "texto": "Um jardim cheio de flores!"
+  },
+  {
+   "id": "puzzle.azulejos",
+   "texto": "Uma janela com azulejos!"
+  },
+  {
+   "id": "puzzle.praia",
+   "texto": "Sardinhas na praia!"
+  },
+  {
+   "id": "puzzle.cozinha",
+   "texto": "Uma cozinha portuguesa!"
+  },
+  {
+   "id": "puzzle.viradas",
+   "texto": "Algumas peças estão de lado ou de pernas para o ar."
+  },
+  {
+   "id": "puzzle.rodar",
+   "texto": "Esta já está no sítio, mas virada. Toca nela para a rodar."
+  },
+  {
+   "id": "puzzle.serie_3",
+   "texto": "Três seguidas no sítio certo!"
+  },
+  {
+   "id": "puzzle.serie_6",
+   "texto": "Seis seguidas! Que olho!"
+  },
+  {
+   "id": "puzzle.melhor",
+   "texto": "Hoje foste mais rápida do que da última vez!"
+  }
+ ],
+ "bisca": [
+  {
+   "id": "bisca.intro",
+   "texto": "Na Bisca, jogas às cartas com a Rosa."
+  },
+  {
+   "id": "bisca.comecar",
+   "texto": "Vamos jogar à bisca com a Rosa!"
+  },
+  {
+   "id": "bisca.trunfo_copas",
+   "texto": "O trunfo é copas!"
+  },
+  {
+   "id": "bisca.trunfo_ouros",
+   "texto": "O trunfo é ouros!"
+  },
+  {
+   "id": "bisca.trunfo_espadas",
+   "texto": "O trunfo é espadas!"
+  },
+  {
+   "id": "bisca.trunfo_paus",
+   "texto": "O trunfo é paus!"
+  },
+  {
+   "id": "bisca.instrucao_pista",
+   "texto": "Toca numa carta para a jogares. A carta que brilha é boa ideia."
+  },
+  {
+   "id": "bisca.instrucao",
+   "texto": "Toca numa carta para a jogares."
+  },
+  {
+   "id": "bisca.vaza_tua",
+   "texto": "Esta é tua!"
+  },
+  {
+   "id": "bisca.vaza_rosa",
+   "texto": "Esta é da Rosa."
+  },
+  {
+   "id": "bisca.acabou_baralho",
+   "texto": "Acabou o baralho. Agora jogas as cartas que tens."
+  },
+  {
+   "id": "bisca.fim_ganhaste",
+   "texto": "Ganhaste a bisca! Que bem jogaste!"
+  },
+  {
+   "id": "bisca.fim_empate",
+   "texto": "Empate! Sessenta pontos para cada uma."
+  },
+  {
+   "id": "bisca.fim_rosa",
+   "texto": "Desta vez ganhou a Rosa. Foi um jogo muito bonito!"
+  },
+  {
+   "id": "bisca.fim_obrigada",
+   "texto": "A Rosa agradece o jogo!"
+  },
+  {
+   "id": "bisca.copas_as",
+   "texto": "Ás de copas!"
+  },
+  {
+   "id": "bisca.copas_dois",
+   "texto": "Dois de copas!"
+  },
+  {
+   "id": "bisca.copas_tres",
+   "texto": "Três de copas!"
+  },
+  {
+   "id": "bisca.copas_quatro",
+   "texto": "Quatro de copas!"
+  },
+  {
+   "id": "bisca.copas_cinco",
+   "texto": "Cinco de copas!"
+  },
+  {
+   "id": "bisca.copas_seis",
+   "texto": "Seis de copas!"
+  },
+  {
+   "id": "bisca.copas_sete",
+   "texto": "Sete de copas!"
+  },
+  {
+   "id": "bisca.copas_valete",
+   "texto": "Valete de copas!"
+  },
+  {
+   "id": "bisca.copas_dama",
+   "texto": "Dama de copas!"
+  },
+  {
+   "id": "bisca.copas_rei",
+   "texto": "Rei de copas!"
+  },
+  {
+   "id": "bisca.ouros_as",
+   "texto": "Ás de ouros!"
+  },
+  {
+   "id": "bisca.ouros_dois",
+   "texto": "Dois de ouros!"
+  },
+  {
+   "id": "bisca.ouros_tres",
+   "texto": "Três de ouros!"
+  },
+  {
+   "id": "bisca.ouros_quatro",
+   "texto": "Quatro de ouros!"
+  },
+  {
+   "id": "bisca.ouros_cinco",
+   "texto": "Cinco de ouros!"
+  },
+  {
+   "id": "bisca.ouros_seis",
+   "texto": "Seis de ouros!"
+  },
+  {
+   "id": "bisca.ouros_sete",
+   "texto": "Sete de ouros!"
+  },
+  {
+   "id": "bisca.ouros_valete",
+   "texto": "Valete de ouros!"
+  },
+  {
+   "id": "bisca.ouros_dama",
+   "texto": "Dama de ouros!"
+  },
+  {
+   "id": "bisca.ouros_rei",
+   "texto": "Rei de ouros!"
+  },
+  {
+   "id": "bisca.espadas_as",
+   "texto": "Ás de espadas!"
+  },
+  {
+   "id": "bisca.espadas_dois",
+   "texto": "Dois de espadas!"
+  },
+  {
+   "id": "bisca.espadas_tres",
+   "texto": "Três de espadas!"
+  },
+  {
+   "id": "bisca.espadas_quatro",
+   "texto": "Quatro de espadas!"
+  },
+  {
+   "id": "bisca.espadas_cinco",
+   "texto": "Cinco de espadas!"
+  },
+  {
+   "id": "bisca.espadas_seis",
+   "texto": "Seis de espadas!"
+  },
+  {
+   "id": "bisca.espadas_sete",
+   "texto": "Sete de espadas!"
+  },
+  {
+   "id": "bisca.espadas_valete",
+   "texto": "Valete de espadas!"
+  },
+  {
+   "id": "bisca.espadas_dama",
+   "texto": "Dama de espadas!"
+  },
+  {
+   "id": "bisca.espadas_rei",
+   "texto": "Rei de espadas!"
+  },
+  {
+   "id": "bisca.paus_as",
+   "texto": "Ás de paus!"
+  },
+  {
+   "id": "bisca.paus_dois",
+   "texto": "Dois de paus!"
+  },
+  {
+   "id": "bisca.paus_tres",
+   "texto": "Três de paus!"
+  },
+  {
+   "id": "bisca.paus_quatro",
+   "texto": "Quatro de paus!"
+  },
+  {
+   "id": "bisca.paus_cinco",
+   "texto": "Cinco de paus!"
+  },
+  {
+   "id": "bisca.paus_seis",
+   "texto": "Seis de paus!"
+  },
+  {
+   "id": "bisca.paus_sete",
+   "texto": "Sete de paus!"
+  },
+  {
+   "id": "bisca.paus_valete",
+   "texto": "Valete de paus!"
+  },
+  {
+   "id": "bisca.paus_dama",
+   "texto": "Dama de paus!"
+  },
+  {
+   "id": "bisca.paus_rei",
+   "texto": "Rei de paus!"
+  }
+ ],
+ "sueca": [
+  {
+   "id": "sueca.intro",
+   "texto": "Na Sueca, jogas com a Rosa contra o Manel e o Zé."
+  },
+  {
+   "id": "sueca.comecar",
+   "texto": "Vamos jogar à sueca! Tu e a Rosa contra o Manel e o Zé."
+  },
+  {
+   "id": "sueca.trunfo_copas",
+   "texto": "O trunfo é copas!"
+  },
+  {
+   "id": "sueca.trunfo_ouros",
+   "texto": "O trunfo é ouros!"
+  },
+  {
+   "id": "sueca.trunfo_espadas",
+   "texto": "O trunfo é espadas!"
+  },
+  {
+   "id": "sueca.trunfo_paus",
+   "texto": "O trunfo é paus!"
+  },
+  {
+   "id": "sueca.instrucao_pista",
+   "texto": "Toca numa carta para a jogares. A carta que brilha é boa ideia."
+  },
+  {
+   "id": "sueca.instrucao",
+   "texto": "Toca numa carta para a jogares."
+  },
+  {
+   "id": "sueca.assistir",
+   "texto": "Tens de jogar do mesmo naipe. As cartas escuras ficam para depois."
+  },
+  {
+   "id": "sueca.vaza_tua",
+   "texto": "Esta é tua!"
+  },
+  {
+   "id": "sueca.vaza_rosa",
+   "texto": "Esta é da Rosa. É nossa!"
+  },
+  {
+   "id": "sueca.vaza_manel",
+   "texto": "Esta é do Manel."
+  },
+  {
+   "id": "sueca.vaza_ze",
+   "texto": "Esta é do Zé."
+  },
+  {
+   "id": "sueca.ganhamos",
+   "texto": "Ganhámos! Tu e a Rosa são uma grande equipa!"
+  },
+  {
+   "id": "sueca.ganhamos_muito",
+   "texto": "Mais de noventa pontos! Que vitória bonita!"
+  },
+  {
+   "id": "sueca.bandeira",
+   "texto": "Todas as vazas! Que bandeira!"
+  },
+  {
+   "id": "sueca.empate",
+   "texto": "Empate! Sessenta pontos para cada lado."
+  },
+  {
+   "id": "sueca.perdemos",
+   "texto": "Desta vez ganharam eles. Jogaste muito bem!"
+  },
+  {
+   "id": "sueca.fim",
+   "texto": "A Rosa, o Manel e o Zé agradecem o jogo!"
+  }
+ ],
+ "paciencia": [
+  {
+   "id": "paciencia.intro",
+   "texto": "Na Paciência, arrumas as cartas por naipes, a começar pelo Ás."
+  },
+  {
+   "id": "paciencia.comecar",
+   "texto": "Vamos jogar à paciência!"
+  },
+  {
+   "id": "paciencia.instrucao",
+   "texto": "Toca numa carta e ela vai sozinha para o sítio certo. Toca no monte lá em cima para tirar mais cartas."
+  },
+  {
+   "id": "paciencia.regra_facil",
+   "texto": "Põe as cartas por ordem, cada uma em cima da que vale mais um."
+  },
+  {
+   "id": "paciencia.regra",
+   "texto": "Põe as cartas por ordem, alternando o vermelho e o preto."
+  },
+  {
+   "id": "paciencia.nao_da",
+   "texto": "Essa carta ainda não tem para onde ir. Experimenta outra."
+  },
+  {
+   "id": "paciencia.volta",
+   "texto": "O monte volta ao princípio."
+  },
+  {
+   "id": "paciencia.ajuda",
+   "texto": "Olha, experimenta a carta que brilha!"
+  },
+  {
+   "id": "paciencia.ajuda_monte",
+   "texto": "Toca no monte para tirar mais cartas."
+  },
+  {
+   "id": "paciencia.ajudinha",
+   "texto": "Vou dar-te uma ajudinha."
+  },
+  {
+   "id": "paciencia.arrumo",
+   "texto": "Já está! Eu arrumo o resto."
+  },
+  {
+   "id": "paciencia.fim",
+   "texto": "Arrumaste as cartas todas! Muito bem!"
+  }
+ ],
+ "damas": [
+  {
+   "id": "damas.intro",
+   "texto": "Nas Damas, saltas por cima das peças do Joaquim para as comer."
+  },
+  {
+   "id": "damas.comecar",
+   "texto": "Vamos jogar às damas! As tuas peças são as amarelas."
+  },
+  {
+   "id": "damas.instrucao",
+   "texto": "Toca numa peça tua e depois na casa que brilha."
+  },
+  {
+   "id": "damas.obrigatoria",
+   "texto": "Tens de comer! A peça que brilha pode comer."
+  },
+  {
+   "id": "damas.outra_casa",
+   "texto": "Toca numa das casas que brilham."
+  },
+  {
+   "id": "damas.nao_pode",
+   "texto": "Essa peça não pode andar. Escolhe outra."
+  },
+  {
+   "id": "damas.continua",
+   "texto": "Podes comer mais! Toca na casa que brilha."
+  },
+  {
+   "id": "damas.comeste",
+   "texto": "Comeste uma peça!"
+  },
+  {
+   "id": "damas.comeste_varias",
+   "texto": "Comeste várias peças! Que jogada!"
+  },
+  {
+   "id": "damas.dama",
+   "texto": "Chegaste ao fim! A tua peça é agora uma dama."
+  },
+  {
+   "id": "damas.dama_anda",
+   "texto": "A dama anda para a frente e para trás."
+  },
+  {
+   "id": "damas.vez_joaquim",
+   "texto": "Agora joga o Joaquim."
+  },
+  {
+   "id": "damas.comeu",
+   "texto": "O Joaquim comeu uma peça tua."
+  },
+  {
+   "id": "damas.dama_dele",
+   "texto": "O Joaquim fez uma dama."
+  },
+  {
+   "id": "damas.ganhaste",
+   "texto": "Ganhaste às damas! Muito bem!"
+  },
+  {
+   "id": "damas.ganhou",
+   "texto": "O Joaquim ganhou desta vez. Foi um bom jogo!"
+  },
+  {
+   "id": "damas.empate",
+   "texto": "Que jogo tão renhido! Ficou empatado."
+  }
+ ],
+ "galo": [
+  {
+   "id": "galo.intro",
+   "texto": "No Jogo do Galo, fazes uma linha antes do galo."
+  },
+  {
+   "id": "galo.comecar",
+   "texto": "Vamos jogar ao galo! Tu és a cruz vermelha."
+  },
+  {
+   "id": "galo.instrucao",
+   "texto": "Toca numa casa vazia. Faz três em linha!"
+  },
+  {
+   "id": "galo.instrucao_maior",
+   "texto": "O tabuleiro é maior. Faz três em linha!"
+  },
+  {
+   "id": "galo.instrucao_quatro",
+   "texto": "Agora é preciso fazer quatro em linha!"
+  },
+  {
+   "id": "galo.comecas",
+   "texto": "Começas tu."
+  },
+  {
+   "id": "galo.comeca_galo",
+   "texto": "Agora começa o galo."
+  },
+  {
+   "id": "galo.ocupada",
+   "texto": "Essa casa já está ocupada."
+  },
+  {
+   "id": "galo.cuidado",
+   "texto": "Cuidado! O galo quase tem a linha."
+  },
+  {
+   "id": "galo.ganhaste",
+   "texto": "Linha feita! Ganhaste este jogo!"
+  },
+  {
+   "id": "galo.galo_ganhou",
+   "texto": "O galo fez a linha. Para a próxima é a tua!"
+  },
+  {
+   "id": "galo.empate",
+   "texto": "Empate! Jogaram muito bem os dois."
+  },
+  {
+   "id": "galo.proximo",
+   "texto": "Vamos ao próximo jogo."
+  },
+  {
+   "id": "galo.partida_tu",
+   "texto": "Ganhaste a partida! És uma campeã!"
+  },
+  {
+   "id": "galo.partida_galo",
+   "texto": "O galo ganhou a partida, mas jogaste muito bem!"
+  },
+  {
+   "id": "galo.partida_empate",
+   "texto": "A partida ficou empatada. Que bem jogaste!"
+  },
+  {
+   "id": "galo.partida_tu__2",
+   "texto": "Ganhaste a partida! És um campeão!"
+  }
+ ],
+ "feira": [
+  {
+   "id": "feira.intro",
+   "texto": "Na Feira, compras fruta e outras coisas boas e pagas com moedas."
+  },
+  {
+   "id": "feira.instrucao",
+   "texto": "Toca nas moedas para pagar o preço certo."
+  },
+  {
+   "id": "feira.instrucao_uma",
+   "texto": "Toca na moeda que paga o preço."
+  },
+  {
+   "id": "feira.instrucao_troco",
+   "texto": "Paga com a nota. Depois escolhe o troco certo."
+  },
+  {
+   "id": "feira.essa_muito",
+   "texto": "Essa é demais. Escolhe outra."
+  },
+  {
+   "id": "feira.essa_pouco",
+   "texto": "Essa não chega. Escolhe outra."
+  },
+  {
+   "id": "feira.demais",
+   "texto": "É demais! Toma as moedas e tenta outra vez."
+  },
+  {
+   "id": "feira.obrigada",
+   "texto": "Obrigada, freguesa!"
+  },
+  {
+   "id": "feira.qual_barato",
+   "texto": "Qual é o mais barato? Toca nele."
+  },
+  {
+   "id": "feira.qual_barato2",
+   "texto": "E agora, qual é o mais barato?"
+  },
+  {
+   "id": "feira.barato_certo",
+   "texto": "Esse é mais barato. Boa escolha!"
+  },
+  {
+   "id": "feira.barato_nao",
+   "texto": "Esse é mais caro. Olha bem os preços."
+  },
+  {
+   "id": "feira.qual_troco",
+   "texto": "Qual é o troco certo?"
+  },
+  {
+   "id": "feira.troco_certo",
+   "texto": "Isso mesmo! O troco é"
+  },
+  {
+   "id": "feira.troco_nao",
+   "texto": "Esse troco não está certo. Faz a conta com calma."
+  },
+  {
+   "id": "feira.lista",
+   "texto": "Hoje trazes uma lista de compras."
+  },
+  {
+   "id": "feira.lista_outra",
+   "texto": "Mais uma lista."
+  },
+  {
+   "id": "feira.total",
+   "texto": "Ao todo, é"
+  },
+  {
+   "id": "feira.soma_tu",
+   "texto": "Soma os dois preços e paga tudo junto."
+  },
+  {
+   "id": "feira.fim",
+   "texto": "Que boas compras! O cesto está cheio."
+  },
+  {
+   "id": "feira.i_macas",
+   "texto": "Maçãs."
+  },
+  {
+   "id": "feira.i_laranjas",
+   "texto": "Laranjas."
+  },
+  {
+   "id": "feira.i_pao",
+   "texto": "Pão."
+  },
+  {
+   "id": "feira.i_couve",
+   "texto": "Couve."
+  },
+  {
+   "id": "feira.i_ovos",
+   "texto": "Ovos."
+  },
+  {
+   "id": "feira.i_queijo",
+   "texto": "Queijo."
+  },
+  {
+   "id": "feira.i_tomates",
+   "texto": "Tomates."
+  },
+  {
+   "id": "feira.i_peras",
+   "texto": "Peras."
+  },
+  {
+   "id": "feira.i_uvas",
+   "texto": "Uvas."
+  },
+  {
+   "id": "feira.i_cerejas",
+   "texto": "Cerejas."
+  },
+  {
+   "id": "feira.i_melancia",
+   "texto": "Melancia."
+  },
+  {
+   "id": "feira.i_bananas",
+   "texto": "Bananas."
+  },
+  {
+   "id": "feira.i_morangos",
+   "texto": "Morangos."
+  },
+  {
+   "id": "feira.i_batatas",
+   "texto": "Batatas."
+  },
+  {
+   "id": "feira.i_cebolas",
+   "texto": "Cebolas."
+  },
+  {
+   "id": "feira.i_mel",
+   "texto": "Mel."
+  },
+  {
+   "id": "feira.i_flores",
+   "texto": "Flores."
+  },
+  {
+   "id": "feira.i_limoes",
+   "texto": "Limões."
+  },
+  {
+   "id": "feira.i_ananas",
+   "texto": "Ananás."
+  },
+  {
+   "id": "feira.i_sardinhas",
+   "texto": "Sardinhas."
+  },
+  {
+   "id": "feira.p_10",
+   "texto": "Dez cêntimos."
+  },
+  {
+   "id": "feira.p_20",
+   "texto": "Vinte cêntimos."
+  },
+  {
+   "id": "feira.p_30",
+   "texto": "Trinta cêntimos."
+  },
+  {
+   "id": "feira.p_40",
+   "texto": "Quarenta cêntimos."
+  },
+  {
+   "id": "feira.p_50",
+   "texto": "Cinquenta cêntimos."
+  },
+  {
+   "id": "feira.p_60",
+   "texto": "Sessenta cêntimos."
+  },
+  {
+   "id": "feira.p_70",
+   "texto": "Setenta cêntimos."
+  },
+  {
+   "id": "feira.p_80",
+   "texto": "Oitenta cêntimos."
+  },
+  {
+   "id": "feira.p_90",
+   "texto": "Noventa cêntimos."
+  },
+  {
+   "id": "feira.p_100",
+   "texto": "Um euro."
+  },
+  {
+   "id": "feira.p_110",
+   "texto": "Um euro e dez."
+  },
+  {
+   "id": "feira.p_120",
+   "texto": "Um euro e vinte."
+  },
+  {
+   "id": "feira.p_130",
+   "texto": "Um euro e trinta."
+  },
+  {
+   "id": "feira.p_140",
+   "texto": "Um euro e quarenta."
+  },
+  {
+   "id": "feira.p_150",
+   "texto": "Um euro e cinquenta."
+  },
+  {
+   "id": "feira.p_160",
+   "texto": "Um euro e sessenta."
+  },
+  {
+   "id": "feira.p_170",
+   "texto": "Um euro e setenta."
+  },
+  {
+   "id": "feira.p_180",
+   "texto": "Um euro e oitenta."
+  },
+  {
+   "id": "feira.p_190",
+   "texto": "Um euro e noventa."
+  },
+  {
+   "id": "feira.p_200",
+   "texto": "Dois euros."
+  },
+  {
+   "id": "feira.p_210",
+   "texto": "Dois euros e dez."
+  },
+  {
+   "id": "feira.p_220",
+   "texto": "Dois euros e vinte."
+  },
+  {
+   "id": "feira.p_230",
+   "texto": "Dois euros e trinta."
+  },
+  {
+   "id": "feira.p_240",
+   "texto": "Dois euros e quarenta."
+  },
+  {
+   "id": "feira.p_250",
+   "texto": "Dois euros e cinquenta."
+  },
+  {
+   "id": "feira.p_260",
+   "texto": "Dois euros e sessenta."
+  },
+  {
+   "id": "feira.p_270",
+   "texto": "Dois euros e setenta."
+  },
+  {
+   "id": "feira.p_280",
+   "texto": "Dois euros e oitenta."
+  },
+  {
+   "id": "feira.p_290",
+   "texto": "Dois euros e noventa."
+  },
+  {
+   "id": "feira.p_300",
+   "texto": "Três euros."
+  },
+  {
+   "id": "feira.p_310",
+   "texto": "Três euros e dez."
+  },
+  {
+   "id": "feira.p_320",
+   "texto": "Três euros e vinte."
+  },
+  {
+   "id": "feira.p_330",
+   "texto": "Três euros e trinta."
+  },
+  {
+   "id": "feira.p_340",
+   "texto": "Três euros e quarenta."
+  },
+  {
+   "id": "feira.p_350",
+   "texto": "Três euros e cinquenta."
+  },
+  {
+   "id": "feira.p_360",
+   "texto": "Três euros e sessenta."
+  },
+  {
+   "id": "feira.p_370",
+   "texto": "Três euros e setenta."
+  },
+  {
+   "id": "feira.p_380",
+   "texto": "Três euros e oitenta."
+  },
+  {
+   "id": "feira.p_390",
+   "texto": "Três euros e noventa."
+  },
+  {
+   "id": "feira.p_400",
+   "texto": "Quatro euros."
+  },
+  {
+   "id": "feira.p_410",
+   "texto": "Quatro euros e dez."
+  },
+  {
+   "id": "feira.p_420",
+   "texto": "Quatro euros e vinte."
+  },
+  {
+   "id": "feira.p_430",
+   "texto": "Quatro euros e trinta."
+  },
+  {
+   "id": "feira.p_440",
+   "texto": "Quatro euros e quarenta."
+  },
+  {
+   "id": "feira.p_450",
+   "texto": "Quatro euros e cinquenta."
+  },
+  {
+   "id": "feira.p_460",
+   "texto": "Quatro euros e sessenta."
+  },
+  {
+   "id": "feira.p_470",
+   "texto": "Quatro euros e setenta."
+  },
+  {
+   "id": "feira.p_480",
+   "texto": "Quatro euros e oitenta."
+  },
+  {
+   "id": "feira.p_490",
+   "texto": "Quatro euros e noventa."
+  },
+  {
+   "id": "feira.p_500",
+   "texto": "Cinco euros."
+  },
+  {
+   "id": "feira.p_510",
+   "texto": "Cinco euros e dez."
+  },
+  {
+   "id": "feira.p_520",
+   "texto": "Cinco euros e vinte."
+  },
+  {
+   "id": "feira.p_530",
+   "texto": "Cinco euros e trinta."
+  },
+  {
+   "id": "feira.p_540",
+   "texto": "Cinco euros e quarenta."
+  },
+  {
+   "id": "feira.p_550",
+   "texto": "Cinco euros e cinquenta."
+  },
+  {
+   "id": "feira.p_560",
+   "texto": "Cinco euros e sessenta."
+  },
+  {
+   "id": "feira.p_570",
+   "texto": "Cinco euros e setenta."
+  },
+  {
+   "id": "feira.p_580",
+   "texto": "Cinco euros e oitenta."
+  },
+  {
+   "id": "feira.p_590",
+   "texto": "Cinco euros e noventa."
+  },
+  {
+   "id": "feira.p_600",
+   "texto": "Seis euros."
+  },
+  {
+   "id": "feira.p_610",
+   "texto": "Seis euros e dez."
+  },
+  {
+   "id": "feira.p_620",
+   "texto": "Seis euros e vinte."
+  },
+  {
+   "id": "feira.p_630",
+   "texto": "Seis euros e trinta."
+  },
+  {
+   "id": "feira.p_640",
+   "texto": "Seis euros e quarenta."
+  },
+  {
+   "id": "feira.p_650",
+   "texto": "Seis euros e cinquenta."
+  },
+  {
+   "id": "feira.p_660",
+   "texto": "Seis euros e sessenta."
+  },
+  {
+   "id": "feira.p_670",
+   "texto": "Seis euros e setenta."
+  },
+  {
+   "id": "feira.p_680",
+   "texto": "Seis euros e oitenta."
+  },
+  {
+   "id": "feira.p_690",
+   "texto": "Seis euros e noventa."
+  },
+  {
+   "id": "feira.p_700",
+   "texto": "Sete euros."
+  },
+  {
+   "id": "feira.p_710",
+   "texto": "Sete euros e dez."
+  },
+  {
+   "id": "feira.p_720",
+   "texto": "Sete euros e vinte."
+  },
+  {
+   "id": "feira.p_730",
+   "texto": "Sete euros e trinta."
+  },
+  {
+   "id": "feira.p_740",
+   "texto": "Sete euros e quarenta."
+  },
+  {
+   "id": "feira.p_750",
+   "texto": "Sete euros e cinquenta."
+  },
+  {
+   "id": "feira.p_760",
+   "texto": "Sete euros e sessenta."
+  },
+  {
+   "id": "feira.p_770",
+   "texto": "Sete euros e setenta."
+  },
+  {
+   "id": "feira.p_780",
+   "texto": "Sete euros e oitenta."
+  },
+  {
+   "id": "feira.p_790",
+   "texto": "Sete euros e noventa."
+  },
+  {
+   "id": "feira.p_800",
+   "texto": "Oito euros."
+  },
+  {
+   "id": "feira.p_810",
+   "texto": "Oito euros e dez."
+  },
+  {
+   "id": "feira.p_820",
+   "texto": "Oito euros e vinte."
+  },
+  {
+   "id": "feira.p_830",
+   "texto": "Oito euros e trinta."
+  },
+  {
+   "id": "feira.p_840",
+   "texto": "Oito euros e quarenta."
+  },
+  {
+   "id": "feira.p_850",
+   "texto": "Oito euros e cinquenta."
+  },
+  {
+   "id": "feira.p_860",
+   "texto": "Oito euros e sessenta."
+  },
+  {
+   "id": "feira.p_870",
+   "texto": "Oito euros e setenta."
+  },
+  {
+   "id": "feira.p_880",
+   "texto": "Oito euros e oitenta."
+  },
+  {
+   "id": "feira.p_890",
+   "texto": "Oito euros e noventa."
+  },
+  {
+   "id": "feira.p_900",
+   "texto": "Nove euros."
+  },
+  {
+   "id": "feira.p_910",
+   "texto": "Nove euros e dez."
+  },
+  {
+   "id": "feira.p_920",
+   "texto": "Nove euros e vinte."
+  },
+  {
+   "id": "feira.p_930",
+   "texto": "Nove euros e trinta."
+  },
+  {
+   "id": "feira.p_940",
+   "texto": "Nove euros e quarenta."
+  },
+  {
+   "id": "feira.p_950",
+   "texto": "Nove euros e cinquenta."
+  },
+  {
+   "id": "feira.p_960",
+   "texto": "Nove euros e sessenta."
+  },
+  {
+   "id": "feira.p_970",
+   "texto": "Nove euros e setenta."
+  },
+  {
+   "id": "feira.p_980",
+   "texto": "Nove euros e oitenta."
+  },
+  {
+   "id": "feira.p_990",
+   "texto": "Nove euros e noventa."
+  },
+  {
+   "id": "feira.p_1000",
+   "texto": "Dez euros."
+  },
+  {
+   "id": "feira.p_1010",
+   "texto": "Dez euros e dez."
+  },
+  {
+   "id": "feira.p_1020",
+   "texto": "Dez euros e vinte."
+  },
+  {
+   "id": "feira.p_1030",
+   "texto": "Dez euros e trinta."
+  },
+  {
+   "id": "feira.p_1040",
+   "texto": "Dez euros e quarenta."
+  },
+  {
+   "id": "feira.p_1050",
+   "texto": "Dez euros e cinquenta."
+  },
+  {
+   "id": "feira.p_1060",
+   "texto": "Dez euros e sessenta."
+  },
+  {
+   "id": "feira.p_1070",
+   "texto": "Dez euros e setenta."
+  },
+  {
+   "id": "feira.p_1080",
+   "texto": "Dez euros e oitenta."
+  },
+  {
+   "id": "feira.p_1090",
+   "texto": "Dez euros e noventa."
+  },
+  {
+   "id": "feira.p_1100",
+   "texto": "Onze euros."
+  },
+  {
+   "id": "feira.p_1110",
+   "texto": "Onze euros e dez."
+  },
+  {
+   "id": "feira.p_1120",
+   "texto": "Onze euros e vinte."
+  },
+  {
+   "id": "feira.p_1130",
+   "texto": "Onze euros e trinta."
+  },
+  {
+   "id": "feira.p_1140",
+   "texto": "Onze euros e quarenta."
+  },
+  {
+   "id": "feira.p_1150",
+   "texto": "Onze euros e cinquenta."
+  },
+  {
+   "id": "feira.p_1160",
+   "texto": "Onze euros e sessenta."
+  },
+  {
+   "id": "feira.p_1170",
+   "texto": "Onze euros e setenta."
+  },
+  {
+   "id": "feira.p_1180",
+   "texto": "Onze euros e oitenta."
+  },
+  {
+   "id": "feira.p_1190",
+   "texto": "Onze euros e noventa."
+  },
+  {
+   "id": "feira.p_1200",
+   "texto": "Doze euros."
+  },
+  {
+   "id": "feira.p_1210",
+   "texto": "Doze euros e dez."
+  },
+  {
+   "id": "feira.p_1220",
+   "texto": "Doze euros e vinte."
+  },
+  {
+   "id": "feira.p_1230",
+   "texto": "Doze euros e trinta."
+  },
+  {
+   "id": "feira.p_1240",
+   "texto": "Doze euros e quarenta."
+  },
+  {
+   "id": "feira.p_1250",
+   "texto": "Doze euros e cinquenta."
+  },
+  {
+   "id": "feira.p_1260",
+   "texto": "Doze euros e sessenta."
+  },
+  {
+   "id": "feira.p_1270",
+   "texto": "Doze euros e setenta."
+  },
+  {
+   "id": "feira.p_1280",
+   "texto": "Doze euros e oitenta."
+  },
+  {
+   "id": "feira.p_1290",
+   "texto": "Doze euros e noventa."
+  },
+  {
+   "id": "feira.p_1300",
+   "texto": "Treze euros."
+  },
+  {
+   "id": "feira.p_1310",
+   "texto": "Treze euros e dez."
+  },
+  {
+   "id": "feira.p_1320",
+   "texto": "Treze euros e vinte."
+  },
+  {
+   "id": "feira.p_1330",
+   "texto": "Treze euros e trinta."
+  },
+  {
+   "id": "feira.p_1340",
+   "texto": "Treze euros e quarenta."
+  },
+  {
+   "id": "feira.p_1350",
+   "texto": "Treze euros e cinquenta."
+  },
+  {
+   "id": "feira.p_1360",
+   "texto": "Treze euros e sessenta."
+  },
+  {
+   "id": "feira.p_1370",
+   "texto": "Treze euros e setenta."
+  },
+  {
+   "id": "feira.p_1380",
+   "texto": "Treze euros e oitenta."
+  },
+  {
+   "id": "feira.p_1390",
+   "texto": "Treze euros e noventa."
+  },
+  {
+   "id": "feira.p_1400",
+   "texto": "Catorze euros."
+  },
+  {
+   "id": "feira.p_1410",
+   "texto": "Catorze euros e dez."
+  },
+  {
+   "id": "feira.p_1420",
+   "texto": "Catorze euros e vinte."
+  },
+  {
+   "id": "feira.p_1430",
+   "texto": "Catorze euros e trinta."
+  },
+  {
+   "id": "feira.p_1440",
+   "texto": "Catorze euros e quarenta."
+  },
+  {
+   "id": "feira.p_1450",
+   "texto": "Catorze euros e cinquenta."
+  },
+  {
+   "id": "feira.p_1460",
+   "texto": "Catorze euros e sessenta."
+  },
+  {
+   "id": "feira.p_1470",
+   "texto": "Catorze euros e setenta."
+  },
+  {
+   "id": "feira.p_1480",
+   "texto": "Catorze euros e oitenta."
+  },
+  {
+   "id": "feira.p_1490",
+   "texto": "Catorze euros e noventa."
+  },
+  {
+   "id": "feira.p_1500",
+   "texto": "Quinze euros."
+  },
+  {
+   "id": "feira.p_1510",
+   "texto": "Quinze euros e dez."
+  },
+  {
+   "id": "feira.p_1520",
+   "texto": "Quinze euros e vinte."
+  },
+  {
+   "id": "feira.p_1530",
+   "texto": "Quinze euros e trinta."
+  },
+  {
+   "id": "feira.p_1540",
+   "texto": "Quinze euros e quarenta."
+  },
+  {
+   "id": "feira.p_1550",
+   "texto": "Quinze euros e cinquenta."
+  },
+  {
+   "id": "feira.p_1560",
+   "texto": "Quinze euros e sessenta."
+  },
+  {
+   "id": "feira.p_1570",
+   "texto": "Quinze euros e setenta."
+  },
+  {
+   "id": "feira.p_1580",
+   "texto": "Quinze euros e oitenta."
+  },
+  {
+   "id": "feira.p_1590",
+   "texto": "Quinze euros e noventa."
+  },
+  {
+   "id": "feira.p_1600",
+   "texto": "Dezasseis euros."
+  },
+  {
+   "id": "feira.p_1610",
+   "texto": "Dezasseis euros e dez."
+  },
+  {
+   "id": "feira.p_1620",
+   "texto": "Dezasseis euros e vinte."
+  },
+  {
+   "id": "feira.p_1630",
+   "texto": "Dezasseis euros e trinta."
+  },
+  {
+   "id": "feira.p_1640",
+   "texto": "Dezasseis euros e quarenta."
+  },
+  {
+   "id": "feira.p_1650",
+   "texto": "Dezasseis euros e cinquenta."
+  },
+  {
+   "id": "feira.p_1660",
+   "texto": "Dezasseis euros e sessenta."
+  },
+  {
+   "id": "feira.p_1670",
+   "texto": "Dezasseis euros e setenta."
+  },
+  {
+   "id": "feira.p_1680",
+   "texto": "Dezasseis euros e oitenta."
+  },
+  {
+   "id": "feira.p_1690",
+   "texto": "Dezasseis euros e noventa."
+  },
+  {
+   "id": "feira.p_1700",
+   "texto": "Dezassete euros."
+  },
+  {
+   "id": "feira.p_1710",
+   "texto": "Dezassete euros e dez."
+  },
+  {
+   "id": "feira.p_1720",
+   "texto": "Dezassete euros e vinte."
+  },
+  {
+   "id": "feira.p_1730",
+   "texto": "Dezassete euros e trinta."
+  },
+  {
+   "id": "feira.p_1740",
+   "texto": "Dezassete euros e quarenta."
+  },
+  {
+   "id": "feira.p_1750",
+   "texto": "Dezassete euros e cinquenta."
+  },
+  {
+   "id": "feira.p_1760",
+   "texto": "Dezassete euros e sessenta."
+  },
+  {
+   "id": "feira.p_1770",
+   "texto": "Dezassete euros e setenta."
+  },
+  {
+   "id": "feira.p_1780",
+   "texto": "Dezassete euros e oitenta."
+  },
+  {
+   "id": "feira.p_1790",
+   "texto": "Dezassete euros e noventa."
+  },
+  {
+   "id": "feira.p_1800",
+   "texto": "Dezoito euros."
+  },
+  {
+   "id": "feira.p_1810",
+   "texto": "Dezoito euros e dez."
+  },
+  {
+   "id": "feira.p_1820",
+   "texto": "Dezoito euros e vinte."
+  },
+  {
+   "id": "feira.p_1830",
+   "texto": "Dezoito euros e trinta."
+  },
+  {
+   "id": "feira.p_1840",
+   "texto": "Dezoito euros e quarenta."
+  },
+  {
+   "id": "feira.p_1850",
+   "texto": "Dezoito euros e cinquenta."
+  },
+  {
+   "id": "feira.p_1860",
+   "texto": "Dezoito euros e sessenta."
+  },
+  {
+   "id": "feira.p_1870",
+   "texto": "Dezoito euros e setenta."
+  },
+  {
+   "id": "feira.p_1880",
+   "texto": "Dezoito euros e oitenta."
+  },
+  {
+   "id": "feira.p_1890",
+   "texto": "Dezoito euros e noventa."
+  },
+  {
+   "id": "feira.p_1900",
+   "texto": "Dezanove euros."
+  },
+  {
+   "id": "feira.p_1910",
+   "texto": "Dezanove euros e dez."
+  },
+  {
+   "id": "feira.p_1920",
+   "texto": "Dezanove euros e vinte."
+  },
+  {
+   "id": "feira.p_1930",
+   "texto": "Dezanove euros e trinta."
+  },
+  {
+   "id": "feira.p_1940",
+   "texto": "Dezanove euros e quarenta."
+  },
+  {
+   "id": "feira.p_1950",
+   "texto": "Dezanove euros e cinquenta."
+  },
+  {
+   "id": "feira.p_1960",
+   "texto": "Dezanove euros e sessenta."
+  },
+  {
+   "id": "feira.p_1970",
+   "texto": "Dezanove euros e setenta."
+  },
+  {
+   "id": "feira.p_1980",
+   "texto": "Dezanove euros e oitenta."
+  },
+  {
+   "id": "feira.p_1990",
+   "texto": "Dezanove euros e noventa."
+  },
+  {
+   "id": "feira.p_2000",
+   "texto": "Vinte euros."
+  },
+  {
+   "id": "feira.instrucao_menos",
+   "texto": "Paga com o menor número de moedas e notas."
+  },
+  {
+   "id": "feira.menos_nao",
+   "texto": "Está certo, mas dá com menos moedas. Tenta outra vez."
+  },
+  {
+   "id": "feira.instrucao_troco2",
+   "texto": "Paga com a nota. Depois conta bem o troco."
+  },
+  {
+   "id": "feira.cada",
+   "texto": "Cada um custa"
+  },
+  {
+   "id": "feira.oferta_3",
+   "texto": "Hoje é leve três, pague dois!"
+  },
+  {
+   "id": "feira.levas_3",
+   "texto": "Levas três. Quanto pagas?"
+  },
+  {
+   "id": "feira.custava",
+   "texto": "Custava"
+  },
+  {
+   "id": "feira.oferta_metade",
+   "texto": "Hoje está a metade do preço! Quanto pagas?"
+  },
+  {
+   "id": "feira.o_quilo",
+   "texto": "O quilo custa"
+  },
+  {
+   "id": "feira.queres_meio",
+   "texto": "Queres meio quilo. Quanto pagas?"
+  },
+  {
+   "id": "feira.queres_1meio",
+   "texto": "Queres um quilo e meio. Quanto pagas?"
+  },
+  {
+   "id": "feira.queres_2",
+   "texto": "Queres dois quilos. Quanto pagas?"
+  },
+  {
+   "id": "feira.quanto_tudo",
+   "texto": "Quanto é tudo junto?"
+  },
+  {
+   "id": "feira.total_certo",
+   "texto": "Isso mesmo! Tudo junto é"
+  },
+  {
+   "id": "feira.total_nao",
+   "texto": "Não é bem isso. Soma outra vez com calma."
+  },
+  {
+   "id": "feira.agora_paga",
+   "texto": "Agora paga."
+  },
+  {
+   "id": "feira.tens_5",
+   "texto": "Tens cinco euros."
+  },
+  {
+   "id": "feira.tens_10",
+   "texto": "Tens dez euros."
+  },
+  {
+   "id": "feira.tens_20",
+   "texto": "Tens vinte euros."
+  },
+  {
+   "id": "feira.qual_cesto",
+   "texto": "Que cesto podes pagar? Os outros passam do teu dinheiro."
+  },
+  {
+   "id": "feira.cesto_certo",
+   "texto": "Isso mesmo! Esse cesto custa"
+  },
+  {
+   "id": "feira.sobram",
+   "texto": "E ainda sobram"
+  },
+  {
+   "id": "feira.cesto_nao",
+   "texto": "Esse passa do teu dinheiro. Faz a conta com calma."
+  },
+  {
+   "id": "feira.azul_meio",
+   "texto": "Na banca azul, meio quilo custa"
+  },
+  {
+   "id": "feira.azul_1",
+   "texto": "Na banca azul, um quilo custa"
+  },
+  {
+   "id": "feira.azul_1meio",
+   "texto": "Na banca azul, um quilo e meio custa"
+  },
+  {
+   "id": "feira.azul_2",
+   "texto": "Na banca azul, dois quilos custam"
+  },
+  {
+   "id": "feira.verde_meio",
+   "texto": "Na banca verde, meio quilo custa"
+  },
+  {
+   "id": "feira.verde_1",
+   "texto": "Na banca verde, um quilo custa"
+  },
+  {
+   "id": "feira.verde_1meio",
+   "texto": "Na banca verde, um quilo e meio custa"
+  },
+  {
+   "id": "feira.verde_2",
+   "texto": "Na banca verde, dois quilos custam"
+  },
+  {
+   "id": "feira.qual_banca",
+   "texto": "Onde fica mais barato o quilo? Toca nessa banca."
+  },
+  {
+   "id": "feira.banca_certo",
+   "texto": "Isso mesmo! Ali o quilo fica a"
+  },
+  {
+   "id": "feira.banca_nao",
+   "texto": "Essa sai mais cara. Pensa quanto custa um quilo."
+  },
+  {
+   "id": "feira.melhor",
+   "texto": "Hoje acertaste mais do que da última vez!"
+  },
+  {
+   "id": "feira.obrigada__2",
+   "texto": "Obrigada, freguês!"
+  }
+ ],
+ "sardinha": [
+  {
+   "id": "sardinha.intro",
+   "texto": "Nas Sardinhas, apanhas as sardinhas que saltam da água, como nos Santos Populares."
+  },
+  {
+   "id": "sardinha.instrucao",
+   "texto": "Toca nas sardinhas quando saltarem da água."
+  },
+  {
+   "id": "sardinha.instrucao_gato",
+   "texto": "Cuidado! O gato também quer sardinhas. No gato não se toca."
+  },
+  {
+   "id": "sardinha.lateral",
+   "texto": "Agora as sardinhas nadam para o lado. Atenção!"
+  },
+  {
+   "id": "sardinha.gato1",
+   "texto": "Miau! Eu não sou uma sardinha!"
+  },
+  {
+   "id": "sardinha.gato2",
+   "texto": "Ai, que cócegas! Miau!"
+  },
+  {
+   "id": "sardinha.gato3",
+   "texto": "Sou eu, o gato! As sardinhas são as outras."
+  },
+  {
+   "id": "sardinha.fugiu",
+   "texto": "Essa fugiu. Vem aí outra!"
+  },
+  {
+   "id": "sardinha.calma",
+   "texto": "Com calma. Toca quando a sardinha estiver no ar."
+  },
+  {
+   "id": "sardinha.fim",
+   "texto": "Que bela pescaria! Vamos assar as sardinhas!"
+  },
+  {
+   "id": "sardinha.varias",
+   "texto": "Agora saltam várias de cada vez, umas mais depressa do que outras."
+  },
+  {
+   "id": "sardinha.vira",
+   "texto": "Cuidado, há sardinhas que mudam de direção no ar!"
+  },
+  {
+   "id": "sardinha.ouro_aviso",
+   "texto": "Às vezes salta uma sardinha dourada. Essa é especial!"
+  },
+  {
+   "id": "sardinha.ouro1",
+   "texto": "Uma sardinha dourada! Que sorte!"
+  },
+  {
+   "id": "sardinha.ouro2",
+   "texto": "Dourada! Isto é que é pescar!"
+  },
+  {
+   "id": "sardinha.so_grandes",
+   "texto": "Agora só as sardinhas grandes! As pequeninas deixa-as crescer."
+  },
+  {
+   "id": "sardinha.so_prateadas",
+   "texto": "Agora só as sardinhas prateadas! Os outros peixes deixa-os nadar."
+  },
+  {
+   "id": "sardinha.muda",
+   "texto": "Atenção, mudei a regra!"
+  },
+  {
+   "id": "sardinha.pequena1",
+   "texto": "Essa é pequenina! Deixa-a crescer."
+  },
+  {
+   "id": "sardinha.pequena2",
+   "texto": "Ainda é bebé! Deixa-a nadar mais um bocadinho."
+  },
+  {
+   "id": "sardinha.outro1",
+   "texto": "Esse não é sardinha! Deixa-o nadar."
+  },
+  {
+   "id": "sardinha.outro2",
+   "texto": "Ui, esse peixe é colorido! Esse não."
+  },
+  {
+   "id": "sardinha.melhor",
+   "texto": "Apanhaste mais do que da última vez!"
+  }
+ ],
+ "montapratos": [
+  {
+   "id": "montapratos.intro",
+   "texto": "No Monta-pratos, a comida sobe da cozinha e tu apanhas o prato no andar que se acende."
+  },
+  {
+   "id": "montapratos.instrucao",
+   "texto": "Quando um andar se acender, toca no prato!"
+  },
+  {
+   "id": "montapratos.vaivem",
+   "texto": "O monta-pratos agora sobe e desce. Espera pela luz!"
+  },
+  {
+   "id": "montapratos.dois",
+   "texto": "Hoje há dois monta-pratos! Atenção aos dois."
+  },
+  {
+   "id": "montapratos.escolher",
+   "texto": "Agora o gato escolhe. Só apanhas o que ele pedir."
+  },
+  {
+   "id": "montapratos.so_sopa",
+   "texto": "Só a sopa!"
+  },
+  {
+   "id": "montapratos.so_doce",
+   "texto": "Só os doces!"
+  },
+  {
+   "id": "montapratos.so_peixe",
+   "texto": "Só o peixe!"
+  },
+  {
+   "id": "montapratos.so_fruta",
+   "texto": "Só a fruta!"
+  },
+  {
+   "id": "montapratos.muda",
+   "texto": "Mudei de ideias!"
+  },
+  {
+   "id": "montapratos.errado",
+   "texto": "Ups, esse não! Volta para a cozinha."
+  },
+  {
+   "id": "montapratos.errado2",
+   "texto": "Esse não era o pedido! Não faz mal."
+  },
+  {
+   "id": "montapratos.deixaste",
+   "texto": "Isso, deixaste ir. Muito bem!"
+  },
+  {
+   "id": "montapratos.caiu1",
+   "texto": "Plof! Lá foi o prato pelo poço abaixo!"
+  },
+  {
+   "id": "montapratos.caiu2",
+   "texto": "Ai, que trambolhão! O chão também tem fome."
+  },
+  {
+   "id": "montapratos.caiu3",
+   "texto": "Splat! O cozinheiro vai ter de limpar. Vem aí outro!"
+  },
+  {
+   "id": "montapratos.caiu4",
+   "texto": "Ui! Esse prato quis ir dar um passeio."
+  },
+  {
+   "id": "montapratos.calma",
+   "texto": "Com calma. Espera que o andar se acenda e toca no prato."
+  },
+  {
+   "id": "montapratos.fim",
+   "texto": "Toda a gente comeu! Que bela refeição!"
+  },
+  {
+   "id": "montapratos.p_caldo_verde",
+   "texto": "Caldo verde!"
+  },
+  {
+   "id": "montapratos.p_sopa_legumes",
+   "texto": "Sopa de legumes!"
+  },
+  {
+   "id": "montapratos.p_arroz_doce",
+   "texto": "Arroz doce!"
+  },
+  {
+   "id": "montapratos.p_bacalhau_bras",
+   "texto": "Bacalhau à Brás!"
+  },
+  {
+   "id": "montapratos.p_bolo_laranja",
+   "texto": "Bolo de laranja!"
+  },
+  {
+   "id": "montapratos.p_sardinhas",
+   "texto": "Sardinhas assadas!"
+  },
+  {
+   "id": "montapratos.p_pastel_nata",
+   "texto": "Pastel de nata!"
+  },
+  {
+   "id": "montapratos.p_pudim",
+   "texto": "Pudim!"
+  },
+  {
+   "id": "montapratos.p_pao",
+   "texto": "Pão quentinho!"
+  },
+  {
+   "id": "montapratos.p_queijo",
+   "texto": "Queijo da Serra!"
+  },
+  {
+   "id": "montapratos.p_laranja",
+   "texto": "Laranjas!"
+  },
+  {
+   "id": "montapratos.p_uvas",
+   "texto": "Uvas!"
+  },
+  {
+   "id": "montapratos.p_cereja",
+   "texto": "Cerejas!"
+  },
+  {
+   "id": "montapratos.p_melancia",
+   "texto": "Melancia!"
+  },
+  {
+   "id": "montapratos.passa",
+   "texto": "Às vezes o monta-pratos passa sem parar. Espera pela luz amarela!"
+  },
+  {
+   "id": "montapratos.sujos",
+   "texto": "O monta-pratos da direita também leva pratos vazios para lavar. Esses deixa-os ir!"
+  },
+  {
+   "id": "montapratos.escolher_varios",
+   "texto": "Agora o gato pede mais do que uma coisa. Olha bem para o cartão!"
+  },
+  {
+   "id": "montapratos.e_sopa",
+   "texto": "E a sopa!"
+  },
+  {
+   "id": "montapratos.e_doce",
+   "texto": "E os doces!"
+  },
+  {
+   "id": "montapratos.e_peixe",
+   "texto": "E o peixe!"
+  },
+  {
+   "id": "montapratos.e_fruta",
+   "texto": "E a fruta!"
+  },
+  {
+   "id": "montapratos.vazio1",
+   "texto": "Esse prato está vazio! Vai para lavar."
+  },
+  {
+   "id": "montapratos.vazio2",
+   "texto": "Ups, esse já foi comido! Deixa-o descer."
+  },
+  {
+   "id": "montapratos.lavar",
+   "texto": "Isso, os pratos vazios vão para lavar. Muito bem!"
+  },
+  {
+   "id": "montapratos.melhor",
+   "texto": "Serviste melhor do que da última vez!"
+  }
+ ],
+ "gato": [
+  {
+   "id": "gato.intro",
+   "texto": "No Gato aventureiro, ajudas o gato a atravessar a estrada e o ribeiro até casa."
+  },
+  {
+   "id": "gato.instrucao",
+   "texto": "Ajuda o gato a chegar a casa. Toca nas setas para ele saltar."
+  },
+  {
+   "id": "gato.estrada",
+   "texto": "Cuidado com os carros! Espera que passem e depois salta."
+  },
+  {
+   "id": "gato.ribeiro",
+   "texto": "No ribeiro, salta para cima dos troncos. O gato não gosta de banhos!"
+  },
+  {
+   "id": "gato.afunda",
+   "texto": "Atenção, há troncos que se afundam um bocadinho!"
+  },
+  {
+   "id": "gato.miau1",
+   "texto": "Miau! Esse carro fez-me cócegas!"
+  },
+  {
+   "id": "gato.miau2",
+   "texto": "Miau! Vou tentar outra vez."
+  },
+  {
+   "id": "gato.miau3",
+   "texto": "Miau! Ui, que susto. Volto ao passeio."
+  },
+  {
+   "id": "gato.agua1",
+   "texto": "Miau! Que banho! Brrr!"
+  },
+  {
+   "id": "gato.agua2",
+   "texto": "Splash! Fiquei todo molhado!"
+  },
+  {
+   "id": "gato.agua3",
+   "texto": "Miau! Água fria! Vamos outra vez."
+  },
+  {
+   "id": "gato.dica_carro",
+   "texto": "Espera que o carro passe. Depois salta!"
+  },
+  {
+   "id": "gato.dica_agua",
+   "texto": "Salta quando o tronco estiver mesmo à tua frente."
+  },
+  {
+   "id": "gato.casa1",
+   "texto": "Cheguei a casa! Obrigado!"
+  },
+  {
+   "id": "gato.casa2",
+   "texto": "Que bom, a minha caminha!"
+  },
+  {
+   "id": "gato.casa3",
+   "texto": "Em casa! Agora uma sesta."
+  },
+  {
+   "id": "gato.outra",
+   "texto": "Vamos lá outra vez!"
+  },
+  {
+   "id": "gato.fim",
+   "texto": "Que aventura! O gato está em casa, quentinho."
+  },
+  {
+   "id": "gato.caminho",
+   "texto": "Olha, agora o caminho é diferente!"
+  },
+  {
+   "id": "gato.tartarugas",
+   "texto": "As tartarugas também ajudam, mas às vezes mergulham!"
+  },
+  {
+   "id": "gato.trator",
+   "texto": "Vem aí um trator! É devagarinho, mas é comprido."
+  },
+  {
+   "id": "gato.bicicleta",
+   "texto": "As bicicletas são rápidas! Olha bem antes de saltar."
+  },
+  {
+   "id": "gato.peixe",
+   "texto": "Se vires um peixinho pelo caminho, apanha-o!"
+  },
+  {
+   "id": "gato.peixe1",
+   "texto": "Um peixinho! Que petisco!"
+  },
+  {
+   "id": "gato.peixe2",
+   "texto": "Peixe fresco! Obrigado!"
+  },
+  {
+   "id": "gato.peixe3",
+   "texto": "Mais um peixinho para o jantar!"
+  },
+  {
+   "id": "gato.limpo1",
+   "texto": "Em casa sem um único susto! Que bem!"
+  },
+  {
+   "id": "gato.limpo2",
+   "texto": "Outra vez sem sustos! Estás em grande forma!"
+  },
+  {
+   "id": "gato.melhor",
+   "texto": "Hoje o gato tropeçou menos do que da última vez!"
+  }
+ ],
+ "cores": [
+  {
+   "id": "cores.intro",
+   "texto": "Nas Cores, eu digo uma cor e tu tocas nela."
+  },
+  {
+   "id": "cores.instrucao",
+   "texto": "Ouve a cor e toca nela."
+  },
+  {
+   "id": "cores.vamos",
+   "texto": "Vamos às cores! Ouve bem."
+  },
+  {
+   "id": "cores.tons",
+   "texto": "Agora há cores parecidas. Olha com atenção!"
+  },
+  {
+   "id": "cores.objetos",
+   "texto": "Agora digo uma cor e tu tocas na coisa dessa cor."
+  },
+  {
+   "id": "cores.modo_palavra_intro",
+   "texto": "Agora as palavras estão pintadas. Lê bem a palavra!"
+  },
+  {
+   "id": "cores.modo_tinta_intro",
+   "texto": "Agora olha só para a cor da tinta, não para a palavra."
+  },
+  {
+   "id": "cores.alterna_intro",
+   "texto": "Às vezes peço a palavra, às vezes a cor da tinta. Atenção!"
+  },
+  {
+   "id": "cores.muda_palavra",
+   "texto": "Atenção! Agora lê a palavra."
+  },
+  {
+   "id": "cores.muda_tinta",
+   "texto": "Atenção! Agora olha para a tinta."
+  },
+  {
+   "id": "cores.isca_tinta",
+   "texto": "Essa é a palavra. Olha para a cor da tinta!"
+  },
+  {
+   "id": "cores.isca_palavra",
+   "texto": "Essa é a cor da tinta. Lê a palavra!"
+  },
+  {
+   "id": "cores.pista",
+   "texto": "Olha, está aqui a brilhar."
+  },
+  {
+   "id": "cores.melhor",
+   "texto": "Fizeste melhor do que da última vez!"
+  },
+  {
+   "id": "cores.fim",
+   "texto": "Acabaste! Que bem que conheces as cores!"
+  },
+  {
+   "id": "cores.c_vermelho",
+   "texto": "Onde está o vermelho?"
+  },
+  {
+   "id": "cores.c_azul",
+   "texto": "Onde está o azul?"
+  },
+  {
+   "id": "cores.c_amarelo",
+   "texto": "Onde está o amarelo?"
+  },
+  {
+   "id": "cores.c_verde",
+   "texto": "Onde está o verde?"
+  },
+  {
+   "id": "cores.c_roxo",
+   "texto": "Onde está o roxo?"
+  },
+  {
+   "id": "cores.c_laranja",
+   "texto": "Onde está o laranja?"
+  },
+  {
+   "id": "cores.c_cor_de_rosa",
+   "texto": "Onde está o cor-de-rosa?"
+  },
+  {
+   "id": "cores.c_castanho",
+   "texto": "Onde está o castanho?"
+  },
+  {
+   "id": "cores.c_branco",
+   "texto": "Onde está o branco?"
+  },
+  {
+   "id": "cores.c_preto",
+   "texto": "Onde está o preto?"
+  },
+  {
+   "id": "cores.c_azul_claro",
+   "texto": "Onde está o azul-claro?"
+  },
+  {
+   "id": "cores.c_verde_claro",
+   "texto": "Onde está o verde-claro?"
+  },
+  {
+   "id": "cores.c_cinzento",
+   "texto": "Onde está o cinzento?"
+  },
+  {
+   "id": "cores.o_amarelo",
+   "texto": "O que é amarelo?"
+  },
+  {
+   "id": "cores.o_vermelho",
+   "texto": "O que é vermelho?"
+  },
+  {
+   "id": "cores.o_verde",
+   "texto": "O que é verde?"
+  },
+  {
+   "id": "cores.o_laranja",
+   "texto": "O que é cor de laranja?"
+  },
+  {
+   "id": "cores.o_azul",
+   "texto": "O que é azul?"
+  },
+  {
+   "id": "cores.o_roxo",
+   "texto": "O que é roxo?"
+  },
+  {
+   "id": "cores.o_cor_de_rosa",
+   "texto": "O que é cor-de-rosa?"
+  },
+  {
+   "id": "cores.o_castanho",
+   "texto": "O que é castanho?"
+  },
+  {
+   "id": "cores.o_branco",
+   "texto": "O que é branco?"
+  },
+  {
+   "id": "cores.p_vermelho",
+   "texto": "Toca na palavra VERMELHO."
+  },
+  {
+   "id": "cores.p_azul",
+   "texto": "Toca na palavra AZUL."
+  },
+  {
+   "id": "cores.p_verde",
+   "texto": "Toca na palavra VERDE."
+  },
+  {
+   "id": "cores.p_roxo",
+   "texto": "Toca na palavra ROXO."
+  },
+  {
+   "id": "cores.p_laranja",
+   "texto": "Toca na palavra LARANJA."
+  },
+  {
+   "id": "cores.p_preto",
+   "texto": "Toca na palavra PRETO."
+  },
+  {
+   "id": "cores.t_vermelho",
+   "texto": "Toca na palavra escrita a vermelho."
+  },
+  {
+   "id": "cores.t_azul",
+   "texto": "Toca na palavra escrita a azul."
+  },
+  {
+   "id": "cores.t_verde",
+   "texto": "Toca na palavra escrita a verde."
+  },
+  {
+   "id": "cores.t_roxo",
+   "texto": "Toca na palavra escrita a roxo."
+  },
+  {
+   "id": "cores.t_laranja",
+   "texto": "Toca na palavra escrita a cor de laranja."
+  },
+  {
+   "id": "cores.t_preto",
+   "texto": "Toca na palavra escrita a preto."
+  }
+ ],
+ "intruso": [
+  {
+   "id": "intruso.intro",
+   "texto": "No Intruso, há uma coisa que não pertence ao grupo. Descobre qual é!"
+  },
+  {
+   "id": "intruso.instrucao",
+   "texto": "Olha bem. Toca no que não pertence ao grupo."
+  },
+  {
+   "id": "intruso.vamos",
+   "texto": "Vamos descobrir os intrusos!"
+  },
+  {
+   "id": "intruso.palavras_intro",
+   "texto": "Agora são palavras. Lê bem e descobre o intruso."
+  },
+  {
+   "id": "intruso.duas_intro",
+   "texto": "Agora é mais difícil: o intruso parece igual aos outros. Pensa bem!"
+  },
+  {
+   "id": "intruso.qual",
+   "texto": "Qual é o intruso?"
+  },
+  {
+   "id": "intruso.qual2",
+   "texto": "Qual destes não pertence?"
+  },
+  {
+   "id": "intruso.qual3",
+   "texto": "Descobre o intruso!"
+  },
+  {
+   "id": "intruso.pista",
+   "texto": "Olha para o que está a piscar."
+  },
+  {
+   "id": "intruso.melhor",
+   "texto": "Fizeste melhor do que da última vez!"
+  },
+  {
+   "id": "intruso.fim",
+   "texto": "Apanhaste todos os intrusos! Muito bem!"
+  },
+  {
+   "id": "intruso.r_o_fruta",
+   "texto": "O carro não é fruta!"
+  },
+  {
+   "id": "intruso.r_o_animais",
+   "texto": "A cadeira não é um animal!"
+  },
+  {
+   "id": "intruso.r_o_flores",
+   "texto": "O autocarro não é uma flor!"
+  },
+  {
+   "id": "intruso.r_o_transportes",
+   "texto": "A banana não é um transporte!"
+  },
+  {
+   "id": "intruso.r_o_doces",
+   "texto": "O sapato não se come!"
+  },
+  {
+   "id": "intruso.r_o_calcado",
+   "texto": "O peixe não se calça!"
+  },
+  {
+   "id": "intruso.r_o_cabeca",
+   "texto": "A cenoura não se põe na cabeça!"
+  },
+  {
+   "id": "intruso.r_o_ceu",
+   "texto": "O telefone não está no céu!"
+  },
+  {
+   "id": "intruso.r_o_aves",
+   "texto": "O elefante não é uma ave!"
+  },
+  {
+   "id": "intruso.r_o_mar",
+   "texto": "O leão não vive no mar!"
+  },
+  {
+   "id": "intruso.r_o_coracoes",
+   "texto": "A maçã não é um coração!"
+  },
+  {
+   "id": "intruso.r_o_bebidas",
+   "texto": "O livro não se bebe!"
+  },
+  {
+   "id": "intruso.r_o_musica",
+   "texto": "O tomate não toca música!"
+  },
+  {
+   "id": "intruso.r_o_casa",
+   "texto": "A vaca não vive dentro de casa!"
+  },
+  {
+   "id": "intruso.r_o_legumes",
+   "texto": "A bicicleta não é um legume!"
+  },
+  {
+   "id": "intruso.r_o_roupa",
+   "texto": "O ovo não se veste!"
+  },
+  {
+   "id": "intruso.r_p_fruta",
+   "texto": "A cenoura não é fruta, é um legume!"
+  },
+  {
+   "id": "intruso.r_p_legumes",
+   "texto": "O morango não é um legume, é fruta!"
+  },
+  {
+   "id": "intruso.r_p_mar",
+   "texto": "O sapo vive no charco, não no mar!"
+  },
+  {
+   "id": "intruso.r_p_quinta",
+   "texto": "A girafa não vive na quinta, vive em África!"
+  },
+  {
+   "id": "intruso.r_p_selva",
+   "texto": "A vaca não é um bicho selvagem, vive na quinta!"
+  },
+  {
+   "id": "intruso.r_p_cozinha",
+   "texto": "A sanita não é da cozinha, é da casa de banho!"
+  },
+  {
+   "id": "intruso.r_p_banho",
+   "texto": "A frigideira é da cozinha, não é da casa de banho!"
+  },
+  {
+   "id": "intruso.r_p_roupa",
+   "texto": "Os óculos não são roupa!"
+  },
+  {
+   "id": "intruso.r_p_flores",
+   "texto": "A couve não é uma flor, é um legume!"
+  },
+  {
+   "id": "intruso.r_p_aves",
+   "texto": "O morcego voa, mas não é uma ave!"
+  },
+  {
+   "id": "intruso.r_p_insetos",
+   "texto": "O caracol não é um inseto!"
+  },
+  {
+   "id": "intruso.r_p_doces",
+   "texto": "O queijo não é um doce!"
+  },
+  {
+   "id": "intruso.r_p_musica",
+   "texto": "O telefone toca, mas não é um instrumento!"
+  },
+  {
+   "id": "intruso.r_p_terra",
+   "texto": "O barco não anda em terra, anda na água!"
+  },
+  {
+   "id": "intruso.r_p_calcado",
+   "texto": "As meias não são calçado!"
+  },
+  {
+   "id": "intruso.r_p_escola",
+   "texto": "A colher não é da escola, é da cozinha!"
+  },
+  {
+   "id": "intruso.r_p_cabeca",
+   "texto": "A luva não se põe na cabeça, põe-se na mão!"
+  },
+  {
+   "id": "intruso.r_q_voam",
+   "texto": "A tartaruga não voa!"
+  },
+  {
+   "id": "intruso.r_q_frio",
+   "texto": "O café é quente, não é frio!"
+  },
+  {
+   "id": "intruso.r_q_quente",
+   "texto": "O gelado é frio, não é quente!"
+  },
+  {
+   "id": "intruso.r_q_redondo",
+   "texto": "O livro não é redondo!"
+  },
+  {
+   "id": "intruso.r_q_rodas",
+   "texto": "O barco não tem rodas!"
+  },
+  {
+   "id": "intruso.r_q_luz",
+   "texto": "A nuvem não dá luz!"
+  },
+  {
+   "id": "intruso.r_q_picam",
+   "texto": "A borboleta não pica!"
+  },
+  {
+   "id": "intruso.r_q_abrem",
+   "texto": "A colher não se abre!"
+  },
+  {
+   "id": "intruso.r_q_cortam",
+   "texto": "A colher não corta!"
+  },
+  {
+   "id": "intruso.r_q_quatro_pernas",
+   "texto": "A galinha só tem duas pernas!"
+  },
+  {
+   "id": "intruso.r_q_amarelos",
+   "texto": "A maçã não é amarela!"
+  },
+  {
+   "id": "intruso.r_q_verdes",
+   "texto": "A cenoura não é verde, é cor de laranja!"
+  },
+  {
+   "id": "intruso.r_q_brancos",
+   "texto": "O chocolate não é branco!"
+  },
+  {
+   "id": "intruso.r_q_crescem",
+   "texto": "A pedra não cresce!"
+  },
+  {
+   "id": "intruso.r_q_penas",
+   "texto": "A borboleta voa, mas não tem penas!"
+  },
+  {
+   "id": "intruso.r_q_agua",
+   "texto": "O gato não vive na água!"
+  },
+  {
+   "id": "intruso.r_q_leite",
+   "texto": "A galinha não dá leite, dá ovos!"
+  },
+  {
+   "id": "intruso.r_q_doce",
+   "texto": "O sal não é doce, é salgado!"
+  },
+  {
+   "id": "intruso.r_w_meses",
+   "texto": "Domingo é um dia da semana, não é um mês!"
+  },
+  {
+   "id": "intruso.r_w_dias",
+   "texto": "Agosto é um mês, não é um dia da semana!"
+  },
+  {
+   "id": "intruso.r_w_rios",
+   "texto": "Lisboa é uma cidade, não é um rio!"
+  },
+  {
+   "id": "intruso.r_w_cidades",
+   "texto": "Madrid é uma cidade de Espanha!"
+  },
+  {
+   "id": "intruso.r_w_cores",
+   "texto": "Redondo não é uma cor!"
+  },
+  {
+   "id": "intruso.r_w_profissoes",
+   "texto": "A laranjeira é uma árvore, não é uma profissão!"
+  },
+  {
+   "id": "intruso.r_w_arvores",
+   "texto": "O sapateiro é uma profissão, não é uma árvore!"
+  },
+  {
+   "id": "intruso.r_w_familia",
+   "texto": "A vizinha não é da família!"
+  },
+  {
+   "id": "intruso.r_w_estacoes",
+   "texto": "A manhã não é uma estação do ano!"
+  },
+  {
+   "id": "intruso.r_w_tempo",
+   "texto": "A areia não cai do céu, está na praia!"
+  },
+  {
+   "id": "intruso.r_w_corpo",
+   "texto": "A gaveta não é uma parte do corpo!"
+  },
+  {
+   "id": "intruso.r_w_pratos",
+   "texto": "O hambúrguer não é um prato português!"
+  },
+  {
+   "id": "intruso.r_w_doces",
+   "texto": "O bacalhau não é um doce!"
+  },
+  {
+   "id": "intruso.r_w_cozinha",
+   "texto": "A almofada não é da cozinha!"
+  },
+  {
+   "id": "intruso.r_w_pares",
+   "texto": "O sete é ímpar, os outros são pares!"
+  },
+  {
+   "id": "intruso.r_w_tabuada",
+   "texto": "O dez não está na tabuada do três!"
+  },
+  {
+   "id": "intruso.r_w_moedas",
+   "texto": "Não há moedas de três cêntimos!"
+  },
+  {
+   "id": "intruso.r_w_notas",
+   "texto": "Não há notas de trinta euros!"
+  },
+  {
+   "id": "intruso.r_w_instrumentos",
+   "texto": "O martelo não toca música!"
+  },
+  {
+   "id": "intruso.r_d_frutas_vermelhas",
+   "texto": "A banana é fruta, mas não é vermelha!"
+  },
+  {
+   "id": "intruso.r_d_aves_voam",
+   "texto": "O pinguim é uma ave, mas não voa!"
+  },
+  {
+   "id": "intruso.r_d_peixes",
+   "texto": "O golfinho vive no mar, mas não é um peixe!"
+  },
+  {
+   "id": "intruso.r_d_terra",
+   "texto": "A couve é um legume, mas não cresce debaixo da terra!"
+  },
+  {
+   "id": "intruso.r_d_caroco",
+   "texto": "O morango é fruta, mas não tem caroço!"
+  },
+  {
+   "id": "intruso.r_d_quatro_patas",
+   "texto": "A galinha é da quinta, mas só tem duas patas!"
+  },
+  {
+   "id": "intruso.r_d_rodas",
+   "texto": "O barco é um transporte, mas não tem rodas!"
+  },
+  {
+   "id": "intruso.r_d_quentes",
+   "texto": "A limonada é uma bebida, mas bebe-se fresca!"
+  },
+  {
+   "id": "intruso.r_d_31",
+   "texto": "Abril é um mês, mas só tem trinta dias!"
+  },
+  {
+   "id": "intruso.r_d_mar",
+   "texto": "Évora é uma cidade, mas não tem mar!"
+  },
+  {
+   "id": "intruso.r_d_rios",
+   "texto": "O Sena é um rio, mas não passa em Portugal!"
+  },
+  {
+   "id": "intruso.r_d_arvores_fruto",
+   "texto": "O eucalipto é uma árvore, mas não dá fruta!"
+  },
+  {
+   "id": "intruso.r_d_doces_pt",
+   "texto": "O tiramisu é um doce, mas é italiano!"
+  },
+  {
+   "id": "intruso.r_d_cordas",
+   "texto": "O acordeão é um instrumento, mas não tem cordas!"
+  },
+  {
+   "id": "intruso.r_d_moedas",
+   "texto": "Cinco euros é dinheiro, mas é uma nota, não é uma moeda!"
+  }
+ ],
+ "adivinhas": [
+  {
+   "id": "adivinhas.intro",
+   "texto": "Nas Adivinhas, eu digo uma adivinha e tu escolhes a resposta."
+  },
+  {
+   "id": "adivinhas.instrucao",
+   "texto": "Ouve a adivinha e toca na resposta certa."
+  },
+  {
+   "id": "adivinhas.vamos",
+   "texto": "Vamos às adivinhas!"
+  },
+  {
+   "id": "adivinhas.palavras_intro",
+   "texto": "Agora as respostas são palavras. Lê com calma."
+  },
+  {
+   "id": "adivinhas.ouve",
+   "texto": "Ouve a adivinha. Toca no cartão para ouvir outra vez."
+  },
+  {
+   "id": "adivinhas.outra",
+   "texto": "Outra adivinha!"
+  },
+  {
+   "id": "adivinhas.pista",
+   "texto": "Olha para a que está a piscar."
+  },
+  {
+   "id": "adivinhas.melhor",
+   "texto": "Acertaste mais do que da última vez!"
+  },
+  {
+   "id": "adivinhas.fim",
+   "texto": "Acertaste as adivinhas todas! Que cabeça!"
+  },
+  {
+   "id": "adivinhas.r_vaca",
+   "texto": "O que é, o que é? Dá leite, come erva e diz mu."
+  },
+  {
+   "id": "adivinhas.s_vaca",
+   "texto": "É a vaca!"
+  },
+  {
+   "id": "adivinhas.r_abelha",
+   "texto": "O que é, o que é? É pequenina, voa de flor em flor e faz o mel."
+  },
+  {
+   "id": "adivinhas.s_abelha",
+   "texto": "É a abelha!"
+  },
+  {
+   "id": "adivinhas.r_guarda_chuva",
+   "texto": "O que é, o que é? Abre-se quando chove e fecha-se quando faz sol."
+  },
+  {
+   "id": "adivinhas.s_guarda_chuva",
+   "texto": "É o guarda-chuva!"
+  },
+  {
+   "id": "adivinhas.r_banana",
+   "texto": "O que é, o que é? É amarela e comprida, descasca-se, e o macaco adora."
+  },
+  {
+   "id": "adivinhas.s_banana",
+   "texto": "É a banana!"
+  },
+  {
+   "id": "adivinhas.r_sol",
+   "texto": "O que é, o que é? Nasce de manhã, põe-se ao fim do dia e aquece toda a gente."
+  },
+  {
+   "id": "adivinhas.s_sol",
+   "texto": "É o sol!"
+  },
+  {
+   "id": "adivinhas.r_caracol",
+   "texto": "Qual é o bicho que anda devagarinho com a casa às costas?"
+  },
+  {
+   "id": "adivinhas.s_caracol",
+   "texto": "É o caracol!"
+  },
+  {
+   "id": "adivinhas.r_galo",
+   "texto": "O que é, o que é? Tem crista vermelha e canta de madrugada."
+  },
+  {
+   "id": "adivinhas.s_galo",
+   "texto": "É o galo!"
+  },
+  {
+   "id": "adivinhas.r_queijo",
+   "texto": "O que é, o que é? É feito de leite, às vezes tem buracos, e o rato adora."
+  },
+  {
+   "id": "adivinhas.s_queijo",
+   "texto": "É o queijo!"
+  },
+  {
+   "id": "adivinhas.r_chave",
+   "texto": "O que é, o que é? Tem dentes e não morde, e abre a porta de casa."
+  },
+  {
+   "id": "adivinhas.s_chave",
+   "texto": "É a chave!"
+  },
+  {
+   "id": "adivinhas.r_ovo",
+   "texto": "Qual é coisa, qual é ela? A galinha põe, é branco por fora e amarelo por dentro."
+  },
+  {
+   "id": "adivinhas.s_ovo",
+   "texto": "É o ovo!"
+  },
+  {
+   "id": "adivinhas.r_comboio",
+   "texto": "O que é, o que é? Anda nos carris, apita na estação e leva muita gente."
+  },
+  {
+   "id": "adivinhas.s_comboio",
+   "texto": "É o comboio!"
+  },
+  {
+   "id": "adivinhas.r_cogumelo",
+   "texto": "O que é, o que é? Tem chapéu e não tem cabeça, tem pé e não tem sapato."
+  },
+  {
+   "id": "adivinhas.s_cogumelo",
+   "texto": "É o cogumelo!"
+  },
+  {
+   "id": "adivinhas.r_vela",
+   "texto": "O que é, o que é? Nasce grande e morre pequenina, e dá luz enquanto vive."
+  },
+  {
+   "id": "adivinhas.s_vela",
+   "texto": "É a vela!"
+  },
+  {
+   "id": "adivinhas.r_livro",
+   "texto": "O que é, o que é? Tem folhas e não é árvore, tem lombada e não é bicho."
+  },
+  {
+   "id": "adivinhas.s_livro",
+   "texto": "É o livro!"
+  },
+  {
+   "id": "adivinhas.r_agulha",
+   "texto": "O que é, o que é? Tem um olho só e não vê nada."
+  },
+  {
+   "id": "adivinhas.s_agulha",
+   "texto": "É a agulha!"
+  },
+  {
+   "id": "adivinhas.r_cereja",
+   "texto": "O que é, o que é? Vermelhinha por fora, com um coração de pedra lá dentro."
+  },
+  {
+   "id": "adivinhas.s_cereja",
+   "texto": "É a cereja!"
+  },
+  {
+   "id": "adivinhas.r_relogio",
+   "texto": "O que é, o que é? Tem ponteiros e não aponta, trabalha dia e noite e nunca sai do lugar."
+  },
+  {
+   "id": "adivinhas.s_relogio",
+   "texto": "É o relógio!"
+  },
+  {
+   "id": "adivinhas.r_cadeira",
+   "texto": "O que é, o que é? Tem pernas e não anda, tem costas e não se deita."
+  },
+  {
+   "id": "adivinhas.s_cadeira",
+   "texto": "É a cadeira!"
+  },
+  {
+   "id": "adivinhas.r_polvo",
+   "texto": "Qual é o bicho do mar que tem oito braços e nenhuma mão?"
+  },
+  {
+   "id": "adivinhas.s_polvo",
+   "texto": "É o polvo!"
+  },
+  {
+   "id": "adivinhas.r_luva",
+   "texto": "O que é, o que é? Tem cinco dedos e não tem unhas."
+  },
+  {
+   "id": "adivinhas.s_luva",
+   "texto": "É a luva!"
+  },
+  {
+   "id": "adivinhas.r_escada",
+   "texto": "O que é, o que é? Sobe e desce e nunca sai do mesmo sítio."
+  },
+  {
+   "id": "adivinhas.s_escada",
+   "texto": "É a escada!"
+  },
+  {
+   "id": "adivinhas.r_folha_seca",
+   "texto": "O que é, o que é? Nasce verde na árvore e no outono cai castanha ao chão."
+  },
+  {
+   "id": "adivinhas.s_folha_seca",
+   "texto": "É a folha!"
+  },
+  {
+   "id": "adivinhas.r_lua",
+   "texto": "O que é, o que é? Aparece no céu à noite, umas vezes redonda, outras vezes fininha."
+  },
+  {
+   "id": "adivinhas.s_lua",
+   "texto": "É a lua!"
+  },
+  {
+   "id": "adivinhas.r_alho",
+   "texto": "Qual é coisa, qual é ela? Tem cabeça e tem dentes, não é bicho nem é gente."
+  },
+  {
+   "id": "adivinhas.s_alho",
+   "texto": "É o alho!"
+  },
+  {
+   "id": "adivinhas.r_ananas",
+   "texto": "O que é, o que é? Tem coroa e não é rei, tem escamas e não é peixe."
+  },
+  {
+   "id": "adivinhas.s_ananas",
+   "texto": "É o ananás!"
+  },
+  {
+   "id": "adivinhas.r_dente",
+   "texto": "O que é, o que é? Tem coroa e tem raiz, mas não é rei nem é árvore."
+  },
+  {
+   "id": "adivinhas.s_dente",
+   "texto": "É o dente!"
+  },
+  {
+   "id": "adivinhas.r_bule",
+   "texto": "O que é, o que é? Tem bico e não pica, tem asa e não voa."
+  },
+  {
+   "id": "adivinhas.s_bule",
+   "texto": "É o bule!"
+  },
+  {
+   "id": "adivinhas.r_pao",
+   "texto": "O que é, o que é? Quanto mais quente, mais fresco."
+  },
+  {
+   "id": "adivinhas.s_pao",
+   "texto": "É o pão!"
+  },
+  {
+   "id": "adivinhas.r_castanha",
+   "texto": "O que é, o que é? Mora dentro de um ouriço, veste-se de castanho e assa-se no São Martinho."
+  },
+  {
+   "id": "adivinhas.s_castanha",
+   "texto": "É a castanha!"
+  },
+  {
+   "id": "adivinhas.r_cebola",
+   "texto": "Qual é coisa, qual é ela, que faz chorar sem bater?"
+  },
+  {
+   "id": "adivinhas.s_cebola",
+   "texto": "É a cebola!"
+  },
+  {
+   "id": "adivinhas.r_pente",
+   "texto": "O que é, o que é? Tem dentes e não come, e passeia pela cabeça todas as manhãs."
+  },
+  {
+   "id": "adivinhas.s_pente",
+   "texto": "É o pente!"
+  },
+  {
+   "id": "adivinhas.r_garrafa",
+   "texto": "O que é, o que é? Tem pescoço e não tem cabeça, tem boca e não fala."
+  },
+  {
+   "id": "adivinhas.s_garrafa",
+   "texto": "É a garrafa!"
+  },
+  {
+   "id": "adivinhas.r_papagaio",
+   "texto": "O que é, o que é? Tem rabo e não é bicho, voa no céu e vai preso por um fio."
+  },
+  {
+   "id": "adivinhas.s_papagaio",
+   "texto": "É o papagaio de papel!"
+  },
+  {
+   "id": "adivinhas.r_aviao",
+   "texto": "O que é, o que é? Tem asas e não tem penas, voa mais alto que as aves e leva gente lá dentro."
+  },
+  {
+   "id": "adivinhas.s_aviao",
+   "texto": "É o avião!"
+  },
+  {
+   "id": "adivinhas.r_tesoura",
+   "texto": "O que é, o que é? Tem duas pernas e dois olhos, e corta tudo o que lhe dão."
+  },
+  {
+   "id": "adivinhas.s_tesoura",
+   "texto": "É a tesoura!"
+  },
+  {
+   "id": "adivinhas.r_sapato",
+   "texto": "O que é, o que é? Tem língua e não fala, tem salto e não salta."
+  },
+  {
+   "id": "adivinhas.s_sapato",
+   "texto": "É o sapato!"
+  },
+  {
+   "id": "adivinhas.r_buraco",
+   "texto": "O que é, o que é? Quanto mais se tira, maior fica."
+  },
+  {
+   "id": "adivinhas.s_buraco",
+   "texto": "É o buraco!"
+  },
+  {
+   "id": "adivinhas.r_silencio",
+   "texto": "O que é, o que é? Basta dizer o nome dele para o quebrar."
+  },
+  {
+   "id": "adivinhas.s_silencio",
+   "texto": "É o silêncio!"
+  },
+  {
+   "id": "adivinhas.r_rio",
+   "texto": "O que é, o que é? Tem leito e não dorme, tem boca e não come, e corre sem ter pés."
+  },
+  {
+   "id": "adivinhas.s_rio",
+   "texto": "É o rio!"
+  },
+  {
+   "id": "adivinhas.r_sombra",
+   "texto": "O que é, o que é? Entra na água e não se molha, anda sempre contigo e não faz barulho."
+  },
+  {
+   "id": "adivinhas.s_sombra",
+   "texto": "É a sombra!"
+  },
+  {
+   "id": "adivinhas.r_letra_u",
+   "texto": "O que é que está sempre no meio da rua?"
+  },
+  {
+   "id": "adivinhas.s_letra_u",
+   "texto": "É a letra U! Rua: R, U, A."
+  },
+  {
+   "id": "adivinhas.r_letra_v",
+   "texto": "O que é que está no meio do ovo?"
+  },
+  {
+   "id": "adivinhas.s_letra_v",
+   "texto": "É a letra V! Ovo: O, V, O."
+  },
+  {
+   "id": "adivinhas.r_baralho",
+   "texto": "O que é, o que é? Põe-se na mesa, parte-se, reparte-se, mas não se come."
+  },
+  {
+   "id": "adivinhas.s_baralho",
+   "texto": "É o baralho de cartas!"
+  },
+  {
+   "id": "adivinhas.r_selo",
+   "texto": "O que é, o que é? Sem sair do seu cantinho, dá a volta ao mundo."
+  },
+  {
+   "id": "adivinhas.s_selo",
+   "texto": "É o selo!"
+  },
+  {
+   "id": "adivinhas.r_toalha",
+   "texto": "O que é, o que é? Quanto mais seca, mais molhada fica."
+  },
+  {
+   "id": "adivinhas.s_toalha",
+   "texto": "É a toalha!"
+  },
+  {
+   "id": "adivinhas.r_amanha",
+   "texto": "O que é, o que é? Está sempre a chegar, mas nunca chega."
+  },
+  {
+   "id": "adivinhas.s_amanha",
+   "texto": "É o amanhã!"
+  },
+  {
+   "id": "adivinhas.r_luz",
+   "texto": "O que é, o que é? Enche a casa toda e não ocupa lugar nenhum."
+  },
+  {
+   "id": "adivinhas.s_luz",
+   "texto": "É a luz!"
+  },
+  {
+   "id": "adivinhas.r_idade",
+   "texto": "O que é, o que é? Sobe sempre e nunca desce."
+  },
+  {
+   "id": "adivinhas.s_idade",
+   "texto": "É a idade!"
+  },
+  {
+   "id": "adivinhas.r_nome",
+   "texto": "O que é, o que é? É teu, mas os outros usam-no muito mais do que tu."
+  },
+  {
+   "id": "adivinhas.s_nome",
+   "texto": "É o teu nome!"
+  },
+  {
+   "id": "adivinhas.r_partir",
+   "texto": "O que é que tem de se partir antes de se usar?"
+  },
+  {
+   "id": "adivinhas.s_partir",
+   "texto": "É o ovo!"
+  },
+  {
+   "id": "adivinhas.r_segredo",
+   "texto": "O que é, o que é? Se o contares a alguém, deixas de o ter."
+  },
+  {
+   "id": "adivinhas.s_segredo",
+   "texto": "É o segredo!"
+  },
+  {
+   "id": "adivinhas.r_pegadas",
+   "texto": "O que é, o que é? Quanto mais andas, mais deixas para trás."
+  },
+  {
+   "id": "adivinhas.s_pegadas",
+   "texto": "São as pegadas!"
+  },
+  {
+   "id": "adivinhas.r_vento",
+   "texto": "O que é, o que é? Ninguém o vê, mas abana as árvores e leva os chapéus."
+  },
+  {
+   "id": "adivinhas.s_vento",
+   "texto": "É o vento!"
+  },
+  {
+   "id": "adivinhas.r_eco",
+   "texto": "O que é, o que é? Responde sem ninguém lhe perguntar, e só repete o que ouve."
+  },
+  {
+   "id": "adivinhas.s_eco",
+   "texto": "É o eco!"
+  }
+ ],
+ "sudoku": [
+  {
+   "id": "sudoku.intro",
+   "texto": "No Sudoku, cada figura aparece só uma vez em cada fila e em cada coluna."
+  },
+  {
+   "id": "sudoku.comecar_figuras",
+   "texto": "Vamos ao sudoku! Cada fila e cada coluna tem uma figura de cada."
+  },
+  {
+   "id": "sudoku.comecar_numeros",
+   "texto": "Agora com números! Cada número aparece uma vez em cada fila e em cada coluna."
+  },
+  {
+   "id": "sudoku.comecar_grande",
+   "texto": "Um sudoku maior, com números de um a seis!"
+  },
+  {
+   "id": "sudoku.como",
+   "texto": "Toca numa casa vazia e depois na figura certa."
+  },
+  {
+   "id": "sudoku.como_numero",
+   "texto": "Toca numa casa vazia e depois no número certo."
+  },
+  {
+   "id": "sudoku.quadrados",
+   "texto": "Os quadrados de risco grosso também têm um de cada."
+  },
+  {
+   "id": "sudoku.fila",
+   "texto": "Essa já está nesta fila."
+  },
+  {
+   "id": "sudoku.coluna",
+   "texto": "Essa já está nesta coluna."
+  },
+  {
+   "id": "sudoku.quadrado",
+   "texto": "Essa já está neste quadrado."
+  },
+  {
+   "id": "sudoku.nao_da",
+   "texto": "Aí não dá certo. Experimenta outra."
+  },
+  {
+   "id": "sudoku.pista",
+   "texto": "Olha esta casa a piscar. Só lá cabe uma figura."
+  },
+  {
+   "id": "sudoku.pista_numero",
+   "texto": "Olha esta casa a piscar. Só lá cabe um número."
+  },
+  {
+   "id": "sudoku.serie5",
+   "texto": "Cinco certas seguidas!"
+  },
+  {
+   "id": "sudoku.serie10",
+   "texto": "Dez certas seguidas! Que cabeça!"
+  },
+  {
+   "id": "sudoku.feito",
+   "texto": "Sudoku completo! Muito bem!"
+  },
+  {
+   "id": "sudoku.outro",
+   "texto": "Vamos a outro."
+  },
+  {
+   "id": "sudoku.todos",
+   "texto": "Acabaste todos! Estás em grande forma!"
+  },
+  {
+   "id": "sudoku.recorde",
+   "texto": "Melhor do que da última vez!"
+  }
+ ],
+ "labirinto": [
+  {
+   "id": "labirinto.intro",
+   "texto": "No Labirinto, levas o gato pelo caminho até ao peixe."
+  },
+  {
+   "id": "labirinto.comecar",
+   "texto": "Põe o dedo no gato e arrasta-o até ao peixe."
+  },
+  {
+   "id": "labirinto.estrelas",
+   "texto": "Apanha as estrelas pelo caminho!"
+  },
+  {
+   "id": "labirinto.dois",
+   "texto": "Agora o gato quer o peixe e o novelo. Apanha as estrelas também!"
+  },
+  {
+   "id": "labirinto.agarra",
+   "texto": "Põe o dedo em cima do gato e arrasta devagar."
+  },
+  {
+   "id": "labirinto.pista",
+   "texto": "Segue as bolinhas amarelas."
+  },
+  {
+   "id": "labirinto.metade",
+   "texto": "Já está um! Falta o outro."
+  },
+  {
+   "id": "labirinto.peixe",
+   "texto": "O gato apanhou o peixe!"
+  },
+  {
+   "id": "labirinto.outro",
+   "texto": "Vamos a outro labirinto."
+  },
+  {
+   "id": "labirinto.todas_estrelas",
+   "texto": "Apanhaste todas as estrelas!"
+  },
+  {
+   "id": "labirinto.fim",
+   "texto": "Que mão tão firme! Muito bem!"
+  },
+  {
+   "id": "labirinto.recorde",
+   "texto": "Mais rápida do que da última vez!"
+  }
+ ],
+ "estendal": [
+  {
+   "id": "estendal.intro",
+   "texto": "No Estendal, penduras a roupa lavada ao sol."
+  },
+  {
+   "id": "estendal.ola",
+   "texto": "Que dia de sol! Vamos estender a roupa?"
+  },
+  {
+   "id": "estendal.como",
+   "texto": "Arrasta a roupa para a corda. Ou toca na roupa e depois na corda."
+  },
+  {
+   "id": "estendal.toca_roupa",
+   "texto": "Primeiro toca numa peça de roupa."
+  },
+  {
+   "id": "estendal.na_corda",
+   "texto": "Leva a roupa até à corda."
+  },
+  {
+   "id": "estendal.cheia",
+   "texto": "Essa corda já está cheia."
+  },
+  {
+   "id": "estendal.outro_cesto",
+   "texto": "Vem aí mais um cesto de roupa!"
+  },
+  {
+   "id": "estendal.seca",
+   "texto": "Já está tudo ao sol!"
+  },
+  {
+   "id": "estendal.cheira",
+   "texto": "Que cheirinho a roupa lavada!"
+  },
+  {
+   "id": "estendal.meias",
+   "texto": "As meias estão trocadas. Junta cada uma com o seu par."
+  },
+  {
+   "id": "estendal.meias_como",
+   "texto": "Toca numa meia e depois na meia igual."
+  },
+  {
+   "id": "estendal.meias_nao",
+   "texto": "Essas não são iguais. Olha a cor e o desenho."
+  },
+  {
+   "id": "estendal.meias_par",
+   "texto": "Primeiro encontra o par desta meia."
+  },
+  {
+   "id": "estendal.cores",
+   "texto": "Hoje separamos a roupa por cores."
+  },
+  {
+   "id": "estendal.cores_como",
+   "texto": "Cada roupa vai para a corda da sua cor."
+  },
+  {
+   "id": "estendal.cor_nao",
+   "texto": "Essa não é desta cor. Olha bem!"
+  },
+  {
+   "id": "estendal.pedido",
+   "texto": "Agora eu peço e tu penduras, pela ordem."
+  },
+  {
+   "id": "estendal.pedido_lembra",
+   "texto": "Ouve bem o que eu peço. Depois escondo o recado!"
+  },
+  {
+   "id": "estendal.essa_nao",
+   "texto": "Essa não foi a que pedi."
+  },
+  {
+   "id": "estendal.depois",
+   "texto": "Essa vem depois. Qual era a primeira?"
+  },
+  {
+   "id": "estendal.padrao",
+   "texto": "Olha a roupa na corda. O que vem a seguir?"
+  },
+  {
+   "id": "estendal.padrao_mais",
+   "texto": "Mais um desenho. Continua tu!"
+  },
+  {
+   "id": "estendal.padrao_nao",
+   "texto": "Essa não continua o desenho."
+  },
+  {
+   "id": "estendal.copiar",
+   "texto": "Olha bem para o estendal. Vem aí o vento!"
+  },
+  {
+   "id": "estendal.vento",
+   "texto": "O vento levou a roupa! Pendura-a pela mesma ordem."
+  },
+  {
+   "id": "estendal.copiar_nao",
+   "texto": "Não era essa. Lembra-te bem."
+  },
+  {
+   "id": "estendal.espreita",
+   "texto": "Espreita aqui."
+  },
+  {
+   "id": "estendal.passaro_bonus",
+   "texto": "Um passarinho! Ganhaste pontos extra!"
+  },
+  {
+   "id": "estendal.melhor",
+   "texto": "Fizeste mais pontos do que da última vez!"
+  },
+  {
+   "id": "estendal.fim",
+   "texto": "A roupa está toda a secar. Obrigada pela ajuda!"
+  },
+  {
+   "id": "estendal.p_camisola_azul",
+   "texto": "Pendura a camisola azul."
+  },
+  {
+   "id": "estendal.p_camisola_vermelha",
+   "texto": "Pendura a camisola vermelha."
+  },
+  {
+   "id": "estendal.p_camisola_verde_riscas",
+   "texto": "Pendura a camisola verde às riscas."
+  },
+  {
+   "id": "estendal.p_camisola_amarela",
+   "texto": "Pendura a camisola amarela."
+  },
+  {
+   "id": "estendal.p_camisola_azul_riscas",
+   "texto": "Pendura a camisola azul às riscas."
+  },
+  {
+   "id": "estendal.p_meias_azuis",
+   "texto": "Pendura as meias azuis."
+  },
+  {
+   "id": "estendal.p_meias_vermelhas",
+   "texto": "Pendura as meias vermelhas."
+  },
+  {
+   "id": "estendal.p_meias_riscadas",
+   "texto": "Pendura as meias riscadas."
+  },
+  {
+   "id": "estendal.p_meias_amarelas_bolinhas",
+   "texto": "Pendura as meias amarelas às bolinhas."
+  },
+  {
+   "id": "estendal.p_toalha_amarela",
+   "texto": "Pendura a toalha amarela."
+  },
+  {
+   "id": "estendal.p_toalha_azul",
+   "texto": "Pendura a toalha azul."
+  },
+  {
+   "id": "estendal.p_toalha_rosa_riscas",
+   "texto": "Pendura a toalha cor-de-rosa às riscas."
+  },
+  {
+   "id": "estendal.p_avental_vermelho_bolinhas",
+   "texto": "Pendura o avental vermelho às bolinhas."
+  },
+  {
+   "id": "estendal.p_avental_azul",
+   "texto": "Pendura o avental azul."
+  },
+  {
+   "id": "estendal.p_avental_verde",
+   "texto": "Pendura o avental verde."
+  },
+  {
+   "id": "estendal.p_calcas_azuis",
+   "texto": "Pendura as calças azuis."
+  },
+  {
+   "id": "estendal.p_vestido_rosa",
+   "texto": "Pendura o vestido cor-de-rosa."
+  },
+  {
+   "id": "estendal.p_vestido_amarelo_bolinhas",
+   "texto": "Pendura o vestido amarelo às bolinhas."
+  },
+  {
+   "id": "estendal.d_camisola_azul",
+   "texto": "Depois, a camisola azul."
+  },
+  {
+   "id": "estendal.d_camisola_vermelha",
+   "texto": "Depois, a camisola vermelha."
+  },
+  {
+   "id": "estendal.d_camisola_verde_riscas",
+   "texto": "Depois, a camisola verde às riscas."
+  },
+  {
+   "id": "estendal.d_camisola_amarela",
+   "texto": "Depois, a camisola amarela."
+  },
+  {
+   "id": "estendal.d_camisola_azul_riscas",
+   "texto": "Depois, a camisola azul às riscas."
+  },
+  {
+   "id": "estendal.d_meias_azuis",
+   "texto": "Depois, as meias azuis."
+  },
+  {
+   "id": "estendal.d_meias_vermelhas",
+   "texto": "Depois, as meias vermelhas."
+  },
+  {
+   "id": "estendal.d_meias_riscadas",
+   "texto": "Depois, as meias riscadas."
+  },
+  {
+   "id": "estendal.d_meias_amarelas_bolinhas",
+   "texto": "Depois, as meias amarelas às bolinhas."
+  },
+  {
+   "id": "estendal.d_toalha_amarela",
+   "texto": "Depois, a toalha amarela."
+  },
+  {
+   "id": "estendal.d_toalha_azul",
+   "texto": "Depois, a toalha azul."
+  },
+  {
+   "id": "estendal.d_toalha_rosa_riscas",
+   "texto": "Depois, a toalha cor-de-rosa às riscas."
+  },
+  {
+   "id": "estendal.d_avental_vermelho_bolinhas",
+   "texto": "Depois, o avental vermelho às bolinhas."
+  },
+  {
+   "id": "estendal.d_avental_azul",
+   "texto": "Depois, o avental azul."
+  },
+  {
+   "id": "estendal.d_avental_verde",
+   "texto": "Depois, o avental verde."
+  },
+  {
+   "id": "estendal.d_calcas_azuis",
+   "texto": "Depois, as calças azuis."
+  },
+  {
+   "id": "estendal.d_vestido_rosa",
+   "texto": "Depois, o vestido cor-de-rosa."
+  },
+  {
+   "id": "estendal.d_vestido_amarelo_bolinhas",
+   "texto": "Depois, o vestido amarelo às bolinhas."
+  },
+  {
+   "id": "estendal.regra_uma",
+   "texto": "Olha bem para a roupa que já está na corda. Pendura só a que combina."
+  },
+  {
+   "id": "estendal.regra_duas",
+   "texto": "Cada corda tem a sua regra. Olha bem e pendura cada peça na corda certa."
+  },
+  {
+   "id": "estendal.regra_mais",
+   "texto": "Mais um cesto. Qual será a regra agora?"
+  },
+  {
+   "id": "estendal.regra_outra",
+   "texto": "Essa é da outra corda."
+  },
+  {
+   "id": "estendal.regra_nenhuma",
+   "texto": "Essa não combina. Fica no cesto."
+  },
+  {
+   "id": "estendal.sobra",
+   "texto": "As que sobraram ficam no cesto. Bem visto!"
+  },
+  {
+   "id": "estendal.falta_1",
+   "texto": "O vento levou uma peça! Qual era? Pendura-a no sítio dela."
+  },
+  {
+   "id": "estendal.falta_2",
+   "texto": "O vento levou duas peças! Quais eram?"
+  },
+  {
+   "id": "estendal.falta_nao",
+   "texto": "Essa não estava na corda. Lembra-te bem."
+  },
+  {
+   "id": "estendal.falta_ainda",
+   "texto": "Essa ainda está na corda! Qual é a que falta?"
+  },
+  {
+   "id": "estendal.vizinha",
+   "texto": "A vizinha deixou a roupa dela. Ouve bem como a quer estendida."
+  },
+  {
+   "id": "estendal.vizinha_mais",
+   "texto": "Mais um recado da vizinha!"
+  },
+  {
+   "id": "estendal.enc_ainda",
+   "texto": "Essa ainda não. Lembra-te da ordem do recado."
+  },
+  {
+   "id": "estendal.enc_nao",
+   "texto": "A vizinha não quer essa no estendal."
+  },
+  {
+   "id": "estendal.enc_p_camisola",
+   "texto": "Primeiro, as camisolas."
+  },
+  {
+   "id": "estendal.enc_d_camisola",
+   "texto": "Depois, as camisolas."
+  },
+  {
+   "id": "estendal.enc_f_camisola",
+   "texto": "No fim, as camisolas."
+  },
+  {
+   "id": "estendal.enc_n_camisola",
+   "texto": "As camisolas não. Ficam no cesto."
+  },
+  {
+   "id": "estendal.enc_p_meias",
+   "texto": "Primeiro, as meias."
+  },
+  {
+   "id": "estendal.enc_d_meias",
+   "texto": "Depois, as meias."
+  },
+  {
+   "id": "estendal.enc_f_meias",
+   "texto": "No fim, as meias."
+  },
+  {
+   "id": "estendal.enc_n_meias",
+   "texto": "As meias não. Ficam no cesto."
+  },
+  {
+   "id": "estendal.enc_p_toalha",
+   "texto": "Primeiro, as toalhas."
+  },
+  {
+   "id": "estendal.enc_d_toalha",
+   "texto": "Depois, as toalhas."
+  },
+  {
+   "id": "estendal.enc_f_toalha",
+   "texto": "No fim, as toalhas."
+  },
+  {
+   "id": "estendal.enc_n_toalha",
+   "texto": "As toalhas não. Ficam no cesto."
+  },
+  {
+   "id": "estendal.enc_p_avental",
+   "texto": "Primeiro, os aventais."
+  },
+  {
+   "id": "estendal.enc_d_avental",
+   "texto": "Depois, os aventais."
+  },
+  {
+   "id": "estendal.enc_f_avental",
+   "texto": "No fim, os aventais."
+  },
+  {
+   "id": "estendal.enc_n_avental",
+   "texto": "Os aventais não. Ficam no cesto."
+  },
+  {
+   "id": "estendal.enc_p_calcas",
+   "texto": "Primeiro, as calças."
+  },
+  {
+   "id": "estendal.enc_d_calcas",
+   "texto": "Depois, as calças."
+  },
+  {
+   "id": "estendal.enc_f_calcas",
+   "texto": "No fim, as calças."
+  },
+  {
+   "id": "estendal.enc_n_calcas",
+   "texto": "As calças não. Ficam no cesto."
+  },
+  {
+   "id": "estendal.enc_p_vestido",
+   "texto": "Primeiro, os vestidos."
+  },
+  {
+   "id": "estendal.enc_d_vestido",
+   "texto": "Depois, os vestidos."
+  },
+  {
+   "id": "estendal.enc_f_vestido",
+   "texto": "No fim, os vestidos."
+  },
+  {
+   "id": "estendal.enc_n_vestido",
+   "texto": "Os vestidos não. Ficam no cesto."
+  }
+ ],
+ "mesa": [
+  {
+   "id": "mesa.intro",
+   "texto": "Em Pôr a mesa, preparas a mesa para a família."
+  },
+  {
+   "id": "mesa.ola",
+   "texto": "Vamos pôr a mesa?"
+  },
+  {
+   "id": "mesa.como",
+   "texto": "Arrasta cada coisa para a mesa. Ou toca nela e depois na mesa."
+  },
+  {
+   "id": "mesa.contornos",
+   "texto": "Os desenhos na toalha mostram onde fica cada coisa."
+  },
+  {
+   "id": "mesa.olha_contornos",
+   "texto": "Olha onde fica cada coisa."
+  },
+  {
+   "id": "mesa.toca_coisa",
+   "texto": "Primeiro toca numa coisa da gaveta."
+  },
+  {
+   "id": "mesa.na_mesa",
+   "texto": "Leva-a até à mesa."
+  },
+  {
+   "id": "mesa.outra_mesa",
+   "texto": "Mais uma mesa para pôr!"
+  },
+  {
+   "id": "mesa.garfo_esq",
+   "texto": "O garfo fica à esquerda do prato."
+  },
+  {
+   "id": "mesa.faca_dir",
+   "texto": "A faca fica à direita do prato."
+  },
+  {
+   "id": "mesa.colher_dir",
+   "texto": "A colher fica à direita, ao lado da faca."
+  },
+  {
+   "id": "mesa.copo_dir",
+   "texto": "Os copos ficam à direita, por cima da faca."
+  },
+  {
+   "id": "mesa.prato_meio",
+   "texto": "O prato fica no meio do lugar."
+  },
+  {
+   "id": "mesa.guardanapo_esq",
+   "texto": "O guardanapo fica à esquerda."
+  },
+  {
+   "id": "mesa.chavena_dir",
+   "texto": "A chávena fica à direita."
+  },
+  {
+   "id": "mesa.pao_esq",
+   "texto": "O pão fica à esquerda, em cima."
+  },
+  {
+   "id": "mesa.centro_meio",
+   "texto": "Isso vai para o meio da mesa."
+  },
+  {
+   "id": "mesa.lugar_nao",
+   "texto": "Isso põe-se num lugar, ao pé do prato."
+  },
+  {
+   "id": "mesa.ja_tem",
+   "texto": "Esse lugar já tem isso."
+  },
+  {
+   "id": "mesa.nao_precisa",
+   "texto": "Hoje isso não é preciso."
+  },
+  {
+   "id": "mesa.pequeno_vinho",
+   "texto": "Ao pequeno-almoço não se bebe vinho!"
+  },
+  {
+   "id": "mesa.lugares_2",
+   "texto": "Hoje somos dois à mesa."
+  },
+  {
+   "id": "mesa.lugares_3",
+   "texto": "Hoje somos três à mesa."
+  },
+  {
+   "id": "mesa.lugares_4",
+   "texto": "Hoje somos quatro à mesa."
+  },
+  {
+   "id": "mesa.pequeno",
+   "texto": "É hora do pequeno-almoço! Chávena, prato, faca e pão."
+  },
+  {
+   "id": "mesa.jantar",
+   "texto": "É hora do jantar!"
+  },
+  {
+   "id": "mesa.consoada",
+   "texto": "É noite de Consoada! A mesa tem de ficar bonita."
+  },
+  {
+   "id": "mesa.consoada_meio",
+   "texto": "No meio da mesa vão o bacalhau e a vela."
+  },
+  {
+   "id": "mesa.sem_vinho",
+   "texto": "Quem tem o carrinho vai conduzir. Não bebe vinho!"
+  },
+  {
+   "id": "mesa.nao_bebe",
+   "texto": "Quem conduz não bebe vinho!"
+  },
+  {
+   "id": "mesa.ordem",
+   "texto": "Agora ouve bem e põe pela ordem que eu disser."
+  },
+  {
+   "id": "mesa.ordem_nao",
+   "texto": "Ainda não. Qual foi a que eu disse?"
+  },
+  {
+   "id": "mesa.memoria",
+   "texto": "Olha bem para esta mesa. Depois tapo-a com a toalha!"
+  },
+  {
+   "id": "mesa.memoria_agora",
+   "texto": "Agora põe a mesa igualzinha."
+  },
+  {
+   "id": "mesa.memoria_nao",
+   "texto": "Isso não estava na mesa. Lembra-te bem."
+  },
+  {
+   "id": "mesa.espreita",
+   "texto": "Espreita só um bocadinho."
+  },
+  {
+   "id": "mesa.joaninha",
+   "texto": "Uma joaninha! Dá sorte e pontos extra!"
+  },
+  {
+   "id": "mesa.pronto",
+   "texto": "A mesa está pronta!"
+  },
+  {
+   "id": "mesa.bom_apetite",
+   "texto": "Bom apetite!"
+  },
+  {
+   "id": "mesa.melhor",
+   "texto": "Fizeste mais pontos do que da última vez!"
+  },
+  {
+   "id": "mesa.fim",
+   "texto": "Que mesa tão bonita! Toda a família vai gostar."
+  },
+  {
+   "id": "mesa.primeiro_prato",
+   "texto": "Primeiro, o prato."
+  },
+  {
+   "id": "mesa.primeiro_garfo",
+   "texto": "Primeiro, o garfo."
+  },
+  {
+   "id": "mesa.primeiro_faca",
+   "texto": "Primeiro, a faca."
+  },
+  {
+   "id": "mesa.primeiro_colher",
+   "texto": "Primeiro, a colher."
+  },
+  {
+   "id": "mesa.primeiro_copo",
+   "texto": "Primeiro, o copo."
+  },
+  {
+   "id": "mesa.primeiro_guardanapo",
+   "texto": "Primeiro, o guardanapo."
+  },
+  {
+   "id": "mesa.depois_prato",
+   "texto": "Depois, o prato."
+  },
+  {
+   "id": "mesa.depois_garfo",
+   "texto": "Depois, o garfo."
+  },
+  {
+   "id": "mesa.depois_faca",
+   "texto": "Depois, a faca."
+  },
+  {
+   "id": "mesa.depois_colher",
+   "texto": "Depois, a colher."
+  },
+  {
+   "id": "mesa.depois_copo",
+   "texto": "Depois, o copo."
+  },
+  {
+   "id": "mesa.depois_guardanapo",
+   "texto": "Depois, o guardanapo."
+  },
+  {
+   "id": "mesa.ordem_lembra",
+   "texto": "Ouve bem a ordem. Depois escondo o recado!"
+  },
+  {
+   "id": "mesa.ordem_fora",
+   "texto": "Isso não estava no recado."
+  },
+  {
+   "id": "mesa.pequeno_so",
+   "texto": "É hora do pequeno-almoço!"
+  },
+  {
+   "id": "mesa.carro",
+   "texto": "O carrinho marca quem vai conduzir."
+  },
+  {
+   "id": "mesa.erros",
+   "texto": "Esta mesa foi posta à pressa. Há coisas mal!"
+  },
+  {
+   "id": "mesa.erros_n1",
+   "texto": "Há uma coisa mal. Descobre-a!"
+  },
+  {
+   "id": "mesa.erros_n2",
+   "texto": "Há duas coisas mal. Descobre-as!"
+  },
+  {
+   "id": "mesa.erros_n3",
+   "texto": "Há três coisas mal. Descobre-as!"
+  },
+  {
+   "id": "mesa.erros_como",
+   "texto": "Toca na gaveta no que está mal: o que falta, o que sobra ou o que está trocado."
+  },
+  {
+   "id": "mesa.erros_bem",
+   "texto": "Isso está bem. Olha outra vez."
+  },
+  {
+   "id": "mesa.erros_pista",
+   "texto": "Olha bem para este lugar."
+  },
+  {
+   "id": "mesa.fix_troca",
+   "texto": "O garfo e a faca estavam trocados!"
+  },
+  {
+   "id": "mesa.fix_falta",
+   "texto": "Bem visto! Faltava mesmo."
+  },
+  {
+   "id": "mesa.fix_chavena",
+   "texto": "Bem visto! Ao jantar não se põe a chávena."
+  },
+  {
+   "id": "mesa.contar",
+   "texto": "Vem gente jantar! Conta quantos lugares são precisos."
+  },
+  {
+   "id": "mesa.contar_mais",
+   "texto": "E agora, quantos lugares?"
+  },
+  {
+   "id": "mesa.contar_nao",
+   "texto": "Não é bem isso. Conta outra vez, com calma."
+  },
+  {
+   "id": "mesa.contar_tu",
+   "texto": "Quase! E tu? Também te sentas à mesa!"
+  },
+  {
+   "id": "mesa.c_a1",
+   "texto": "Vêm o avô, a tia e os dois netos."
+  },
+  {
+   "id": "mesa.c_a2",
+   "texto": "Vêm a tia e o tio. E tu também!"
+  },
+  {
+   "id": "mesa.c_a3",
+   "texto": "Vêm os três netos e os pais deles."
+  },
+  {
+   "id": "mesa.c_a4",
+   "texto": "Vêm o padre, a vizinha e o médico. E tu também!"
+  },
+  {
+   "id": "mesa.c_a5",
+   "texto": "Vêm as duas primas com os maridos."
+  },
+  {
+   "id": "mesa.c_a6",
+   "texto": "Vêm o tio, a tia e os três sobrinhos."
+  },
+  {
+   "id": "mesa.c_a7",
+   "texto": "Vêm os dois filhos e os quatro netos."
+  },
+  {
+   "id": "mesa.c_a8",
+   "texto": "Vem a vizinha com o marido. E tu também!"
+  },
+  {
+   "id": "mesa.c_b1",
+   "texto": "Vêm os dois filhos com as mulheres. E tu também!"
+  },
+  {
+   "id": "mesa.c_b2",
+   "texto": "Vem o casal do lado com os três netos, mas um neto está doente."
+  },
+  {
+   "id": "mesa.c_b3",
+   "texto": "Íamos ser seis à mesa, mas a tia está constipada e fica em casa."
+  },
+  {
+   "id": "mesa.c_b4",
+   "texto": "Vêm dois casais amigos e o padre."
+  },
+  {
+   "id": "mesa.c_b5",
+   "texto": "Vem a tia com os gémeos e o avô. E tu também!"
+  },
+  {
+   "id": "mesa.c_b6",
+   "texto": "Vem o tio com os dois filhos. A tia chega mais tarde, mas janta connosco."
+  },
+  {
+   "id": "mesa.c_b7",
+   "texto": "Vêm três casais, mas um dos maridos está a trabalhar."
+  },
+  {
+   "id": "mesa.c_b8",
+   "texto": "Vêm a irmã, o cunhado e os dois sobrinhos. E tu também!"
+  }
+ ],
+ "pintar": [
+  {
+   "id": "pintar.intro",
+   "texto": "Nos Azulejos, pintas azulejos portugueses com as cores que quiseres."
+  },
+  {
+   "id": "pintar.ola",
+   "texto": "Vamos pintar azulejos?"
+  },
+  {
+   "id": "pintar.livre",
+   "texto": "Pinta este azulejo como quiseres."
+  },
+  {
+   "id": "pintar.como",
+   "texto": "Toca numa cor e depois toca no azulejo."
+  },
+  {
+   "id": "pintar.outro",
+   "texto": "Aqui vai outro azulejo para pintares."
+  },
+  {
+   "id": "pintar.pronto_quando",
+   "texto": "Está lindo! Quando acabares, toca em Pronto."
+  },
+  {
+   "id": "pintar.lindo",
+   "texto": "Que azulejo tão bonito!"
+  },
+  {
+   "id": "pintar.lindo2",
+   "texto": "Ficou uma maravilha!"
+  },
+  {
+   "id": "pintar.lindo3",
+   "texto": "Parece mesmo um azulejo antigo!"
+  },
+  {
+   "id": "pintar.copiar",
+   "texto": "Pinta o teu azulejo igual ao da estrela."
+  },
+  {
+   "id": "pintar.outro_copiar",
+   "texto": "Mais um para copiar."
+  },
+  {
+   "id": "pintar.copiar_nao",
+   "texto": "Essa cor não é igual. Olha o modelo."
+  },
+  {
+   "id": "pintar.olha_modelo",
+   "texto": "Olha bem o modelo."
+  },
+  {
+   "id": "pintar.igual",
+   "texto": "Igualzinho!"
+  },
+  {
+   "id": "pintar.painel",
+   "texto": "Um azulejo já está pintado. Pinta os outros três iguais!"
+  },
+  {
+   "id": "pintar.outro_painel",
+   "texto": "Mais um painel para acabar."
+  },
+  {
+   "id": "pintar.painel_nao",
+   "texto": "Olha o azulejo que já está pintado."
+  },
+  {
+   "id": "pintar.memoria",
+   "texto": "Olha bem para este azulejo. Depois pinta-o de memória!"
+  },
+  {
+   "id": "pintar.outro_memoria",
+   "texto": "Mais um. Fixa bem as cores!"
+  },
+  {
+   "id": "pintar.memoria_agora",
+   "texto": "Agora pinta-o igual."
+  },
+  {
+   "id": "pintar.memoria_nao",
+   "texto": "Essa cor não era. Lembra-te bem."
+  },
+  {
+   "id": "pintar.espreita",
+   "texto": "Espreita aqui num cantinho."
+  },
+  {
+   "id": "pintar.parede",
+   "texto": "Olha a tua parede de azulejos!"
+  },
+  {
+   "id": "pintar.melhor",
+   "texto": "Fizeste mais pontos do que da última vez!"
+  },
+  {
+   "id": "pintar.fim",
+   "texto": "Que lindos azulejos pintaste hoje!"
+  },
+  {
+   "id": "pintar.cor_azul",
+   "texto": "Azul."
+  },
+  {
+   "id": "pintar.cor_amarelo",
+   "texto": "Amarelo."
+  },
+  {
+   "id": "pintar.cor_branco",
+   "texto": "Branco."
+  },
+  {
+   "id": "pintar.cor_verde",
+   "texto": "Verde."
+  },
+  {
+   "id": "pintar.cor_vermelho",
+   "texto": "Vermelho."
+  },
+  {
+   "id": "pintar.cor_celeste",
+   "texto": "Azul-claro."
+  },
+  {
+   "id": "pintar.cor_laranja",
+   "texto": "Laranja."
+  },
+  {
+   "id": "pintar.cor_rosa",
+   "texto": "Cor-de-rosa."
+  },
+  {
+   "id": "pintar.cor_preto",
+   "texto": "Preto."
+  }
+ ],
+ "quatro": [
+  {
+   "id": "quatro.intro",
+   "texto": "No Quatro em linha, jogas contra o avô e fazes quatro discos seguidos."
+  },
+  {
+   "id": "quatro.comecar",
+   "texto": "Vamos jogar ao quatro em linha! Tu és o vermelho, o avô é o amarelo."
+  },
+  {
+   "id": "quatro.instrucao",
+   "texto": "Toca numa coluna e o disco cai. Faz quatro seguidos!"
+  },
+  {
+   "id": "quatro.direcoes",
+   "texto": "Vale ao comprido, ao alto ou na diagonal."
+  },
+  {
+   "id": "quatro.comecas",
+   "texto": "Começas tu."
+  },
+  {
+   "id": "quatro.comeca_avo",
+   "texto": "Agora começa o avô."
+  },
+  {
+   "id": "quatro.cheia",
+   "texto": "Essa coluna já está cheia."
+  },
+  {
+   "id": "quatro.cuidado",
+   "texto": "Cuidado! O avô quase tem quatro."
+  },
+  {
+   "id": "quatro.defesa",
+   "texto": "Boa defesa!"
+  },
+  {
+   "id": "quatro.ganhaste",
+   "texto": "Quatro em linha! Ganhaste este jogo!"
+  },
+  {
+   "id": "quatro.avo_ganhou",
+   "texto": "O avô fez quatro. Para a próxima é a tua!"
+  },
+  {
+   "id": "quatro.empate",
+   "texto": "Empate! O tabuleiro encheu."
+  },
+  {
+   "id": "quatro.proximo",
+   "texto": "Vamos ao próximo jogo."
+  },
+  {
+   "id": "quatro.partida_tu",
+   "texto": "Ganhaste a partida! És uma campeã!"
+  },
+  {
+   "id": "quatro.partida_avo",
+   "texto": "O avô ganhou a partida, mas jogaste muito bem!"
+  },
+  {
+   "id": "quatro.partida_empate",
+   "texto": "A partida ficou empatada. Que bem jogaste!"
+  },
+  {
+   "id": "quatro.recorde",
+   "texto": "Mais vitórias do que da última vez!"
+  },
+  {
+   "id": "quatro.partida_tu__2",
+   "texto": "Ganhaste a partida! És um campeão!"
+  }
+ ],
+ "saltos": [
+  {
+   "id": "saltos.intro",
+   "texto": "Nos Saltos, ajudas o coelho a correr, a saltar pedras e a baixar-se debaixo dos ramos."
+  },
+  {
+   "id": "saltos.instrucao",
+   "texto": "O coelho vai correr! Toca em Salta para ele saltar as pedras e os troncos."
+  },
+  {
+   "id": "saltos.instrucao_baixa",
+   "texto": "Quando vier um ramo, toca em Baixa para ele se baixar."
+  },
+  {
+   "id": "saltos.passaro",
+   "texto": "Os pássaros também passam baixinho. Baixa-te!"
+  },
+  {
+   "id": "saltos.moedas",
+   "texto": "Salta para apanhar as moedas!"
+  },
+  {
+   "id": "saltos.pares",
+   "texto": "Às vezes vêm duas coisas seguidas. Atenção!"
+  },
+  {
+   "id": "saltos.partida",
+   "texto": "Preparada? Vamos lá!"
+  },
+  {
+   "id": "saltos.ui1",
+   "texto": "Ui! Não faz mal, continua!"
+  },
+  {
+   "id": "saltos.ui2",
+   "texto": "Eh lá! O coelho já se levantou."
+  },
+  {
+   "id": "saltos.ui3",
+   "texto": "Tropeçou, mas segue em frente!"
+  },
+  {
+   "id": "saltos.dica_salta",
+   "texto": "Nas pedras e nos troncos, toca em Salta um bocadinho antes."
+  },
+  {
+   "id": "saltos.dica_baixa",
+   "texto": "Nos ramos e nos pássaros, toca em Baixa."
+  },
+  {
+   "id": "saltos.seguidos",
+   "texto": "Cinco seguidos! Que bom!"
+  },
+  {
+   "id": "saltos.moeda1",
+   "texto": "Uma moeda! Que sorte!"
+  },
+  {
+   "id": "saltos.moeda2",
+   "texto": "Mais moedas! Estamos ricos!"
+  },
+  {
+   "id": "saltos.metade",
+   "texto": "Já vamos a meio caminho!"
+  },
+  {
+   "id": "saltos.quase",
+   "texto": "Já se vê a bandeira!"
+  },
+  {
+   "id": "saltos.fim",
+   "texto": "Chegámos à meta! Que corrida!"
+  },
+  {
+   "id": "saltos.recorde",
+   "texto": "Fizeste ainda melhor do que da última vez!"
+  }
+ ],
+ "quem": [
+  {
+   "id": "quem.intro",
+   "texto": "No Quem é quem, vês uma fotografia da família e escolhes o nome certo."
+  },
+  {
+   "id": "quem.instrucao",
+   "texto": "Olha bem para a fotografia. Quem é? Toca no nome certo."
+  },
+  {
+   "id": "quem.vamos",
+   "texto": "Vamos ver quem é quem!"
+  },
+  {
+   "id": "quem.quem_e",
+   "texto": "Quem é?"
+  },
+  {
+   "id": "quem.le",
+   "texto": "Agora lês tu os nomes. Toca no certo."
+  },
+  {
+   "id": "quem.quase",
+   "texto": "Quase! Olha bem."
+  },
+  {
+   "id": "quem.pista",
+   "texto": "Olha para o nome que está a brilhar."
+  },
+  {
+   "id": "quem.pista_foto",
+   "texto": "Olha para a fotografia que está a brilhar."
+  },
+  {
+   "id": "quem.reverso",
+   "texto": "Agora eu digo um nome e tu tocas na fotografia certa."
+  },
+  {
+   "id": "quem.melhor",
+   "texto": "Acertaste mais do que da última vez!"
+  },
+  {
+   "id": "quem.fim",
+   "texto": "Conheces a família toda! Que memória!"
+  },
+  {
+   "id": "quem.vazio",
+   "texto": "Ainda não há fotografias para este jogo."
+  }
+ ],
+ "numeros1": [
+  {
+   "id": "numeros1.1",
+   "texto": "Um!"
+  },
+  {
+   "id": "numeros1.2",
+   "texto": "Dois!"
+  },
+  {
+   "id": "numeros1.3",
+   "texto": "Três!"
+  },
+  {
+   "id": "numeros1.4",
+   "texto": "Quatro!"
+  },
+  {
+   "id": "numeros1.5",
+   "texto": "Cinco!"
+  },
+  {
+   "id": "numeros1.6",
+   "texto": "Seis!"
+  },
+  {
+   "id": "numeros1.7",
+   "texto": "Sete!"
+  },
+  {
+   "id": "numeros1.8",
+   "texto": "Oito!"
+  },
+  {
+   "id": "numeros1.9",
+   "texto": "Nove!"
+  },
+  {
+   "id": "numeros1.10",
+   "texto": "Dez!"
+  },
+  {
+   "id": "numeros1.11",
+   "texto": "Onze!"
+  },
+  {
+   "id": "numeros1.12",
+   "texto": "Doze!"
+  },
+  {
+   "id": "numeros1.13",
+   "texto": "Treze!"
+  },
+  {
+   "id": "numeros1.14",
+   "texto": "Catorze!"
+  },
+  {
+   "id": "numeros1.15",
+   "texto": "Quinze!"
+  },
+  {
+   "id": "numeros1.16",
+   "texto": "Dezasseis!"
+  },
+  {
+   "id": "numeros1.17",
+   "texto": "Dezassete!"
+  },
+  {
+   "id": "numeros1.18",
+   "texto": "Dezoito!"
+  },
+  {
+   "id": "numeros1.19",
+   "texto": "Dezanove!"
+  },
+  {
+   "id": "numeros1.20",
+   "texto": "Vinte!"
+  },
+  {
+   "id": "numeros1.21",
+   "texto": "Vinte e um!"
+  },
+  {
+   "id": "numeros1.22",
+   "texto": "Vinte e dois!"
+  },
+  {
+   "id": "numeros1.23",
+   "texto": "Vinte e três!"
+  },
+  {
+   "id": "numeros1.24",
+   "texto": "Vinte e quatro!"
+  },
+  {
+   "id": "numeros1.25",
+   "texto": "Vinte e cinco!"
+  },
+  {
+   "id": "numeros1.26",
+   "texto": "Vinte e seis!"
+  },
+  {
+   "id": "numeros1.27",
+   "texto": "Vinte e sete!"
+  },
+  {
+   "id": "numeros1.28",
+   "texto": "Vinte e oito!"
+  },
+  {
+   "id": "numeros1.29",
+   "texto": "Vinte e nove!"
+  },
+  {
+   "id": "numeros1.30",
+   "texto": "Trinta!"
+  }
+ ],
+ "numeros2": [
+  {
+   "id": "numeros2.31",
+   "texto": "Trinta e um!"
+  },
+  {
+   "id": "numeros2.32",
+   "texto": "Trinta e dois!"
+  },
+  {
+   "id": "numeros2.33",
+   "texto": "Trinta e três!"
+  },
+  {
+   "id": "numeros2.34",
+   "texto": "Trinta e quatro!"
+  },
+  {
+   "id": "numeros2.35",
+   "texto": "Trinta e cinco!"
+  },
+  {
+   "id": "numeros2.36",
+   "texto": "Trinta e seis!"
+  },
+  {
+   "id": "numeros2.37",
+   "texto": "Trinta e sete!"
+  },
+  {
+   "id": "numeros2.38",
+   "texto": "Trinta e oito!"
+  },
+  {
+   "id": "numeros2.39",
+   "texto": "Trinta e nove!"
+  },
+  {
+   "id": "numeros2.40",
+   "texto": "Quarenta!"
+  },
+  {
+   "id": "numeros2.41",
+   "texto": "Quarenta e um!"
+  },
+  {
+   "id": "numeros2.42",
+   "texto": "Quarenta e dois!"
+  },
+  {
+   "id": "numeros2.43",
+   "texto": "Quarenta e três!"
+  },
+  {
+   "id": "numeros2.44",
+   "texto": "Quarenta e quatro!"
+  },
+  {
+   "id": "numeros2.45",
+   "texto": "Quarenta e cinco!"
+  },
+  {
+   "id": "numeros2.46",
+   "texto": "Quarenta e seis!"
+  },
+  {
+   "id": "numeros2.47",
+   "texto": "Quarenta e sete!"
+  },
+  {
+   "id": "numeros2.48",
+   "texto": "Quarenta e oito!"
+  },
+  {
+   "id": "numeros2.49",
+   "texto": "Quarenta e nove!"
+  },
+  {
+   "id": "numeros2.50",
+   "texto": "Cinquenta!"
+  },
+  {
+   "id": "numeros2.51",
+   "texto": "Cinquenta e um!"
+  },
+  {
+   "id": "numeros2.52",
+   "texto": "Cinquenta e dois!"
+  },
+  {
+   "id": "numeros2.53",
+   "texto": "Cinquenta e três!"
+  },
+  {
+   "id": "numeros2.54",
+   "texto": "Cinquenta e quatro!"
+  },
+  {
+   "id": "numeros2.55",
+   "texto": "Cinquenta e cinco!"
+  },
+  {
+   "id": "numeros2.56",
+   "texto": "Cinquenta e seis!"
+  },
+  {
+   "id": "numeros2.57",
+   "texto": "Cinquenta e sete!"
+  },
+  {
+   "id": "numeros2.58",
+   "texto": "Cinquenta e oito!"
+  },
+  {
+   "id": "numeros2.59",
+   "texto": "Cinquenta e nove!"
+  },
+  {
+   "id": "numeros2.60",
+   "texto": "Sessenta!"
+  }
+ ],
+ "numeros3": [
+  {
+   "id": "numeros3.61",
+   "texto": "Sessenta e um!"
+  },
+  {
+   "id": "numeros3.62",
+   "texto": "Sessenta e dois!"
+  },
+  {
+   "id": "numeros3.63",
+   "texto": "Sessenta e três!"
+  },
+  {
+   "id": "numeros3.64",
+   "texto": "Sessenta e quatro!"
+  },
+  {
+   "id": "numeros3.65",
+   "texto": "Sessenta e cinco!"
+  },
+  {
+   "id": "numeros3.66",
+   "texto": "Sessenta e seis!"
+  },
+  {
+   "id": "numeros3.67",
+   "texto": "Sessenta e sete!"
+  },
+  {
+   "id": "numeros3.68",
+   "texto": "Sessenta e oito!"
+  },
+  {
+   "id": "numeros3.69",
+   "texto": "Sessenta e nove!"
+  },
+  {
+   "id": "numeros3.70",
+   "texto": "Setenta!"
+  },
+  {
+   "id": "numeros3.71",
+   "texto": "Setenta e um!"
+  },
+  {
+   "id": "numeros3.72",
+   "texto": "Setenta e dois!"
+  },
+  {
+   "id": "numeros3.73",
+   "texto": "Setenta e três!"
+  },
+  {
+   "id": "numeros3.74",
+   "texto": "Setenta e quatro!"
+  },
+  {
+   "id": "numeros3.75",
+   "texto": "Setenta e cinco!"
+  },
+  {
+   "id": "numeros3.76",
+   "texto": "Setenta e seis!"
+  },
+  {
+   "id": "numeros3.77",
+   "texto": "Setenta e sete!"
+  },
+  {
+   "id": "numeros3.78",
+   "texto": "Setenta e oito!"
+  },
+  {
+   "id": "numeros3.79",
+   "texto": "Setenta e nove!"
+  },
+  {
+   "id": "numeros3.80",
+   "texto": "Oitenta!"
+  },
+  {
+   "id": "numeros3.81",
+   "texto": "Oitenta e um!"
+  },
+  {
+   "id": "numeros3.82",
+   "texto": "Oitenta e dois!"
+  },
+  {
+   "id": "numeros3.83",
+   "texto": "Oitenta e três!"
+  },
+  {
+   "id": "numeros3.84",
+   "texto": "Oitenta e quatro!"
+  },
+  {
+   "id": "numeros3.85",
+   "texto": "Oitenta e cinco!"
+  },
+  {
+   "id": "numeros3.86",
+   "texto": "Oitenta e seis!"
+  },
+  {
+   "id": "numeros3.87",
+   "texto": "Oitenta e sete!"
+  },
+  {
+   "id": "numeros3.88",
+   "texto": "Oitenta e oito!"
+  },
+  {
+   "id": "numeros3.89",
+   "texto": "Oitenta e nove!"
+  },
+  {
+   "id": "numeros3.90",
+   "texto": "Noventa!"
+  }
+ ]
+}

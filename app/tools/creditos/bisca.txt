@@ -1,0 +1,3 @@
+www/img/noto/coroa.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f451.svg, Apache 2.0 (Noto Emoji; usado nas cartas de Rei da Bisca, da Sueca e da Paciência)
+www/img/noto/princesa.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f478.svg, Apache 2.0 (Noto Emoji; usado nas cartas de Dama da Bisca, da Sueca e da Paciência)
+www/img/noto/principe.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f934.svg, Apache 2.0 (Noto Emoji; usado nas cartas de Valete da Bisca, da Sueca e da Paciência)

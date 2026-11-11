@@ -1,0 +1,93 @@
+/* Bisca: mesa de cartas verde, a Rosa em cima, a vaza ao meio, as três cartas da pessoa em baixo.*/
+.bisca {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2vmin 2vmin 2.4vmin;
+  background: #1f7a3c;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+}
+.bisca-amiga {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 3vmin;
+  color: var(--branco);
+}
+.bisca-costas { display: flex; gap: 1vmin; }
+.bisca-placar {
+  margin-left: auto;
+  display: flex;
+  gap: 3vmin;
+  background: var(--branco);
+  color: var(--texto);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  padding: 0.8vmin 2.5vmin;
+  font-size: var(--t-medio);
+}
+.bisca-placar b, .bisca-final b { font-family: var(--digitos); font-weight: 800; }
+.bisca-mesa { display: flex; align-items: center; justify-content: center; gap: 5vmin; }
+.bisca-baralho { display: flex; align-items: flex-start; gap: 2vmin; }
+.bisca-trunfo { display: flex; flex-direction: column; align-items: center; gap: 0.5vmin; }
+.bisca-rotulo {
+  background: var(--amarelo);
+  border: 3px solid var(--linha);
+  border-radius: 1.5vmin;
+  padding: 0.3vmin 1.5vmin;
+  font-size: 3.6vmin;
+  font-weight: 800;
+}
+.bisca-monte { position: relative; }
+.bisca-conta {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-family: var(--digitos);
+  font-size: 6vmin;
+  font-weight: 800;
+  color: var(--texto);
+  text-shadow: 0 0 6px #fff, 0 0 6px #fff, 0 0 6px #fff;
+}
+.bisca-mesa.de-pe { flex-direction: column; gap: 4vmin; }
+.bisca-vaza { display: flex; gap: 5vmin; }
+.bisca-lugar { position: relative; }
+.bisca-dono {
+  position: absolute;
+  right: -2.2vmin;
+  top: -2.2vmin;
+  width: max(7.5vmin, 44px);
+  height: max(7.5vmin, 44px);
+  border-radius: 50%;
+  background: var(--branco);
+  border: 3px solid var(--linha);
+  display: grid;
+  place-items: center;
+  font-size: max(3.4vmin, 20px);
+  font-weight: 800;
+  z-index: 2;
+}
+.bisca-dono img { width: 80%; height: 80%; }
+.bisca-sitio { background: rgba(255, 255, 255, 0.15); border-color: rgba(255, 255, 255, 0.55); }
+.bisca-mao { display: flex; gap: 3vmin; justify-content: center; min-height: 10px; }
+.bisca-final {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 5vmin;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+  padding: 3vmin 6vmin;
+  font-size: var(--t-grande);
+  animation: aparece 0.5s ease;
+  z-index: 5;
+}

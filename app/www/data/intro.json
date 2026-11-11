@@ -1,0 +1,200 @@
+{
+  "_nota": "Ecrãs da introdução. Acrescentar um ecrã com uma versao mais alta quando entra um jogo ou uma mudança: passa uma vez sozinho depois da atualização, a seguir à frase intro.novidade.",
+  "slides": [
+    {
+      "versao": 1,
+      "img": "img/noto/gato_amor.svg",
+      "fala": "intro.ola"
+    },
+    {
+      "versao": 1,
+      "img": "img/noto/festa.svg",
+      "fala": "intro.jogos"
+    },
+    {
+      "versao": 1,
+      "img": "img/proprio/pastel_nata.svg",
+      "fala": "intro.pares"
+    },
+    {
+      "versao": 1,
+      "img": "img/noto/girassol.svg",
+      "fala": "intro.jardim"
+    },
+    {
+      "versao": 1,
+      "img": "img/proprio/bola.svg",
+      "fala": "intro.loto"
+    },
+    {
+      "versao": 1,
+      "img": "azulejo:3",
+      "fala": "intro.azulejos"
+    },
+    {
+      "versao": 1,
+      "img": "img/noto/casa.svg",
+      "fala": "intro.casa"
+    },
+    {
+      "versao": 1,
+      "img": "img/proprio/ouvir.svg",
+      "fala": "intro.repetir"
+    },
+    {
+      "versao": 1,
+      "img": "img/noto/coracao.svg",
+      "fala": "intro.fim"
+    },
+    {
+      "versao": 2,
+      "img": "img/noto/festa.svg",
+      "fala": "intro.mais_jogos"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/fotos.svg",
+      "fala": "fotos.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/musica.svg",
+      "fala": "musica.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/casa.svg",
+      "fala": "casa.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/passeios.svg",
+      "fala": "passeios.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/ditados.svg",
+      "fala": "ditados.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/domino.svg",
+      "fala": "domino.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/cozinha.svg",
+      "fala": "cozinha.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/aquario.svg",
+      "fala": "aquario.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/sopa.svg",
+      "fala": "sopa.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/palavras.svg",
+      "fala": "palavras.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/sequencia.svg",
+      "fala": "sequencia.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/diferencas.svg",
+      "fala": "diferencas.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/puzzle.svg",
+      "fala": "puzzle.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/bisca.svg",
+      "fala": "bisca.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/sueca.svg",
+      "fala": "sueca.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/paciencia.svg",
+      "fala": "paciencia.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/damas.svg",
+      "fala": "damas.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/galo.svg",
+      "fala": "galo.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/feira.svg",
+      "fala": "feira.intro"
+    },
+    {
+      "versao": 2,
+      "img": "img/jogos/sardinha.svg",
+      "fala": "sardinha.intro"
+    },
+    {
+      "versao": 3,
+      "img": "img/jogos/montapratos.svg",
+      "fala": "montapratos.intro"
+    },
+    {
+      "versao": 3,
+      "img": "img/jogos/gato.svg",
+      "fala": "gato.intro"
+    },
+    {
+      "versao": 4,
+      "img": "img/jogos/cores.svg",
+      "fala": "cores.intro"
+    },
+    {
+      "versao": 4,
+      "img": "img/jogos/intruso.svg",
+      "fala": "intruso.intro"
+    },
+    {
+      "versao": 4,
+      "img": "img/jogos/adivinhas.svg",
+      "fala": "adivinhas.intro"
+    },
+    {
+      "versao": 4,
+      "img": "img/jogos/labirinto.svg",
+      "fala": "labirinto.intro"
+    },
+    {
+      "versao": 4,
+      "img": "img/jogos/pintar.svg",
+      "fala": "pintar.intro"
+    },
+    {
+      "versao": 4,
+      "img": "img/jogos/quatro.svg",
+      "fala": "quatro.intro"
+    },
+    {
+      "versao": 4,
+      "img": "img/jogos/saltos.svg",
+      "fala": "saltos.intro"
+    }
+  ]
+}

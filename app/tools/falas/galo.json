@@ -1,0 +1,68 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "No Jogo do Galo, fazes uma linha antes do galo."
+  ],
+  [
+   "comecar",
+   "Vamos jogar ao galo! Tu és a cruz vermelha."
+  ],
+  [
+   "instrucao",
+   "Toca numa casa vazia. Faz três em linha!"
+  ],
+  [
+   "instrucao_maior",
+   "O tabuleiro é maior. Faz três em linha!"
+  ],
+  [
+   "instrucao_quatro",
+   "Agora é preciso fazer quatro em linha!"
+  ],
+  [
+   "comecas",
+   "Começas tu."
+  ],
+  [
+   "comeca_galo",
+   "Agora começa o galo."
+  ],
+  [
+   "ocupada",
+   "Essa casa já está ocupada."
+  ],
+  [
+   "cuidado",
+   "Cuidado! O galo quase tem a linha."
+  ],
+  [
+   "ganhaste",
+   "Linha feita! Ganhaste este jogo!"
+  ],
+  [
+   "galo_ganhou",
+   "O galo fez a linha. Para a próxima é a tua!"
+  ],
+  [
+   "empate",
+   "Empate! Jogaram muito bem os dois."
+  ],
+  [
+   "proximo",
+   "Vamos ao próximo jogo."
+  ],
+  [
+   "partida_tu",
+   "Ganhaste a partida! És {uma campeã|um campeão}!"
+  ],
+  [
+   "partida_galo",
+   "O galo ganhou a partida, mas jogaste muito bem!"
+  ],
+  [
+   "partida_empate",
+   "A partida ficou empatada. Que bem jogaste!"
+  ]
+ ]
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Seahorse, facing right -->
+  <path d="M56 26 Q60 12 76 14 Q92 16 96 28 L114 30 Q116 38 110 42 L94 42 Q86 48 76 46
+           Q90 58 86 76 Q82 94 66 98 Q54 102 52 112 Q50 122 62 120 Q66 118 64 114
+           Q70 112 68 106 Q58 108 60 114 Q46 116 48 104 Q50 92 64 86 Q74 80 70 66
+           Q66 54 56 48 Q48 40 56 26 Z"
+        fill="#FFB703" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M58 52 Q42 60 50 74 Q56 70 62 62 Z" fill="#FB8500" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M60 18 L54 8 L66 14 Z M70 14 L68 4 L78 14 Z" fill="#FB8500" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round"/>
+  <g fill="none" stroke="#FB8500" stroke-width="4" stroke-linecap="round">
+    <path d="M74 56 L82 56"/>
+    <path d="M76 68 L84 68"/>
+    <path d="M72 80 L80 82"/>
+  </g>
+  <circle cx="78" cy="28" r="7" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="3"/>
+  <circle cx="80" cy="28" r="3.5" fill="#1A1A1A"/>
+  <circle cx="68" cy="36" r="4" fill="#FF8FB3"/>
+</svg>

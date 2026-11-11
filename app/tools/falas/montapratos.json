@@ -1,0 +1,180 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "No Monta-pratos, a comida sobe da cozinha e tu apanhas o prato no andar que se acende."
+  ],
+  [
+   "instrucao",
+   "Quando um andar se acender, toca no prato!"
+  ],
+  [
+   "vaivem",
+   "O monta-pratos agora sobe e desce. Espera pela luz!"
+  ],
+  [
+   "dois",
+   "Hoje há dois monta-pratos! Atenção aos dois."
+  ],
+  [
+   "escolher",
+   "Agora o gato escolhe. Só apanhas o que ele pedir."
+  ],
+  [
+   "so_sopa",
+   "Só a sopa!"
+  ],
+  [
+   "so_doce",
+   "Só os doces!"
+  ],
+  [
+   "so_peixe",
+   "Só o peixe!"
+  ],
+  [
+   "so_fruta",
+   "Só a fruta!"
+  ],
+  [
+   "muda",
+   "Mudei de ideias!"
+  ],
+  [
+   "errado",
+   "Ups, esse não! Volta para a cozinha."
+  ],
+  [
+   "errado2",
+   "Esse não era o pedido! Não faz mal."
+  ],
+  [
+   "deixaste",
+   "Isso, deixaste ir. Muito bem!"
+  ],
+  [
+   "caiu1",
+   "Plof! Lá foi o prato pelo poço abaixo!"
+  ],
+  [
+   "caiu2",
+   "Ai, que trambolhão! O chão também tem fome."
+  ],
+  [
+   "caiu3",
+   "Splat! O cozinheiro vai ter de limpar. Vem aí outro!"
+  ],
+  [
+   "caiu4",
+   "Ui! Esse prato quis ir dar um passeio."
+  ],
+  [
+   "calma",
+   "Com calma. Espera que o andar se acenda e toca no prato."
+  ],
+  [
+   "fim",
+   "Toda a gente comeu! Que bela refeição!"
+  ],
+  [
+   "p_caldo_verde",
+   "Caldo verde!"
+  ],
+  [
+   "p_sopa_legumes",
+   "Sopa de legumes!"
+  ],
+  [
+   "p_arroz_doce",
+   "Arroz doce!"
+  ],
+  [
+   "p_bacalhau_bras",
+   "Bacalhau à Brás!"
+  ],
+  [
+   "p_bolo_laranja",
+   "Bolo de laranja!"
+  ],
+  [
+   "p_sardinhas",
+   "Sardinhas assadas!"
+  ],
+  [
+   "p_pastel_nata",
+   "Pastel de nata!"
+  ],
+  [
+   "p_pudim",
+   "Pudim!"
+  ],
+  [
+   "p_pao",
+   "Pão quentinho!"
+  ],
+  [
+   "p_queijo",
+   "Queijo da Serra!"
+  ],
+  [
+   "p_laranja",
+   "Laranjas!"
+  ],
+  [
+   "p_uvas",
+   "Uvas!"
+  ],
+  [
+   "p_cereja",
+   "Cerejas!"
+  ],
+  [
+   "p_melancia",
+   "Melancia!"
+  ],
+  [
+   "passa",
+   "Às vezes o monta-pratos passa sem parar. Espera pela luz amarela!"
+  ],
+  [
+   "sujos",
+   "O monta-pratos da direita também leva pratos vazios para lavar. Esses deixa-os ir!"
+  ],
+  [
+   "escolher_varios",
+   "Agora o gato pede mais do que uma coisa. Olha bem para o cartão!"
+  ],
+  [
+   "e_sopa",
+   "E a sopa!"
+  ],
+  [
+   "e_doce",
+   "E os doces!"
+  ],
+  [
+   "e_peixe",
+   "E o peixe!"
+  ],
+  [
+   "e_fruta",
+   "E a fruta!"
+  ],
+  [
+   "vazio1",
+   "Esse prato está vazio! Vai para lavar."
+  ],
+  [
+   "vazio2",
+   "Ups, esse já foi comido! Deixa-o descer."
+  ],
+  [
+   "lavar",
+   "Isso, os pratos vazios vão para lavar. Muito bem!"
+  ],
+  [
+   "melhor",
+   "Serviste melhor do que da última vez!"
+  ]
+ ]
+}

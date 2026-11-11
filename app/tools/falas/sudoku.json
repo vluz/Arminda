@@ -1,0 +1,80 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "No Sudoku, cada figura aparece só uma vez em cada fila e em cada coluna."
+  ],
+  [
+   "comecar_figuras",
+   "Vamos ao sudoku! Cada fila e cada coluna tem uma figura de cada."
+  ],
+  [
+   "comecar_numeros",
+   "Agora com números! Cada número aparece uma vez em cada fila e em cada coluna."
+  ],
+  [
+   "comecar_grande",
+   "Um sudoku maior, com números de um a seis!"
+  ],
+  [
+   "como",
+   "Toca numa casa vazia e depois na figura certa."
+  ],
+  [
+   "como_numero",
+   "Toca numa casa vazia e depois no número certo."
+  ],
+  [
+   "quadrados",
+   "Os quadrados de risco grosso também têm um de cada."
+  ],
+  [
+   "fila",
+   "Essa já está nesta fila."
+  ],
+  [
+   "coluna",
+   "Essa já está nesta coluna."
+  ],
+  [
+   "quadrado",
+   "Essa já está neste quadrado."
+  ],
+  [
+   "nao_da",
+   "Aí não dá certo. Experimenta outra."
+  ],
+  [
+   "pista",
+   "Olha esta casa a piscar. Só lá cabe uma figura."
+  ],
+  [
+   "pista_numero",
+   "Olha esta casa a piscar. Só lá cabe um número."
+  ],
+  [
+   "serie5",
+   "Cinco certas seguidas!"
+  ],
+  [
+   "serie10",
+   "Dez certas seguidas! Que cabeça!"
+  ],
+  [
+   "feito",
+   "Sudoku completo! Muito bem!"
+  ],
+  [
+   "outro",
+   "Vamos a outro."
+  ],
+  [
+   "todos",
+   "Acabaste todos! Estás em grande forma!"
+  ],
+  [
+   "recorde",
+   "Melhor do que da última vez!"
+  ]
+ ]
+}

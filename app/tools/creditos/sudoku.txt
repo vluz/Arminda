@@ -1,0 +1,5 @@
+www/snd/sudoku-serie1.ogg, https://kenney.nl/assets/interface-sounds (Audio/pluck_001.ogg, rising streak, unchanged pitch), CC0 1.0
+www/snd/sudoku-serie2.ogg, https://kenney.nl/assets/interface-sounds (Audio/pluck_001.ogg, pitched up 2 semitones), CC0 1.0
+www/snd/sudoku-serie3.ogg, https://kenney.nl/assets/interface-sounds (Audio/pluck_001.ogg, pitched up 4 semitones), CC0 1.0
+www/snd/sudoku-serie4.ogg, https://kenney.nl/assets/interface-sounds (Audio/pluck_001.ogg, pitched up 7 semitones), CC0 1.0
+www/snd/sudoku-serie5.ogg, https://kenney.nl/assets/interface-sounds (Audio/pluck_001.ogg, pitched up 12 semitones), CC0 1.0

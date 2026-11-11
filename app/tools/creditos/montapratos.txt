@@ -1,0 +1,9 @@
+www/img/noto/pudim.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f36e.svg, Apache 2.0
+www/snd/montapratos-ding.ogg, https://kenney.nl/assets/impact-sounds (Audio/impactBell_heavy_001.ogg), CC0 1.0
+www/snd/montapratos-plof.ogg, https://kenney.nl/assets/impact-sounds (Audio/impactSoft_heavy_002.ogg), CC0 1.0
+www/snd/montapratos-apanha.ogg, https://kenney.nl/assets/interface-sounds (Audio/pluck_001.ogg), CC0 1.0
+www/snd/montapratos-cai.ogg, https://kenney.nl/assets/interface-sounds (Audio/minimize_006.ogg), CC0 1.0
+www/snd/montapratos-serie1.ogg, https://kenney.nl/assets/interface-sounds (Audio/pluck_001.ogg, com o tom subido com o ffmpeg), CC0 1.0
+www/snd/montapratos-serie2.ogg, https://kenney.nl/assets/interface-sounds (Audio/pluck_001.ogg, com o tom subido com o ffmpeg), CC0 1.0
+www/snd/montapratos-serie3.ogg, https://kenney.nl/assets/interface-sounds (Audio/pluck_001.ogg, com o tom subido com o ffmpeg), CC0 1.0
+www/snd/montapratos-serie4.ogg, https://kenney.nl/assets/interface-sounds (Audio/pluck_001.ogg, com o tom subido com o ffmpeg), CC0 1.0

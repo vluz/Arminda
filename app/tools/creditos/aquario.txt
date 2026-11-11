@@ -1,0 +1,9 @@
+www/img/noto/peixe.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f41f.svg, Apache 2.0
+www/img/noto/peixe_tropical.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f420.svg, Apache 2.0
+www/img/noto/baiacu.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f421.svg, Apache 2.0
+www/img/noto/caranguejo.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f980.svg, Apache 2.0
+www/img/noto/concha.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f41a.svg, Apache 2.0
+www/img/noto/coral.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1fab8.svg, Apache 2.0
+www/img/noto/polvo.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f419.svg, Apache 2.0
+www/snd/aquario-bolha.ogg, Kenney Interface Sounds (downloads/kenney/interface-sounds/Audio/drop_002.ogg), CC0
+www/snd/aquario-comida.ogg, Kenney Interface Sounds (downloads/kenney/interface-sounds/Audio/drop_004.ogg), CC0

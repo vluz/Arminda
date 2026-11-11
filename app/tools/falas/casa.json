@@ -1,0 +1,24 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Em A minha casa, passeias pela tua casa."
+  ],
+  [
+   "ola",
+   "{Bem-vinda|Bem-vindo} a casa!"
+  ],
+  [
+   "vazio",
+   "Ainda não há fotografias da tua casa. Vêm aí em breve!"
+  ],
+  [
+   "setas",
+   "Toca nas setas para olhar à volta."
+  ],
+  [
+   "ir",
+   "Toca no nome para ires para lá."
+  ]
+ ]
+}

@@ -1,0 +1,6 @@
+www/snd/musica/caixa-ternura.ogg, https://opengameart.org/node/136996 ("4 Music Box Tracks" de Aureolus_Omicron, musicbox2_cute_tune.ogg; Opus mono a 40 kbps, nivelado), CC0 1.0
+www/snd/musica/caixa-polca.ogg, https://opengameart.org/node/136996 ("4 Music Box Tracks" de Aureolus_Omicron, musicbox4_happy_polka.ogg; Opus mono a 40 kbps, nivelado), CC0 1.0
+www/snd/musica/guitarra.ogg, https://opengameart.org/content/etirwer ("Etirwer (Looped)" de Kistol; Opus mono a 40 kbps, nivelado), CC0 1.0
+www/snd/musica/palmas.ogg, https://opengameart.org/content/happy-clappy-loop ("Happy Clappy Loop" de OwlishMedia; Opus mono a 40 kbps, nivelado), CC0 1.0
+www/img/noto/gato_pisca.svg, https://github.com/googlefonts/noto-emoji (emoji_u1f63a.svg, o gato_sorri.svg que já havia, com os olhos redesenhados fechados), Apache 2.0
+www/img/fundo/azulejo.svg, desenhado para esta app, sem conteúdo de terceiros

@@ -1,0 +1,52 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "No Labirinto, levas o gato pelo caminho até ao peixe."
+  ],
+  [
+   "comecar",
+   "Põe o dedo no gato e arrasta-o até ao peixe."
+  ],
+  [
+   "estrelas",
+   "Apanha as estrelas pelo caminho!"
+  ],
+  [
+   "dois",
+   "Agora o gato quer o peixe e o novelo. Apanha as estrelas também!"
+  ],
+  [
+   "agarra",
+   "Põe o dedo em cima do gato e arrasta devagar."
+  ],
+  [
+   "pista",
+   "Segue as bolinhas amarelas."
+  ],
+  [
+   "metade",
+   "Já está um! Falta o outro."
+  ],
+  [
+   "peixe",
+   "O gato apanhou o peixe!"
+  ],
+  [
+   "outro",
+   "Vamos a outro labirinto."
+  ],
+  [
+   "todas_estrelas",
+   "Apanhaste todas as estrelas!"
+  ],
+  [
+   "fim",
+   "Que mão tão firme! Muito bem!"
+  ],
+  [
+   "recorde",
+   "Mais rápida do que da última vez!"
+  ]
+ ]
+}

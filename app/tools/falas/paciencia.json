@@ -1,0 +1,52 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Na Paciência, arrumas as cartas por naipes, a começar pelo Ás."
+  ],
+  [
+   "comecar",
+   "Vamos jogar à paciência!"
+  ],
+  [
+   "instrucao",
+   "Toca numa carta e ela vai sozinha para o sítio certo. Toca no monte lá em cima para tirar mais cartas."
+  ],
+  [
+   "regra_facil",
+   "Põe as cartas por ordem, cada uma em cima da que vale mais um."
+  ],
+  [
+   "regra",
+   "Põe as cartas por ordem, alternando o vermelho e o preto."
+  ],
+  [
+   "nao_da",
+   "Essa carta ainda não tem para onde ir. Experimenta outra."
+  ],
+  [
+   "volta",
+   "O monte volta ao princípio."
+  ],
+  [
+   "ajuda",
+   "Olha, experimenta a carta que brilha!"
+  ],
+  [
+   "ajuda_monte",
+   "Toca no monte para tirar mais cartas."
+  ],
+  [
+   "ajudinha",
+   "Vou dar-te uma ajudinha."
+  ],
+  [
+   "arrumo",
+   "Já está! Eu arrumo o resto."
+  ],
+  [
+   "fim",
+   "Arrumaste as cartas todas! Muito bem!"
+  ]
+ ]
+}

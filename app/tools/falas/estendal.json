@@ -1,0 +1,420 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "No Estendal, penduras a roupa lavada ao sol."
+  ],
+  [
+   "ola",
+   "Que dia de sol! Vamos estender a roupa?"
+  ],
+  [
+   "como",
+   "Arrasta a roupa para a corda. Ou toca na roupa e depois na corda."
+  ],
+  [
+   "toca_roupa",
+   "Primeiro toca numa peça de roupa."
+  ],
+  [
+   "na_corda",
+   "Leva a roupa até à corda."
+  ],
+  [
+   "cheia",
+   "Essa corda já está cheia."
+  ],
+  [
+   "outro_cesto",
+   "Vem aí mais um cesto de roupa!"
+  ],
+  [
+   "seca",
+   "Já está tudo ao sol!"
+  ],
+  [
+   "cheira",
+   "Que cheirinho a roupa lavada!"
+  ],
+  [
+   "meias",
+   "As meias estão trocadas. Junta cada uma com o seu par."
+  ],
+  [
+   "meias_como",
+   "Toca numa meia e depois na meia igual."
+  ],
+  [
+   "meias_nao",
+   "Essas não são iguais. Olha a cor e o desenho."
+  ],
+  [
+   "meias_par",
+   "Primeiro encontra o par desta meia."
+  ],
+  [
+   "cores",
+   "Hoje separamos a roupa por cores."
+  ],
+  [
+   "cores_como",
+   "Cada roupa vai para a corda da sua cor."
+  ],
+  [
+   "cor_nao",
+   "Essa não é desta cor. Olha bem!"
+  ],
+  [
+   "pedido",
+   "Agora eu peço e tu penduras, pela ordem."
+  ],
+  [
+   "pedido_lembra",
+   "Ouve bem o que eu peço. Depois escondo o recado!"
+  ],
+  [
+   "essa_nao",
+   "Essa não foi a que pedi."
+  ],
+  [
+   "depois",
+   "Essa vem depois. Qual era a primeira?"
+  ],
+  [
+   "padrao",
+   "Olha a roupa na corda. O que vem a seguir?"
+  ],
+  [
+   "padrao_mais",
+   "Mais um desenho. Continua tu!"
+  ],
+  [
+   "padrao_nao",
+   "Essa não continua o desenho."
+  ],
+  [
+   "copiar",
+   "Olha bem para o estendal. Vem aí o vento!"
+  ],
+  [
+   "vento",
+   "O vento levou a roupa! Pendura-a pela mesma ordem."
+  ],
+  [
+   "copiar_nao",
+   "Não era essa. Lembra-te bem."
+  ],
+  [
+   "espreita",
+   "Espreita aqui."
+  ],
+  [
+   "passaro_bonus",
+   "Um passarinho! Ganhaste pontos extra!"
+  ],
+  [
+   "melhor",
+   "Fizeste mais pontos do que da última vez!"
+  ],
+  [
+   "fim",
+   "A roupa está toda a secar. Obrigada pela ajuda!"
+  ],
+  [
+   "p_camisola_azul",
+   "Pendura a camisola azul."
+  ],
+  [
+   "p_camisola_vermelha",
+   "Pendura a camisola vermelha."
+  ],
+  [
+   "p_camisola_verde_riscas",
+   "Pendura a camisola verde às riscas."
+  ],
+  [
+   "p_camisola_amarela",
+   "Pendura a camisola amarela."
+  ],
+  [
+   "p_camisola_azul_riscas",
+   "Pendura a camisola azul às riscas."
+  ],
+  [
+   "p_meias_azuis",
+   "Pendura as meias azuis."
+  ],
+  [
+   "p_meias_vermelhas",
+   "Pendura as meias vermelhas."
+  ],
+  [
+   "p_meias_riscadas",
+   "Pendura as meias riscadas."
+  ],
+  [
+   "p_meias_amarelas_bolinhas",
+   "Pendura as meias amarelas às bolinhas."
+  ],
+  [
+   "p_toalha_amarela",
+   "Pendura a toalha amarela."
+  ],
+  [
+   "p_toalha_azul",
+   "Pendura a toalha azul."
+  ],
+  [
+   "p_toalha_rosa_riscas",
+   "Pendura a toalha cor-de-rosa às riscas."
+  ],
+  [
+   "p_avental_vermelho_bolinhas",
+   "Pendura o avental vermelho às bolinhas."
+  ],
+  [
+   "p_avental_azul",
+   "Pendura o avental azul."
+  ],
+  [
+   "p_avental_verde",
+   "Pendura o avental verde."
+  ],
+  [
+   "p_calcas_azuis",
+   "Pendura as calças azuis."
+  ],
+  [
+   "p_vestido_rosa",
+   "Pendura o vestido cor-de-rosa."
+  ],
+  [
+   "p_vestido_amarelo_bolinhas",
+   "Pendura o vestido amarelo às bolinhas."
+  ],
+  [
+   "d_camisola_azul",
+   "Depois, a camisola azul."
+  ],
+  [
+   "d_camisola_vermelha",
+   "Depois, a camisola vermelha."
+  ],
+  [
+   "d_camisola_verde_riscas",
+   "Depois, a camisola verde às riscas."
+  ],
+  [
+   "d_camisola_amarela",
+   "Depois, a camisola amarela."
+  ],
+  [
+   "d_camisola_azul_riscas",
+   "Depois, a camisola azul às riscas."
+  ],
+  [
+   "d_meias_azuis",
+   "Depois, as meias azuis."
+  ],
+  [
+   "d_meias_vermelhas",
+   "Depois, as meias vermelhas."
+  ],
+  [
+   "d_meias_riscadas",
+   "Depois, as meias riscadas."
+  ],
+  [
+   "d_meias_amarelas_bolinhas",
+   "Depois, as meias amarelas às bolinhas."
+  ],
+  [
+   "d_toalha_amarela",
+   "Depois, a toalha amarela."
+  ],
+  [
+   "d_toalha_azul",
+   "Depois, a toalha azul."
+  ],
+  [
+   "d_toalha_rosa_riscas",
+   "Depois, a toalha cor-de-rosa às riscas."
+  ],
+  [
+   "d_avental_vermelho_bolinhas",
+   "Depois, o avental vermelho às bolinhas."
+  ],
+  [
+   "d_avental_azul",
+   "Depois, o avental azul."
+  ],
+  [
+   "d_avental_verde",
+   "Depois, o avental verde."
+  ],
+  [
+   "d_calcas_azuis",
+   "Depois, as calças azuis."
+  ],
+  [
+   "d_vestido_rosa",
+   "Depois, o vestido cor-de-rosa."
+  ],
+  [
+   "d_vestido_amarelo_bolinhas",
+   "Depois, o vestido amarelo às bolinhas."
+  ],
+  [
+   "regra_uma",
+   "Olha bem para a roupa que já está na corda. Pendura só a que combina."
+  ],
+  [
+   "regra_duas",
+   "Cada corda tem a sua regra. Olha bem e pendura cada peça na corda certa."
+  ],
+  [
+   "regra_mais",
+   "Mais um cesto. Qual será a regra agora?"
+  ],
+  [
+   "regra_outra",
+   "Essa é da outra corda."
+  ],
+  [
+   "regra_nenhuma",
+   "Essa não combina. Fica no cesto."
+  ],
+  [
+   "sobra",
+   "As que sobraram ficam no cesto. Bem visto!"
+  ],
+  [
+   "falta_1",
+   "O vento levou uma peça! Qual era? Pendura-a no sítio dela."
+  ],
+  [
+   "falta_2",
+   "O vento levou duas peças! Quais eram?"
+  ],
+  [
+   "falta_nao",
+   "Essa não estava na corda. Lembra-te bem."
+  ],
+  [
+   "falta_ainda",
+   "Essa ainda está na corda! Qual é a que falta?"
+  ],
+  [
+   "vizinha",
+   "A vizinha deixou a roupa dela. Ouve bem como a quer estendida."
+  ],
+  [
+   "vizinha_mais",
+   "Mais um recado da vizinha!"
+  ],
+  [
+   "enc_ainda",
+   "Essa ainda não. Lembra-te da ordem do recado."
+  ],
+  [
+   "enc_nao",
+   "A vizinha não quer essa no estendal."
+  ],
+  [
+   "enc_p_camisola",
+   "Primeiro, as camisolas."
+  ],
+  [
+   "enc_d_camisola",
+   "Depois, as camisolas."
+  ],
+  [
+   "enc_f_camisola",
+   "No fim, as camisolas."
+  ],
+  [
+   "enc_n_camisola",
+   "As camisolas não. Ficam no cesto."
+  ],
+  [
+   "enc_p_meias",
+   "Primeiro, as meias."
+  ],
+  [
+   "enc_d_meias",
+   "Depois, as meias."
+  ],
+  [
+   "enc_f_meias",
+   "No fim, as meias."
+  ],
+  [
+   "enc_n_meias",
+   "As meias não. Ficam no cesto."
+  ],
+  [
+   "enc_p_toalha",
+   "Primeiro, as toalhas."
+  ],
+  [
+   "enc_d_toalha",
+   "Depois, as toalhas."
+  ],
+  [
+   "enc_f_toalha",
+   "No fim, as toalhas."
+  ],
+  [
+   "enc_n_toalha",
+   "As toalhas não. Ficam no cesto."
+  ],
+  [
+   "enc_p_avental",
+   "Primeiro, os aventais."
+  ],
+  [
+   "enc_d_avental",
+   "Depois, os aventais."
+  ],
+  [
+   "enc_f_avental",
+   "No fim, os aventais."
+  ],
+  [
+   "enc_n_avental",
+   "Os aventais não. Ficam no cesto."
+  ],
+  [
+   "enc_p_calcas",
+   "Primeiro, as calças."
+  ],
+  [
+   "enc_d_calcas",
+   "Depois, as calças."
+  ],
+  [
+   "enc_f_calcas",
+   "No fim, as calças."
+  ],
+  [
+   "enc_n_calcas",
+   "As calças não. Ficam no cesto."
+  ],
+  [
+   "enc_p_vestido",
+   "Primeiro, os vestidos."
+  ],
+  [
+   "enc_d_vestido",
+   "Depois, os vestidos."
+  ],
+  [
+   "enc_f_vestido",
+   "No fim, os vestidos."
+  ],
+  [
+   "enc_n_vestido",
+   "Os vestidos não. Ficam no cesto."
+  ]
+ ]
+}

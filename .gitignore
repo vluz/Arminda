@@ -1,0 +1,39 @@
+# Segredos: nunca no git (chaves, tokens, palavras-passe)
+.SECRETS/
+servidor/.env
+
+# Conteúdos e dados da família: privados
+media/
+media-exemplo/
+media-exemplo-quem/
+dados/
+audio/
+app/www/media-teste/*
+!app/www/media-teste/config.json
+
+# Gerados: a voz do computador, as construções, as caches
+app/www/voz/tts/*.ogg
+app/www/voz/tts/textos.json
+app/www/voz/familia/**/*.ogg
+app/www-build/
+app/test-shots/
+builds/
+*.apk
+app/node_modules/
+app/tools/testes/node_modules/
+app/android/build/
+app/android/app/build/
+app/android/.gradle/
+app/android/app/src/main/assets/public/
+app/android/local.properties
+__pycache__/
+
+# O modelo de voz (cada família obtém o seu) e as afinações de um só PC
+app/tools/voz/*.onnx
+app/tools/voz/*.onnx.json
+app/tools/ambiente_local.py
+app/tools/ambiente_local.ps1
+
+# Editor
+.vscode/
+.idea/

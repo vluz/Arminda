@@ -1,0 +1,89 @@
+/* Jogo do Galo. Num ecrã largo a casinha, o gato, o balão e a pontuação ficam numa coluna à
+   esquerda, para o tabuleiro poder usar a altura toda.*/
+
+.galo-placar {
+  flex: 1 1 100%;
+  display: flex;
+  gap: 2vmin;
+  justify-content: center;
+}
+.galo-placar .lado-placar {
+  flex: 1;
+  max-width: 24vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vmin;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  padding: 1vmin 2vmin;
+}
+.galo-placar .lado-placar.tu { background: #ffe1e3; }
+.galo-placar .lado-placar.galo { background: #dcecff; }
+.galo-placar img,
+.galo-placar .peca-mini { width: 9vmin; height: 9vmin; display: block; }
+.galo-placar .peca-mini svg { width: 100%; height: 100%; display: block; }
+.galo-placar b { font-family: var(--digitos); font-size: var(--t-grande); font-weight: 800; }
+
+/* Ecrã ao alto: a barra de cima do costume, com a pontuação numa segunda linha.*/
+.galo-ecra .topo { flex-wrap: wrap; row-gap: 1.5vmin; }
+
+@media (min-aspect-ratio: 1/1) {
+  .ecra.galo-ecra { flex-direction: row; padding: 1vmin 1.5vmin; gap: 2vmin; }
+  .galo-ecra .topo {
+    flex: none;
+    width: clamp(280px, 36vw, 440px);
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    gap: 2vmin;
+    min-height: 0;
+  }
+  .galo-ecra .mascote { width: max(17vmin, 113px); height: max(17vmin, 113px); }
+  .galo-ecra .balao { flex: 1 1 100%; min-height: 22vmin; }
+  .galo-ecra .balao::before {
+    left: calc(max(17vmin, 113px) + 2vmin + 6vmin);
+    top: -4.4vmin;
+    margin-top: 0;
+    border: 2vmin solid transparent;
+    border-bottom: 2.4vmin solid var(--linha);
+  }
+  .galo-placar { flex-direction: row; }
+}
+
+.galo-mesa {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+.galo-tab {
+  display: grid;
+  grid-template-columns: repeat(var(--n), var(--lado));
+  grid-auto-rows: var(--lado);
+  background: var(--branco);
+  border-radius: 2vmin;
+  outline: var(--borda) solid var(--linha);
+  box-shadow: var(--sombra);
+  overflow: hidden;
+}
+.galo-casa {
+  width: var(--lado);
+  height: var(--lado);
+  border: 3px solid var(--linha);
+  background: var(--branco);
+  padding: 0;
+  display: grid;
+  place-items: center;
+}
+.galo-casa:active:not(.tu):not(.galo) { background: #fff1c2; }
+.galo-casa svg { width: 78%; height: 78%; display: block; }
+.galo-casa.nova svg { animation: aparece 0.35s ease; }
+.galo-casa.tu { background: #fff4f4; }
+.galo-casa.galo { background: #f2f8ff; }
+.galo-casa.pista { background: #fff1c2; animation: pisca 0.8s ease infinite; }
+.galo-casa.linha { background: var(--amarelo); }
+.galo-casa.linha svg { animation: salta 0.6s ease 2; }
+.galo-tab.acabou .galo-casa:not(.linha) { opacity: 0.75; }

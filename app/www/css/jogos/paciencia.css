@@ -1,0 +1,51 @@
+/* Paciência: colunas numa mesa verde, as fundações ao lado (ou por cima, ao alto),
+   o descarte e o monte na barra de cima.*/
+.pac {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  background: #1f7a3c;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+}
+.pac.de-pe { flex-direction: column; }
+.pac-cima { flex: none; display: flex; gap: 8px; align-items: center; justify-content: center; }
+.pac-cima .pac-fundacoes { margin-left: 16px; }
+.pac-colunas { flex: 1; display: flex; gap: var(--g); justify-content: center; align-items: flex-start; min-width: 0; }
+.pac-coluna {
+  position: relative;
+  flex: none;
+  padding: 0;
+  border: none;
+  background: none;
+  border-radius: 2vmin;
+}
+.pac-coluna > .cj { position: absolute; left: 0; }
+.pac-coluna > .cj-lugar { top: 0; background: rgba(255, 255, 255, 0.12); border-color: rgba(255, 255, 255, 0.5); }
+.pac-fundacoes { flex: none; display: flex; flex-direction: column; gap: 8px; justify-content: center; }
+.pac.de-pe .pac-fundacoes { flex-direction: row; }
+.pac-fundacoes .cj-lugar { background: rgba(255, 255, 255, 0.85); border-color: rgba(17, 17, 17, 0.5); }
+.pac-fundacoes .cj-lugar .cj-marca { fill: rgba(17, 17, 17, 0.3); }
+
+.pac-pista { outline: max(6px, 1vmin) solid var(--amarelo); outline-offset: 4px; animation: pac-pista 1s ease-in-out infinite; }
+.pac-treme { animation: pac-treme 0.4s ease; }
+@keyframes pac-pista { 0%, 100% { outline-color: var(--amarelo); } 50% { outline-color: #fff3b0; } }
+@keyframes pac-treme { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-8px); } 75% { transform: translateX(8px); } }
+
+/* Peças da barra de cima*/
+.pac-topo { flex: none; display: grid; place-items: center; }
+.pac-conta {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-family: var(--digitos);
+  font-size: 6vmin;
+  font-weight: 800;
+  color: var(--texto);
+  text-shadow: 0 0 6px #fff, 0 0 6px #fff, 0 0 6px #fff;
+}
+.pac-volta { font-size: 10vmin; font-weight: 800; color: var(--azul-escuro); background: var(--branco); border-style: solid; border-color: var(--linha); }
+.pac-acabou { opacity: 0.25; }

@@ -1,0 +1,360 @@
+/* Feira: a banca com a coisa e o preço, o balcão com o dinheiro pago, o porta-moedas com moedas e notas.*/
+.feira {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  gap: 2.5vmin;
+}
+.feira.paisagem { grid-template-columns: minmax(0, 47%) minmax(0, 1fr); }
+.feira.retrato { grid-template-rows: minmax(0, 52%) minmax(0, 1fr); }
+
+.feira .lado-banca { display: flex; flex-direction: column; gap: 2vmin; min-height: 0; }
+
+/* Banca*/
+.feira .banca {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  background: #f3d9a4;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.feira .toldo {
+  flex: none;
+  height: 7vmin;
+  background: repeating-linear-gradient(90deg, var(--vermelho) 0 6vmin, var(--branco) 6vmin 12vmin);
+  border-bottom: var(--borda) solid var(--linha);
+}
+.feira .mostrador {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  place-items: center;
+  padding: 1.5vmin;
+}
+.feira .mostrador.vendido { animation: salta 0.6s ease; }
+
+.feira .artigo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vmin;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+}
+.feira .artigo img { height: 80%; max-height: 26vmin; aspect-ratio: 1; object-fit: contain; flex: none; }
+.feira .artigo .nome-artigo { display: none; }
+.feira .etiqueta {
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: 2vmin;
+  padding: 1vmin 2.5vmin;
+  font-family: var(--digitos);
+  font-weight: 800;
+  font-size: 9vmin;
+  line-height: 1;
+  white-space: nowrap;
+  box-shadow: 0 0.8vmin 0 rgba(0,0,0,.25);
+}
+
+/* Duas coisas para comparar*/
+.feira .par-artigos { display: flex; gap: 3vmin; width: 100%; height: 100%; justify-content: center; align-items: stretch; }
+.feira .escolha {
+  flex: 1;
+  min-width: 113px;
+  min-height: 113px;
+  max-width: 50%;
+  flex-direction: column;
+  gap: 1vmin;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  background: var(--branco);
+  box-shadow: var(--sombra);
+  font: inherit;
+  padding: 1vmin;
+}
+.feira .escolha img { height: auto; width: 60%; max-height: 50%; }
+.feira .escolha .etiqueta { font-size: 7.5vmin; box-shadow: none; }
+.feira .escolha.certo { background: #d8f5c8; border-color: var(--verde); }
+.feira .escolha.abana, .feira .dinheiro.abana, .feira .opcao-troco.abana { animation: feira-abana 0.5s ease; }
+
+/* Lista de compras*/
+.feira .lista {
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: 2vmin;
+  padding: 1vmin 2.5vmin;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8vmin;
+  width: 100%;
+  max-width: 70vmin;
+  box-shadow: var(--sombra);
+}
+.feira .titulo-lista { font-size: 5vmin; color: var(--azul); border-bottom: 3px solid var(--azul); }
+.feira .linha-lista, .feira .linha-total { display: flex; align-items: center; gap: 2vmin; font-size: 5vmin; }
+.feira .linha-lista img { width: 9vmin; height: 9vmin; object-fit: contain; }
+.feira .linha-lista .nome-artigo { flex: 1; }
+.feira .linha-lista .etiqueta, .feira .linha-total .etiqueta { font-size: 6vmin; padding: 0.4vmin 1.5vmin; box-shadow: none; }
+.feira .linha-total { justify-content: space-between; border-top: 3px solid var(--linha); padding-top: 0.8vmin; }
+.feira .escondida { visibility: hidden; }
+
+/* Balcão com o dinheiro já dado*/
+.feira .balcao {
+  flex: none;
+  height: max(17vmin, 90px);
+  background: #a86b32;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  display: flex;
+  align-items: center;
+  gap: 2vmin;
+  padding: 0 2vmin;
+}
+.feira .pagos { flex: 1; display: flex; flex-wrap: wrap; align-items: center; gap: 0.8vmin; min-width: 0; max-height: 100%; overflow: hidden; }
+.feira .mini.moeda { width: 9vmin; height: 9vmin; }
+.feira .mini.nota { width: 15vmin; height: 8.3vmin; }
+.feira .mini svg { width: 100%; height: 100%; display: block; }
+.feira .pagos .mini { animation: aparece 0.35s ease; }
+.feira .soma {
+  flex: none;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: 2vmin;
+  padding: 0.6vmin 1.8vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3.4vmin;
+  line-height: 1.1;
+}
+.feira .soma:empty { display: none; }
+.feira .carteira { position: relative; }
+.feira .soma b { font-family: var(--digitos); font-size: 6vmin; font-weight: 800; }
+
+/* Porta-moedas*/
+.feira .carteira {
+  display: grid;
+  gap: 1.8vmin;
+  place-content: center;
+  min-height: 0;
+  background: #7b4a2a;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  box-shadow: inset 0 0 0 1.2vmin #96613a;
+}
+.feira .dinheiro {
+  width: var(--lado);
+  height: var(--lado);
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 0.4vmin;
+  display: grid;
+  place-items: center;
+}
+.feira .dinheiro.nota { border-radius: 2vmin; }
+.feira .dinheiro svg { width: 100%; height: 100%; display: block; filter: drop-shadow(0 0.8vmin 0 rgba(0,0,0,.35)); }
+.feira .dinheiro:active svg { transform: translateY(0.6vmin); }
+.feira .dinheiro.usado { visibility: hidden; }
+.feira .dinheiro.pista { animation: pisca 0.6s ease 5; background: rgba(255, 230, 120, 0.7); }
+
+/* Troco: três punhados à escolha*/
+.feira .troco {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  background: rgba(255, 246, 224, 0.97);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vmin;
+}
+.feira .titulo-troco { font-size: var(--t-medio); text-align: center; }
+.feira .opcoes-troco { display: flex; gap: 2vmin; flex-wrap: wrap; justify-content: center; }
+.feira .opcao-troco {
+  min-width: max(24vmin, 130px);
+  min-height: max(22vmin, 120px);
+  max-width: 30vmin;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  background: var(--branco);
+  box-shadow: var(--sombra);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 1vmin;
+  padding: 1.5vmin;
+}
+.feira .opcao-troco .mini.moeda { width: 11vmin; height: 11vmin; }
+.feira .opcao-troco.certo { background: #d8f5c8; border-color: var(--verde); }
+
+.feira.retrato .etiqueta { font-size: 8vmin; }
+
+/* Promoções e preços ao quilo*/
+.feira .artigo.oferta { gap: 2.5vmin; }
+.feira .oferta .figuras { display: flex; align-items: center; justify-content: center; flex: none; height: 100%; max-width: 50%; }
+.feira .oferta .figuras img { height: 70%; max-height: 24vmin; width: auto; aspect-ratio: 1; object-fit: contain; }
+.feira .oferta.tres .figuras img { max-height: 14vmin; margin-left: -3vmin; }
+.feira .oferta.tres .figuras img:first-child { margin-left: 0; }
+.feira .oferta .precos { display: flex; flex-direction: column; align-items: center; gap: 1.5vmin; min-width: 0; }
+.feira .oferta .etiqueta { font-size: 7.5vmin; }
+.feira .etiqueta small { font-size: 0.5em; font-family: inherit; }
+/* A banca é estreita ao lado do porta-moedas: imagens em cima, preços em baixo.*/
+.feira.paisagem .artigo.oferta { flex-direction: column; gap: 1.5vmin; }
+.feira.paisagem .oferta .figuras { height: 42%; max-width: 100%; }
+.feira.paisagem .oferta .figuras img { height: 100%; }
+.feira.paisagem .oferta .precos { flex-direction: row; flex-wrap: wrap; justify-content: center; }
+.feira.paisagem .oferta .etiqueta { font-size: 6.5vmin; }
+.feira.paisagem .autocolante { font-size: 3.8vmin; }
+.feira .etiqueta.riscada { text-decoration: line-through; text-decoration-thickness: 0.6vmin; text-decoration-color: var(--vermelho); color: #555; }
+.feira .autocolante {
+  background: var(--amarelo);
+  border: var(--borda) solid var(--linha);
+  border-radius: 999px;
+  padding: 0.8vmin 2.4vmin;
+  font-weight: 900;
+  font-size: 4.4vmin;
+  white-space: nowrap;
+  transform: rotate(-4deg);
+  box-shadow: 0 0.8vmin 0 rgba(0,0,0,.25);
+}
+.feira .peso {
+  background: var(--azul);
+  color: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: 2vmin;
+  padding: 0.6vmin 2.2vmin;
+  font-family: var(--digitos);
+  font-weight: 900;
+  font-size: 7vmin;
+  white-space: nowrap;
+}
+
+/* Uma lista de quatro coisas precisa de linhas mais pequenas*/
+.feira .lista.longa { gap: 0.3vmin; padding: 0.6vmin 2vmin; }
+.feira .lista.longa .titulo-lista { font-size: 4vmin; }
+.feira .lista.longa .linha-lista, .feira .lista.longa .linha-total { font-size: 4.2vmin; gap: 1.5vmin; }
+.feira .lista.longa .linha-lista img { width: 7vmin; height: 7vmin; }
+.feira .lista.longa .etiqueta { font-size: 5vmin; }
+
+/* Troco próximo: quatro punhados em duas filas, com notas*/
+.feira .troco.perto .opcoes-troco { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5vmin; width: 96%; }
+.feira .troco.perto .opcao-troco { max-width: none; min-width: 0; min-height: max(17vmin, 113px); padding: 1vmin; gap: 0.6vmin; }
+.feira .troco.perto .opcao-troco .mini.moeda { width: 8vmin; height: 8vmin; }
+.feira .troco.perto .opcao-troco .mini.nota { width: 13vmin; height: 7.2vmin; }
+.feira .troco.perto .titulo-troco { font-size: 4.4vmin; }
+
+/* Total à escolha*/
+.feira .opcao-total {
+  min-width: max(26vmin, 140px);
+  min-height: max(18vmin, 113px);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  background: var(--branco);
+  box-shadow: var(--sombra);
+  font-family: var(--digitos);
+  font-weight: 800;
+  font-size: 8vmin;
+  color: var(--texto);
+  padding: 1vmin 2vmin;
+}
+.feira .opcao-total.certo { background: #d8f5c8; border-color: var(--verde); }
+.feira .opcao-total.abana, .feira .cesto.abana, .feira .banca-escolha.abana { animation: feira-abana 0.5s ease; }
+
+/* Escolhas em ecrã inteiro: cestos para o dinheiro que há, e duas bancas*/
+.feira.escolher { display: flex; flex-direction: column; gap: 2vmin; }
+.feira.escolher.paisagem { grid-template-columns: none; }
+.feira .tens { flex: none; display: flex; align-items: center; justify-content: center; gap: 2vmin; font-size: var(--t-medio); font-weight: 800; }
+.feira .tens .mini.nota { width: 24vmin; height: 13.3vmin; }
+.feira .opcoes-grandes { flex: 1; min-height: 0; display: grid; gap: 2.5vmin; }
+.feira.paisagem .opcoes-grandes.tres { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.feira.retrato .opcoes-grandes.tres { grid-template-rows: repeat(3, minmax(0, 1fr)); }
+.feira.paisagem .opcoes-grandes.duas { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.feira.retrato .opcoes-grandes.duas { grid-template-rows: repeat(2, minmax(0, 1fr)); }
+.feira .cesto {
+  min-width: 113px;
+  min-height: 113px;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  background: #f3d9a4;
+  box-shadow: var(--sombra);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.2vmin;
+  padding: 1.5vmin 2vmin;
+  font: inherit;
+  color: var(--texto);
+}
+.feira .cesto .linha-lista { font-size: 4.4vmin; background: var(--branco); border-radius: 1.5vmin; padding: 0.4vmin 1vmin; }
+.feira .cesto .linha-lista img { width: 8vmin; height: 8vmin; }
+.feira .cesto .linha-lista .nome-artigo { text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.feira .cesto .etiqueta { font-size: 5.4vmin; padding: 0.3vmin 1.2vmin; box-shadow: none; }
+.feira .cesto.certo, .feira .banca-escolha.certo { background: #d8f5c8; border-color: var(--verde); }
+/* Lado a lado os cestos são estreitos: só imagens e preços.*/
+.feira.paisagem .cesto .linha-lista .nome-artigo { display: none; }
+.feira.paisagem .cesto .linha-lista { justify-content: space-between; }
+.feira.retrato .cesto { flex-direction: row; flex-wrap: wrap; align-content: center; }
+.feira.retrato .cesto .linha-lista { flex: 1 1 40%; }
+.feira .banca-escolha {
+  min-width: 113px;
+  min-height: 113px;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  background: #f3d9a4;
+  box-shadow: var(--sombra);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  font: inherit;
+  color: var(--texto);
+}
+.feira .banca-escolha .toldo { flex: none; height: 7vmin; }
+.feira .banca-escolha.azul .toldo { background: repeating-linear-gradient(90deg, var(--azul) 0 6vmin, var(--branco) 6vmin 12vmin); }
+.feira .banca-escolha.verde .toldo { background: repeating-linear-gradient(90deg, var(--verde) 0 6vmin, var(--branco) 6vmin 12vmin); }
+.feira .banca-escolha .conteudo { flex: 1; min-height: 0; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; align-content: center; gap: 2vmin; padding: 1.5vmin; }
+.feira .banca-escolha img { height: 20vmin; width: 20vmin; object-fit: contain; }
+.feira.retrato .banca-escolha img { height: 16vmin; width: 16vmin; }
+
+/* Barra de progresso e emblema de série*/
+.feira-barra {
+  position: absolute;
+  left: 3vmin;
+  right: 3vmin;
+  bottom: 0.6vmin;
+  height: 1.6vmin;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  pointer-events: none;
+}
+.feira-barra i { display: block; height: 100%; width: 0; background: var(--verde); border-radius: 999px; transition: width 0.6s ease; }
+.feira-selo {
+  position: absolute;
+  right: 4vmin;
+  bottom: 4vmin;
+  z-index: 20;
+  background: var(--amarelo);
+  border: var(--borda) solid var(--linha);
+  border-radius: 999px;
+  padding: 1vmin 2.5vmin;
+  font-weight: 900;
+  font-size: 4vmin;
+  opacity: 0;
+  pointer-events: none;
+}
+.feira-selo.mostra { animation: feira-selo 2s ease; }
+@keyframes feira-selo { 0% { opacity: 0; transform: scale(0.4); } 15% { opacity: 1; transform: scale(1.1); } 25% { transform: scale(1); } 80% { opacity: 1; } 100% { opacity: 0; } }
+
+@keyframes feira-abana { 0%,100% { transform: translateX(0); } 20% { transform: translateX(-2vmin); } 40% { transform: translateX(2vmin); } 60% { transform: translateX(-1.2vmin); } 80% { transform: translateX(1.2vmin); } }

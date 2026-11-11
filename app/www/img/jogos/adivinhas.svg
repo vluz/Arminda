@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Adivinhas: a speech bubble with a big question mark. -->
+  <path d="M20 10 H108 Q122 10 122 24 V82 Q122 96 108 96 H58 L30 120 L36 96 H20 Q6 96 6 82 V24 Q6 10 20 10 Z"
+        fill="#ffd60a" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M46 40 Q46 22 64 22 Q82 22 82 38 Q82 50 70 55 Q64 58 64 66 V68"
+        fill="none" stroke="#111111" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M46 40 Q46 22 64 22 Q82 22 82 38 Q82 50 70 55 Q64 58 64 66 V68"
+        fill="none" stroke="#e63946" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="84" r="8.5" fill="#e63946" stroke="#111111" stroke-width="4"/>
+</svg>

@@ -1,0 +1,122 @@
+/* Dominó: a fila dos amigos, a linha das peças com as suas duas pontas grandes, e a mão da pessoa.*/
+
+.dom-mesa {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Os amigos e o monte*/
+.dom-rivais {
+  flex: none;
+  display: flex;
+  justify-content: center;
+  gap: 2.5vmin;
+  height: 80px;
+}
+.dom-rival, .dom-monte {
+  display: flex;
+  align-items: center;
+  gap: 1.5vmin;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  padding: 0.6vmin 2vmin;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+.dom-rival img { width: 60px; height: 60px; }
+.dom-rival.vez { background: #fff1c2; box-shadow: 0 0 0 6px var(--amarelo); }
+.dom-nome { display: flex; flex-direction: column; gap: 4px; font-size: 26px; line-height: 1; }
+.dom-costas { display: flex; gap: 2px; height: 26px; }
+.dom-costas svg { height: 26px; width: 14px; }
+.dom-rival b, .dom-monte b { font-family: var(--digitos); font-size: 44px; font-weight: 800; min-width: 1.2em; text-align: center; }
+.dom-monte { background: #e8f0ff; }
+.dom-costa1 svg { height: 54px; width: 29px; display: block; }
+
+/* A linha em cima da mesa do café*/
+.dom-linha {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.dom-ponta {
+  flex: none;
+  width: calc(var(--ponta) * 2);
+  height: var(--ponta);
+  border: none;
+  background: none;
+  padding: 0;
+  border-radius: 2vmin;
+}
+.dom-ponta svg { width: 100%; height: 100%; display: block; }
+.dom-ponta.vazia { visibility: hidden; }
+.dom-ponta.nova svg { animation: aparece 0.4s ease; }
+.dom-ponta.escolha { box-shadow: 0 0 0 8px var(--amarelo), 0 0 22px 10px rgba(255, 183, 3, 0.8); animation: pisca 0.9s ease infinite; }
+.dom-fita {
+  flex: 1;
+  min-width: 0;
+  height: var(--fita);
+  background: #1f7a3a;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --s: calc(var(--fita) * 0.36);
+}
+.dom-cadeia {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  transform-origin: 50% 50%;
+  flex: none;
+}
+.dom-peq { flex: none; width: calc(var(--s) * 2); height: var(--s); display: block; }
+.dom-peq.dobre { width: var(--s); height: calc(var(--s) * 2); }
+.dom-peq svg { width: 100%; height: 100%; display: block; }
+.dom-peq.nova svg { animation: aparece 0.4s ease; }
+
+/* Ecrã ao alto: as duas pontas lado a lado, a linha por baixo.*/
+@media (max-aspect-ratio: 1/1) {
+  .dom-linha {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 4vmin;
+    row-gap: 12px;
+  }
+  .dom-ponta.esq { grid-row: 1; grid-column: 1; }
+  .dom-ponta.dir { grid-row: 1; grid-column: 2; }
+  .dom-fita { grid-row: 2; grid-column: 1 / -1; width: calc(100vw - 6vmin); }
+}
+
+/* A mão da pessoa*/
+.dom-mao {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  align-content: center;
+}
+.dom-peca { flex: none; }
+.dom-peca {
+  width: var(--w);
+  height: calc(var(--w) * 1.75);
+  border: none;
+  background: none;
+  padding: 0;
+  border-radius: 2vmin;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.dom-peca svg { width: 100%; height: 100%; display: block; }
+.dom-peca.nova { animation: aparece 0.4s ease; }
+.dom-peca.serve { box-shadow: 0 0 0 7px var(--amarelo), 0 0 20px 8px rgba(255, 183, 3, 0.75); }
+.dom-peca.escolhida { transform: translateY(-8px); box-shadow: 0 0 0 7px var(--verde), 0 0 18px 6px rgba(43, 147, 72, 0.7); }

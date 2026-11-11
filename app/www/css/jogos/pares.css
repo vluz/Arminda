@@ -1,0 +1,30 @@
+/* Pares: os estilos das cartas estão em app.css. As cartas pequenas dos níveis de topo têm linhas
+   e cantos mais finos, para a imagem ficar com a maior parte da carta.*/
+.mesa.pequenas .carta .face,
+.mesa.pequenas .carta .verso {
+  border-width: 3px;
+  border-radius: 9px;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.35);
+}
+.mesa.pequenas .carta .face img { width: 86%; height: 86%; }
+
+/* Progresso: uma barra verde fina no intervalo entre a barra de cima e a mesa.*/
+.pares-barra {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(-2vmin + 2px);
+  height: calc(2vmin - 4px);
+  border-radius: 99px;
+  background: rgba(17, 17, 17, 0.12);
+  overflow: hidden;
+  pointer-events: none;
+}
+.pares-barra i {
+  display: block;
+  width: 0;
+  height: 100%;
+  border-radius: 99px;
+  background: var(--verde);
+  transition: width 0.5s ease;
+}

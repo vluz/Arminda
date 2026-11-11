@@ -1,0 +1,88 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Na Sequência, as cores acendem-se e tu repetes pela mesma ordem."
+  ],
+  [
+   "instrucao",
+   "Olha bem para as cores que se acendem. Depois toca nelas pela mesma ordem."
+  ],
+  [
+   "contrario",
+   "Desta vez é ao contrário! Começa pela última cor e acaba na primeira."
+  ],
+  [
+   "olha",
+   "Olha bem!"
+  ],
+  [
+   "agora_tu",
+   "Agora tu!"
+  ],
+  [
+   "agora_tu_contrario",
+   "Agora tu, ao contrário!"
+  ],
+  [
+   "mais_uma",
+   "Boa! Agora mais uma."
+  ],
+  [
+   "devagar",
+   "Quase! Vou mostrar outra vez, devagarinho."
+  ],
+  [
+   "com_calma",
+   "Não faz mal. Olha outra vez, com calma."
+  ],
+  [
+   "lembrar",
+   "Toca nas cores pela ordem. Eu mostro outra vez."
+  ],
+  [
+   "topo",
+   "Fantástico! Chegaste ao fim!"
+  ],
+  [
+   "fim_pouco",
+   "Gostei muito de jogar contigo!"
+  ],
+  [
+   "fim_2",
+   "Lembraste-te de duas cores seguidas! Muito bem!"
+  ],
+  [
+   "fim_3",
+   "Lembraste-te de três cores seguidas! Muito bem!"
+  ],
+  [
+   "fim_4",
+   "Lembraste-te de quatro cores seguidas! Muito bem!"
+  ],
+  [
+   "fim_5",
+   "Lembraste-te de cinco cores seguidas! Que memória!"
+  ],
+  [
+   "fim_6",
+   "Lembraste-te de seis cores seguidas! Que memória!"
+  ],
+  [
+   "fim_7",
+   "Lembraste-te de sete cores seguidas! Que memória!"
+  ],
+  [
+   "fim_8",
+   "Lembraste-te de oito cores seguidas! És {uma campeã|um campeão}!"
+  ],
+  [
+   "fim_9",
+   "Lembraste-te de nove cores seguidas! És {uma campeã|um campeão}!"
+  ],
+  [
+   "fim_10",
+   "Lembraste-te de dez cores seguidas! És {uma campeã|um campeão}!"
+  ]
+ ]
+}

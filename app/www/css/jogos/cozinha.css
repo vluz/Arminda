@@ -1,0 +1,266 @@
+/* Cozinha: cartão da receita, panela, tabuleiro dos ingredientes.*/
+.cozinha {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  gap: 2.5vmin;
+}
+.cozinha.paisagem { grid-template-columns: minmax(0, 27%) minmax(0, 21%) minmax(0, 1fr); }
+.cozinha.retrato { grid-template-rows: auto minmax(0, 24%) minmax(0, 1fr); }
+
+/* Cartão da receita*/
+.cozinha .receita {
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+  padding: 1.2vmin 1.5vmin;
+  display: grid;
+  gap: 0.8vmin;
+  min-height: 0;
+  background-image: repeating-linear-gradient(transparent 0 calc(100% / var(--linhas) - 1px), #f1d6a8 calc(100% / var(--linhas) - 1px) calc(100% / var(--linhas)));
+}
+.cozinha.paisagem .receita { grid-template-rows: repeat(var(--linhas), minmax(0, 1fr)); grid-template-columns: minmax(0, 1fr); align-self: stretch; }
+.cozinha.paisagem .linha-receita { padding-right: 5vmin; }
+.cozinha.retrato .receita {
+  grid-template-columns: repeat(auto-fit, minmax(17vmin, 1fr));
+  background-image: none;
+}
+.linha-receita {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1.2vmin;
+  min-height: 0;
+  border-radius: 1.5vmin;
+  padding: 0 0.8vmin;
+  font-size: min(4.4vmin, 26px);
+  line-height: 1.05;
+}
+.cozinha.retrato .linha-receita { flex-direction: column; justify-content: center; padding: 0.8vmin; text-align: center; font-size: 3.6vmin; }
+.linha-receita img { height: min(100%, 9vmin); aspect-ratio: 1; flex: none; object-fit: contain; }
+.cozinha.retrato .linha-receita img { height: 10vmin; }
+.linha-receita .nome { overflow: hidden; text-overflow: ellipsis; }
+.linha-receita .passo {
+  flex: none;
+  width: 5.5vmin;
+  height: 5.5vmin;
+  border-radius: 50%;
+  background: var(--azul);
+  color: var(--branco);
+  border: 3px solid var(--linha);
+  display: grid;
+  place-items: center;
+  font-family: var(--digitos);
+  font-weight: 800;
+  font-size: 3.6vmin;
+}
+.linha-receita.posto { background: #d8f5c8; }
+.linha-receita.posto::after {
+  content: "✓";
+  position: absolute;
+  right: 0.8vmin;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--digitos);
+  font-size: 6vmin;
+  font-weight: 900;
+  color: var(--verde);
+}
+.cozinha.retrato .linha-receita.posto::after { top: 0.5vmin; transform: none; font-size: 5vmin; }
+.linha-receita.atual { background: #ffe8a3; animation: pisca 1.2s ease infinite; }
+.linha-receita.lida { background: #ffe8a3; transform: scale(1.05); }
+
+/* Níveis de memória: o cartão está tapado; os ingredientes que já estão na panela ficam à vista.*/
+.receita.escondida .linha-receita:not(.posto) > * { visibility: hidden; }
+.receita.escondida .linha-receita:not(.posto)::after {
+  content: "?";
+  position: absolute;
+  inset: 0.3vmin;
+  border-radius: 1.5vmin;
+  background: var(--amarelo);
+  border: 3px solid var(--linha);
+  display: grid;
+  place-items: center;
+  font-size: 5vmin;
+  font-weight: 800;
+}
+
+/* Panela*/
+.cozinha .panela {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vmin;
+  min-height: 0;
+}
+.cozinha.retrato .panela { flex-direction: row; gap: 4vmin; }
+.cozinha .nome-prato {
+  background: var(--laranja);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  padding: 1vmin 2vmin;
+  font-size: min(5vmin, 32px);
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.1;
+}
+.cozinha .fundo-panela { position: relative; width: 100%; max-width: 44vmin; min-height: 0; }
+.cozinha.retrato .fundo-panela { width: 40%; height: 100%; display: grid; place-items: center; }
+.cozinha .fundo-panela img { width: 100%; max-height: 100%; object-fit: contain; display: block; transition: transform 0.6s cubic-bezier(.3,1.6,.5,1); }
+.cozinha .panela.recebe .fundo-panela img { animation: cozinha-recebe 0.45s ease; }
+.cozinha .panela.pronto .fundo-panela img { transform: scale(1.18); }
+.cozinha .panela.pronto .nome-prato { background: var(--amarelo); animation: salta 0.6s ease 2; }
+
+/* Vapor por cima do prato pronto*/
+.cozinha .vapor { position: absolute; left: 15%; right: 15%; bottom: 62%; height: 55%; display: none; pointer-events: none; }
+.cozinha .panela.pronto .vapor { display: block; }
+.cozinha .vapor svg { width: 100%; height: 100%; overflow: visible; }
+.cozinha .vapor .fio { opacity: 0; animation: cozinha-vapor 2.4s ease-in-out infinite; transform-box: fill-box; }
+.cozinha .vapor .f2 { animation-delay: 0.8s; }
+.cozinha .vapor .f3 { animation-delay: 1.6s; }
+.cozinha .panela.pronto .nome-prato { order: 2; }
+.cozinha.retrato .panela.pronto .nome-prato { order: 0; }
+
+/* Tabuleiro dos ingredientes*/
+.cozinha .tabuleiro {
+  display: grid;
+  gap: 1.8vmin;
+  place-content: center;
+  min-height: 0;
+  transition: opacity 0.6s ease;
+}
+.cozinha .tabuleiro.arrumado { opacity: 0; pointer-events: none; }
+.cozinha .ingrediente {
+  width: var(--lado);
+  height: var(--lado);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  background: var(--branco);
+  box-shadow: var(--sombra);
+  padding: 0.6vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4vmin;
+  font: inherit;
+  color: var(--texto);
+}
+.cozinha .ingrediente img { width: 66%; height: 66%; object-fit: contain; }
+.cozinha .ingrediente span { font-size: calc(var(--lado) * 0.13); line-height: 1; font-weight: 800; white-space: nowrap; }
+.cozinha .ingrediente:active { transform: translateY(0.8vmin); box-shadow: 0 0.4vmin 0 rgba(0,0,0,.35); }
+.cozinha .ingrediente.usado { visibility: hidden; }
+.cozinha .ingrediente.abana { animation: cozinha-abana 0.5s ease; background: #ffe0e0; }
+.cozinha .ingrediente.pista { animation: pisca 0.6s ease 4; background: #fff3c4; }
+
+.voo-ingrediente { position: absolute; z-index: 15; pointer-events: none; object-fit: contain; }
+
+/* Níveis de quantidades: "4 batatas" pode ocupar duas linhas; um emblema com a conta em cima da imagem.*/
+.cozinha.qtd .linha-receita .nome { white-space: normal; overflow: visible; }
+.cozinha .ingrediente { position: relative; }
+.cozinha .ingrediente .conta {
+  position: absolute;
+  top: -1.2vmin;
+  right: -1.2vmin;
+  min-width: calc(var(--lado) * 0.3);
+  height: calc(var(--lado) * 0.3);
+  border-radius: 999px;
+  background: var(--verde);
+  color: var(--branco);
+  border: 3px solid var(--linha);
+  display: grid;
+  place-items: center;
+  font-family: var(--digitos);
+  font-size: calc(var(--lado) * 0.2);
+  font-weight: 900;
+  animation: aparece 0.3s ease;
+}
+
+/* Dois pratos ao mesmo tempo: dois cartões, duas panelas, um tabuleiro.*/
+.cozinha.dois.paisagem { grid-template-columns: minmax(0, 26%) minmax(0, 20%) minmax(0, 1fr); }
+.cozinha.dois.retrato { grid-template-rows: minmax(0, 30%) minmax(0, 22%) minmax(0, 1fr); }
+.cozinha.dois .cartoes, .cozinha.dois .panelas { display: flex; flex-direction: column; gap: 2vmin; min-height: 0; min-width: 0; }
+.cozinha.dois.retrato .cartoes, .cozinha.dois.retrato .panelas { flex-direction: row; }
+.cozinha.dois .cartoes .receita { flex: 1; min-height: 0; min-width: 0; grid-template-columns: minmax(0, 1fr); grid-template-rows: repeat(var(--linhas), minmax(0, 1fr)); background-image: none; padding: 0.8vmin 1.2vmin; gap: 0.3vmin; }
+.cozinha.dois .cartoes .linha-receita { font-size: min(3.4vmin, 22px); flex-direction: row; text-align: left; padding: 0 0.8vmin; justify-content: flex-start; }
+.cozinha.dois .cartoes .linha-receita img { height: min(100%, 6vmin); }
+.cozinha.dois .cartoes .linha-receita.posto::after { top: 50%; transform: translateY(-50%); font-size: 4vmin; }
+.cozinha .titulo-receita { font-weight: 800; font-size: min(3.6vmin, 24px); line-height: 1.1; align-self: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cozinha .receita.cor1 { border-left: 2vmin solid var(--laranja); }
+.cozinha .receita.cor2 { border-left: 2vmin solid var(--azul); }
+.cozinha.dois .panela {
+  flex: 1;
+  min-height: 113px;
+  min-width: 113px;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  background: var(--branco);
+  box-shadow: var(--sombra);
+  padding: 1vmin;
+  gap: 0.8vmin;
+  cursor: pointer;
+  overflow: hidden;
+}
+.cozinha.dois.retrato .panela { flex-direction: column; }
+.cozinha.dois .panela .nome-prato { font-size: min(3.4vmin, 22px); padding: 0.6vmin 1.4vmin; }
+.cozinha.dois .panela.cor2 .nome-prato { background: #8fc2ff; }
+.cozinha.dois .panela.pronto .nome-prato { order: 0; }
+.cozinha.dois .fundo-panela, .cozinha.dois.retrato .fundo-panela { flex: 1; min-height: 0; width: 100%; height: auto; position: relative; display: block; max-width: none; }
+.cozinha.dois .fundo-panela img { position: absolute; inset: 0; width: 100%; height: 100%; max-height: none; object-fit: contain; }
+.cozinha.dois .panela.pista { animation: pisca 0.6s ease 4; background: #fff3c4; }
+.cozinha.dois .panela.abana { animation: cozinha-abana 0.5s ease; background: #ffe0e0; }
+.cozinha .ingrediente.escolhido { background: #ffe8a3; transform: translateY(-1.5vmin); box-shadow: 0 2.4vmin 0 rgba(0,0,0,.3); outline: 1vmin solid var(--amarelo); }
+
+/* Os passos como frases*/
+.cozinha.etapas .linha-receita.etapa { font-size: min(3vmin, 19px); line-height: 1.1; }
+.cozinha.etapas .linha-receita.etapa .nome { white-space: normal; overflow: hidden; }
+.cozinha.etapas.retrato .receita { grid-template-columns: minmax(0, 1fr); grid-template-rows: repeat(var(--linhas), minmax(0, 1fr)); }
+.cozinha.etapas.retrato .linha-receita.etapa { flex-direction: row; text-align: left; font-size: 3vmin; padding: 0.4vmin 0.8vmin; }
+.cozinha.etapas.retrato .linha-receita.posto::after { top: 50%; transform: translateY(-50%); }
+.cozinha .ingrediente.etapa {
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1.5vmin;
+  padding: 1vmin 1.5vmin;
+  text-align: left;
+}
+.cozinha .ingrediente.etapa img { width: auto; height: min(60%, 11vmin); aspect-ratio: 1; flex: none; }
+.cozinha .ingrediente.etapa span { font-size: min(3.6vmin, 24px); line-height: 1.15; white-space: normal; font-weight: 800; }
+
+@keyframes cozinha-recebe { 0%,100% { transform: scale(1); } 30% { transform: scale(1.08, 0.92); } 60% { transform: scale(0.96, 1.05); } }
+@keyframes cozinha-abana { 0%,100% { transform: translateX(0); } 20% { transform: translateX(-2vmin); } 40% { transform: translateX(2vmin); } 60% { transform: translateX(-1.2vmin); } 80% { transform: translateX(1.2vmin); } }
+@keyframes cozinha-vapor { 0% { transform: translateY(25%); opacity: 0; } 35% { opacity: 1; } 100% { transform: translateY(-30%); opacity: 0; } }
+
+/* Barra de progresso e emblema de série*/
+.cozinha-barra {
+  position: absolute;
+  left: 3vmin;
+  right: 3vmin;
+  bottom: 0.6vmin;
+  height: 1.6vmin;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  pointer-events: none;
+}
+.cozinha-barra i { display: block; height: 100%; width: 0; background: var(--verde); border-radius: 999px; transition: width 0.6s ease; }
+.cozinha-selo {
+  position: absolute;
+  right: 4vmin;
+  bottom: 4vmin;
+  z-index: 20;
+  background: var(--amarelo);
+  border: var(--borda) solid var(--linha);
+  border-radius: 999px;
+  padding: 1vmin 2.5vmin;
+  font-weight: 900;
+  font-size: 4vmin;
+  opacity: 0;
+  pointer-events: none;
+}
+.cozinha-selo.mostra { animation: cozinha-selo 2s ease; }
+@keyframes cozinha-selo { 0% { opacity: 0; transform: scale(0.4); } 15% { opacity: 1; transform: scale(1.1); } 25% { transform: scale(1); } 80% { opacity: 1; } 100% { opacity: 0; } }

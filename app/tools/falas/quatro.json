@@ -1,0 +1,72 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "No Quatro em linha, jogas contra o avô e fazes quatro discos seguidos."
+  ],
+  [
+   "comecar",
+   "Vamos jogar ao quatro em linha! Tu és o vermelho, o avô é o amarelo."
+  ],
+  [
+   "instrucao",
+   "Toca numa coluna e o disco cai. Faz quatro seguidos!"
+  ],
+  [
+   "direcoes",
+   "Vale ao comprido, ao alto ou na diagonal."
+  ],
+  [
+   "comecas",
+   "Começas tu."
+  ],
+  [
+   "comeca_avo",
+   "Agora começa o avô."
+  ],
+  [
+   "cheia",
+   "Essa coluna já está cheia."
+  ],
+  [
+   "cuidado",
+   "Cuidado! O avô quase tem quatro."
+  ],
+  [
+   "defesa",
+   "Boa defesa!"
+  ],
+  [
+   "ganhaste",
+   "Quatro em linha! Ganhaste este jogo!"
+  ],
+  [
+   "avo_ganhou",
+   "O avô fez quatro. Para a próxima é a tua!"
+  ],
+  [
+   "empate",
+   "Empate! O tabuleiro encheu."
+  ],
+  [
+   "proximo",
+   "Vamos ao próximo jogo."
+  ],
+  [
+   "partida_tu",
+   "Ganhaste a partida! És {uma campeã|um campeão}!"
+  ],
+  [
+   "partida_avo",
+   "O avô ganhou a partida, mas jogaste muito bem!"
+  ],
+  [
+   "partida_empate",
+   "A partida ficou empatada. Que bem jogaste!"
+  ],
+  [
+   "recorde",
+   "Mais vitórias do que da última vez!"
+  ]
+ ]
+}

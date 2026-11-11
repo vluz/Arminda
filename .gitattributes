@@ -1,0 +1,14 @@
+# Fins de linha iguais em todos os computadores (as ferramentas contam com isso).
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Ficheiros que não são texto
+*.png binary
+*.jpg binary
+*.ico binary
+*.webp binary
+*.ogg binary
+*.mp3 binary
+*.woff2 binary
+*.jar binary

@@ -1,0 +1,37 @@
+# Servidor da família como quadlet do Podman (systemd), em vez de Docker Compose.
+# Copiar para ~/.config/containers/systemd/mae.container (utilizador sem root) e depois:
+#   podman build -t localhost/jogos-mae:latest <pasta servidor>
+#   loginctl enable-linger $USER      (uma vez: o serviço arranca com a máquina e não para ao sair da sessão)
+#   systemctl --user daemon-reload
+#   systemctl --user start mae
+# Não testámos este ficheiro num servidor real; segue a documentação do Podman (podman-systemd.unit).
+# O Caddy (ou outro proxy com HTTPS) corre à parte e envia para 127.0.0.1:8100; ver o Caddyfile
+# ao lado (troque "mae:8080" por "127.0.0.1:8100").
+[Unit]
+Description=Servidor da família dos jogos do tablet
+
+[Container]
+Image=localhost/jogos-mae:latest
+ContainerName=jogos-mae
+# Só a máquina local: o proxy chega aqui, mais ninguém.
+PublishPort=127.0.0.1:8100:8080
+Volume=mae-data:/data:Z,U
+User=65532:65532
+ReadOnly=true
+DropCapability=ALL
+NoNewPrivileges=true
+# SHA-256 do token do tablet (ferramentas/segredos.py).
+Environment=MAE_TOKEN_SHA256=TROQUE-PELO-SHA256-DO-TOKEN
+# Título do painel da família.
+Environment="MAE_TITULO=Jogos da Mãe"
+# Opcional: o painel ignora registos anteriores a esta data (Lisboa).
+# Environment=MAE_INICIO=2026-01-01
+PodmanArgs=--memory=256m --memory-swap=256m --pids-limit=64
+LogDriver=journald
+
+[Service]
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target

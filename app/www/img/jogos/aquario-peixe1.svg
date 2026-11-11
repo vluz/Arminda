@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Orange striped fish, facing right -->
+  <path d="M30 64 L6 40 Q2 64 6 88 Z" fill="#FF7A00" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M54 36 Q66 18 84 30 L78 40 Z" fill="#FF7A00" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M58 92 Q66 108 80 100 L76 88 Z" fill="#FF7A00" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="70" cy="64" rx="48" ry="30" fill="#FF8A1E" stroke="#1A1A1A" stroke-width="4"/>
+  <path d="M44 38 Q36 64 44 90 L56 92 Q48 64 56 36 Z" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M80 35 Q72 64 80 93 L90 90 Q84 64 90 38 Z" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="102" cy="56" r="8" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="3"/>
+  <circle cx="104" cy="56" r="4" fill="#1A1A1A"/>
+  <path d="M106 74 Q112 76 116 72" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"/>
+</svg>

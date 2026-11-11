@@ -1,0 +1,218 @@
+/* Gato aventureiro: o tabuleiro (passeios, estrada, ribeiro, casa) e os botões de seta.*/
+.gt-cena {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gt-cena.em-pe { flex-direction: column; }
+
+.gt-tabuleiro {
+  position: relative;
+  flex: none;
+  overflow: hidden;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  box-sizing: content-box;
+  background: #7cc47a;
+}
+.gt-mundo {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: transform 0.45s ease-in-out;
+}
+
+.gt-faixa {
+  position: absolute;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+/* Calçada portuguesa: pedras brancas com ondas escuras.*/
+.gt-inicio, .gt-passeio {
+  background:
+    radial-gradient(circle at 50% 0, transparent 38%, #555 40% 46%, transparent 48%) 0 0 / 6vmin 3vmin,
+    #ece6d6;
+  border-top: max(4px, 0.7vmin) solid #9a9384;
+  border-bottom: max(4px, 0.7vmin) solid #9a9384;
+  box-sizing: border-box;
+}
+.gt-estrada {
+  background:
+    linear-gradient(90deg, #fff 50%, transparent 50%) 0 calc(100% + 0.4vmin) / 6vmin 0.8vmin repeat-x,
+    #4a4f57;
+}
+.gt-rio {
+  background:
+    radial-gradient(ellipse at 50% 100%, transparent 50%, rgba(255,255,255,.55) 52% 60%, transparent 62%) 0 30% / 7vmin 2.5vmin repeat-x,
+    radial-gradient(ellipse at 50% 100%, transparent 50%, rgba(255,255,255,.4) 52% 60%, transparent 62%) 3.5vmin 75% / 7vmin 2.5vmin repeat-x,
+    #2d8ad8;
+}
+.gt-casa {
+  background:
+    radial-gradient(circle, #fff 18%, transparent 22%) 0 0 / 5vmin 5vmin,
+    #7cc47a;
+}
+.gt-cesto { position: absolute; bottom: 4%; transition: transform 0.3s; }
+.gt-cesto.feliz { animation: salta 0.6s ease 2; }
+.gt-flor { position: absolute; bottom: 8%; height: auto; }
+
+.gt-carro, .gt-tronco {
+  position: absolute;
+  left: 0;
+  top: 0;
+  will-change: transform;
+}
+.gt-carro img { width: 100%; height: 100%; object-fit: contain; padding: 4%; box-sizing: border-box; }
+.gt-carro img.dir { transform: scaleX(-1); }
+
+.gt-tronco i {
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  top: 18%;
+  bottom: 18%;
+  border: max(4px, 0.7vmin) solid var(--linha);
+  border-radius: 999px;
+  background:
+    repeating-linear-gradient(90deg, transparent 0 22%, rgba(0,0,0,.18) 22% 24%),
+    linear-gradient(#b5793f, #8a5427);
+  transition: transform 0.6s, opacity 0.6s;
+}
+.gt-tronco.aviso i { animation: gt-boia 0.4s ease-in-out infinite; }
+.gt-tronco.fundo i { transform: scale(0.9, 0.5); opacity: 0.25; }
+
+/* Tartarugas em fila: balançam como aviso, depois mergulham e voltam a subir.*/
+.gt-tartarugas { display: flex; }
+.gt-tartarugas img {
+  flex: none;
+  object-fit: contain;
+  padding: 6%;
+  box-sizing: border-box;
+  transition: transform 0.6s, opacity 0.6s;
+}
+.gt-tartarugas img.dir { transform: scaleX(-1); }
+.gt-tartarugas.aviso img { animation: gt-boia 0.4s ease-in-out infinite; }
+.gt-tartarugas.fundo img { opacity: 0.25; transform: scale(0.8, 0.5); }
+
+/* Barra de progresso ao longo do cimo do tabuleiro: um passo por travessia até casa.*/
+.gt-progresso {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: max(8px, 1.4vmin);
+  z-index: 7;
+  background: rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+}
+.gt-progresso i {
+  position: absolute;
+  inset: 0;
+  background: var(--amarelo);
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition: transform 0.6s ease;
+}
+
+/* Trator e bicicleta*/
+.gt-trator img { padding: 2%; }
+
+/* O peixinho para apanhar no caminho*/
+.gt-peixe {
+  position: absolute;
+  top: 22%;
+  z-index: 1;
+  object-fit: contain;
+  filter: drop-shadow(0 0 0.8vmin #fff) drop-shadow(0 0.4vmin 0 rgba(0,0,0,.3));
+  animation: gt-boia 0.9s ease-in-out infinite;
+  pointer-events: none;
+}
+.gt-peixe.apanhado { animation: gt-peixe-voa 0.7s ease-in forwards; }
+@keyframes gt-peixe-voa { to { transform: translateY(-120%) scale(1.6); opacity: 0; } }
+
+.gt-gato {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 5;
+  pointer-events: none;
+  will-change: transform;
+}
+.gt-gato.aparece { animation: gt-aparece 0.5s ease; }
+.gt-corpo { width: 100%; height: 100%; transform: scaleX(var(--o, 1)); }
+.gt-corpo.vira { --o: -1; }
+.gt-corpo.tonto { animation: gt-abana 0.25s ease-in-out 4; }
+.gt-corpo.molhado { animation: gt-sacode 0.18s ease-in-out 6; filter: saturate(0.6) brightness(1.1); }
+.gt-sprite {
+  width: 90%;
+  height: 90%;
+  margin: 5%;
+  object-fit: contain;
+  filter: drop-shadow(0 0.6vmin 0 rgba(0,0,0,.3));
+}
+.gt-sprite.salta { animation: gt-salta 0.23s ease-out; }
+.gt-sprite.dorme { animation: salta 0.6s ease 2; }
+
+.gt-efeito {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 6;
+  pointer-events: none;
+}
+.gt-efeito.carro { animation: gt-puf 1.2s ease-out forwards; }
+.gt-efeito.agua { animation: gt-splash 1.2s ease-out forwards; }
+
+/* Botões de seta*/
+.gt-pad { display: flex; flex: none; }
+.gt-pad.deitado { flex-direction: column; }
+.gt-lados { display: flex; }
+.gt-botao {
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  background: var(--verde);
+  box-shadow: var(--sombra);
+  touch-action: manipulation;
+}
+.gt-botao svg { width: 70%; height: 70%; max-width: 150px; }
+.gt-botao.cima { background: var(--azul); }
+.gt-botao.esq svg { transform: rotate(-90deg); }
+.gt-botao.dir svg { transform: rotate(90deg); }
+.gt-botao:active { transform: translateY(0.8vmin); box-shadow: 0 0.4vmin 0 rgba(0,0,0,.35); }
+.gt-botao.carrega svg { animation: gt-carrega 0.2s ease; }
+.gt-pad.convida .gt-botao.cima { animation: salta 0.7s ease 3; }
+
+@keyframes gt-salta {
+  0% { transform: translateY(0) scale(1, 1); }
+  20% { transform: translateY(0) scale(1.1, 0.85); }
+  55% { transform: translateY(-22%) scale(0.92, 1.1); }
+  100% { transform: translateY(0) scale(1, 1); }
+}
+@keyframes gt-abana {
+  0%, 100% { transform: scaleX(var(--o, 1)) rotate(0); }
+  25% { transform: scaleX(var(--o, 1)) rotate(-16deg); }
+  75% { transform: scaleX(var(--o, 1)) rotate(16deg); }
+}
+@keyframes gt-sacode {
+  0%, 100% { transform: scaleX(var(--o, 1)) translateX(0); }
+  50% { transform: scaleX(var(--o, 1)) translateX(8%); }
+}
+@keyframes gt-puf {
+  0% { opacity: 0; scale: 0.4; }
+  20% { opacity: 1; scale: 1.2; }
+  100% { opacity: 0; scale: 1.6; }
+}
+@keyframes gt-splash {
+  0% { opacity: 0; scale: 0.3; }
+  20% { opacity: 1; scale: 1.3; }
+  100% { opacity: 0; scale: 1.1; }
+}
+@keyframes gt-boia { 0%, 100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(6%) rotate(-2deg); } }
+@keyframes gt-aparece { 0% { opacity: 0; } 100% { opacity: 1; } }
+@keyframes gt-carrega { 50% { scale: 0.85; } }

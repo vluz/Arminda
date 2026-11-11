@@ -1,0 +1,128 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "No Dominó, juntas as peças pelos números iguais."
+  ],
+  [
+   "comecar",
+   "Vamos jogar ao dominó!"
+  ],
+  [
+   "instrucao",
+   "Toca numa peça com um número igual a uma das pontas."
+  ],
+  [
+   "brilham",
+   "As peças que servem estão a brilhar."
+  ],
+  [
+   "comecas",
+   "Começas tu. Toca numa peça."
+  ],
+  [
+   "comeca_joaquim",
+   "Começa o Joaquim."
+  ],
+  [
+   "comeca_rosa",
+   "Começa a Rosa."
+  ],
+  [
+   "tua_vez",
+   "É a tua vez."
+  ],
+  [
+   "duas_pontas",
+   "Serve nas duas pontas. Toca na ponta que quiseres."
+  ],
+  [
+   "nao_serve",
+   "Essa não serve."
+  ],
+  [
+   "procura",
+   "Procura o"
+  ],
+  [
+   "ou",
+   "ou o"
+  ],
+  [
+   "n0",
+   "branco"
+  ],
+  [
+   "n1",
+   "um"
+  ],
+  [
+   "n2",
+   "dois"
+  ],
+  [
+   "n3",
+   "três"
+  ],
+  [
+   "n4",
+   "quatro"
+  ],
+  [
+   "n5",
+   "cinco"
+  ],
+  [
+   "n6",
+   "seis"
+  ],
+  [
+   "compra",
+   "Não tens peça que sirva. Vais buscar ao monte."
+  ],
+  [
+   "passas",
+   "Não tens peça que sirva. Passas a vez."
+  ],
+  [
+   "joaquim_compra",
+   "O Joaquim foi ao monte."
+  ],
+  [
+   "rosa_compra",
+   "A Rosa foi ao monte."
+  ],
+  [
+   "joaquim_passa",
+   "O Joaquim passa."
+  ],
+  [
+   "rosa_passa",
+   "A Rosa passa."
+  ],
+  [
+   "ultima",
+   "Só te falta uma peça!"
+  ],
+  [
+   "ganhaste",
+   "Dominó! Acabaste as peças. Ganhaste!"
+  ],
+  [
+   "ganhou_joaquim",
+   "O Joaquim ganhou desta vez. Jogaste muito bem!"
+  ],
+  [
+   "ganhou_rosa",
+   "A Rosa ganhou desta vez. Jogaste muito bem!"
+  ],
+  [
+   "fechado",
+   "O jogo fechou. Ganha quem tem menos pontos."
+  ],
+  [
+   "fechado_tu",
+   "Tens menos pontos. Ganhaste!"
+  ]
+ ]
+}

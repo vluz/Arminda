@@ -1,0 +1,80 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "No puzzle, trocas as peças até a imagem ficar certa."
+  ],
+  [
+   "instrucao",
+   "Toca em duas peças para as trocar."
+  ],
+  [
+   "foto",
+   "Olha, uma fotografia da família!"
+  ],
+  [
+   "certa",
+   "Esta já está no sítio certo!"
+  ],
+  [
+   "falta_pouco",
+   "Já falta pouco!"
+  ],
+  [
+   "pista",
+   "Experimenta trocar estas duas."
+  ],
+  [
+   "olha",
+   "Olha bem para a imagem pequenina."
+  ],
+  [
+   "feito",
+   "A imagem está completa!"
+  ],
+  [
+   "foto_bonita",
+   "Que fotografia tão bonita!"
+  ],
+  [
+   "eletrico",
+   "O elétrico de Lisboa!"
+  ],
+  [
+   "jardim",
+   "Um jardim cheio de flores!"
+  ],
+  [
+   "azulejos",
+   "Uma janela com azulejos!"
+  ],
+  [
+   "praia",
+   "Sardinhas na praia!"
+  ],
+  [
+   "cozinha",
+   "Uma cozinha portuguesa!"
+  ],
+  [
+   "viradas",
+   "Algumas peças estão de lado ou de pernas para o ar."
+  ],
+  [
+   "rodar",
+   "Esta já está no sítio, mas virada. Toca nela para a rodar."
+  ],
+  [
+   "serie_3",
+   "Três seguidas no sítio certo!"
+  ],
+  [
+   "serie_6",
+   "Seis seguidas! Que olho!"
+  ],
+  [
+   "melhor",
+   "Hoje foste mais rápida do que da última vez!"
+  ]
+ ]
+}

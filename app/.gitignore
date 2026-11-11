@@ -1,0 +1,18 @@
+node_modules/
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/app/src/main/assets/public/
+test-shots/
+www-build/
+
+# A voz do computador e as gravações da família: feitas por cada família, nunca partilhadas
+www/voz/tts/*
+!www/voz/tts/.gitkeep
+www/voz/familia/*
+!www/voz/familia/.gitkeep
+
+# Conteúdos de teste no browser (cópia de media/): só fica a configuração de teste
+www/media-teste/*
+!www/media-teste/config.json

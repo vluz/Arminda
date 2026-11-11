@@ -1,0 +1,76 @@
+/* Labirinto: a barra de cima do costume (com uma pequena caixa de pontuação), e o labirinto enche o resto.*/
+
+.lab-marcador {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1vmin;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  padding: 1vmin 1.5vmin;
+}
+.lab-peixes { display: flex; gap: 0.8vmin; }
+.lab-peixes img { width: 6vmin; height: 6vmin; filter: grayscale(1) opacity(0.35); transition: filter 0.4s ease; }
+.lab-peixes img.feito { filter: none; animation: salta 0.6s ease; }
+.lab-estrelas { display: flex; align-items: center; gap: 1vmin; }
+.lab-estrelas img { width: 6vmin; height: 6vmin; }
+.lab-estrelas b { font-family: var(--digitos); font-size: 5.5vmin; font-weight: 800; }
+.lab-estrelas.viva { animation: salta 0.6s ease; }
+
+.lab-mesa {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+.lab-area {
+  position: relative;
+  background: #fff1d6;
+  border-radius: 1vmin;
+  box-shadow: var(--sombra);
+  touch-action: none;
+}
+.lab-area.entra { animation: aparece 0.4s ease; }
+.lab-paredes {
+  position: absolute;
+  left: calc(-1 * var(--parede));
+  top: calc(-1 * var(--parede));
+  pointer-events: none;
+}
+.lab-paredes svg { display: block; }
+
+.lab-item, .lab-bola, .lab-rasto, .lab-pista {
+  position: absolute;
+  pointer-events: none;
+}
+.lab-bola { left: 0; top: 0; }
+.lab-alvo { animation: baloica 2.4s ease-in-out infinite; }
+.lab-estrela { animation: pisca 1.6s ease infinite; }
+.lab-item.apanhado { opacity: 0; animation: apanha 0.45s ease forwards; }
+.lab-bola {
+  z-index: 3;
+  filter: drop-shadow(0 0.6vmin 0 rgba(0, 0, 0, 0.3));
+  will-change: transform;
+}
+.lab-bola.convida { animation: chama 0.9s ease 3; }
+.lab-bola.agarrada { filter: drop-shadow(0 0 0.8vmin var(--amarelo)) drop-shadow(0 1vmin 0 rgba(0, 0, 0, 0.3)); }
+.lab-bola.chegou { animation: festa-gato 1s ease; }
+.lab-rasto {
+  border-radius: 50%;
+  background: #e8c98f;
+  opacity: 0.7;
+}
+.lab-pista {
+  z-index: 2;
+  border-radius: 50%;
+  background: var(--amarelo);
+  border: 3px solid var(--linha);
+  animation: aparece 0.4s ease both;
+}
+
+@keyframes apanha { 0% { opacity: 1; filter: brightness(1.4); } 100% { opacity: 0; filter: brightness(2); } }
+@keyframes chama { 0%, 100% { filter: drop-shadow(0 0 0 var(--amarelo)); } 50% { filter: drop-shadow(0 0 1.5vmin var(--laranja)) brightness(1.2); } }
+@keyframes festa-gato { 0%, 100% { opacity: 1; } 30% { opacity: 0.6; } 60% { opacity: 1; } }

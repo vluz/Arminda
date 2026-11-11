@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Quem é quem: a framed family portrait and a question mark. Our own drawing (CC0). -->
+  <rect x="10" y="8" width="84" height="104" rx="8" fill="#b5651d" stroke="#111111" stroke-width="5"/>
+  <rect x="20" y="18" width="64" height="84" rx="4" fill="#bfe3ff" stroke="#111111" stroke-width="4"/>
+  <path d="M24 100 C26 80 38 72 52 72 C66 72 78 80 80 100 Z" fill="#e63946" stroke="#111111" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="52" cy="52" r="15" fill="#ffd6a5" stroke="#111111" stroke-width="4"/>
+  <path d="M37 50 C37 36 67 34 67 50 C62 44 44 43 37 50 Z" fill="#6b3e1f" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="98" cy="88" r="25" fill="#ffb703" stroke="#111111" stroke-width="5"/>
+  <path d="M89 81 C89 70 108 70 108 80 C108 87 99 87 99 94" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="99" cy="103" r="3.6" fill="#111111"/>
+</svg>

@@ -1,0 +1,224 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Na Bisca, jogas às cartas com a Rosa."
+  ],
+  [
+   "comecar",
+   "Vamos jogar à bisca com a Rosa!"
+  ],
+  [
+   "trunfo_copas",
+   "O trunfo é copas!"
+  ],
+  [
+   "trunfo_ouros",
+   "O trunfo é ouros!"
+  ],
+  [
+   "trunfo_espadas",
+   "O trunfo é espadas!"
+  ],
+  [
+   "trunfo_paus",
+   "O trunfo é paus!"
+  ],
+  [
+   "instrucao_pista",
+   "Toca numa carta para a jogares. A carta que brilha é boa ideia."
+  ],
+  [
+   "instrucao",
+   "Toca numa carta para a jogares."
+  ],
+  [
+   "vaza_tua",
+   "Esta é tua!"
+  ],
+  [
+   "vaza_rosa",
+   "Esta é da Rosa."
+  ],
+  [
+   "acabou_baralho",
+   "Acabou o baralho. Agora jogas as cartas que tens."
+  ],
+  [
+   "fim_ganhaste",
+   "Ganhaste a bisca! Que bem jogaste!"
+  ],
+  [
+   "fim_empate",
+   "Empate! Sessenta pontos para cada uma."
+  ],
+  [
+   "fim_rosa",
+   "Desta vez ganhou a Rosa. Foi um jogo muito bonito!"
+  ],
+  [
+   "fim_obrigada",
+   "A Rosa agradece o jogo!"
+  ],
+  [
+   "copas_as",
+   "Ás de copas!"
+  ],
+  [
+   "copas_dois",
+   "Dois de copas!"
+  ],
+  [
+   "copas_tres",
+   "Três de copas!"
+  ],
+  [
+   "copas_quatro",
+   "Quatro de copas!"
+  ],
+  [
+   "copas_cinco",
+   "Cinco de copas!"
+  ],
+  [
+   "copas_seis",
+   "Seis de copas!"
+  ],
+  [
+   "copas_sete",
+   "Sete de copas!"
+  ],
+  [
+   "copas_valete",
+   "Valete de copas!"
+  ],
+  [
+   "copas_dama",
+   "Dama de copas!"
+  ],
+  [
+   "copas_rei",
+   "Rei de copas!"
+  ],
+  [
+   "ouros_as",
+   "Ás de ouros!"
+  ],
+  [
+   "ouros_dois",
+   "Dois de ouros!"
+  ],
+  [
+   "ouros_tres",
+   "Três de ouros!"
+  ],
+  [
+   "ouros_quatro",
+   "Quatro de ouros!"
+  ],
+  [
+   "ouros_cinco",
+   "Cinco de ouros!"
+  ],
+  [
+   "ouros_seis",
+   "Seis de ouros!"
+  ],
+  [
+   "ouros_sete",
+   "Sete de ouros!"
+  ],
+  [
+   "ouros_valete",
+   "Valete de ouros!"
+  ],
+  [
+   "ouros_dama",
+   "Dama de ouros!"
+  ],
+  [
+   "ouros_rei",
+   "Rei de ouros!"
+  ],
+  [
+   "espadas_as",
+   "Ás de espadas!"
+  ],
+  [
+   "espadas_dois",
+   "Dois de espadas!"
+  ],
+  [
+   "espadas_tres",
+   "Três de espadas!"
+  ],
+  [
+   "espadas_quatro",
+   "Quatro de espadas!"
+  ],
+  [
+   "espadas_cinco",
+   "Cinco de espadas!"
+  ],
+  [
+   "espadas_seis",
+   "Seis de espadas!"
+  ],
+  [
+   "espadas_sete",
+   "Sete de espadas!"
+  ],
+  [
+   "espadas_valete",
+   "Valete de espadas!"
+  ],
+  [
+   "espadas_dama",
+   "Dama de espadas!"
+  ],
+  [
+   "espadas_rei",
+   "Rei de espadas!"
+  ],
+  [
+   "paus_as",
+   "Ás de paus!"
+  ],
+  [
+   "paus_dois",
+   "Dois de paus!"
+  ],
+  [
+   "paus_tres",
+   "Três de paus!"
+  ],
+  [
+   "paus_quatro",
+   "Quatro de paus!"
+  ],
+  [
+   "paus_cinco",
+   "Cinco de paus!"
+  ],
+  [
+   "paus_seis",
+   "Seis de paus!"
+  ],
+  [
+   "paus_sete",
+   "Sete de paus!"
+  ],
+  [
+   "paus_valete",
+   "Valete de paus!"
+  ],
+  [
+   "paus_dama",
+   "Dama de paus!"
+  ],
+  [
+   "paus_rei",
+   "Rei de paus!"
+  ]
+ ]
+}

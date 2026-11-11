@@ -1,0 +1,872 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Nos Ditados, ouves o começo de um ditado antigo e escolhes como acaba."
+  ],
+  [
+   "instrucao",
+   "Ouve o ditado e escolhe a palavra que falta."
+  ],
+  [
+   "instrucao_figura",
+   "Ouve o ditado e toca no desenho certo."
+  ],
+  [
+   "instrucao_meio",
+   "Agora falta uma palavra no meio. Qual é?"
+  ],
+  [
+   "instrucao_fim",
+   "Agora escolhe o fim do ditado."
+  ],
+  [
+   "ajuda",
+   "Vou ajudar-te. Tirei uma que não era."
+  ],
+  [
+   "todos",
+   "Que bem que sabes os ditados!"
+  ],
+  [
+   "d001_inicio",
+   "Água mole em pedra dura…"
+  ],
+  [
+   "d001_completo",
+   "Água mole em pedra dura, tanto bate até que fura."
+  ],
+  [
+   "d002_inicio",
+   "Grão a grão…"
+  ],
+  [
+   "d002_completo",
+   "Grão a grão enche a galinha o papo."
+  ],
+  [
+   "d003_inicio",
+   "Quem espera…"
+  ],
+  [
+   "d003_completo",
+   "Quem espera sempre alcança."
+  ],
+  [
+   "d004_inicio",
+   "Mais vale um pássaro na mão…"
+  ],
+  [
+   "d004_completo",
+   "Mais vale um pássaro na mão do que dois a voar."
+  ],
+  [
+   "d005_inicio",
+   "Quem não tem cão…"
+  ],
+  [
+   "d005_completo",
+   "Quem não tem cão caça com gato."
+  ],
+  [
+   "d006_inicio",
+   "Em casa de ferreiro…"
+  ],
+  [
+   "d006_completo",
+   "Em casa de ferreiro, espeto de pau."
+  ],
+  [
+   "d007_inicio",
+   "Filho de peixe…"
+  ],
+  [
+   "d007_completo",
+   "Filho de peixe sabe nadar."
+  ],
+  [
+   "d008_inicio",
+   "Cão que ladra…"
+  ],
+  [
+   "d008_completo",
+   "Cão que ladra não morde."
+  ],
+  [
+   "d009_inicio",
+   "Quem vê caras…"
+  ],
+  [
+   "d009_completo",
+   "Quem vê caras não vê corações."
+  ],
+  [
+   "d010_inicio",
+   "Devagar…"
+  ],
+  [
+   "d010_completo",
+   "Devagar se vai ao longe."
+  ],
+  [
+   "d011_inicio",
+   "Mais vale tarde…"
+  ],
+  [
+   "d011_completo",
+   "Mais vale tarde do que nunca."
+  ],
+  [
+   "d012_inicio",
+   "Diz-me com quem andas…"
+  ],
+  [
+   "d012_completo",
+   "Diz-me com quem andas, dir-te-ei quem és."
+  ],
+  [
+   "d013_inicio",
+   "De pequenino…"
+  ],
+  [
+   "d013_completo",
+   "De pequenino se torce o pepino."
+  ],
+  [
+   "d014_inicio",
+   "Quem conta um conto…"
+  ],
+  [
+   "d014_completo",
+   "Quem conta um conto acrescenta um ponto."
+  ],
+  [
+   "d015_inicio",
+   "Não há fumo…"
+  ],
+  [
+   "d015_completo",
+   "Não há fumo sem fogo."
+  ],
+  [
+   "d016_inicio",
+   "A cavalo dado…"
+  ],
+  [
+   "d016_completo",
+   "A cavalo dado, não se olha ao dente."
+  ],
+  [
+   "d017_inicio",
+   "Deus ajuda…"
+  ],
+  [
+   "d017_completo",
+   "Deus ajuda quem cedo madruga."
+  ],
+  [
+   "d018_inicio",
+   "Quem tudo quer…"
+  ],
+  [
+   "d018_completo",
+   "Quem tudo quer tudo perde."
+  ],
+  [
+   "d019_inicio",
+   "Uma andorinha só…"
+  ],
+  [
+   "d019_completo",
+   "Uma andorinha só não faz a primavera."
+  ],
+  [
+   "d020_inicio",
+   "Cada macaco…"
+  ],
+  [
+   "d020_completo",
+   "Cada macaco no seu galho."
+  ],
+  [
+   "d021_inicio",
+   "Quem semeia ventos…"
+  ],
+  [
+   "d021_completo",
+   "Quem semeia ventos colhe tempestades."
+  ],
+  [
+   "d022_inicio",
+   "Gato escaldado…"
+  ],
+  [
+   "d022_completo",
+   "Gato escaldado de água fria tem medo."
+  ],
+  [
+   "d023_inicio",
+   "Não deixes para amanhã…"
+  ],
+  [
+   "d023_completo",
+   "Não deixes para amanhã o que podes fazer hoje."
+  ],
+  [
+   "d024_inicio",
+   "Depressa e bem…"
+  ],
+  [
+   "d024_completo",
+   "Depressa e bem, há pouco quem."
+  ],
+  [
+   "d025_inicio",
+   "Casa roubada…"
+  ],
+  [
+   "d025_completo",
+   "Casa roubada, trancas à porta."
+  ],
+  [
+   "d026_inicio",
+   "Ladrão que rouba a ladrão…"
+  ],
+  [
+   "d026_completo",
+   "Ladrão que rouba a ladrão tem cem anos de perdão."
+  ],
+  [
+   "d027_inicio",
+   "O hábito…"
+  ],
+  [
+   "d027_completo",
+   "O hábito não faz o monge."
+  ],
+  [
+   "d028_inicio",
+   "Quem casa…"
+  ],
+  [
+   "d028_completo",
+   "Quem casa quer casa."
+  ],
+  [
+   "d029_inicio",
+   "Os olhos…"
+  ],
+  [
+   "d029_completo",
+   "Os olhos são o espelho da alma."
+  ],
+  [
+   "d030_inicio",
+   "Longe da vista…"
+  ],
+  [
+   "d030_completo",
+   "Longe da vista, longe do coração."
+  ],
+  [
+   "d031_inicio",
+   "Depois da tempestade…"
+  ],
+  [
+   "d031_completo",
+   "Depois da tempestade vem a bonança."
+  ],
+  [
+   "d032_inicio",
+   "Quem não arrisca…"
+  ],
+  [
+   "d032_completo",
+   "Quem não arrisca não petisca."
+  ],
+  [
+   "d033_inicio",
+   "Tantas vezes vai o cântaro à fonte…"
+  ],
+  [
+   "d033_completo",
+   "Tantas vezes vai o cântaro à fonte que lá deixa a asa."
+  ],
+  [
+   "d034_inicio",
+   "Quem anda à chuva…"
+  ],
+  [
+   "d034_completo",
+   "Quem anda à chuva molha-se."
+  ],
+  [
+   "d035_inicio",
+   "Em Abril…"
+  ],
+  [
+   "d035_completo",
+   "Em Abril, águas mil."
+  ],
+  [
+   "d036_inicio",
+   "No dia de São Martinho…"
+  ],
+  [
+   "d036_completo",
+   "No dia de São Martinho, vai à adega e prova o vinho."
+  ],
+  [
+   "d037_inicio",
+   "Mais vale só…"
+  ],
+  [
+   "d037_completo",
+   "Mais vale só do que mal acompanhado."
+  ],
+  [
+   "d038_inicio",
+   "O que os olhos não veem…"
+  ],
+  [
+   "d038_completo",
+   "O que os olhos não veem o coração não sente."
+  ],
+  [
+   "d039_inicio",
+   "Quem muito fala…"
+  ],
+  [
+   "d039_completo",
+   "Quem muito fala pouco acerta."
+  ],
+  [
+   "d040_inicio",
+   "Quem não deve…"
+  ],
+  [
+   "d040_completo",
+   "Quem não deve não teme."
+  ],
+  [
+   "d041_inicio",
+   "Roma e Pavia…"
+  ],
+  [
+   "d041_completo",
+   "Roma e Pavia não se fizeram num dia."
+  ],
+  [
+   "d042_inicio",
+   "Zangam-se as comadres…"
+  ],
+  [
+   "d042_completo",
+   "Zangam-se as comadres, descobrem-se as verdades."
+  ],
+  [
+   "d043_inicio",
+   "Quem cala…"
+  ],
+  [
+   "d043_completo",
+   "Quem cala consente."
+  ],
+  [
+   "d044_inicio",
+   "Tal pai…"
+  ],
+  [
+   "d044_completo",
+   "Tal pai, tal filho."
+  ],
+  [
+   "d045_inicio",
+   "Patrão fora…"
+  ],
+  [
+   "d045_completo",
+   "Patrão fora, dia santo na loja."
+  ],
+  [
+   "d046_inicio",
+   "Quem te avisa…"
+  ],
+  [
+   "d046_completo",
+   "Quem te avisa teu amigo é."
+  ],
+  [
+   "d047_inicio",
+   "Há males…"
+  ],
+  [
+   "d047_completo",
+   "Há males que vêm por bem."
+  ],
+  [
+   "d048_inicio",
+   "Nem tudo o que reluz…"
+  ],
+  [
+   "d048_completo",
+   "Nem tudo o que reluz é ouro."
+  ],
+  [
+   "d049_inicio",
+   "De noite…"
+  ],
+  [
+   "d049_completo",
+   "De noite todos os gatos são pardos."
+  ],
+  [
+   "d050_inicio",
+   "Águas passadas…"
+  ],
+  [
+   "d050_completo",
+   "Águas passadas não movem moinhos."
+  ],
+  [
+   "d051_inicio",
+   "Tristezas…"
+  ],
+  [
+   "d051_completo",
+   "Tristezas não pagam dívidas."
+  ],
+  [
+   "d052_inicio",
+   "Quem boa cama fizer…"
+  ],
+  [
+   "d052_completo",
+   "Quem boa cama fizer nela se deitará."
+  ],
+  [
+   "d053_inicio",
+   "Querer…"
+  ],
+  [
+   "d053_completo",
+   "Querer é poder."
+  ],
+  [
+   "d054_inicio",
+   "A união…"
+  ],
+  [
+   "d054_completo",
+   "A união faz a força."
+  ],
+  [
+   "d055_inicio",
+   "Amigos, amigos…"
+  ],
+  [
+   "d055_completo",
+   "Amigos, amigos, negócios à parte."
+  ],
+  [
+   "d056_inicio",
+   "Quem tem boca…"
+  ],
+  [
+   "d056_completo",
+   "Quem tem boca vai a Roma."
+  ],
+  [
+   "d057_inicio",
+   "Cesteiro que faz um cesto…"
+  ],
+  [
+   "d057_completo",
+   "Cesteiro que faz um cesto faz um cento."
+  ],
+  [
+   "d058_inicio",
+   "Com papas e bolos…"
+  ],
+  [
+   "d058_completo",
+   "Com papas e bolos se enganam os tolos."
+  ],
+  [
+   "d059_inicio",
+   "Quem sai aos seus…"
+  ],
+  [
+   "d059_completo",
+   "Quem sai aos seus não degenera."
+  ],
+  [
+   "d060_inicio",
+   "Vozes de burro…"
+  ],
+  [
+   "d060_completo",
+   "Vozes de burro não chegam ao céu."
+  ],
+  [
+   "d061_inicio",
+   "Cada cabeça…"
+  ],
+  [
+   "d061_completo",
+   "Cada cabeça, cada sentença."
+  ],
+  [
+   "d062_inicio",
+   "Quem desdenha…"
+  ],
+  [
+   "d062_completo",
+   "Quem desdenha quer comprar."
+  ],
+  [
+   "d063_inicio",
+   "Nem tanto ao mar…"
+  ],
+  [
+   "d063_completo",
+   "Nem tanto ao mar, nem tanto à terra."
+  ],
+  [
+   "d064_inicio",
+   "A noite…"
+  ],
+  [
+   "d064_completo",
+   "A noite é boa conselheira."
+  ],
+  [
+   "d065_inicio",
+   "Gaivotas em terra…"
+  ],
+  [
+   "d065_completo",
+   "Gaivotas em terra, tempestade no mar."
+  ],
+  [
+   "d066_inicio",
+   "Há mais marés…"
+  ],
+  [
+   "d066_completo",
+   "Há mais marés que marinheiros."
+  ],
+  [
+   "d067_inicio",
+   "Para bom entendedor…"
+  ],
+  [
+   "d067_completo",
+   "Para bom entendedor, meia palavra basta."
+  ],
+  [
+   "d068_inicio",
+   "Uma mão…"
+  ],
+  [
+   "d068_completo",
+   "Uma mão lava a outra."
+  ],
+  [
+   "d069_inicio",
+   "Não há bela…"
+  ],
+  [
+   "d069_completo",
+   "Não há bela sem senão."
+  ],
+  [
+   "d070_inicio",
+   "Saco vazio…"
+  ],
+  [
+   "d070_completo",
+   "Saco vazio não fica de pé."
+  ],
+  [
+   "d071_inicio",
+   "O saber…"
+  ],
+  [
+   "d071_completo",
+   "O saber não ocupa lugar."
+  ],
+  [
+   "d072_inicio",
+   "A ocasião…"
+  ],
+  [
+   "d072_completo",
+   "A ocasião faz o ladrão."
+  ],
+  [
+   "d073_inicio",
+   "Até ao lavar dos cestos…"
+  ],
+  [
+   "d073_completo",
+   "Até ao lavar dos cestos é vindima."
+  ],
+  [
+   "d074_inicio",
+   "Cada qual puxa a brasa…"
+  ],
+  [
+   "d074_completo",
+   "Cada qual puxa a brasa para a sua sardinha."
+  ],
+  [
+   "d075_inicio",
+   "Em tempo de guerra…"
+  ],
+  [
+   "d075_completo",
+   "Em tempo de guerra não se limpam armas."
+  ],
+  [
+   "d076_inicio",
+   "Pão, pão…"
+  ],
+  [
+   "d076_completo",
+   "Pão, pão, queijo, queijo."
+  ],
+  [
+   "d077_inicio",
+   "Quem tem telhados de vidro…"
+  ],
+  [
+   "d077_completo",
+   "Quem tem telhados de vidro não atira pedras ao vizinho."
+  ],
+  [
+   "d078_inicio",
+   "Quem parte e reparte e não fica com a melhor parte…"
+  ],
+  [
+   "d078_completo",
+   "Quem parte e reparte e não fica com a melhor parte, ou é tolo ou não tem arte."
+  ],
+  [
+   "d079_inicio",
+   "De Espanha…"
+  ],
+  [
+   "d079_completo",
+   "De Espanha, nem bom vento nem bom casamento."
+  ],
+  [
+   "d080_inicio",
+   "Comer e coçar…"
+  ],
+  [
+   "d080_completo",
+   "Comer e coçar está no começar."
+  ],
+  [
+   "d081_inicio",
+   "Não há rosas…"
+  ],
+  [
+   "d081_completo",
+   "Não há rosas sem espinhos."
+  ],
+  [
+   "d082_inicio",
+   "Cada qual…"
+  ],
+  [
+   "d082_completo",
+   "Cada qual com seu igual."
+  ],
+  [
+   "d083_inicio",
+   "Quem com porcos se mistura…"
+  ],
+  [
+   "d083_completo",
+   "Quem com porcos se mistura, farelos come."
+  ],
+  [
+   "d084_inicio",
+   "A beleza…"
+  ],
+  [
+   "d084_completo",
+   "A beleza não se põe à mesa."
+  ],
+  [
+   "d085_inicio",
+   "A árvore caída…"
+  ],
+  [
+   "d085_completo",
+   "A árvore caída, todos vão buscar lenha."
+  ],
+  [
+   "d086_inicio",
+   "Pelo São João…"
+  ],
+  [
+   "d086_completo",
+   "Pelo São João, a sardinha pinga no pão."
+  ],
+  [
+   "d087_inicio",
+   "Quem tem medo…"
+  ],
+  [
+   "d087_completo",
+   "Quem tem medo compra um cão."
+  ],
+  [
+   "d088_inicio",
+   "Para quem é…"
+  ],
+  [
+   "d088_completo",
+   "Para quem é, bacalhau basta."
+  ],
+  [
+   "d089_inicio",
+   "Onde há galo…"
+  ],
+  [
+   "d089_completo",
+   "Onde há galo, não canta galinha."
+  ],
+  [
+   "d090_inicio",
+   "A palavra é de prata…"
+  ],
+  [
+   "d090_completo",
+   "A palavra é de prata, o silêncio é de ouro."
+  ],
+  [
+   "d091_inicio",
+   "Quem não aparece…"
+  ],
+  [
+   "d091_completo",
+   "Quem não aparece esquece."
+  ],
+  [
+   "d092_inicio",
+   "Quem vai ao mar…"
+  ],
+  [
+   "d092_completo",
+   "Quem vai ao mar perde o lugar."
+  ],
+  [
+   "d093_inicio",
+   "Fruta proibida…"
+  ],
+  [
+   "d093_completo",
+   "Fruta proibida é a mais apetecida."
+  ],
+  [
+   "d094_inicio",
+   "Quem tem filhos…"
+  ],
+  [
+   "d094_completo",
+   "Quem tem filhos tem cadilhos."
+  ],
+  [
+   "d095_inicio",
+   "Candeia que vai à frente…"
+  ],
+  [
+   "d095_completo",
+   "Candeia que vai à frente alumia duas vezes."
+  ],
+  [
+   "d096_inicio",
+   "Mais vale cair em graça…"
+  ],
+  [
+   "d096_completo",
+   "Mais vale cair em graça do que ser engraçado."
+  ],
+  [
+   "d097_inicio",
+   "A galinha da vizinha…"
+  ],
+  [
+   "d097_completo",
+   "A galinha da vizinha é sempre melhor do que a minha."
+  ],
+  [
+   "d098_inicio",
+   "Mãos frias…"
+  ],
+  [
+   "d098_completo",
+   "Mãos frias, coração quente."
+  ],
+  [
+   "d099_inicio",
+   "Quem dá aos pobres…"
+  ],
+  [
+   "d099_completo",
+   "Quem dá aos pobres empresta a Deus."
+  ],
+  [
+   "d100_inicio",
+   "Março, marçagão…"
+  ],
+  [
+   "d100_completo",
+   "Março, marçagão, manhã de inverno, tarde de verão."
+  ],
+  [
+   "d101_inicio",
+   "Mais vale um mau acordo…"
+  ],
+  [
+   "d101_completo",
+   "Mais vale um mau acordo do que uma boa demanda."
+  ],
+  [
+   "d102_inicio",
+   "Cada terra com seu uso…"
+  ],
+  [
+   "d102_completo",
+   "Cada terra com seu uso, cada roca com seu fuso."
+  ],
+  [
+   "d103_inicio",
+   "Quem mais jura…"
+  ],
+  [
+   "d103_completo",
+   "Quem mais jura mais mente."
+  ],
+  [
+   "d104_inicio",
+   "Não se pode ter sol na eira…"
+  ],
+  [
+   "d104_completo",
+   "Não se pode ter sol na eira e chuva no nabal."
+  ],
+  [
+   "d105_inicio",
+   "Quem quer vai…"
+  ],
+  [
+   "d105_completo",
+   "Quem quer vai, quem não quer manda."
+  ]
+ ]
+}

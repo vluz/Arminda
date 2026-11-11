@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Sueca: four cards in a fan, one of each suit, symbols in the visible corner -->
+  <g stroke="#111111" stroke-width="5">
+    <g transform="rotate(-33 64 118)">
+      <rect x="42" y="26" width="44" height="66" rx="7" fill="#ffffff"/>
+      <g stroke-width="0" fill="#111111">
+        <circle cx="56" cy="38" r="5.5"/><circle cx="50.5" cy="46" r="5.5"/><circle cx="61.5" cy="46" r="5.5"/>
+        <path d="M54 44H58L60 56H52Z"/>
+      </g>
+    </g>
+    <g transform="rotate(-11 64 118)">
+      <rect x="42" y="26" width="44" height="66" rx="7" fill="#ffffff"/>
+      <path d="M56 32L65 45L56 58L47 45Z" fill="#d0021b" stroke-width="0"/>
+    </g>
+    <g transform="rotate(11 64 118)">
+      <rect x="42" y="26" width="44" height="66" rx="7" fill="#ffffff"/>
+      <path d="M56 32C52 39 45 42 46 48C47 53 53 54 55 50C55 53 54 55 51 57H61C58 55 57 53 57 50C59 54 65 53 66 48C67 42 60 39 56 32Z" fill="#111111" stroke-width="0"/>
+    </g>
+    <g transform="rotate(33 64 118)">
+      <rect x="42" y="26" width="44" height="66" rx="7" fill="#ffffff"/>
+      <path d="M64 80C52 70 46 63 48 54C50 46 60 45 64 54C68 45 78 46 80 54C82 63 76 70 64 80Z" fill="#e63946" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,74 @@
+/* Estilos partilhados pelos jogos de "tocar no certo": Cores, O intruso, Adivinhas.*/
+.esc-grelha {
+  display: grid;
+  gap: 2.6vmin;
+  place-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.esc-op {
+  position: relative;
+  width: var(--larg, var(--lado));
+  height: var(--alt, var(--lado));
+  padding: 0;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  background: var(--branco);
+  box-shadow: var(--sombra);
+  display: grid;
+  place-items: center;
+  font: inherit;
+  color: var(--texto);
+  transition: opacity 0.3s ease, filter 0.3s ease, transform 0.15s ease;
+}
+.esc-op:active { transform: translateY(0.8vmin); box-shadow: 0 0.4vmin 0 rgba(0, 0, 0, 0.35); }
+.esc-op img { width: 80%; height: 80%; object-fit: contain; pointer-events: none; }
+.esc-op.palavra {
+  padding: 1vmin 2vmin;
+  font-weight: 800;
+  line-height: 1.05;
+  text-align: center;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  hyphens: none;
+}
+.esc-op.errada { opacity: 0.3; filter: grayscale(0.7); }
+.esc-op.certa {
+  background: #d8f5d0;
+  outline: 1.4vmin solid var(--verde);
+  animation: salta 0.6s ease;
+  z-index: 2;
+}
+.esc-op.pista { animation: pisca 0.9s ease 4; }
+.esc-op.abana { animation: esc-abana 0.5s ease; }
+.esc-op.sai { opacity: 0.25; transform: scale(0.9); }
+
+.esc-barra {
+  position: absolute;
+  left: 3vmin;
+  right: 3vmin;
+  bottom: 0.6vmin;
+  height: 1.6vmin;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  pointer-events: none;
+}
+.esc-barra i { display: block; height: 100%; width: 0; background: var(--verde); border-radius: 999px; transition: width 0.6s ease; }
+.esc-selo {
+  position: absolute;
+  right: 4vmin;
+  bottom: 4vmin;
+  z-index: 20;
+  background: var(--amarelo);
+  border: var(--borda) solid var(--linha);
+  border-radius: 999px;
+  padding: 1vmin 2.5vmin;
+  font-weight: 900;
+  font-size: 4vmin;
+  opacity: 0;
+  pointer-events: none;
+}
+.esc-selo.mostra { animation: esc-selo 2s ease; }
+@keyframes esc-selo { 0% { opacity: 0; transform: scale(0.4); } 15% { opacity: 1; transform: scale(1.1); } 25% { transform: scale(1); } 80% { opacity: 1; } 100% { opacity: 0; } }
+@keyframes esc-abana { 0%,100% { transform: translateX(0); } 20% { transform: translateX(-2vmin); } 40% { transform: translateX(2vmin); } 60% { transform: translateX(-1.2vmin); } 80% { transform: translateX(1.2vmin); } }

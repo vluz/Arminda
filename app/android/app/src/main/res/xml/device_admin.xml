@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- force-lock: deixa a app apagar o ecrã com DevicePolicyManager.lockNow() ao fim de 10 minutos de
+     sossego a bateria (MainActivity.apagarEcra). Sem isto o Android recusa o lockNow mesmo à dona
+     do aparelho (conferido no emulador a 24 de outubro de 2026).-->
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies>
+        <force-lock />
+    </uses-policies>
+</device-admin>

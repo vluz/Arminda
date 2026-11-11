@@ -1,0 +1,20 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Na Música, ouves as tuas canções preferidas."
+  ],
+  [
+   "escolhe",
+   "Escolhe uma canção."
+  ],
+  [
+   "vazio",
+   "Ainda não há música. Vem aí em breve!"
+  ],
+  [
+   "bonita",
+   "Que canção tão bonita!"
+  ]
+ ]
+}

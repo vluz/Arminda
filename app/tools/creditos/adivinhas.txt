@@ -1,0 +1,2 @@
+www/img/noto/folha_seca.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f342.svg, Apache 2.0
+Adivinhas em www/js/jogos/adivinhas-lista.js e tools/falas/adivinhas.json: adivinhas populares portuguesas (tradição oral, domínio público), contadas de memória, e adivinhas escritas para esta app; não se usou nenhum sítio da internet

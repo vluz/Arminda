@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Round pink fish with purple spots, facing right -->
+  <path d="M34 64 L8 42 Q14 64 8 86 Z" fill="#C04CE0" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M60 30 Q74 8 92 28 Z" fill="#C04CE0" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="72" cy="64" r="38" fill="#FF6FA8" stroke="#1A1A1A" stroke-width="4"/>
+  <g fill="#C04CE0">
+    <circle cx="54" cy="50" r="7"/>
+    <circle cx="62" cy="80" r="8"/>
+    <circle cx="80" cy="88" r="5"/>
+    <circle cx="46" cy="70" r="5"/>
+  </g>
+  <path d="M70 66 Q78 76 90 70" fill="#FFB3D1" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="92" cy="52" r="9" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="3"/>
+  <circle cx="94" cy="52" r="4.5" fill="#1A1A1A"/>
+  <path d="M100 74 Q106 78 110 72" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"/>
+</svg>

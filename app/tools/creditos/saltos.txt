@@ -1,0 +1,8 @@
+www/img/noto/tronco.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1fab5.svg, Apache 2.0
+www/img/noto/pedra.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1faa8.svg, Apache 2.0
+www/img/noto/bandeira_xadrez.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f3c1.svg, Apache 2.0
+www/snd/saltos-salta.ogg, https://kenney.nl/assets/interface-sounds (Audio/maximize_001.ogg), CC0 1.0
+www/snd/saltos-baixa.ogg, https://kenney.nl/assets/interface-sounds (Audio/minimize_001.ogg), CC0 1.0
+www/snd/saltos-bump.ogg, https://kenney.nl/assets/impact-sounds (Audio/impactSoft_medium_003.ogg), CC0 1.0
+www/snd/saltos-moeda.ogg, https://kenney.nl/assets/interface-sounds (Audio/glass_002.ogg), CC0 1.0
+www/snd/saltos-n1.ogg a saltos-n5.ogg, https://kenney.nl/assets/interface-sounds (Audio/pluck_001.ogg, com o tom subido 0, 2, 4, 7 e 9 meios-tons), CC0 1.0

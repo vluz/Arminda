@@ -1,0 +1,1 @@
+www/img/noto/idoso.svg, https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f474.svg, Apache 2.0

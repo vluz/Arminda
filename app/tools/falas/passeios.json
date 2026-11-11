@@ -1,0 +1,16 @@
+{
+ "linhas": [
+  [
+   "intro",
+   "Nos Passeios, visitas os sítios de que gostas."
+  ],
+  [
+   "escolhe",
+   "Onde queres passear hoje?"
+  ],
+  [
+   "vazio",
+   "Ainda não há passeios. Vêm aí em breve!"
+  ]
+ ]
+}

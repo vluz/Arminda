@@ -1,0 +1,120 @@
+/* Damas. Num ecrã largo a casinha, o gato, o balão e a contagem das peças ficam numa coluna à
+   esquerda, para o tabuleiro poder usar a altura toda do ecrã.*/
+
+.damas-placar {
+  flex: 1 1 100%;
+  display: flex;
+  gap: 2vmin;
+  justify-content: center;
+}
+.damas-placar .lado-placar {
+  flex: 1;
+  max-width: 30vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2vmin;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  padding: 1vmin 1.5vmin;
+}
+.damas-placar img { width: 8vmin; height: 8vmin; }
+.damas-placar b { font-family: var(--digitos); font-size: var(--t-grande); font-weight: 800; }
+.damas-mini {
+  width: 7vmin;
+  height: 7vmin;
+  border-radius: 50%;
+  border: var(--borda) solid var(--linha);
+  flex: none;
+}
+.damas-mini.tua { background: var(--amarelo); }
+.damas-mini.dele { background: var(--azul); }
+
+/* Ecrã ao alto: a barra de cima do costume, com a contagem numa segunda linha.*/
+.damas-ecra .topo { flex-wrap: wrap; row-gap: 1.5vmin; }
+
+@media (min-aspect-ratio: 1/1) {
+  .ecra.damas-ecra { flex-direction: row; padding: 0 1vmin 0 1.5vmin; gap: 2vmin; }
+  .damas-ecra .topo {
+    flex: none;
+    width: clamp(260px, 34vw, 460px);
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    gap: 2vmin;
+    min-height: 0;
+    padding-top: 1.5vmin;
+  }
+  .damas-ecra .mascote { width: max(17vmin, 113px); height: max(17vmin, 113px); }
+  .damas-ecra .balao { flex: 1 1 100%; min-height: 24vmin; }
+  .damas-ecra .balao::before {
+    left: calc(max(17vmin, 113px) + 2vmin + 6vmin);
+    top: -4.4vmin;
+    margin-top: 0;
+    border: 2vmin solid transparent;
+    border-bottom: 2.4vmin solid var(--linha);
+  }
+}
+
+.damas-mesa {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+.damas-tab {
+  display: grid;
+  grid-template-columns: repeat(var(--n), var(--lado));
+  grid-auto-rows: var(--lado);
+  box-shadow: 0 0 0 3px var(--linha);
+}
+.damas-casa {
+  width: var(--lado);
+  height: var(--lado);
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.damas-casa.clara { background: #fbe9c6; }
+.damas-casa.escura { background: #8b5a2b; }
+
+.damas-peca {
+  width: 78%;
+  height: 78%;
+  border-radius: 50%;
+  border: max(5px, 0.8vmin) solid var(--linha);
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0.8vmin 0 rgba(0, 0, 0, 0.45), inset 0 0 0 0.9vmin rgba(255, 255, 255, 0.45);
+  transition: transform 0.2s ease;
+}
+.damas-peca.tua { background: var(--amarelo); }
+.damas-peca.dele { background: var(--azul); }
+.damas-peca svg { width: 66%; height: 66%; display: block; }
+.damas-peca.nova { animation: aparece 0.35s ease; }
+.damas-peca.comida { opacity: 0.3; }
+
+/* A pessoa pode mexer esta peça*/
+.damas-casa.pode .damas-peca { box-shadow: 0 0.8vmin 0 rgba(0, 0, 0, 0.45), 0 0 0 5px #ffffff; }
+/* A pessoa tem de comer com esta peça*/
+.damas-casa.obrigatoria { background: #c0392b; }
+.damas-casa.obrigatoria .damas-peca { animation: pisca 0.9s ease infinite; }
+/* A peça escolhida*/
+.damas-casa.escolhida { background: var(--verde); }
+.damas-casa.escolhida .damas-peca { transform: scale(1.08); animation: none; }
+/* Para onde pode ir*/
+.damas-casa.destino { background: #3f8f3a; }
+.damas-casa.destino::after {
+  content: "";
+  position: absolute;
+  inset: 26%;
+  border-radius: 50%;
+  background: #b9f56b;
+  border: max(5px, 0.8vmin) solid var(--branco);
+  animation: pisca 0.9s ease infinite;
+}

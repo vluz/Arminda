@@ -1,0 +1,26 @@
+# Nomes das fotografias (exemplo). Copiar para nomes.txt, nesta pasta, e trocar pelos nomes verdadeiros.
+#
+# Uma linha por fotografia:
+#
+#   número; nome verdadeiro; nomes falsos separados por vírgulas; legenda opcional
+#
+# - O número é o nome do ficheiro da fotografia: 001 é 001.jpg (também .jpeg ou .png).
+#   1, 01 e 001 são o mesmo número.
+# - Os campos separam-se com ponto e vírgula (;). Entre 2 e 4 campos.
+# - Os nomes falsos separam-se com vírgulas. Ponham dois ou mais, parecidos com o verdadeiro
+#   ("a Tia Rita" para "a Tia Rosa"): é isso que dá graça ao jogo.
+# - Sem nomes falsos, a fotografia aparece nas Fotografias com o nome dito pelo gato, mas não
+#   entra no jogo "Quem é quem".
+# - Escrevam o nome com o artigo: "a Tia Rosa", "o Primo João", "os Primos". O gato diz
+#   "Olha, é a Tia Rosa!" (ou "Olha, são os Primos!"). Os botões do jogo mostram o nome sem o
+#   artigo: "Tia Rosa".
+# - A legenda é dita a seguir ao nome, nas Fotografias: "Olha, é o Primo João! No casamento da Ana."
+#   A legenda não pode ter ponto e vírgula.
+# - As linhas que começam por # são comentários e não contam.
+# - Guardar em UTF-8 (o Bloco de Notas faz isso por omissão).
+#
+# Os nomes abaixo são inventados.
+
+001; a Tia Rosa; a Tia Rita, a Tia Rosário
+002; o Primo João; o Primo Joaquim, o Primo José; No casamento da Ana
+003; a Avó Maria

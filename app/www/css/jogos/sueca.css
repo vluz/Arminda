@@ -1,0 +1,102 @@
+/* Sueca: mesa verde com a vaza em cruz (a Rosa em cima, o Manel à direita, o Zé à esquerda, a carta
+   da pessoa em baixo), e as dez cartas da pessoa em duas filas ao lado (deitado) ou por baixo (ao alto).*/
+.sueca {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px;
+  background: #1f7a3c;
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+}
+.sueca.de-pe { flex-direction: column; }
+.sueca-mesa { position: relative; flex: none; }
+.sueca-lugar { position: absolute; }
+.sueca-lugar.cima { left: 50%; top: 0; transform: translateX(-50%); }
+.sueca-lugar.baixo { left: 50%; bottom: 0; transform: translateX(-50%); }
+.sueca-lugar.esquerda { left: 0; top: 50%; transform: translateY(-50%); }
+.sueca-lugar.direita { right: 0; top: 50%; transform: translateY(-50%); }
+
+.sueca-vazio { background: rgba(255, 255, 255, 0.12); border-color: rgba(255, 255, 255, 0.5); }
+.sueca-quem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5vmin;
+  color: var(--branco);
+  font-size: calc(var(--t) * 0.22);
+  font-weight: 800;
+  line-height: 1;
+}
+.sueca-quem img { width: calc(var(--t) * 0.55); height: calc(var(--t) * 0.55); }
+.sueca-lugar.vez .sueca-quem img { animation: salta 0.7s ease infinite; }
+.sueca-lugar.vez .sueca-vazio { border-color: var(--amarelo); border-style: solid; }
+
+.sueca-dono {
+  position: absolute;
+  right: calc(var(--t) * -0.14);
+  top: calc(var(--t) * -0.14);
+  width: max(calc(var(--t) * 0.36), 40px);
+  height: max(calc(var(--t) * 0.36), 40px);
+  border-radius: 50%;
+  background: var(--branco);
+  border: 3px solid var(--linha);
+  display: grid;
+  place-items: center;
+  font-size: max(calc(var(--t) * 0.16), 18px);
+  font-weight: 800;
+  z-index: 2;
+}
+.sueca-dono img { width: 80%; height: 80%; }
+
+.sueca-trunfo { position: absolute; left: 0; top: 0; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.sueca-rotulo {
+  background: var(--amarelo);
+  border: 3px solid var(--linha);
+  border-radius: 1.5vmin;
+  padding: 0.2vmin 1.2vmin;
+  font-size: max(3vmin, 16px);
+  font-weight: 800;
+}
+.sueca-placar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: var(--branco);
+  border: 3px solid var(--linha);
+  border-radius: 1.5vmin;
+  padding: 0.6vmin 1.4vmin;
+  font-size: max(3.4vmin, 18px);
+  line-height: 1.15;
+}
+.sueca-placar b, .sueca-final b { font-family: var(--digitos); font-weight: 800; }
+
+.sueca-mao {
+  flex: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  align-content: center;
+}
+.sueca-final {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1vmin;
+  background: var(--branco);
+  border: var(--borda) solid var(--linha);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+  padding: 3vmin 6vmin;
+  font-size: var(--t-grande);
+  white-space: nowrap;
+  animation: aparece 0.5s ease;
+  z-index: 5;
+}

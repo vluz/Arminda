@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Sopa de letras: a bowl of soup with two big letter tiles and a spoon. -->
+  <g fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.95">
+    <path d="M40 30 Q34 22 40 14 Q46 6 40 0"/>
+    <path d="M88 30 Q82 22 88 14 Q94 6 88 0"/>
+  </g>
+  <path d="M104 18 L80 64" stroke="#111111" stroke-width="12" stroke-linecap="round"/>
+  <path d="M104 18 L80 64" stroke="#c0c6cc" stroke-width="6" stroke-linecap="round"/>
+  <g stroke="#111111" stroke-width="4" stroke-linejoin="round">
+    <rect x="24" y="34" width="36" height="36" rx="6" fill="#ffffff" transform="rotate(-10 42 52)"/>
+    <rect x="62" y="38" width="36" height="36" rx="6" fill="#ffffff" transform="rotate(8 80 56)"/>
+  </g>
+  <g font-family="Arial, Roboto, sans-serif" font-weight="900" font-size="30" fill="#e63946" text-anchor="middle">
+    <text x="42" y="63" transform="rotate(-10 42 52)">A</text>
+    <text x="80" y="67" transform="rotate(8 80 56)" fill="#0a6fd6">B</text>
+  </g>
+  <path d="M8 66 H120 Q118 104 88 116 H40 Q10 104 8 66 Z" fill="#e63946" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M8 66 H120" stroke="#111111" stroke-width="5"/>
+  <path d="M8 66 Q64 80 120 66" fill="#fb8500" stroke="#111111" stroke-width="4"/>
+  <g fill="#ffffff">
+    <circle cx="34" cy="92" r="5"/>
+    <circle cx="64" cy="98" r="5"/>
+    <circle cx="94" cy="92" r="5"/>
+  </g>
+  <path d="M44 116 H84 L80 124 H48 Z" fill="#e63946" stroke="#111111" stroke-width="4" stroke-linejoin="round"/>
+</svg>
